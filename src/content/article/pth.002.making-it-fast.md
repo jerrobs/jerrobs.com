@@ -1,0 +1,58 @@
+---
+issue: Pathicles
+pubDatetime: 2023-02-15T00:00:00.000+00:00
+version: "1.0 (unpublished)"
+title: Making it fast
+subtitle: with graphics @@ processor parallelism
+sectionNumber: PTH.002
+references:
+  tags:
+    - pathicles/gpgpu
+description: >
+  For real-time rendering How graphic cards can accelerate particle simulations
+---
+
+[comment]: <> (When Dutch historian Johan Huizinga introduced the term _Homo ludens_, the playing Man, to the world and thus play as a highly important creative power for our culture &#40;<bib-ref cite-key="huizinga__1949__homo" />&#41;, he most likely did not foresee video games era )
+
+## Homo ludens
+
+Anyone in the 1970s who had predicted that the human craze for destroying asteroids or shooting down monsters would lead to technological advances triggering a fourth industrial revolution half a century later would have risked being criticised for stretching the concept of "homo ludens" (<bib-ref cite-key="huizinga__1949__homo" />) beyond its limits and being advised to publish science fiction stories instead of scientific articles. But today's progress in machine learning would not have been possible without a branch of specialised hardware that has been developed for 50 years to satisfy the hunger for ever more elaborate ways to bring games to the screen.
+
+This development brought us the acronym "GPU", which was used as early as 1976 (<bib-ref cite-key="computerworld__1976__vgi" />) in the meaning of "graphics processing unit". Unlike computers' _central processing units_ (CPU), graphics processing units have a very distinct task: to create visual experiences which allow users to be fully immersed in artificial worlds. For achieving this goal, the ultimate technical requirements are determined by the spatial, temporal and colour resolution of human vision: For games or other visuals to look deceptively real, GPUs must be able to select a colour out of millions of colours for millions of pixels at least 60 times per second^[].
+
+From the perspective of the 1970s, this is a daunting challenge. It arguably stimulated the moving away from the architecture of CPUs that processed data sequentially (see reprint of <bib-ref cite-key=godfrey__1993__first />). To trick human vision, you have to process pixels in parall.
+
+## Generalizing the specialist
+
+Shaders have been generally available since 2001. They were almost immediately adopted for use outside of graphics (<bib-ref cite-key="fernando__2004__gpu" />) We will see that shaders are excellent for numerical computations on a mesh or grid.
+
+Many other computational models have also been mapped to graphics hardware. Examples include differential equations, financial modeling, machine learning, image processing, and even databases.
+
+## OpenGL and WebGL
+
+OpenGL is an application programming interface (API) for developing portable, interactive 2D and 3D graphics applications.
+
+Its first version has been published in June 1992 by the OpenGL Architecture Review Board (<bib-ref cite-key="opengl__1.0" />) which transfered the control in 2006 to the Khronos Group, "an open, non-profit, member-driven consortium of over 150 industry-leading companies creating advanced, royalty-free interoperability standards for 3D graphics, augmented and virtual reality, parallel programming, vision acceleration and machine learning." (<bib-ref cite-key="khronosgroup__2006__opengl" />).
+
+The current version of OpenGL is 4.6 (<bib-ref cite-key="opengl__4.6" />). In 2006, _OpenGL ES_ was published for embedded and mobile systems - including consoles, phones, appliances and vehicles. It consists of a well-defined subset of desktop OpenGL suitable for low-power devices, and provides a flexible and powerful interface between software and graphics acceleration hardware. In 2011, WebGL was published.-
+
+WebGL is a cross-platform, royalty-free web standard for a low-level 3D graphics API based on OpenGL ES. Developers familiar with OpenGL ES will recognize WebGL as a shader-based API using the OpenGL Shading Language, with con- structs that are semantically similar to those of the underlying OpenGL ES API.
+
+It stays very close to the OpenGL ES specification, with some concessions made for what developers expect out of memory-managed languages such as JavaScript.
+
+Programs that run on the GPU are called _shaders_
+
+## GPGPU General-purpose computing on graphics processing units
+
+GPGPU is "General Purpose" GPU and means using the GPU for something other than drawing pixels.
+
+The basic realization to understanding GPGPU in WebGL is that a texture is not an image, it's a 2D array of values. In the article on textures we covered reading from a texture. In the article on rendering to a texture we covered writing to a texture. So, if realizing a texture is a 2D array of values we can say that we have really described a way to read from and write to 2D arrays. That is the essence of GPGPU in WebGL.
+
+A General-Purpose Graphics Processing Unit (GPGPU) is a graphics processing unit (GPU) that is programmed for purposes beyond graphics processing, such as performing computations typically conducted by a Central Processing Unit (CPU).
+
+ring these values as the red, green and blue values of a pixel. A velocity vector of (0,1,0) would result in a bright red pixel color. Each pixel is assigned one particle. These textures are rendered to a full screen quad in an off-screen scene, from where they can be read by a fragment shader, which in turn updates the values. Since the shader cannot write to the same texture it reads from, the values are then updated and the texture is written to another texture. This process is often referred to as ping-pong-rendering. This way the GPU's computing powers can be used to our advantage.
+
+## Performance Gain
+
+<iframe width="100%" height="1439" frameborder="0"
+  src="https://observablehq.com/embed/7a5ef9269cddd522?cells=chart"></iframe>

@@ -1,0 +1,19 @@
+---
+import { SITE } from "@config";
+import Issues from "@layouts/Issues.astro";
+
+import getPageNumbers from "@utils/getPageNumbers";
+
+import { getCollection } from "astro:content";
+import getSortedIssues from "@utils/getSortedIssues";
+
+const issues = await getCollection("issue");
+
+const sortedIssues = getSortedIssues(issues);
+
+const totalPages = getPageNumbers(sortedIssues.length);
+
+const paginatedIssues = sortedIssues.slice(0, SITE.issuePerPage);
+---
+
+<Issues issues={paginatedIssues} pageNum={1} totalPages={totalPages.length} />

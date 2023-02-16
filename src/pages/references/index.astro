@@ -1,0 +1,23 @@
+---
+import { SITE } from "@config";
+import References from "@layouts/References.astro";
+
+import getPageNumbers from "@utils/getPageNumbers";
+
+import { getCollection } from "astro:content";
+import getSortedReferences from "@utils/getSortedReferences";
+
+const references = await getCollection("reference");
+
+const sortedPosts = getSortedReferences(references);
+
+const totalPages = getPageNumbers(sortedPosts.length);
+
+const paginatedPosts = sortedPosts.slice(0, SITE.referencesPerPage);
+---
+
+<References
+  references={paginatedPosts}
+  pageNum={1}
+  totalPages={totalPages.length}
+/>

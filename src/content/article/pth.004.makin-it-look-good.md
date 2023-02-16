@@ -1,0 +1,42 @@
+---
+issue: Pathicles
+pubDatetime: 2023-02-15T00:00:00.000+00:00
+version: "1.0 (unpublished)"
+title: Making it look @@ good
+subtitle: by cheating in 3D
+sectionNumber: PTH.004
+ogImage: ""
+references:
+  tags:
+    - pathicles/graphics_programming
+description: >
+  When it comes to real-time rendering, you can't play by the rules of physics. Fortunately, the human eye is quite easy to cheat.
+---
+
+To create a stunning, realistic 2D image of a scene with 3D objects, all you need is the objects' geometries, the how they emit, absorb, transmit and reflect light, some basic knowledge of geometry, some deeper knowledge of Maxwell's equations of electrodynamics and an inhuman amount of time to simulate the propagation of light.
+
+It is this last ingredient that exposes computer visualisation to the constant temptation to abandon the righteous path of all-encompassing electrodynamic simulation and enter the company of illusionists, stage technicians, and travelling entertainers. It is this that makes computer graphics the ideal playground for fakers, counterfeiters and deceivers.
+
+## Raytracing, raymarching or rasterizatzion
+
+Rasterization is the process of mapping a scene of 3D objects to 2D pixels of an image and applying more or less dirty tricks to approximate the pixels' colors.
+
+## Lighting
+
+Lighting models are used to replicate lighting effects in rendered environments where light is approximated based on the physics of light.
+
+There are two main illumination models, object oriented lighting and global illumination. Local illumination, is defined by mapping a single light source to a single object. t is often approximated by summing a combination of specular, diffuse, and ambient light of a specific object.
+
+Ambient light: the minimum amount of light in a scene that uniformly illuminates all sides of an object without causing it to show shading. In the real world, it is caused by stray photons.
+
+Diffuse reflection: Reflection of light from a surface at many scattering angles. The resulting diffuse light is the primary lighting component of non-emissive objectd.
+
+Specular reflection: Reflection of light from a surface at an angle such that angle of incidence is equal to the angle of reflection. The resulting lighting component adds shininess to objects amnd gives strong visual cue for their shape.
+
+## Shadows
+
+To reconstruct from a 2D image which 3D world it originates from, it is not only important to know what is lit and shining, but also what remains dark. Shadows provide essential clues to the spatial relationships between objects of an three-dimensional scene.
+
+## Ambient occlusion
+
+Ambient Occlusion is a rendering technique that calculates the exposure of each point in a scene to ambient lighting. In the absence of hardware-based ray-traced ambient occlusion, real-time applications such as computer games can use screen space ambient occlusion (SSAO) or horizon-based ambient occlusion (HBAO) as a faster approximation of true ambient occlusion, using pixel depth rather than scene geometry to form an ambient occlusion map.

@@ -1,0 +1,58 @@
+---
+import { CollectionEntry, getCollection } from "astro:content";
+import Issues from "@layouts/Issues.astro";
+import IssueDetails from "@layouts/IssueDetails.astro";
+import getSortedIssues from "@utils/getSortedIssues";
+import getPageNumbers from "@utils/getPageNumbers";
+import slugify from "@utils/slugify";
+import { SITE } from "@config";
+
+export interface Props {
+  issue: CollectionEntry<"issue">;
+}
+
+export async function getStaticPaths() {
+  const issues = await getCollection("issue", ({ data }) => !data.draft);
+
+  const issueResult = issues.map(issue => ({
+    params: { slug: slugify(issue.data) },
+    props: { issue },
+  }));
+
+  const pagePaths = getPageNumbers(issues.length).map(pageNum => ({
+    params: { slug: String(pageNum) },
+  }));
+
+  return [...issueResult, ...pagePaths];
+}
+
+const { slug } = Astro.params;
+const { issue } = Astro.props;
+
+const issues = await getCollection("issue");
+
+const sortedIssues = getSortedIssues(issues);
+
+const totalPages = getPageNumbers(sortedIssues.length);
+
+const currentPage =
+  slug && !isNaN(Number(slug)) && totalPages.includes(Number(slug))
+    ? Number(slug)
+    : 0;
+const lastIssue = currentPage * SITE.issuePerPage;
+const startIssue = lastIssue - SITE.issuePerPage;
+
+const paginatedIssues = sortedIssues.slice(startIssue, lastIssue);
+---
+
+{
+  issue ? (
+    <IssueDetails issue={issue} />
+  ) : (
+    <Issues
+      issues={paginatedIssues}
+      pageNum={currentPage}
+      totalPages={totalPages.length}
+    />
+  )
+}

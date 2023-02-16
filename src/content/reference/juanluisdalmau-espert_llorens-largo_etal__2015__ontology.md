@@ -1,0 +1,56 @@
+---
+cslItem:
+  id: juanluisdalmau-espert_llorens-largo_etal__2015__ontology
+  abstract: >-
+    From late 1980s and early twenty-first century, the environment where the
+    organizations develop and act, has become increasingly uncertain and
+    complex. Under these conditions, organizations have detected the need to
+    move towards a more participatory model to address and reduce the
+    complexity, based on information and knowledge as core assets to reduce
+    environmental uncertainty and thereby ensure better decision-making. This
+    new form of governance involves changes in the Strategic Planning process
+    that are aligned with the characteristics of the new organizational model.
+    Ontologies, as theories of content that allow the formalization of processes
+    and knowledge, are a key element in this context. The aim of this paper is
+    to formally define an ontology that could be defined in the future using the
+    Web Ontology Language (OWL) that meets the standards approved by the World
+    Wide Web Consortium (W3C) and that is used to formalize the process of SP,
+    as well as the knowledge that is created and flows among the several
+    participants in the process.
+  author:
+    - literal: Juan Luis Dalmau-Espert
+    - family: Llorens-Largo
+      given: Faraón
+    - family: Molina-Carmona
+      given: Rafael
+  citation-key: juanluisdalmau-espert_llorens-largo_etal__2015__ontology
+  container-title: >-
+    eKNOW 2015: the Seventh International Conference on Information, Process,
+    and Knowledge Management: February 22-27, 2015, Lisbon, Portugal
+  event-place: Red Hook, NY
+  ISBN: 978-1-61208-386-5 978-1-5108-0034-2
+  issued:
+    - year: 2015
+  keyword: "#nosource;collection::strategy::strategy::ontology"
+  language: eng
+  publisher: Curran Associates, Inc
+  publisher-place: Red Hook, NY
+  source: K10plus ISBN
+  title: An Ontology for Formalizing and Automating the Strategic Planning Process
+  type: chapter
+scopedTags:
+  - tag: "#nosource"
+  - tag: strategy
+    scope: issue
+  - tag: strategy
+    scope: issue
+  - tag: ontology
+    scope: issue
+rendered:
+  bibliography: |-
+    <div class="csl-bib-body">
+      <div data-csl-entry-id="juanluisdalmau-espert_llorens-largo_etal__2015__ontology" class="csl-entry">Juan Luis Dalmau-Espert, Llorens-Largo, F., &#38; Molina-Carmona, R. n.d.. An Ontology for Formalizing and Automating the Strategic Planning Process. In <i>eKNOW 2015: the Seventh International Conference on Information, Process, and Knowledge Management: February 22-27, 2015, Lisbon, Portugal</i>. Curran Associates, Inc.</div>
+    </div>
+  citation: Juan Luis Dalmau-Espert et al., n.d.
+bibTex: "@inbook{JuanOntology,\n\taddress = {Red Hook, NY},\n\tauthor = {{Juan Luis Dalmau-Espert} and Llorens-Largo, Fara{\\' o}n and Molina-Carmona, Rafael},\n\tbooktitle = {eKNOW 2015: the {Seventh} {International} {Conference} on {Information}, {Process}, and {Knowledge} {Management}: February 22-27, 2015, {Lisbon}, {Portugal}},\n\tpublisher = {Curran Associates, Inc},\n\ttitle = {An {Ontology} for {Formalizing} and {Automating} the {Strategic} {Planning} {Process}},\n}\n\n"
+---

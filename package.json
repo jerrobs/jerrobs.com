@@ -1,0 +1,61 @@
+{
+  "name": "jerrobs-astro-paper",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "generate:references": "node ./scripts/generate-references-from-zotero-csl.js",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "sync": "astro sync",
+    "astro": "astro",
+    "format:check": "prettier --plugin-search-dir=. --check .",
+    "format": "prettier --plugin-search-dir=. --write .",
+    "cz": "cz",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "js-yaml": "4.1.0",
+    "@citation-js/core": "0.6.5",
+    "@citation-js/plugin-bibtex": "0.6.6",
+    "@citation-js/plugin-csl": "0.6.7",
+    "fast-glob": "3.2.12",
+    "@astrojs/rss": "^2.1.0",
+    "astro": "2.0.12",
+    "fuse.js": "^6.6.2",
+    "github-slugger": "^2.0.0",
+    "remark-collapse": "^0.1.2",
+    "remark-toc": "^8.0.1",
+    "satori": "0.3.1",
+    "tailwindcss": "3.2.6"
+  },
+  "devDependencies": {
+    "@astrojs/react": "^2.0.2",
+    "@astrojs/sitemap": "^1.0.1",
+    "@astrojs/tailwind": "^3.0.1",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/github-slugger": "^2.0.0",
+    "@types/react": "^18.0.28",
+    "@typescript-eslint/parser": "^5.52.0",
+    "astro-eslint-parser": "^0.11.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.34.0",
+    "eslint-plugin-astro": "^0.23.0",
+    "prettier": "^2.8.4",
+    "prettier-plugin-tailwindcss": "^0.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --plugin-search-dir=. --write"
+    ]
+  }
+}
