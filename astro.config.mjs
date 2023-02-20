@@ -7,6 +7,7 @@ import remarkCollapse from "remark-collapse"
 import sitemap from "@astrojs/sitemap"
 import compress from "astro-compress"
 import { markdownedFrontmatterPlugin } from "./src/utils/markdown/remark-markdowned-frontmatter"
+import AstroPWA from '@vite-pwa/astro'
 
 // https://astro.build/config
 export default defineConfig({
@@ -20,6 +21,7 @@ export default defineConfig({
     react(),
     sitemap(),
     compress(),
+    AstroPWA()
   ],
   markdown: {
     remarkPlugins: [

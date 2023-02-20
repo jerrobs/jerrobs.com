@@ -1,4 +1,6 @@
 ---
+import { pwaInfo } from "virtual:pwa-info"
+import ReloadPrompt from "../components/ReloadPrompt.astro"
 import { SITE } from "@config"
 import "../styles/index.styl"
 import "@fontsource/barlow-semi-condensed"
@@ -57,6 +59,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
     /> -->
 
     <script is:inline src="/toggle-theme.js"></script>
+    <script src="/src/pwa.ts"></script>
+    {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
   </head>
   <body>
     <slot />
