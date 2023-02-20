@@ -1,0 +1,110 @@
+---
+pubDatetime: 2023-02-15T00:00:00.000+00:00
+issue: space
+version: "1.0 (unpublished)"
+title: Space Commander
+subtitle: Commanding space like a pro
+sectionNumber: SPC.004
+scopedTags:
+  - tag: space
+    scope: issue
+references:
+  tags:
+    - space/space_space
+description: >
+  A universal shortcode for handling different spaces in texts would allow improved typography on screen and in print; it would also make proofreading more efficient. The tool _SPACE COMMANDER_ takes care of this.
+---
+
+## Use cases
+
+- Responsive typography
+- Multi-channel typography
+- Proof-reading process ...
+
+John is very unique.
+
+## Linter
+
+- https://github.com/ amperser/proselint
+- https://github.com/ textlint/textlint
+-
+
+### Introduction
+
+Decent typography heavily relies upon white space -- not just on the macro-typographic level where varying amount of space can be used to group and separate page elements like, but also on the micro-typographic level where it groups and separates words and groups of words.
+
+1. The rules are language-dependant.
+2. The rules are not always clear. Take German. where a discrepancy exists between the two standardizing bodies DUDEN and DIN. on how to deal with white spaces in abbreviations. Whie DIN
+
+#### Approaches
+
+Dealing with white spaces, different approaches can be observed. For classifying these approaches, it is helpful to split the production process of typesetted material in two steps: First, the **composing** of text. Second, the **typesetting** itself.
+
+1. **Don't care (while composing and typesetting)**
+   While this is the most frequent approach, it apparently yields the least desirable outcome.
+2. **Don't care while composing and fix it when typesetting**
+   In this approach, word white spacing is not considered when composing the text; in the typesetting process, however, wrong word white spacing is fixed manually. While this approach can result in typographically perfect outcomes, it's error-prone. While the repacement task can be automatized partially.
+3. **Care while composing**
+
+#### Why @ and @@?
+
+- In normal wirting, the @-character is used for email addresses only. where they never be surrounded by a white space.
+- Everyone who knows to write emails knows how to produce these characters.
+- Due to @'s usage in email addresses it has an implicit meaning of connecting ....
+
+### Conclusion
+
+## Space characters in Unicode
+
+- U+0020 space
+- U+00A0 no-break space
+- U+1680 ogham space mark
+- U+180E mongolian vowel separator
+- U+2000 en quad
+- U+2001 em quad
+- U+2002 en space
+- U+2003 em space
+- U+2004 three-per-em space
+- U+2005 four-per-em space
+- U+2006 six-per-em space
+- U+2007 figure space (width of tabular figures = tabular width)
+- U+2008 punctuation space (width of the period)
+- U+2009 thin space
+- U+200A hair space
+- U+202F narrow no-break space (The NNBSP can be used to represent the narrow space occurring around punctuation characters in French typography, which is called an "espace fine insécable.”, 269)
+- U+205F medium mathematical space
+- U+3000 ideographic space (used in ideographic languages, its width matches the width of the ideographs)
+
+and
+
+- U+200B zero width space.
+
+Remarks:
+
+- The width of these space characters is font-dependent
+- The width is fixed such as it normally doesn't expand during justification (Unicode: The exception is U+2009 thin space, which sometimes gets adjusted.)
+- Astonishingly, **Annex 14** defines
+
+1680
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2008
+2009
+200A
+205F
+3000
+
+as breaking spaces
+
+## The @-sign
+
+The _Unicode Standard_ defines the @-sign in Section 6.2 "General Punctuation":
+
+> **At Sign**. U+0040 commercial at has acquired a prominent modern use as part of the syntax for e-mail addresses. As a result, users in practically every language community suddenly needed to use and refer to this character. Consequently, many colorful names have been invented for this character. Some of these contain references to animals or even pastries.
+
+  <footer><bib-ref cite-key="unicodeconsortium__2020__unicode" locator="p 274" /></footer>

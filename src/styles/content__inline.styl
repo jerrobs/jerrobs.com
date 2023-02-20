@@ -1,0 +1,54 @@
+
+a.md
+  color black
+  text-decoration none
+  // $link()
+
+a.md[href^=http], a.md[href^=mailto]
+  position relative
+
+  span
+    padding-right $bl(1)
+
+  &:after
+    position absolute
+    // top 20%
+    right $bl(-0.25)
+    display inline
+    width $bl(1)
+    height $bl(0.5)
+    // background-position 100% 0%
+    // background-color var(--color-bg__ui--hoverable)
+    // background-image url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' focusable='false' x='0px' y='0px' viewBox='0 0 100 100' width='15' height='15' class='icon outbound' %3E%3Cpath fill='currentColor' d='M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z' %3E%3C/path%3E%3Cpolygon fill='currentColor' points='45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9' %3E%3C/polygon%3E%3C/svg%3E")
+    background-size $bl(0.5)
+    background-repeat no-repeat
+    content ''
+
+.header-anchor
+  display none
+
+strong
+  font-weight var(--font-weight--bold)
+
+sup, sub
+  position relative
+  font-size 0.7em
+
+sup
+  top -0.6em
+  padding-left 0.2em
+
+sub
+  top 0.3em
+  padding-left 0.1em
+
+em
+  font-style italic
+
+kbd
+  font-family monospace
+
+abbr
+  text-decoration none
+  font-weight var(--font-weight--bold)
+  font-style italic

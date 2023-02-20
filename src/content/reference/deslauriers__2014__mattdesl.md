@@ -11,8 +11,9 @@ cslItem:
   collection-title: github.com
   genre: Javascript, OpenGL
   issued:
-    - year: 2014
-  keyword: "#nosource;collection::pathicles::pathicles::graphics_programming"
+    date-parts:
+      - - 2014
+  keyword: "#nosource;collection::pathicles::graphics_programming"
   title: mattdesl/glsl-fxaa
   type: software
   URL: https://github.com/mattdesl/glsl-fxaa
@@ -20,15 +21,13 @@ scopedTags:
   - tag: "#nosource"
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: graphics_programming
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="deslauriers__2014__mattdesl" class="csl-entry">DesLauriers, M. n.d.. <i>mattdesl/glsl-fxaa</i> [Javascript, OpenGL]. https://github.com/mattdesl/glsl-fxaa</div>
+      <div data-csl-entry-id="deslauriers__2014__mattdesl" class="csl-entry">DesLauriers, M. 2014 <i>mattdesl/glsl-fxaa</i>. (github.com). Available at: https://github.com/mattdesl/glsl-fxaa.</div>
     </div>
-  citation: DesLauriers, n.d.
-bibTex: "@misc{deslauriers__2014__mattdesl,\n\tauthor = {DesLauriers, Matt},\n\tseries = {github.com},\n\ttitle = {mattdesl/glsl-fxaa},\n\ttype = {Javascript, {OpenGL}},\n\thowpublished = {https://github.com/mattdesl/glsl-fxaa},\n}\n\n"
+  citation: DesLauriers, 2014
+bibTex: "@misc{deslauriers__2014__mattdesl,\n\tauthor = {DesLauriers, Matt},\n\tseries = {github.com},\n\tyear = {2014},\n\ttitle = {mattdesl/glsl-fxaa},\n\ttype = {Javascript, {OpenGL}},\n\thowpublished = {https://github.com/mattdesl/glsl-fxaa},\n}\n\n"
 ---

@@ -2,9 +2,10 @@
 cslItem:
   id: haralambous_horne__2007__fonts
   accessed:
-    - year: 2021
-      month: 1
-      day: 14
+    date-parts:
+      - - 2021
+        - 1
+        - 14
   author:
     - family: Haralambous
       given: Yannis
@@ -16,8 +17,9 @@ cslItem:
   event-place: Beijing ; Sebastopol, Calif
   ISBN: 978-0-596-10242-5
   issued:
-    - year: 2007
-  keyword: "#nosource;collection::space::space::space_space"
+    date-parts:
+      - - 2007
+  keyword: "#nosource;collection::space::space_space"
   language: eng
   medium: electronic resource
   note: "OCLC: ocn297576019"
@@ -32,15 +34,13 @@ scopedTags:
   - tag: "#nosource"
   - tag: space
     scope: issue
-  - tag: space
-    scope: issue
   - tag: space_space
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="haralambous_horne__2007__fonts" class="csl-entry">Haralambous, Y., &#38; Horne, P. S. n.d.. <i>Fonts &#38; encodings</i> (1st ed) [Electronic resource]. O’Reilly Media. http://proquest.safaribooksonline.com/?fpi=9780596102425</div>
+      <div data-csl-entry-id="haralambous_horne__2007__fonts" class="csl-entry">Haralambous, Y. and Horne, P.S. 2007 <i>Fonts &#38; encodings</i> [electronic resource]. 1st ed. Beijing ; Sebastopol, Calif: O’Reilly Media. Available at: http://proquest.safaribooksonline.com/?fpi=9780596102425 (Accessed: January 14, 2021).</div>
     </div>
-  citation: Haralambous &#38; Horne, n.d.
-bibTex: "@book{haralambous_horne__2007__fonts,\n\taddress = {Beijing ; Sebastopol, Calif},\n\tauthor = {Haralambous, Yannis and Horne, P. Scott},\n\tedition = {1st ed},\n\tnote = {OCLC: ocn297576019},\n\tpublisher = {O'Reilly Media},\n\ttitle = {Fonts & encodings},\n}\n\n"
+  citation: Haralambous and Horne, 2007
+bibTex: "@book{haralambous_horne__2007__fonts,\n\taddress = {Beijing ; Sebastopol, Calif},\n\tauthor = {Haralambous, Yannis and Horne, P. Scott},\n\tedition = {1st ed},\n\tyear = {2007},\n\tnote = {OCLC: ocn297576019},\n\tpublisher = {O'Reilly Media},\n\ttitle = {Fonts & encodings},\n}\n\n"
 ---

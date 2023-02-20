@@ -1,0 +1,73 @@
+---
+import type { CollectionEntry } from "astro:content"
+import { renderInline } from "@utils/markdown/render.ts"
+
+export interface Props {
+  issue: CollectionEntry<"issue">
+  href: string
+}
+
+const { issue } = Astro.props
+
+const title = renderInline(issue.data.title)
+const subtitle = renderInline(issue.data.subtitle)
+---
+
+<div class="issue-cover">
+  <div class="issue-cover__body">
+    <div class="issue-cover__header">
+      <a href={`/issues/${issue.slug}`}>
+        <div class="issue__title">
+          <span set:html={title} />
+        </div>
+        <div class="issue__subtitle">
+          <span set:html={subtitle} />
+        </div>
+      </a>
+    </div>
+    <ul class="issue__toc">
+      <li class="issue__toc-item">
+        <!-- <router-link class="issue__toc-item-section-number" :to="article.path" v-html="&quot;00&quot; + (article.frontmatter.sectionNumber || [article.frontmatter.sectionNumber]).slice(-1)"></router-link>
+        <router-link class="issue__toc-item-title" :to="article.path"><span v-html="article.frontmatter.title__html"></span></router-link> -->
+      </li>
+    </ul>
+  </div>
+  <div class="issue-cover__footer">
+    <div class="taglines">
+      <p>
+        <strong>observed</strong>, <strong>written</strong>, and <strong
+          >peer-reviewed</strong
+        >
+      </p>
+    </div>
+  </div>
+  <p>by <strong>Dirk Rathje</strong> of <strong>Hamburg</strong></p>
+</div>
+
+<style>
+  .issue-cover {
+    box-shadow: 5px rgba(black, 1);
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(8 * var(--baseline-height));
+  }
+  :root {
+    --baseline-height: 48px;
+  }
+  .issue-cover__body {
+    flex: 5;
+  }
+  .issue-cover__footer {
+    flex: 1%;
+    background-color: #fff;
+    position: relative;
+  }
+  .issue-cover__footer .taglines {
+    left: calc((0.75) * var(--baseline-height));
+  }
+  .issue-cover__footer p {
+    font-variant: all-small-caps;
+    height: calc((0.5) * var(--baseline-height));
+  }
+</style>

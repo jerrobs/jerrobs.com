@@ -25,9 +25,10 @@ cslItem:
     independently. System tests validate the overall integration of different
     elements.
   accessed:
-    - year: 2020
-      month: 4
-      day: 11
+    date-parts:
+      - - 2020
+        - 4
+        - 11
   author:
     - family: Adelmann
       given: Andreas
@@ -56,10 +57,11 @@ cslItem:
   citation-key: adelmann_calvo_etal__2019__opal
   container-title: arXiv:1905.06654 [physics]
   issued:
-    - year: 2019
-      month: 5
-      day: 16
-  keyword: accelerator-science-code;collection::pathicles::pathicles::codes
+    date-parts:
+      - - 2019
+        - 5
+        - 16
+  keyword: accelerator-science-code;collection::pathicles::codes
   source: arXiv.org
   title: OPAL a Versatile Tool for Charged Particle Accelerator Simulations
   type: article-journal
@@ -68,15 +70,13 @@ scopedTags:
   - tag: accelerator-science-code
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: codes
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="adelmann_calvo_etal__2019__opal" class="csl-entry">Adelmann, A., Calvo, P., Frey, M., Gsell, A., Locans, U., Metzger-Kraus, C., Neveu, N., Rogers, C., Russell, S., Sheehy, S., Snuverink, J., &#38; Winklehner, D. n.d.. OPAL a Versatile Tool for Charged Particle Accelerator Simulations. <i>arXiv:1905.06654 [Physics]</i>. http://arxiv.org/abs/1905.06654</div>
+      <div data-csl-entry-id="adelmann_calvo_etal__2019__opal" class="csl-entry">Adelmann, A. <i>et al.</i> 2019 “OPAL a Versatile Tool for Charged Particle Accelerator Simulations,” <i>arXiv:1905.06654 [physics]</i> [Preprint]. Available at: http://arxiv.org/abs/1905.06654 (Accessed: April 11, 2020).</div>
     </div>
-  citation: Adelmann et al., n.d.
-bibTex: "@article{adelmann_calvo_etal__2019__opal,\n\tauthor = {Adelmann, Andreas and Calvo, Pedro and Frey, Matthias and Gsell, Achim and Locans, Uldis and Metzger-Kraus, Christof and Neveu, Nicole and Rogers, Chris and Russell, Steve and Sheehy, Suzanne and Snuverink, Jochem and Winklehner, Daniel},\n\tjournal = {arXiv:1905.06654 [physics]},\n\ttitle = {OPAL a {Versatile} {Tool} for {Charged} {Particle} {Accelerator} {Simulations}},\n\thowpublished = {http://arxiv.org/abs/1905.06654},\n}\n\n"
+  citation: Adelmann <i>et al.</i>, 2019
+bibTex: "@article{adelmann_calvo_etal__2019__opal,\n\tnote = {[Online; accessed 2020-04-11]},\n\tauthor = {Adelmann, Andreas and Calvo, Pedro and Frey, Matthias and Gsell, Achim and Locans, Uldis and Metzger-Kraus, Christof and Neveu, Nicole and Rogers, Chris and Russell, Steve and Sheehy, Suzanne and Snuverink, Jochem and Winklehner, Daniel},\n\tjournal = {arXiv:1905.06654 [physics]},\n\tyear = {2019},\n\tmonth = {may 16},\n\ttitle = {OPAL a {Versatile} {Tool} for {Charged} {Particle} {Accelerator} {Simulations}},\n\thowpublished = {http://arxiv.org/abs/1905.06654},\n}\n\n"
 ---

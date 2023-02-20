@@ -38,10 +38,11 @@ cslItem:
   collection-title: CRC Press
   ISBN: 1-4398-6775-5
   issued:
-    - year: 2012
-      month: 4
-      day: 19
-  keyword: "#nosource;collection::pathicles::pathicles::graphics_programming"
+    date-parts:
+      - - 2012
+        - 4
+        - 19
+  keyword: "#nosource;collection::pathicles::graphics_programming"
   language: en
   publisher: CRC Press
   title: Graphics Shaders
@@ -50,15 +51,13 @@ scopedTags:
   - tag: "#nosource"
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: graphics_programming
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="bailey_cunningham__2012__graphics" class="csl-entry">Bailey, M., &#38; Cunningham, S. n.d.. <i>Graphics Shaders</i>. CRC Press.</div>
+      <div data-csl-entry-id="bailey_cunningham__2012__graphics" class="csl-entry">Bailey, M. and Cunningham, S. 2012 <i>Graphics Shaders</i>. CRC Press (CRC Press).</div>
     </div>
-  citation: Bailey &#38; Cunningham, n.d.
-bibTex: "@book{bailey_cunningham__2012__graphics,\n\tauthor = {Bailey, Mike and Cunningham, Steve},\n\tseries = {CRC {Press}},\n\tpublisher = {CRC Press},\n\ttitle = {Graphics {Shaders}},\n}\n\n"
+  citation: Bailey and Cunningham, 2012
+bibTex: "@book{bailey_cunningham__2012__graphics,\n\tauthor = {Bailey, Mike and Cunningham, Steve},\n\tseries = {CRC {Press}},\n\tyear = {2012},\n\tmonth = {apr 19},\n\tpublisher = {CRC Press},\n\ttitle = {Graphics {Shaders}},\n}\n\n"
 ---

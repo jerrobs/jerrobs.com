@@ -1,0 +1,38 @@
+---
+import Layout from "@layouts/Layout.astro"
+import Header from "@components/Header.astro"
+import Footer from "@components/Footer.astro"
+import Issue from "@components/Issue.astro"
+
+import type { CollectionEntry } from "astro:content"
+import Main from "./Main.astro"
+
+export interface Props {
+  issue: CollectionEntry<"issue">
+}
+
+const { issue } = Astro.props
+const { title, description } = issue.data
+---
+
+<Layout title={title} description={description}>
+  <Header />
+  <Main pageTitle={title}>
+    <div class="mx-auto flex w-full max-w-3xl justify-start px-2 text-sm">
+      <button
+        class="focus-outline mt-8 mb-2 flex hover:opacity-75"
+        onclick="history.back()"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg"
+          ><path
+            d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
+          ></path>
+        </svg><span>Go back</span>
+      </button>
+    </div>
+    <Issue issue={issue} />
+  </Main>
+  <Footer />
+</Layout>
+
+<style></style>

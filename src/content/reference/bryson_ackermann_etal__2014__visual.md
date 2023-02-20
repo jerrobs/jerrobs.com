@@ -37,11 +37,12 @@ cslItem:
   collection-title: John Wiley & Sons
   ISBN: 1-118-60592-6
   issued:
-    - year: 2014
-      month: 7
-      day: 28
+    date-parts:
+      - - 2014
+        - 7
+        - 28
   keyword: >-
-    #nosource;__strategy2030:strategic-planning;collection::strategy::strategy::roadmapping
+    #nosource;__strategy2030:strategic-planning;collection::strategy::roadmapping
   language: en-US
   publisher: John Wiley & Sons
   title: "Visual Strategy: Strategy Mapping for Public and Nonprofit Organizations"
@@ -54,15 +55,13 @@ scopedTags:
   - tag: __strategy2030:strategic-planning
   - tag: strategy
     scope: issue
-  - tag: strategy
-    scope: issue
   - tag: roadmapping
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="bryson_ackermann_etal__2014__visual" class="csl-entry">Bryson, J. M., Ackermann, F., &#38; Eden, C. n.d.. <i>Visual Strategy: Strategy Mapping for Public and Nonprofit Organizations</i>. John Wiley &#38; Sons. https://learning.oreilly.com/library/view/visual-strategy-strategy/9781118876695/</div>
+      <div data-csl-entry-id="bryson_ackermann_etal__2014__visual" class="csl-entry">Bryson, J.M., Ackermann, F. and Eden, C. 2014 <i>Visual Strategy: Strategy Mapping for Public and Nonprofit Organizations</i>. John Wiley &#38; Sons (John Wiley &#38; Sons). Available at: https://learning.oreilly.com/library/view/visual-strategy-strategy/9781118876695/.</div>
     </div>
-  citation: Bryson et al., n.d.
-bibTex: "@book{bryson_ackermann_etal__2014__visual,\n\tauthor = {Bryson, John M and Ackermann, Fran and Eden, Colin},\n\tseries = {John {Wiley} & {Sons}},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Visual {Strategy}: Strategy {Mapping} for {Public} and {Nonprofit} {Organizations}},\n}\n\n"
+  citation: Bryson, Ackermann and Eden, 2014
+bibTex: "@book{bryson_ackermann_etal__2014__visual,\n\tauthor = {Bryson, John M and Ackermann, Fran and Eden, Colin},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2014},\n\tmonth = {jul 28},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Visual {Strategy}: Strategy {Mapping} for {Public} and {Nonprofit} {Organizations}},\n}\n\n"
 ---

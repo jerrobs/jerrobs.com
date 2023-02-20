@@ -1,7 +1,22 @@
-import { z } from "astro:content";
+import { z } from "astro:content"
+
+export type ScopedTag = {
+  tag: string
+  scope?: string
+}
+
+const scopedTags = z
+  .array(
+    z.object({
+      tag: z.string(),
+      scope: z.string().optional(),
+    })
+  )
+  .optional()
 
 export const articleSchema = z
   .object({
+    path: z.string().optional(),
     author: z.string().optional(),
     pubDatetime: z.date(),
     title: z.string(),
@@ -9,11 +24,11 @@ export const articleSchema = z
     issue: z.string().optional(),
     subtitle: z.string().optional(),
     sectionNumber: z.string().optional(),
-    postSlug: z.string().optional(),
-    ogImage: z.string().optional(),
     featured: z.boolean().optional(),
     draft: z.boolean().optional(),
-    tags: z.array(z.string()).default(["others"]),
+
+    scopedTags,
+
     references: z
       .object({
         tags: z.array(z.string()),
@@ -22,9 +37,9 @@ export const articleSchema = z
 
     description: z.string(),
   })
-  .strict();
+  .strict()
 
-export type articleFrontmatter = z.infer<typeof articleSchema>;
+export type ArticleFrontmatter = z.infer<typeof articleSchema>
 
 export const issueSchema = z
   .object({
@@ -35,11 +50,12 @@ export const issueSchema = z
     coverImageCaption: z.string().optional(),
     title: z.string(),
     subtitle: z.string().optional(),
-    sigel: z.string().optional(),
+
     draft: z.boolean().optional(),
-    articles: z.array(z.string()).default(["others"]),
-    tags: z.array(z.string()).default(["others"]),
-    bibliography: z
+    articles: z.array(z.string()),
+    scopedTags,
+
+    bibliographies: z
       .array(
         z.object({
           title: z.string(),
@@ -49,18 +65,13 @@ export const issueSchema = z
       .optional(),
     description: z.string(),
   })
-  .strict();
+  .strict()
 
-export type IssueFrontmatter = z.infer<typeof issueSchema>;
+export type IssueFrontmatter = z.infer<typeof issueSchema>
 
 export const referenceSchema = z
   .object({
-    scopedTags: z.array(
-      z.object({
-        tag: z.string(),
-        scope: z.string().optional(),
-      })
-    ),
+    scopedTags,
     bibTex: z.string(),
     rendered: z.object({
       bibliography: z.string(),
@@ -231,6 +242,6 @@ export const referenceSchema = z
         .optional(),
     }),
   })
-  .strict();
+  .strict()
 
-export type referenceFrontmatter = z.infer<typeof referenceSchema>;
+export type ReferenceFrontmatter = z.infer<typeof referenceSchema>

@@ -29,11 +29,12 @@ cslItem:
   citation-key: engel__2015__gpu
   ISBN: 1-4822-6462-5
   issued:
-    - year: 2015
-      month: 7
-      day: 28
+    date-parts:
+      - - 2015
+        - 7
+        - 28
   keyword: >-
-    #nosource;_has-holding::oreilly-learning;collection::pathicles::pathicles::graphics_programming
+    #nosource;_has-holding::oreilly-learning;collection::pathicles::graphics_programming
   language: en
   publisher: CRC Press
   title: GPU Pro 6
@@ -43,15 +44,13 @@ scopedTags:
   - tag: _has-holding::oreilly-learning
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: graphics_programming
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="engel__2015__gpu" class="csl-entry">Engel, W. n.d.. <i>GPU Pro 6</i>. CRC Press.</div>
+      <div data-csl-entry-id="engel__2015__gpu" class="csl-entry">Engel, W. 2015 <i>GPU Pro 6</i>. CRC Press.</div>
     </div>
-  citation: Engel, n.d.
-bibTex: "@book{engel__2015__gpu,\n\tauthor = {Engel, Wolfgang},\n\tpublisher = {CRC Press},\n\ttitle = {GPU {Pro} 6},\n}\n\n"
+  citation: Engel, 2015
+bibTex: "@book{engel__2015__gpu,\n\tauthor = {Engel, Wolfgang},\n\tyear = {2015},\n\tmonth = {jul 28},\n\tpublisher = {CRC Press},\n\ttitle = {GPU {Pro} 6},\n}\n\n"
 ---

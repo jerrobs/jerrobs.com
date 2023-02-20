@@ -1,11 +1,13 @@
 ---
-pubDatetime: 2021-02-07
+pubDatetime: 2023-02-21
 title: Strategy
 subtitle: STRATEGICALLY IMPORTANT NOT TO MESS UP
-sigel: STY
 color: "#2174a8"
 description: The Strategy Issue of the Journal of Erratic Observations sets out to develop an understanding of strategy that can be used across disciplines.
-bibliography:
+articles:
+  - stg001
+  - stg002
+bibliographies:
   - title: Strategy
     tag: strategy
 ---

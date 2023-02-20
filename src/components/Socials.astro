@@ -1,13 +1,13 @@
 ---
-import { SOCIALS } from "@config";
-import LinkButton from "./LinkButton.astro";
-import socialIcons from "@assets/socialIcons";
+import { SOCIALS } from "@config"
+import LinkButton from "./LinkButton.astro"
+import socialIcons from "@assets/socialIcons"
 
 export interface Props {
-  centered?: boolean;
+  centered?: boolean
 }
 
-const { centered = false } = Astro.props;
+const { centered = false } = Astro.props
 ---
 
 <div class={`social-icons ${centered ? "flex" : ""}`}>
@@ -24,11 +24,10 @@ const { centered = false } = Astro.props;
   }
 </div>
 
-<style>
-  .social-icons {
-    @apply flex-wrap justify-center gap-1;
-  }
+<style lang="stylus">
   .link-button {
-    @apply p-2 hover:rotate-6 sm:p-1;
+    display: inline-block;
+    width: calc(2 * var(--baseline-height));
+    height: calc(2 * var(--baseline-height));
   }
 </style>

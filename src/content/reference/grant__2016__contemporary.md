@@ -14,11 +14,12 @@ cslItem:
   collection-title: John Wiley & Sons
   ISBN: 1-119-12084-5
   issued:
-    - year: 2016
-      month: 1
-      day: 5
+    date-parts:
+      - - 2016
+        - 1
+        - 5
   keyword: >-
-    #nosource;__strategy2030:strategic-planning;collection::strategy::strategy::definitions
+    #nosource;__strategy2030:strategic-planning;collection::strategy::definitions
   language: English
   publisher: John Wiley & Sons
   title: Contemporary Strategy Analysis
@@ -28,15 +29,13 @@ scopedTags:
   - tag: __strategy2030:strategic-planning
   - tag: strategy
     scope: issue
-  - tag: strategy
-    scope: issue
   - tag: definitions
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="grant__2016__contemporary" class="csl-entry">Grant, R. M. n.d.. <i>Contemporary Strategy Analysis</i>. John Wiley &#38; Sons.</div>
+      <div data-csl-entry-id="grant__2016__contemporary" class="csl-entry">Grant, R.M. 2016 <i>Contemporary Strategy Analysis</i>. John Wiley &#38; Sons (John Wiley &#38; Sons).</div>
     </div>
-  citation: Grant, n.d.
-bibTex: "@book{grant__2016__contemporary,\n\tauthor = {Grant, Robert M},\n\tseries = {John {Wiley} & {Sons}},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Contemporary {Strategy} {Analysis}},\n}\n\n"
+  citation: Grant, 2016
+bibTex: "@book{grant__2016__contemporary,\n\tauthor = {Grant, Robert M},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2016},\n\tmonth = {jan 5},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Contemporary {Strategy} {Analysis}},\n}\n\n"
 ---

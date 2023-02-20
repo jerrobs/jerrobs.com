@@ -26,11 +26,12 @@ cslItem:
   collection-title: O'Reilly Media
   ISBN: 978-1-4920-4087-3
   issued:
-    - year: 2018
-      month: 10
-      day: 25
+    date-parts:
+      - - 2018
+        - 10
+        - 25
   keyword: >-
-    #nosource;__strategy2030:strategic-planning;collection::strategy::strategy::definitions
+    #nosource;__strategy2030:strategic-planning;collection::strategy::definitions
   language: English
   publisher: O'Reilly Media
   title: Technology Strategy Patterns
@@ -42,15 +43,13 @@ scopedTags:
   - tag: __strategy2030:strategic-planning
   - tag: strategy
     scope: issue
-  - tag: strategy
-    scope: issue
   - tag: definitions
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="hewitt__2018__technology" class="csl-entry">Hewitt, E. n.d.. <i>Technology Strategy Patterns</i>. O’Reilly Media. https://learning.oreilly.com/library/view/technology-strategy-patterns/9781492040866/</div>
+      <div data-csl-entry-id="hewitt__2018__technology" class="csl-entry">Hewitt, E. 2018 <i>Technology Strategy Patterns</i>. O’Reilly Media (O’Reilly Media). Available at: https://learning.oreilly.com/library/view/technology-strategy-patterns/9781492040866/.</div>
     </div>
-  citation: Hewitt, n.d.
-bibTex: "@book{hewitt__2018__technology,\n\tauthor = {Hewitt, Eben},\n\tseries = {O'{Reilly} {Media}},\n\tpublisher = {O'Reilly Media},\n\ttitle = {Technology {Strategy} {Patterns}},\n}\n\n"
+  citation: Hewitt, 2018
+bibTex: "@book{hewitt__2018__technology,\n\tauthor = {Hewitt, Eben},\n\tseries = {O'{Reilly} {Media}},\n\tyear = {2018},\n\tmonth = {oct 25},\n\tpublisher = {O'Reilly Media},\n\ttitle = {Technology {Strategy} {Patterns}},\n}\n\n"
 ---

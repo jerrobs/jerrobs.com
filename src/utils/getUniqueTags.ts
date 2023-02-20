@@ -1,18 +1,14 @@
-import { slugifyStr } from "./slugify";
-import type { CollectionEntry } from "astro:content";
+import type { CollectionEntry } from "astro:content"
+import type { ScopedTag } from "@content/_schemas"
 
-const getUniqueTags = (posts: CollectionEntry<"blog">[]) => {
-  let tags: string[] = [];
-  const filteredPosts = posts.filter(({ data }) => !data.draft);
-  filteredPosts.forEach(post => {
-    tags = [...tags, ...post.data.tags]
-      .map(tag => slugifyStr(tag))
-      .filter(
-        (value: string, index: number, self: string[]) =>
-          self.indexOf(value) === index
-      );
-  });
-  return tags;
-};
+export const getUniqueTags = (items: CollectionEntry<"article">[]) => {
+  let scopedTags: ScopedTag[] = []
+  const filteredItems = items.filter(({ data }) => !data.draft)
+  filteredItems.forEach(item => {
+    scopedTags = [...scopedTags, ...item.data.scopedTags]
+  })
 
-export default getUniqueTags;
+  const tagSet = new Set(scopedTags.map(scopedTag => JSON.stringify(scopedTag)))
+
+  return [...tagSet].map(t => JSON.parse(t)) as ScopedTag[]
+}

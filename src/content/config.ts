@@ -1,5 +1,5 @@
-import { defineCollection } from "astro:content";
-import { articleSchema, issueSchema, referenceSchema } from "./_schemas";
+import { defineCollection } from "astro:content"
+import { articleSchema, issueSchema, referenceSchema } from "./_schemas"
 
 export const collections = {
   article: defineCollection({
@@ -11,4 +11,4 @@ export const collections = {
   reference: defineCollection({
     schema: referenceSchema,
   }),
-};
+}

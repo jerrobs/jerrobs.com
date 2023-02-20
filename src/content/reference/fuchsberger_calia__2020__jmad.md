@@ -14,10 +14,11 @@ cslItem:
   citation-key: fuchsberger_calia__2020__jmad
   genre: Java
   issued:
-    - year: 2020
-      month: 12
-      day: 25
-  keyword: "#nosource;accelerator-science-code;collection::pathicles::pathicles::codes"
+    date-parts:
+      - - 2020
+        - 12
+        - 25
+  keyword: "#nosource;accelerator-science-code;collection::pathicles::codes"
   title: JMad
   type: software
   URL: jmad.io
@@ -27,15 +28,13 @@ scopedTags:
   - tag: accelerator-science-code
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: codes
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="fuchsberger_calia__2020__jmad" class="csl-entry">Fuchsberger, K., &#38; Calia, A. n.d.. <i>JMad</i> (0.15.3) [Java]. jmad.io</div>
+      <div data-csl-entry-id="fuchsberger_calia__2020__jmad" class="csl-entry">Fuchsberger, K. and Calia, A. 2020 <i>JMad</i>. Available at: jmad.io.</div>
     </div>
-  citation: Fuchsberger &#38; Calia, n.d.
-bibTex: "@misc{fuchsberger_calia__2020__jmad,\n\tauthor = {Fuchsberger, Kajetan and Calia, Andrea},\n\ttitle = {JMad},\n\ttype = {Java},\n\thowpublished = {jmad.io},\n}\n\n"
+  citation: Fuchsberger and Calia, 2020
+bibTex: "@misc{fuchsberger_calia__2020__jmad,\n\tauthor = {Fuchsberger, Kajetan and Calia, Andrea},\n\tyear = {2020},\n\tmonth = {dec 25},\n\ttitle = {JMad},\n\ttype = {Java},\n\thowpublished = {jmad.io},\n}\n\n"
 ---

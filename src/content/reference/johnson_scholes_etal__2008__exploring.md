@@ -22,11 +22,12 @@ cslItem:
   collection-title: Pearson Education
   ISBN: 978-0-273-71192-6
   issued:
-    - year: 2008
-      month: 1
-      day: 1
+    date-parts:
+      - - 2008
+        - 1
+        - 1
   keyword: >-
-    #nosource;__strategy2030:strategic-planning;collection::strategy::strategy::definitions
+    #nosource;__strategy2030:strategic-planning;collection::strategy::definitions
   language: english
   publisher: Pearson Education
   title: Exploring Corporate Strategy
@@ -36,15 +37,13 @@ scopedTags:
   - tag: __strategy2030:strategic-planning
   - tag: strategy
     scope: issue
-  - tag: strategy
-    scope: issue
   - tag: definitions
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="johnson_scholes_etal__2008__exploring" class="csl-entry">Johnson, G., Scholes, K., &#38; Whittington, R. n.d.. <i>Exploring Corporate Strategy</i>. Pearson Education.</div>
+      <div data-csl-entry-id="johnson_scholes_etal__2008__exploring" class="csl-entry">Johnson, G., Scholes, K. and Whittington, R. 2008 <i>Exploring Corporate Strategy</i>. Pearson Education (Pearson Education).</div>
     </div>
-  citation: Johnson et al., n.d.
-bibTex: "@book{johnson_scholes_etal__2008__exploring,\n\tauthor = {Johnson, Gerry and Scholes, Kevan and Whittington, Richard},\n\tseries = {Pearson {Education}},\n\tpublisher = {Pearson Education},\n\ttitle = {Exploring {Corporate} {Strategy}},\n}\n\n"
+  citation: Johnson, Scholes and Whittington, 2008
+bibTex: "@book{johnson_scholes_etal__2008__exploring,\n\tauthor = {Johnson, Gerry and Scholes, Kevan and Whittington, Richard},\n\tseries = {Pearson {Education}},\n\tyear = {2008},\n\tmonth = {jan 1},\n\tpublisher = {Pearson Education},\n\ttitle = {Exploring {Corporate} {Strategy}},\n}\n\n"
 ---

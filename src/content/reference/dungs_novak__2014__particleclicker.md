@@ -5,9 +5,10 @@ cslItem:
     An addictive incremental game that teaches players the history of high
     energy particle physics
   accessed:
-    - year: 2021
-      month: 1
-      day: 3
+    date-parts:
+      - - 2021
+        - 1
+        - 3
   author:
     - family: Dungs
       given: Kevin
@@ -16,14 +17,16 @@ cslItem:
   citation-key: dungs_novak__2014__particleclicker
   genre: JavaScript
   issued:
-    - year: 2014
-      month: 7
-      day: 31
-  keyword: "#nosource;collection::pathicles::pathicles::educational_visualization"
+    date-parts:
+      - - 2014
+        - 7
+        - 31
+  keyword: "#nosource;collection::pathicles::educational_visualization"
   original-date:
-    - year: 2014
-      month: 7
-      day: 31
+    date-parts:
+      - - 2014
+        - 7
+        - 31
   publisher: Particle Clicker
   source: GitHub
   title: particle-clicker/particle-clicker
@@ -33,15 +36,13 @@ scopedTags:
   - tag: "#nosource"
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: educational_visualization
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="dungs_novak__2014__particleclicker" class="csl-entry">Dungs, K., &#38; Novak, T. n.d.. <i>particle-clicker/particle-clicker</i> [JavaScript]. Particle Clicker. https://github.com/particle-clicker/particle-clicker</div>
+      <div data-csl-entry-id="dungs_novak__2014__particleclicker" class="csl-entry">Dungs, K. and Novak, T. 2014 <i>particle-clicker/particle-clicker</i>. Particle Clicker. Available at: https://github.com/particle-clicker/particle-clicker (Accessed: January 3, 2021).</div>
     </div>
-  citation: Dungs &#38; Novak, n.d.
-bibTex: "@misc{dungs_novak__2014__particleclicker,\n\tauthor = {Dungs, Kevin and Novak, Tadej},\n\tpublisher = {Particle Clicker},\n\ttitle = {particle-clicker/particle-clicker},\n\ttype = {JavaScript},\n}\n\n"
+  citation: Dungs and Novak, 2014
+bibTex: "@misc{dungs_novak__2014__particleclicker,\n\tnote = {[Online; accessed 2021-01-03]},\n\tauthor = {Dungs, Kevin and Novak, Tadej},\n\tyear = {2014},\n\tmonth = {jul 31},\n\tpublisher = {Particle Clicker},\n\ttitle = {particle-clicker/particle-clicker},\n\ttype = {JavaScript},\n}\n\n"
 ---

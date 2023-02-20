@@ -1,9 +1,9 @@
 ---
-import { SITE } from "@config";
-import Layout from "@layouts/Layout.astro";
-import Header from "@components/Header.astro";
-import Footer from "@components/Footer.astro";
-import LinkButton from "@components/LinkButton.astro";
+import { SITE } from "@config"
+import Layout from "@layouts/Layout.astro"
+import Header from "@components/Header.astro"
+import Footer from "@components/Footer.astro"
+import LinkButton from "@components/LinkButton.astro"
 ---
 
 <Layout title={`404 Not Found | ${SITE.title}`}>
@@ -34,9 +34,9 @@ import LinkButton from "@components/LinkButton.astro";
     @apply mb-14 flex flex-col items-center justify-center;
   }
   .not-found-wrapper h1 {
-    @apply text-9xl font-bold text-skin-accent;
+    @apply text-xxl font-bold text-skin-accent;
   }
   .not-found-wrapper p {
-    @apply mt-4 text-2xl sm:text-3xl;
+    @apply mt-4 text-xxl sm:text-xxxl;
   }
 </style>

@@ -1,0 +1,47 @@
+---
+import type { CollectionEntry } from "astro:content"
+import { renderInline } from "@utils/markdown/render.ts"
+
+export interface Props {
+  article: CollectionEntry<"article">
+}
+
+const { article } = Astro.props
+
+const { data, slug } = await article
+---
+
+<div class="article-preview">
+  <a href={`/articles/${slug}`}>
+    <h3 set:html={renderInline(data.title)} />
+    <p set:html={renderInline(data.description)} />
+  </a>
+</div>
+
+<style>
+  .issue-cover {
+    box-shadow: 5px rgba(black, 1);
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(8 * var(--baseline-height));
+  }
+  :root {
+    --baseline-height: 48px;
+  }
+  .issue-cover__body {
+    flex: 5;
+  }
+  .issue-cover__footer {
+    flex: 1%;
+    background-color: #fff;
+    position: relative;
+  }
+  .issue-cover__footer .taglines {
+    left: calc((0.75) * var(--baseline-height));
+  }
+  .issue-cover__footer p {
+    font-variant: all-small-caps;
+    height: calc((0.5) * var(--baseline-height));
+  }
+</style>

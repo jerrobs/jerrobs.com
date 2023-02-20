@@ -45,8 +45,9 @@ cslItem:
   event-place: Washington
   ISBN: 978-1-4338-3215-4 978-1-4338-3216-1 978-1-4338-3217-8
   issued:
-    - year: 2019
-  keyword: "#nosource;collection::jerrobs::jerrobs::referencing"
+    date-parts:
+      - - 2019
+  keyword: "#nosource;collection::jerrobs::referencing"
   language: en-US
   publisher: American Psychological Association
   publisher-place: Washington
@@ -57,15 +58,13 @@ scopedTags:
   - tag: "#nosource"
   - tag: jerrobs
     scope: issue
-  - tag: jerrobs
-    scope: issue
   - tag: referencing
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="americanpsychologicalassociation__2019__publication" class="csl-entry">American Psychological Association. n.d.. <i>Publication manual of the American psychological association</i> (Seventh edition). American Psychological Association.</div>
+      <div data-csl-entry-id="americanpsychologicalassociation__2019__publication" class="csl-entry">American Psychological Association 2019 <i>Publication manual of the American psychological association</i>. Seventh edition. Washington: American Psychological Association.</div>
     </div>
-  citation: American Psychological Association, n.d.
-bibTex: "@book{americanpsychologicalassociation__2019__publication,\n\taddress = {Washington},\n\tauthor = {{American Psychological Association}},\n\tedition = {Seventh edition},\n\tpublisher = {American Psychological Association},\n\ttitle = {Publication manual of the {American} psychological association},\n}\n\n"
+  citation: American Psychological Association, 2019
+bibTex: "@book{americanpsychologicalassociation__2019__publication,\n\taddress = {Washington},\n\tauthor = {{American Psychological Association}},\n\tedition = {Seventh edition},\n\tyear = {2019},\n\tpublisher = {American Psychological Association},\n\ttitle = {Publication manual of the {American} psychological association},\n}\n\n"
 ---

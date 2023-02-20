@@ -58,8 +58,16 @@ module.exports = {
       transparent: "transparent",
     },
     fontFamily: {
-      mono: ["IBM Plex Mono", "monospace"],
-    },
+      sans: ["Barlow"],
+      mono: ["monospace"],
+    }, fontSize: {
+      sm: ['14px', '20px'],
+      base: ['16px', '30px'],
+      lg: ['20px', '28px'],
+      xl: ['24px', '32px'],
+      xxl: ['24px', '32px'],
+      xxxl: ['24px', '32px'],
+    }
     // },
   },
   plugins: [require("@tailwindcss/typography")],

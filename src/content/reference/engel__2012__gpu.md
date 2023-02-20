@@ -14,9 +14,9 @@ cslItem:
   event-place: Boca Raton, Fla
   ISBN: 9781439887820 9781439887943 9786613908995
   issued:
-    - year: 2012
-  keyword: >-
-    #nosource;_has-holding::oreilly-learning;collection::pathicles::pathicles::gpgpu
+    date-parts:
+      - - 2012
+  keyword: "#nosource;_has-holding::oreilly-learning;collection::pathicles::gpgpu"
   language: en-US
   note: "OCLC: 827253254"
   publisher: A K Peters/CRC Press
@@ -29,15 +29,13 @@ scopedTags:
   - tag: _has-holding::oreilly-learning
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: gpgpu
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="engel__2012__gpu" class="csl-entry">Engel, W. n.d.. <i>GPU Pro 3</i>. A K Peters/CRC Press.</div>
+      <div data-csl-entry-id="engel__2012__gpu" class="csl-entry">Engel, W. 2012 <i>GPU Pro 3</i>. Boca Raton, Fla: A K Peters/CRC Press.</div>
     </div>
-  citation: Engel, n.d.
-bibTex: "@book{engel__2012__gpu,\n\taddress = {Boca Raton, Fla},\n\tauthor = {Engel, Wolfgang},\n\tnote = {OCLC: 827253254},\n\tpublisher = {A K Peters/CRC Press},\n\ttitle = {GPU {Pro} 3},\n}\n\n"
+  citation: Engel, 2012
+bibTex: "@book{engel__2012__gpu,\n\taddress = {Boca Raton, Fla},\n\tauthor = {Engel, Wolfgang},\n\tyear = {2012},\n\tnote = {OCLC: 827253254},\n\tpublisher = {A K Peters/CRC Press},\n\ttitle = {GPU {Pro} 3},\n}\n\n"
 ---

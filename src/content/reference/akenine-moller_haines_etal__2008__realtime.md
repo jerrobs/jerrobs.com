@@ -12,9 +12,10 @@ cslItem:
     authors have made the figures used in the book available for download for
     fair use.:Download Figures.
   accessed:
-    - year: 2021
-      month: 1
-      day: 11
+    date-parts:
+      - - 2021
+        - 1
+        - 11
   author:
     - family: Akenine-Möller
       given: Tomas
@@ -26,8 +27,9 @@ cslItem:
       given: an O'Reilly Media Company
   citation-key: akenine-moller_haines_etal__2008__realtime
   issued:
-    - year: 2008
-  keyword: "#nosource;collection::pathicles::pathicles::graphics_programming"
+    date-parts:
+      - - 2008
+  keyword: "#nosource;collection::pathicles::graphics_programming"
   language: en-US
   note: "OCLC: 1099553954"
   source: Open WorldCat
@@ -38,15 +40,13 @@ scopedTags:
   - tag: "#nosource"
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: graphics_programming
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="akenine-moller_haines_etal__2008__realtime" class="csl-entry">Akenine-Möller, T., Haines, E., Hoffman, N., &#38; Safari,  an O. M. C. n.d.. <i>Real-Time Rendering, Third Edition, 3rd Edition</i>. https://www.safaribooksonline.com/library/view//9781439865293/?ar</div>
+      <div data-csl-entry-id="akenine-moller_haines_etal__2008__realtime" class="csl-entry">Akenine-Möller, T. <i>et al.</i> 2008 <i>Real-Time Rendering, Third Edition, 3rd Edition</i>. Available at: https://www.safaribooksonline.com/library/view//9781439865293/?ar (Accessed: January 11, 2021).</div>
     </div>
-  citation: Akenine-Möller et al., n.d.
-bibTex: "@book{AkenineReal,\n\tauthor = {Akenine-M{\\\" o}ller, Tomas and Haines, Eric and Hoffman, Naty and Safari, an O'Reilly Media Company},\n\tnote = {OCLC: 1099553954},\n\ttitle = {Real-{Time} {Rendering}, {Third} {Edition}, 3rd {Edition}},\n\thowpublished = {https://www.safaribooksonline.com/library/view//9781439865293/?ar},\n}\n\n"
+  citation: Akenine-Möller <i>et al.</i>, 2008
+bibTex: "@book{Akenine2008Real,\n\tauthor = {Akenine-M{\\\" o}ller, Tomas and Haines, Eric and Hoffman, Naty and Safari, an O'Reilly Media Company},\n\tyear = {2008},\n\tnote = {OCLC: 1099553954},\n\ttitle = {Real-{Time} {Rendering}, {Third} {Edition}, 3rd {Edition}},\n\thowpublished = {https://www.safaribooksonline.com/library/view//9781439865293/?ar},\n}\n\n"
 ---

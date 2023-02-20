@@ -3,21 +3,23 @@ cslItem:
   id: __2021__latticejson
   abstract: A JSON based lattice file format
   accessed:
-    - year: 2021
-      month: 10
-      day: 13
+    date-parts:
+      - - 2021
+        - 10
+        - 13
   citation-key: __2021__latticejson
   genre: Python
   issued:
-    - year: 2021
-      month: 7
-      day: 9
+    date-parts:
+      - - 2021
+        - 7
+        - 9
   keyword: >-
-    #nosource;archived;accelerator-physics;json;lattice;collection::pathicles::pathicles::codes
+    #nosource;archived;accelerator-physics;json;lattice;collection::pathicles::codes
   original-date:
-    - literal: >-
-        2019-11-08T02:43:49Z;
-        https://web.archive.org/web/20201016133905/https://github.com/nobeam/latticejson
+    literal: >-
+      2019-11-08T02:43:49Z;
+      https://web.archive.org/web/20201016133905/https://github.com/nobeam/latticejson
   publisher: NoBeam
   source: GitHub
   title: LatticeJSON
@@ -31,15 +33,13 @@ scopedTags:
   - tag: lattice
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: codes
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="__2021__latticejson" class="csl-entry"><i>LatticeJSON</i>. n.d.. [Python]. NoBeam. https://github.com/nobeam/latticejson</div>
+      <div data-csl-entry-id="__2021__latticejson" class="csl-entry"><i>LatticeJSON</i> 2021. NoBeam. Available at: https://github.com/nobeam/latticejson (Accessed: October 13, 2021).</div>
     </div>
-  citation: <i>LatticeJSON</i>, n.d.
-bibTex: "@misc{__2021__latticejson,\n\tpublisher = {NoBeam},\n\ttitle = {LatticeJSON},\n\ttype = {Python},\n}\n\n"
+  citation: <i>LatticeJSON</i>, 2021
+bibTex: "@misc{__2021__latticejson,\n\tnote = {[Online; accessed 2021-10-13]},\n\tyear = {2021},\n\tmonth = {jul 9},\n\tpublisher = {NoBeam},\n\ttitle = {LatticeJSON},\n\ttype = {Python},\n}\n\n"
 ---

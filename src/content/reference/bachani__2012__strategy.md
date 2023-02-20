@@ -25,11 +25,12 @@ cslItem:
       given: Jyoti
   citation-key: bachani__2012__strategy
   issued:
-    - year: 2012
-      month: 12
-      day: 10
+    date-parts:
+      - - 2012
+        - 12
+        - 10
   keyword: >-
-    #nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:nonprofit-organizations;collection::strategy::strategy::esuo
+    #nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:nonprofit-organizations;collection::strategy::esuo
   language: en-US
   title: Strategy Making in Nonprofit Organizations
   type: book
@@ -39,15 +40,13 @@ scopedTags:
   - tag: __strategy2030:strategic-planning:nonprofit-organizations
   - tag: strategy
     scope: issue
-  - tag: strategy
-    scope: issue
   - tag: esuo
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="bachani__2012__strategy" class="csl-entry">Bachani, J. n.d.. <i>Strategy Making in Nonprofit Organizations</i>.</div>
+      <div data-csl-entry-id="bachani__2012__strategy" class="csl-entry">Bachani, J. 2012 <i>Strategy Making in Nonprofit Organizations</i>.</div>
     </div>
-  citation: Bachani, n.d.
-bibTex: "@book{bachani__2012__strategy,\n\tauthor = {Bachani, Jyoti},\n\ttitle = {Strategy {Making} in {Nonprofit} {Organizations}},\n}\n\n"
+  citation: Bachani, 2012
+bibTex: "@book{bachani__2012__strategy,\n\tauthor = {Bachani, Jyoti},\n\tyear = {2012},\n\tmonth = {dec 10},\n\ttitle = {Strategy {Making} in {Nonprofit} {Organizations}},\n}\n\n"
 ---

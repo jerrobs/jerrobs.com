@@ -1,0 +1,45 @@
+$UI__FONT_SIZE--LG ?= 22px
+$UI__FONT_SIZE--MD ?= 16px
+$UI__FONT_SIZE--SM ?= 14px
+$UI__FONT_SIZE--XS ?= 12px
+$UI__BASELINE__HEIGHT ?= $SCREEN__BASELINE-HEIGHT
+$UI__SIDEBAR_ITEM__HEIGHT ?= 1 * $UI__BASELINE__HEIGHT
+$UI__NAV_ITEM__HEIGHT ?= 1 * $UI__BASELINE__HEIGHT
+$UI__NAV_ITEM__ICON_WIDTH ?= 1.5 * $UI__BASELINE__HEIGHT
+$UI__SIDEBAR__Z_INDEX = 10000
+$UI__NAVBAR__Z_INDEX = 11000
+
+$CONFIG__UI()
+  :root
+    --ui__baseline-height $UI__BASELINE__HEIGHT
+    --ui__bib-filter__width 100vw
+    --ui__font-family inherit
+    --ui__font-size--lg $UI__FONT_SIZE--LG
+    --ui__font-size--md $UI__FONT_SIZE--MD
+    --ui__font-size--sm $UI__FONT_SIZE--SM
+    --ui__font-size--xs $UI__FONT_SIZE--XS
+    --ui__nav-item__height--md 2 * $UI__SIDEBAR_ITEM__HEIGHT
+    --ui__nav-item__height--sm 2 * $UI__SIDEBAR_ITEM__HEIGHT
+    --ui__nav-item__icon__width 2 * $UI__SIDEBAR_ITEM__HEIGHT
+    --ui__padding__x 0.25 * $UI__BASELINE__HEIGHT
+    --ui__sidebar__width 100vw
+    --ui__sidebar__width--compact 0
+    --ui__masthead__width 0
+    --box-shadow--ui 0 0 10px rgba(black, 0.9)
+
+    +mq--gte-md()
+      --ui__bib-filter__width 8 * $UI__BASELINE__HEIGHT
+      --ui__nav-item__height--md 2 * $UI__SIDEBAR_ITEM__HEIGHT
+      --ui__nav-item__height--sm 1.5 * $UI__SIDEBAR_ITEM__HEIGHT
+      --ui__padding__x 0.5 * $UI__BASELINE__HEIGHT
+      --ui__sidebar__width 8 * $UI__BASELINE__HEIGHT
+      --ui__sidebar__width--compact 2 * $UI__BASELINE__HEIGHT
+      --ui__masthead__width 4 * $UI__BASELINE__HEIGHT
+
+    +mq--gte-lg()
+      --ui__bib-filter__width 8 * $UI__BASELINE__HEIGHT
+      --ui__sidebar__width 8 * $UI__BASELINE__HEIGHT
+
+    +mq--gte-xl()
+      --ui__bib-filter__width 10 * $UI__BASELINE__HEIGHT
+      --ui__sidebar__width 10 * $UI__BASELINE__HEIGHT

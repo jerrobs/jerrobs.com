@@ -32,9 +32,10 @@ cslItem:
   collection-title: Project Management Institute
   ISBN: 978-1-935589-87-7
   issued:
-    - year: 2013
+    date-parts:
+      - - 2013
   keyword: >-
-    #nosource;__strategy2030:strategic-planning;collection::strategy::strategy::definitions
+    #nosource;__strategy2030:strategic-planning;collection::strategy::definitions
   language: English
   publisher: Project Management Institute
   title: A Strategic-Oriented Implementation of Projects
@@ -44,15 +45,13 @@ scopedTags:
   - tag: __strategy2030:strategic-planning
   - tag: strategy
     scope: issue
-  - tag: strategy
-    scope: issue
   - tag: definitions
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="gorog__2013__strategicoriented" class="csl-entry">Görög, M. n.d.. <i>A Strategic-Oriented Implementation of Projects</i>. Project Management Institute.</div>
+      <div data-csl-entry-id="gorog__2013__strategicoriented" class="csl-entry">Görög, M. 2013 <i>A Strategic-Oriented Implementation of Projects</i>. Project Management Institute (Project Management Institute).</div>
     </div>
-  citation: Görög, n.d.
-bibTex: "@book{gorog__2013__strategicoriented,\n\tauthor = {G{\\\" o}r{\\\" o}g, Mih{\\' a}ly},\n\tseries = {Project {Management} {Institute}},\n\tpublisher = {Project Management Institute},\n\ttitle = {A {Strategic}-{Oriented} {Implementation} of {Projects}},\n}\n\n"
+  citation: Görög, 2013
+bibTex: "@book{gorog__2013__strategicoriented,\n\tauthor = {G{\\\" o}r{\\\" o}g, Mih{\\' a}ly},\n\tseries = {Project {Management} {Institute}},\n\tyear = {2013},\n\tpublisher = {Project Management Institute},\n\ttitle = {A {Strategic}-{Oriented} {Implementation} of {Projects}},\n}\n\n"
 ---

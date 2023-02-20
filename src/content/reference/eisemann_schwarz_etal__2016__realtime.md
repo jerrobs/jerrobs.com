@@ -30,10 +30,11 @@ cslItem:
   collection-title: CRC Press
   ISBN: 1-4398-6769-0
   issued:
-    - year: 2016
-      month: 4
-      day: 19
-  keyword: "#nosource;collection::pathicles::pathicles::graphics_programming"
+    date-parts:
+      - - 2016
+        - 4
+        - 19
+  keyword: "#nosource;collection::pathicles::graphics_programming"
   language: en
   publisher: CRC Press
   title: Real-Time Shadows
@@ -42,15 +43,13 @@ scopedTags:
   - tag: "#nosource"
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: graphics_programming
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="eisemann_schwarz_etal__2016__realtime" class="csl-entry">Eisemann, E., Schwarz, M., Assarsson, U., &#38; Wimmer, M. n.d.. <i>Real-Time Shadows</i>. CRC Press.</div>
+      <div data-csl-entry-id="eisemann_schwarz_etal__2016__realtime" class="csl-entry">Eisemann, E. <i>et al.</i> 2016 <i>Real-Time Shadows</i>. CRC Press (CRC Press).</div>
     </div>
-  citation: Eisemann et al., n.d.
-bibTex: "@book{eisemann_schwarz_etal__2016__realtime,\n\tauthor = {Eisemann, Elmar and Schwarz, Michael and Assarsson, Ulf and Wimmer, Michael},\n\tseries = {CRC {Press}},\n\tpublisher = {CRC Press},\n\ttitle = {Real-{Time} {Shadows}},\n}\n\n"
+  citation: Eisemann <i>et al.</i>, 2016
+bibTex: "@book{eisemann_schwarz_etal__2016__realtime,\n\tauthor = {Eisemann, Elmar and Schwarz, Michael and Assarsson, Ulf and Wimmer, Michael},\n\tseries = {CRC {Press}},\n\tyear = {2016},\n\tmonth = {apr 19},\n\tpublisher = {CRC Press},\n\ttitle = {Real-{Time} {Shadows}},\n}\n\n"
 ---

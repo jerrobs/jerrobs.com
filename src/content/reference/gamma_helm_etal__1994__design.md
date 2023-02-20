@@ -15,11 +15,12 @@ cslItem:
   event-place: Reading, Mass
   ISBN: 978-0-201-63361-0
   issued:
-    - year: 1994
+    date-parts:
+      - - 1994
   keyword: >-
     #nosource;Computer software;Object-oriented programming (Computer
     science);Reusability;Software
-    patterns;collection::strategy::strategy::software-engineering
+    patterns;collection::strategy::software-engineering
   language: eng
   number-of-pages: "395"
   publisher: Addison-Wesley
@@ -36,15 +37,13 @@ scopedTags:
   - tag: Software patterns
   - tag: strategy
     scope: issue
-  - tag: strategy
-    scope: issue
   - tag: software-engineering
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="gamma_helm_etal__1994__design" class="csl-entry">Gamma, E., Helm, R., Johnson, R., &#38; Vlissides, J. n.d.. <i>Design patterns: elements of reusable object-oriented software</i>. Addison-Wesley. https://archive.org/details/designpatternsel00gamm/page/315/mode/2up</div>
+      <div data-csl-entry-id="gamma_helm_etal__1994__design" class="csl-entry">Gamma, E. <i>et al.</i> 1994 <i>Design patterns: elements of reusable object-oriented software</i>. Reading, Mass: Addison-Wesley (Addison-Wesley professional computing series). Available at: https://archive.org/details/designpatternsel00gamm/page/315/mode/2up.</div>
     </div>
-  citation: Gamma et al., n.d.
-bibTex: "@book{gamma_helm_etal__1994__design,\n\taddress = {Reading, Mass},\n\tauthor = {Gamma, Erich and Helm, Richard and Johnson, Ralph and Vlissides, John},\n\tseries = {Addison-{Wesley} professional computing series},\n\tpublisher = {Addison-Wesley},\n\ttitle = {Design patterns: elements of reusable object-oriented software},\n}\n\n"
+  citation: Gamma <i>et al.</i>, 1994
+bibTex: "@book{gamma_helm_etal__1994__design,\n\taddress = {Reading, Mass},\n\tauthor = {Gamma, Erich and Helm, Richard and Johnson, Ralph and Vlissides, John},\n\tseries = {Addison-{Wesley} professional computing series},\n\tyear = {1994},\n\tpublisher = {Addison-Wesley},\n\ttitle = {Design patterns: elements of reusable object-oriented software},\n}\n\n"
 ---

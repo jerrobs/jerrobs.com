@@ -1,16 +1,20 @@
 ---
-sigel: SPC
 coverImage: /media/cover__space-lg.webp
 coverImageCaption: >
   The dark nebula LDN 483 as recorded by the Wide Field Imager (WFI) on the MPG/ESO 2.2-metre telescope at the La Silla Observatory in Chile. The object is a region of space clogged with gas and dust. These materials are dense enough to effectively eclipse the light of background stars. LDN 483 is located about 700 light-years away in the constellation of Serpens (The Serpent). (Source: ESO)
-pubDatetime: 2021-02-07
+pubDatetime: 2023-02-21
+articles:
+  - spc001
+  - spc002
+  - spc003
+  - spc004
 title: Space
 subtitle: >
   Healing **typography** from **space @@ sickness**
 description: >
   The _Space Issue_ of the _Journal of Erratic Observations_ takes a closer look at typographic spaces between words: What are they good for and since when? Why are there so many of them and what makes them so annoying to deal with? And how do you master them like a pro?
 color: "#666"
-bibliography:
+bibliographies:
   - title: Introduction
     tag: space/introduction
   - title: Motivation

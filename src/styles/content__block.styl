@@ -1,0 +1,171 @@
+@import './mixins/'
+
+section.md
+  margin-top $bl(1)
+  margin-bottom $bl(2)
+  max-width 100%
+
+h2.md, h3.md, h4.md, p.md, li.md
+  max-width var(--content__max-width)
+  color var(--color-fg__text)
+
+h1.md
+  color red !important
+
+img.md
+  width 100% font-family 'Barlow Semi Condensed'
+
+p.md
+  $baselined-typography(body-md)
+  margin-bottom $bl(1)
+
+h1.md, h2.md
+  $baselined-typography(body-xl)
+  text-transform uppercase
+  font-weight var(--font-weight--bold)
+  font-family 'Barlow Semi Condensed'
+
+h3.md
+  $baselined-typography(body-md)
+  $regular()
+  text-transform uppercase
+  font-style italic
+  font-family 'Barlow Semi Condensed'
+
+h4.md
+  $baselined-typography(body-md)
+  text-transform none
+  font-style italic
+  font-family 'Barlow Semi Condensed'
+
+hr.md
+  margin 0
+  padding 0
+  height $bl(1)
+  border 0
+
+// section.md, blockquote.md, .level1
+ul.md, ol.md
+  $baselined-typography(body-md)
+  position relative
+  margin-left $bl(1)
+
+  p.md
+    top 0
+    margin 0
+    padding 0
+
+ul.md, ol.md
+  ul.md, ol.md
+    top 0
+
+blockquote.md
+  margin $bl(1)
+  margin-right 0
+  // padding  $bl(0) $bl(1) $bl(0.001) $bl(1)
+  // background linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), #eee
+  // background-color var(--color-bg__page)
+  // background-size 100% $bl(0.5), 100% $bl(1), 100% 100%
+  font-style italic
+
+  // border $bl(1) #eee solid
+  cite
+    text-align right
+
+  cite > .bib-ref
+    $baselined-typography(body-sm)
+    display inline
+
+  > ul.md, > ol.md
+    $baselined-typography(body-md)
+
+ul.md li:before
+  position absolute
+  left calc(-1 * var(--baseline-height))
+  display inline-block
+  width $bl(1)
+  content '—'
+  text-align center
+  font-weight bold
+  font-size 0.8em
+  // font-family Arial
+
+ol.md
+  counter-reset ol-counter
+
+  li
+    counter-increment ol-counter
+
+  li:before
+    position absolute
+    left calc(-1 * var(--baseline-height))
+    display inline-block
+    width $bl(0.5)
+    content counter(ol-counter)
+    content counter(ol-counter, decimal)
+    text-align left
+    font-weight var(--font-weight--bold)
+    font-variant small-caps
+    opacity 0.8
+
+figcaption.md, .caption
+  font-weight var(--font-weight--bold)
+  $baselined-typography(caption-sm)
+
+.small
+  $baselined-typography(body-sm)
+
+.large
+  $baselined-typography(body-md)
+  font-weight var(--font-weight--bold)
+
+.center figcaption
+  text-align center
+
+.footnote-ref
+  position relative
+  top -5px
+  font-size var(font-size--body-xs)
+  opacity 0.5
+
+.footnote-backref
+  display none
+
+.footnote-item, .footnote-item p
+  display inline-block
+  margin 0 !important
+  padding 0 !important
+
+  span.inline
+    border none
+    background-color transparent
+
+.footnote-item p
+  background-color rgba(white, 0.8)
+
+figure.level1
+  margin $bl(0.5) 0
+  padding $bl(1) $bl(1)
+  padding-bottom $bl(1)
+
+  +mq--gte-md()
+    margin $bl(1) 0
+
+  overflow scroll
+  max-width calc(100vw - 1 * var(--padding__x))
+  // background-image linear-gradient(0, #f0f0f0 48.08%, #ccc 48.08%, #ccc 50%, #f0f0f0 50%, #f0f0f0 98.08%, #ccc 98.08%, #ccc 100%)
+  // background-size 100% $bl(1)
+  background-color #eee
+
+  > p
+    $baselined-typography(body-sm)
+
+  figcaption
+    p
+      font-weight var(--font-weight--bold)
+      $baselined-typography(body-md)
+      text-transform uppercase
+
+.line-numbers-mode
+  .line-numbers
+    display none

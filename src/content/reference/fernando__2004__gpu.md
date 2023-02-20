@@ -9,10 +9,11 @@ cslItem:
   event-place: Boston
   ISBN: 978-0-321-22832-1
   issued:
-    - year: 2004
+    date-parts:
+      - - 2004
   keyword: >-
     #nosource;Computer graphics;Real-time
-    programming;collection::pathicles::pathicles::gpgpu
+    programming;collection::pathicles::gpgpu
   number-of-pages: "765"
   publisher: Addison-Wesley
   publisher-place: Boston
@@ -26,15 +27,13 @@ scopedTags:
   - tag: Real-time programming
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: gpgpu
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="fernando__2004__gpu" class="csl-entry">Fernando, R. Ed.. (n.d.). <i>GPU gems: programming techniques, tips, and tricks for real-time graphics</i>. Addison-Wesley.</div>
+      <div data-csl-entry-id="fernando__2004__gpu" class="csl-entry">Fernando, R. ed. (2004) <i>GPU gems: programming techniques, tips, and tricks for real-time graphics</i>. Boston: Addison-Wesley.</div>
     </div>
-  citation: Fernando, n.d.
-bibTex: "@book{fernando__2004__gpu,\n\taddress = {Boston},\n\teditor = {Fernando, Randima},\n\tpublisher = {Addison-Wesley},\n\ttitle = {GPU gems: programming techniques, tips, and tricks for real-time graphics},\n}\n\n"
+  citation: Fernando, 2004
+bibTex: "@book{fernando__2004__gpu,\n\taddress = {Boston},\n\teditor = {Fernando, Randima},\n\tyear = {2004},\n\tpublisher = {Addison-Wesley},\n\ttitle = {GPU gems: programming techniques, tips, and tricks for real-time graphics},\n}\n\n"
 ---

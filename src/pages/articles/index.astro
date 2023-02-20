@@ -1,23 +1,20 @@
 ---
-import { SITE } from "@config";
-import Articles from "@layouts/Articles.astro";
+import { SITE } from "@config"
+import Articles from "@layouts/ArticleListLayout.astro"
 
-import getPageNumbers from "@utils/getPageNumbers";
+import { getPageNumbers } from "@utils/getPageNumbers"
 
-import { getCollection } from "astro:content";
-import getSortedArticles from "@utils/getSortedArticles";
+import { getArticles } from "@utils/getArticles"
 
-const articles = await getCollection("article");
+const articles = await getArticles()
 
-const sortedPosts = getSortedArticles(articles);
+const totalPages = getPageNumbers(articles.length, SITE.articlesPerPage)
 
-const totalPages = getPageNumbers(sortedPosts.length);
-
-const paginatedPosts = sortedPosts.slice(0, SITE.postPerPage);
+const paginatedArticles = articles.slice(0, SITE.articlesPerPage)
 ---
 
 <Articles
-  articles={paginatedPosts}
+  articles={paginatedArticles}
   pageNum={1}
   totalPages={totalPages.length}
 />

@@ -1,23 +1,20 @@
 ---
-import { SITE } from "@config";
-import References from "@layouts/References.astro";
+import { SITE } from "@config"
+import ReferenceList from "@layouts/ReferenceListLayout.astro"
 
-import getPageNumbers from "@utils/getPageNumbers";
+import { getPageNumbers } from "@utils/getPageNumbers"
 
-import { getCollection } from "astro:content";
-import getSortedReferences from "@utils/getSortedReferences";
+import { getReferences } from "@utils/getReferences"
 
-const references = await getCollection("reference");
+const references = await getReferences()
 
-const sortedPosts = getSortedReferences(references);
+const totalPages = getPageNumbers(references.length, SITE.issuesPerPage)
 
-const totalPages = getPageNumbers(sortedPosts.length);
-
-const paginatedPosts = sortedPosts.slice(0, SITE.referencesPerPage);
+const paginatedReferences = references.slice(0, SITE.referencesPerPage)
 ---
 
-<References
-  references={paginatedPosts}
+<ReferenceList
+  references={paginatedReferences}
   pageNum={1}
   totalPages={totalPages.length}
 />

@@ -1,10 +1,6 @@
-// const makeBibliography = require('./lib/makeBibliography')
-// const combineBibtexFiles = require('./lib/combineBibtexFiles')
-// const createBibtex = require('./lib/createBibtex')
-
 import { Cite } from '@citation-js/core'
 import fg from 'fast-glob'
-import { load, dump } from 'js-yaml'
+import { dump } from 'js-yaml'
 
 import '@citation-js/plugin-bibtex'
 import '@citation-js/plugin-csl'
@@ -13,10 +9,8 @@ import { join } from 'path'
 
 const readCSLItems = (fileNames) =>
   fileNames.flatMap(
-    (fileName) => load(readFileSync(fileName).toString()).references
+    (fileName) => JSON.parse(readFileSync(fileName).toString())
   )
-
-
 
 const generate = ({ globPattern, tagScoper }) => {
   const clsItems = readCSLItems(
@@ -28,6 +22,8 @@ const generate = ({ globPattern, tagScoper }) => {
   const processCitation = (s = '') => s.replace('(', '').replace(')', '')
 
   let bibliography = clsItems.flatMap((cslItem) => {
+
+
     cite.set(cslItem)
     return {
       cslItem,
@@ -41,13 +37,13 @@ const generate = ({ globPattern, tagScoper }) => {
         bibliography: processCitation(
           cite.format('bibliography', {
             format: 'html',
-            template: 'apa',
+            template: 'harvard1',
             lang: 'en-US'
           })
         ), citation: processCitation(
           cite.format('citation', {
             format: 'html',
-            template: 'apa',
+            template: 'harvard1',
             lang: 'en-US'
           })
         )
@@ -57,8 +53,6 @@ const generate = ({ globPattern, tagScoper }) => {
       bibTex: cite.format('bibtex')
     }
   })
-
-  // console.log(JSON.stringify(bibliography))
 
 
   bibliography.forEach((bibliographyEntry) => {
@@ -89,7 +83,7 @@ const generate = ({ globPattern, tagScoper }) => {
 
 
 generate({
-  globPattern: 'jerrobs.yaml',
+  globPattern: 'jerrobs.**.json',
   tagScoper: (tag) => {
 
     if (!tag.startsWith('collection::'))

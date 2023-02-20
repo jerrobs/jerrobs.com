@@ -13,9 +13,10 @@ cslItem:
   event-place: London
   ISBN: 978-1-85669-445-2
   issued:
-    - year: 2005
+    date-parts:
+      - - 2005
   keyword: >-
-    #nosource;_has-format:book;_has-setting:professional;collection::space::space::microtypography
+    #nosource;_has-format:book;_has-setting:professional;collection::space::microtypography
   language: en
   publisher: Laurence King Publishing
   publisher-place: London
@@ -29,15 +30,13 @@ scopedTags:
   - tag: _has-setting:professional
   - tag: space
     scope: issue
-  - tag: space
-    scope: issue
   - tag: microtypography
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="cheng__2005__designing" class="csl-entry">Cheng, K. n.d.. <i>Designing type</i>. Laurence King Publishing. http://books.google.de/books?id=a2cEeJvXyIQC&#38;printsec=frontcover&#38;dq=karen+cheng&#38;hl=&#38;cd=1&#38;source=gbs_api</div>
+      <div data-csl-entry-id="cheng__2005__designing" class="csl-entry">Cheng, K. 2005 <i>Designing type</i>. London: Laurence King Publishing. Available at: http://books.google.de/books?id=a2cEeJvXyIQC&#38;printsec=frontcover&#38;dq=karen+cheng&#38;hl=&#38;cd=1&#38;source=gbs_api.</div>
     </div>
-  citation: Cheng, n.d.
-bibTex: "@book{cheng__2005__designing,\n\taddress = {London},\n\tauthor = {Cheng, Karen},\n\tpublisher = {Laurence King Publishing},\n\ttitle = {Designing type},\n}\n\n"
+  citation: Cheng, 2005
+bibTex: "@book{cheng__2005__designing,\n\taddress = {London},\n\tauthor = {Cheng, Karen},\n\tyear = {2005},\n\tpublisher = {Laurence King Publishing},\n\ttitle = {Designing type},\n}\n\n"
 ---

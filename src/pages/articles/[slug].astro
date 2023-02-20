@@ -1,53 +1,55 @@
 ---
-import { CollectionEntry, getCollection } from "astro:content";
-import Articles from "@layouts/Articles.astro";
-import ArticleDetails from "@layouts/ArticleDetails.astro";
-import getSortedArticles from "@utils/getSortedArticles";
-import getPageNumbers from "@utils/getPageNumbers";
-import slugify from "@utils/slugify";
-import { SITE } from "@config";
+import { CollectionEntry, getCollection } from "astro:content"
+import Articles from "@layouts/ArticleListLayout.astro"
+import Article from "@layouts/ArticleLayout.astro"
+import { getPageNumbers } from "@utils/getPageNumbers"
+import { SITE } from "@config"
+import { getArticles } from "@utils/getArticles"
 
 export interface Props {
-  article: CollectionEntry<"issue">;
+  article: CollectionEntry<"article">
 }
+
+const { slug } = Astro.params
+const { article } = Astro.props
+
+const articles = await getArticles()
+
+const totalPages = getPageNumbers(articles.length, SITE.articlesPerPage)
 
 export async function getStaticPaths() {
-  const articles = await getCollection("article", ({ data }) => !data.draft);
+  const articles = await getCollection("article", ({ data }) => !data.draft)
 
-  const articleResult = articles.map(article => ({
-    params: { slug: slugify(article.data) },
+  let viewPaths = articles.map(article => ({
+    params: { slug: article.slug },
     props: { article },
-  }));
+  }))
 
-  const pagePaths = getPageNumbers(articles.length).map(pageNum => ({
-    params: { slug: String(pageNum) },
-  }));
+  // let pages = getPageNumbers(articles.length, SITE.articlesPerPage)
 
-  return [...articleResult, ...pagePaths];
+  // console.log(pages)
+
+  // const listPaths = pages.map(pageNum => ({
+  //   params: { slug: String(pageNum) },
+  // }))
+  return viewPaths
+
+  // return [...viewPaths, ...listPaths]
 }
-
-const { slug } = Astro.params;
-const { article } = Astro.props;
-
-const articles = await getCollection("article");
-
-const sortedArticles = getSortedArticles(articles);
-
-const totalPages = getPageNumbers(sortedArticles.length);
 
 const currentPage =
   slug && !isNaN(Number(slug)) && totalPages.includes(Number(slug))
     ? Number(slug)
-    : 0;
-const lastArticle = currentPage * SITE.articlePerPage;
-const startArticle = lastArticle - SITE.articlePerPage;
+    : 0
+const lastArticle = currentPage * SITE.articlesPerPage
+const startArticle = lastArticle - SITE.articlesPerPage
 
-const paginatedArticles = sortedArticles.slice(startArticle, lastArticle);
+const paginatedArticles = articles.slice(startArticle, lastArticle)
 ---
 
 {
   article ? (
-    <ArticleDetails article={article} />
+    <Article article={article} />
   ) : (
     <Articles
       articles={paginatedArticles}

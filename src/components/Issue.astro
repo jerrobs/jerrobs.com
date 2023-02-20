@@ -1,0 +1,36 @@
+---
+import type { CollectionEntry } from "astro:content"
+import { getEntryBySlug } from "astro:content"
+import { renderInline } from "@utils/markdown/render.ts"
+import ArticlePreview from "@components/ArticlePreview.astro"
+
+export interface Props {
+  issue: CollectionEntry<"issue">
+}
+const { issue } = Astro.props
+const { title, description, subtitle } = issue.data
+
+const articles = await issue.data.articles.map(
+  async articleSlug => await getEntryBySlug("article", articleSlug)
+)
+
+console.log(articles)
+
+const { Content } = await issue.render()
+---
+
+<article id="issue" role="article" class="prose mx-auto mt-8 max-w-3xl">
+  <h1 class="issue-title" set:html={renderInline(title)} />
+  <p class="issue-subtitle" set:html={renderInline(subtitle)} />
+  <p class="issue-abstract" set:html={renderInline(description)} />
+
+  <ul class="issue__articles">
+    {
+      articles.map(article => (
+        <ArticlePreview href={`/articles/${article.slug}`} article={article} />
+      ))
+    }
+  </ul>
+
+  <Content />
+</article>

@@ -10,8 +10,9 @@ cslItem:
   event-place: Boca Raton
   ISBN: 978-1-351-97427-1 978-1-351-97428-8
   issued:
-    - year: 2018
-  keyword: "#nosource;collection::pathicles::pathicles::game_development"
+    date-parts:
+      - - 2018
+  keyword: "#nosource;collection::pathicles::game_development"
   number-of-pages: "1"
   publisher: Taylor and Francis, CRC Press
   publisher-place: Boca Raton
@@ -22,15 +23,13 @@ scopedTags:
   - tag: "#nosource"
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: game_development
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="gregory__2018__game" class="csl-entry">Gregory, J. n.d.. <i>Game engine architecture</i> (Third edition). Taylor and Francis, CRC Press.</div>
+      <div data-csl-entry-id="gregory__2018__game" class="csl-entry">Gregory, J. 2018 <i>Game engine architecture</i>. Third edition. Boca Raton: Taylor and Francis, CRC Press.</div>
     </div>
-  citation: Gregory, n.d.
-bibTex: "@book{gregory__2018__game,\n\taddress = {Boca Raton},\n\tauthor = {Gregory, Jason},\n\tedition = {Third edition},\n\tpublisher = {{Taylor and Francis, CRC Press}},\n\ttitle = {Game engine architecture},\n}\n\n"
+  citation: Gregory, 2018
+bibTex: "@book{gregory__2018__game,\n\taddress = {Boca Raton},\n\tauthor = {Gregory, Jason},\n\tedition = {Third edition},\n\tyear = {2018},\n\tpublisher = {{Taylor and Francis, CRC Press}},\n\ttitle = {Game engine architecture},\n}\n\n"
 ---

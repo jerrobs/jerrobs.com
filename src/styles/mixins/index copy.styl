@@ -1,0 +1,49 @@
+@import './../config.styl'
+@import './responsive.styl'
+@import './border.styl'
+@import './interaction.styl'
+@import './typography.styl'
+
+$toc-item__body()
+  display flex
+  flex-direction row-reverse
+  justify-content flex-end
+  align-content flex-start
+  height var(--ui__nav-item__height--md)
+  color var(--color-fg__ui)
+  line-height var(--ui__nav-item__height--md)
+  $border-bottom()
+
+  .toc-item__icon
+    display flex
+    flex 0 0 var(--ui__nav-item__icon__width)
+    padding 0 var(--ui__padding__x)
+    text-align center
+    cursor pointer
+
+    .section-number
+      &[data-depth='1']
+        flex 1
+        font-weight var(--font-weight--bold)
+        font-variant-numeric tabular-nums
+
+      &[data-depth='2']
+        display none
+        flex 1
+        font-weight var(--font-weight--light)
+        opacity 0.1
+
+  .unicon
+    display flex
+    justify-content center
+    align-items center
+    width 100%
+    height 100%
+    fill var(--color-fg__ui) !important
+
+  .toc-item__label
+    flex 1 1 100%
+    overflow hidden
+    padding 0 calc(0.5 * var(--ui__nav-item__icon__width)) 0 var(--ui__padding__x)
+    text-overflow ellipsis
+    white-space nowrap

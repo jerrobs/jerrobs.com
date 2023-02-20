@@ -12,9 +12,10 @@ cslItem:
     performance attainable. We discuss how these techniques can be applied in
     processing vector-ﬁeld signal data in interactive applications.
   accessed:
-    - year: 2020
-      month: 11
-      day: 2
+    date-parts:
+      - - 2020
+        - 11
+        - 2
   author:
     - family: Husselmann
       given: Alwyn V.
@@ -27,8 +28,9 @@ cslItem:
   event-title: Signal and Image Processing
   ISBN: 978-0-88986-928-8
   issued:
-    - year: 2012
-  keyword: "#nosource;collection::pathicles::pathicles::gpgpu"
+    date-parts:
+      - - 2012
+  keyword: "#nosource;collection::pathicles::gpgpu"
   language: en
   publisher: ACTAPRESS
   publisher-place: Honolulu, USA
@@ -42,15 +44,13 @@ scopedTags:
   - tag: "#nosource"
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: gpgpu
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="husselmann_hawick__2012__3d" class="csl-entry">Husselmann, A. V., &#38; Hawick, K. A. n.d.. 3D Vector-Field Data Processing and Visualisation on Graphical Processing Units. <i>Signal and Image Processing</i>. Signal and Image Processing, Honolulu, USA. https://doi.org/10.2316/P.2012.786-084</div>
+      <div data-csl-entry-id="husselmann_hawick__2012__3d" class="csl-entry">Husselmann, A.V. and Hawick, K.A. 2012 “3D Vector-Field Data Processing and Visualisation on Graphical Processing Units,” in <i>Signal and Image Processing</i>. <i>Signal and Image Processing</i>, Honolulu, USA: ACTAPRESS. doi:10.2316/P.2012.786-084.</div>
     </div>
-  citation: Husselmann &#38; Hawick, n.d.
-bibTex: "@inproceedings{husselmann_hawick__2012__3d,\n\taddress = {Honolulu, USA},\n\tauthor = {Husselmann, Alwyn V. and Hawick, Ken A.},\n\tbooktitle = {Signal and {Image} {Processing}},\n\torganization = {ACTAPRESS},\n\ttitle = {3D {Vector}-{Field} {Data} {Processing} and {Visualisation} on {Graphical} {Processing} {Units}},\n}\n\n"
+  citation: Husselmann and Hawick, 2012
+bibTex: "@inproceedings{husselmann_hawick__2012__3d,\n\tnote = {[Online; accessed 2020-11-02]},\n\taddress = {Honolulu, USA},\n\tauthor = {Husselmann, Alwyn V. and Hawick, Ken A.},\n\tbooktitle = {Signal and {Image} {Processing}},\n\tyear = {2012},\n\torganization = {ACTAPRESS},\n\ttitle = {3D {Vector}-{Field} {Data} {Processing} and {Visualisation} on {Graphical} {Processing} {Units}},\n}\n\n"
 ---

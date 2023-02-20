@@ -32,18 +32,20 @@ cslItem:
     shader tutorials which introduce complex math and graphics theory before
     ever getting something on the screen.
   accessed:
-    - year: 2021
-      month: 1
-      day: 11
+    date-parts:
+      - - 2021
+        - 1
+        - 11
   author:
     - family: Halladay
       given: Kyle
   citation-key: halladay__2019__practical
   ISBN: 978-1-4842-4457-9
   issued:
-    - year: 2019
+    date-parts:
+      - - 2019
   keyword: >-
-    #nosource;_has-holding::oreilly-learning;collection::pathicles::pathicles::graphics_programming
+    #nosource;_has-holding::oreilly-learning;collection::pathicles::graphics_programming
   language: English
   note: "OCLC: 1137099837"
   source: Open WorldCat
@@ -55,15 +57,13 @@ scopedTags:
   - tag: _has-holding::oreilly-learning
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: graphics_programming
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="halladay__2019__practical" class="csl-entry">Halladay, K. n.d.. <i>Practical Shader Development Vertex and Fragment Shaders for Game Developers</i>. https://doi.org/10.1007/978-1-4842-4457-9</div>
+      <div data-csl-entry-id="halladay__2019__practical" class="csl-entry">Halladay, K. 2019 <i>Practical Shader Development Vertex and Fragment Shaders for Game Developers</i>. Available at: https://doi.org/10.1007/978-1-4842-4457-9 (Accessed: January 11, 2021).</div>
     </div>
-  citation: Halladay, n.d.
-bibTex: "@book{halladay__2019__practical,\n\tauthor = {Halladay, Kyle},\n\tnote = {OCLC: 1137099837},\n\ttitle = {Practical {Shader} {Development} {Vertex} and {Fragment} {Shaders} for {Game} {Developers}},\n\thowpublished = {https://doi.org/10.1007/978-1-4842-4457-9},\n}\n\n"
+  citation: Halladay, 2019
+bibTex: "@book{halladay__2019__practical,\n\tauthor = {Halladay, Kyle},\n\tyear = {2019},\n\tnote = {OCLC: 1137099837},\n\ttitle = {Practical {Shader} {Development} {Vertex} and {Fragment} {Shaders} for {Game} {Developers}},\n\thowpublished = {https://doi.org/10.1007/978-1-4842-4457-9},\n}\n\n"
 ---

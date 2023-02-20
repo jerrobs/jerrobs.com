@@ -3,20 +3,23 @@ cslItem:
   id: __2022__sixtrack
   abstract: SixTrack – 6D Tracking Code
   accessed:
-    - year: 2022
-      month: 10
-      day: 18
+    date-parts:
+      - - 2022
+        - 10
+        - 18
   citation-key: __2022__sixtrack
   genre: Fortran
   issued:
-    - year: 2022
-      month: 4
-      day: 4
-  keyword: /unread;collection::pathicles::pathicles::codes
+    date-parts:
+      - - 2022
+        - 4
+        - 4
+  keyword: /unread;collection::pathicles::codes
   original-date:
-    - year: 2015
-      month: 8
-      day: 19
+    date-parts:
+      - - 2015
+        - 8
+        - 19
   publisher: SixTrack
   source: GitHub
   title: SixTrack
@@ -26,15 +29,13 @@ scopedTags:
   - tag: /unread
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: codes
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="__2022__sixtrack" class="csl-entry"><i>SixTrack</i>. n.d.. [Fortran]. SixTrack. https://github.com/SixTrack/SixTrack</div>
+      <div data-csl-entry-id="__2022__sixtrack" class="csl-entry"><i>SixTrack</i> 2022. SixTrack. Available at: https://github.com/SixTrack/SixTrack (Accessed: October 18, 2022).</div>
     </div>
-  citation: <i>SixTrack</i>, n.d.
-bibTex: "@misc{__2022__sixtrack,\n\tpublisher = {SixTrack},\n\ttitle = {SixTrack},\n\ttype = {Fortran},\n}\n\n"
+  citation: <i>SixTrack</i>, 2022
+bibTex: "@misc{__2022__sixtrack,\n\tnote = {[Online; accessed 2022-10-18]},\n\tyear = {2022},\n\tmonth = {apr 4},\n\tpublisher = {SixTrack},\n\ttitle = {SixTrack},\n\ttype = {Fortran},\n}\n\n"
 ---

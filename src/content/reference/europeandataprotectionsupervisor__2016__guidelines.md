@@ -5,9 +5,10 @@ cslItem:
     - literal: European data protection supervisor
   citation-key: europeandataprotectionsupervisor__2016__guidelines
   issued:
-    - year: 2016
-      month: 11
-  keyword: "#nosource;collection::jerrobs::jerrobs::privacy"
+    date-parts:
+      - - 2016
+        - 11
+  keyword: "#nosource;collection::jerrobs::privacy"
   language: en
   title: >-
     Guidelines on the protection of personal data processed through web services
@@ -19,15 +20,13 @@ scopedTags:
   - tag: "#nosource"
   - tag: jerrobs
     scope: issue
-  - tag: jerrobs
-    scope: issue
   - tag: privacy
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="europeandataprotectionsupervisor__2016__guidelines" class="csl-entry">European data protection supervisor. n.d.. <i>Guidelines on the protection of personal data processed through web services provided by EU institutions</i>. https://edps.europa.eu/sites/edp/files/publication/16-11-07_guidelines_web_services_en.pdf</div>
+      <div data-csl-entry-id="europeandataprotectionsupervisor__2016__guidelines" class="csl-entry">European data protection supervisor 2016 <i>Guidelines on the protection of personal data processed through web services provided by EU institutions</i>. Available at: https://edps.europa.eu/sites/edp/files/publication/16-11-07_guidelines_web_services_en.pdf.</div>
     </div>
-  citation: European data protection supervisor, n.d.
-bibTex: "@techreport{europeandataprotectionsupervisor__2016__guidelines,\n\tauthor = {{European data protection supervisor}},\n\ttitle = {Guidelines on the protection of personal data processed through web services provided by {EU} institutions},\n\thowpublished = {https://edps.europa.eu/sites/edp/files/publication/16-11-07\\textunderscore{}guidelines\\textunderscore{}web\\textunderscore{}services\\textunderscore{}en.pdf},\n}\n\n"
+  citation: European data protection supervisor, 2016
+bibTex: "@techreport{europeandataprotectionsupervisor__2016__guidelines,\n\tauthor = {{European data protection supervisor}},\n\tyear = {2016},\n\tmonth = {11},\n\ttitle = {Guidelines on the protection of personal data processed through web services provided by {EU} institutions},\n\thowpublished = {https://edps.europa.eu/sites/edp/files/publication/16-11-07\\textunderscore{}guidelines\\textunderscore{}web\\textunderscore{}services\\textunderscore{}en.pdf},\n}\n\n"
 ---

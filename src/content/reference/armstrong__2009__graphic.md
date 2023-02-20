@@ -11,9 +11,9 @@ cslItem:
   event-place: New York
   ISBN: 978-1-56898-772-9
   issued:
-    - year: 2009
-  keyword: >-
-    #nosource;collection::space::space::case_for_space;collection::space::space::introduction
+    date-parts:
+      - - 2009
+  keyword: "#nosource;collection::space::case_for_space;collection::space::introduction"
   note: "OCLC: ocn228300819"
   number-of-pages: "151"
   publisher: Princeton Architectural Press
@@ -26,11 +26,7 @@ scopedTags:
   - tag: "#nosource"
   - tag: space
     scope: issue
-  - tag: space
-    scope: issue
   - tag: case_for_space
-    scope: issue
-  - tag: space
     scope: issue
   - tag: space
     scope: issue
@@ -39,8 +35,8 @@ scopedTags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="armstrong__2009__graphic" class="csl-entry">Armstrong, H. Ed.. (n.d.). <i>Graphic design theory: readings from the field</i> (1st ed). Princeton Architectural Press.</div>
+      <div data-csl-entry-id="armstrong__2009__graphic" class="csl-entry">Armstrong, H. ed. (2009) <i>Graphic design theory: readings from the field</i>. 1st ed. New York: Princeton Architectural Press (Design briefs).</div>
     </div>
-  citation: Armstrong, n.d.
-bibTex: "@book{armstrong__2009__graphic,\n\taddress = {New York},\n\tseries = {Design briefs},\n\tedition = {1st ed},\n\teditor = {Armstrong, Helen},\n\tnote = {OCLC: ocn228300819},\n\tpublisher = {Princeton Architectural Press},\n\ttitle = {Graphic design theory: readings from the field},\n}\n\n"
+  citation: Armstrong, 2009
+bibTex: "@book{armstrong__2009__graphic,\n\taddress = {New York},\n\tseries = {Design briefs},\n\tedition = {1st ed},\n\teditor = {Armstrong, Helen},\n\tyear = {2009},\n\tnote = {OCLC: ocn228300819},\n\tpublisher = {Princeton Architectural Press},\n\ttitle = {Graphic design theory: readings from the field},\n}\n\n"
 ---

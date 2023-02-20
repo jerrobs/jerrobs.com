@@ -1,0 +1,49 @@
+---
+pubDatetime: 2023-02-15T00:00:00.000+00:00
+issue: space
+version: "1.0 (unpublished)"
+title: Atoms of meaning
+subtitle: The reinvention of the word
+sectionNumber: SPC.002
+scopedTags:
+  - tag: space
+    scope: issue
+references:
+  tags:
+    - space/reinvention-of-the-word
+description: >
+  Irish monks introduced the interword spaces in writing to make the word of their god more humanly readable. The resulting improvement of legibility was so persuasive that also today's atheists like to use it.
+---
+
+## Aristophanes of Byzantium Dionysios Thrax
+
+Aristophanes of Byzantium (257 - 185/180 BC)
+
+The first recognized formal system of punctuation was developed by the Greek scholar Aristophanes of Byzantium, librarian at Alexandria around 200 B.C. His system used only a set of three points of varying heights (distinctiones): media distinctio placed mid-level, serving the function of a comma (a short pause); subdistinctio level with the text, serving the function of a colon or semicolon (a longer pause); and distinctio placed near the top of a line of text, to mark a very long pause (though not necessarily the end of a sentence).
+
+Aristophanes' system was never widely used, however, and by the first century B.C., the only punctuation really in use were occasional interpuncts, which the Romans used to indicate word divisions in formal inscriptions, such as those found on buildings and monuments. The interpunct was a small middle dot vertically centered between words, e.g. DONA·NOBIS·REQVIEM. Interpuncts were perhaps the first consistent visual representation of word boundaries in a written language.
+
+Ancient Greek, by contrast, had not developed interpuncts; all the letters ran together. So, when a wave of enthusiasm for Greek scholarship, language and culture swept ancient Rome, the use of interpuncts died out. Some time after that nearly all writing returned to scriptio continua, that is, no spaces, breaks, or other distinguishing marks between words.
+
+The use of spaces ( ) for interword separation didn't appear until much later, roughly 600-800 AD. By the seventh century, the convention was quite common. In some early medieval manuscripts, two vertically aligned dots represented a full stop at the end of a sentence. Eventually one of the dots was dropped, and the remaining dot served as a period, colon or comma, depending on whether it was aligned with the top, middle, or base of the lowercase letters.
+
+The father of punctuation was probably Aristophanes of Byzantium--the librarian, not the playwright--in the third century B.C. His objective was to give the reader some clues as to how the text should be spoken--not to comply with rules of grammar (a purpose superimposed upon punctuation thousands of years later). He used a system of dots: the longest section (periodos) ended with a high dot, a medium section (colon) ended with a low dot (.), and a short section (comma) ended with a midlevel dot (·).
+
+Dionysius Thrax (190-170 BCE) was a Hellenistic grammarian a. In his _Art of Grammar_ (tékhnē grammatikē), he describes three different types of marks that help readers to
+
+> §4. ON PUNCTUATION
+> There are three punctuation marks: the full stop, the semicolon, and the comma. The full stop denotes that the sense is complete; the semicolon is a sign of where to take breath; the comma shows that the sense is not yet complete, but that something further must be added.
+> §5. WHERE DOES THE FULL STOP DIFFER FROM THE COMMA?
+> In time. At the full stop the pause is long, at the comma, very short
+> <bib-ref cite-key="thrax__1874__tekhne" locator="p. 4" />
+
+## The reinvention of the word
+
+Chapter 6. The origins of continental word separation
+
+> In the seventh, eighth, ninth, and early 10th centuries, when the primary function of reading was the memorisation and oral performance of prayer in a familiar and intensively read corpus inherited from antiquity, libraries were composed predominantly of liturgical, patristic, and grammatical texts. Continental monks perceived no need to make the reading of this corpus is easier. Teach, in ambiguous text format enhanced the mystery and power of clerics, who will have the soul dispensers of the divine right to the very almost entirely illiterate. After 950, a profound change occurred in the nature of what monks and other clerics choose to read. From the second half of the 10th centuryTo the 12th, school it's produced a new corpus of To the 12th, Scrooge produced a new corpus of Proto scholastic texts. They differed from the earlier liturgical, patristic, and grammatical text in that they obliged the reader to grapple with highly technical concepts expressed in grammatical structures based upon principles of Aristotelian dialectic. The number of dialectical texts in libraries grew steadily in the 11th and 12th centuries, and they became the hallmark of new library catalogues.
+
+Logik enters the reading room:
+
+> After 950, a profound change occurred in the nature of what monks and other clerics chose to read. From the second half of the tenth century to the twelfth, schools produced a new corpus of protoscholastic texts in that thex expressed in grammatical structures based up principles of Aristotelian dialectic. The number of dialectical texts grew steadily oin the eleventh and twelth cdentzuries, and they became the hallmark of new library catalogues. The new and difficult works had to be decoded swiftly and, above all, read with comprehension. The desirability of making reading easier became apparent to continental scholars, and to this end the work separation by space of Insular manuscripts became an essential linguistic toolt. By the thirteenth and 1fourteenth centuries, when the disciplines of grammar, theology, and law were thoroughly permitted with the principles of Aristotelian logic and systematic word order, scholastic treatises where disseminated only in word-separated text format.
+> <bib-ref cite-key="saenger__1997__space" locator="p. 120f" />

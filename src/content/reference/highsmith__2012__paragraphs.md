@@ -21,9 +21,10 @@ cslItem:
   collection-title: Typographic fundamentals
   ISBN: "89116991605"
   issued:
-    - year: 2012
+    date-parts:
+      - - 2012
   keyword: >-
-    #nosource;_has-format:book;_has-setting:professional;_has-type:handbook;collection::space::space::microtypography
+    #nosource;_has-format:book;_has-setting:professional;_has-type:handbook;collection::space::microtypography
   language: en
   publisher: Font Bureau
   title: Inside paragraphs
@@ -37,15 +38,13 @@ scopedTags:
   - tag: _has-type:handbook
   - tag: space
     scope: issue
-  - tag: space
-    scope: issue
   - tag: microtypography
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="highsmith__2012__paragraphs" class="csl-entry">Highsmith, C. n.d.. <i>Inside paragraphs</i>. Font Bureau. http://books.google.de/books?id=mOWV9ikWq10C&#38;q=highsmith+inside+paragraphs&#38;dq=highsmith+inside+paragraphs&#38;hl=&#38;cd=1&#38;source=gbs_api</div>
+      <div data-csl-entry-id="highsmith__2012__paragraphs" class="csl-entry">Highsmith, C. 2012 <i>Inside paragraphs</i>. Font Bureau (Typographic fundamentals). Available at: http://books.google.de/books?id=mOWV9ikWq10C&#38;q=highsmith+inside+paragraphs&#38;dq=highsmith+inside+paragraphs&#38;hl=&#38;cd=1&#38;source=gbs_api.</div>
     </div>
-  citation: Highsmith, n.d.
-bibTex: "@book{highsmith__2012__paragraphs,\n\tauthor = {Highsmith, Cyrus},\n\tseries = {Typographic fundamentals},\n\tpublisher = {Font Bureau},\n\ttitle = {Inside paragraphs},\n}\n\n"
+  citation: Highsmith, 2012
+bibTex: "@book{highsmith__2012__paragraphs,\n\tauthor = {Highsmith, Cyrus},\n\tseries = {Typographic fundamentals},\n\tyear = {2012},\n\tpublisher = {Font Bureau},\n\ttitle = {Inside paragraphs},\n}\n\n"
 ---

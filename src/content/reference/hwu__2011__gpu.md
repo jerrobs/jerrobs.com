@@ -44,11 +44,12 @@ cslItem:
     - literal: Wen-mei W Hwu
   ISBN: 978-0-12-385964-8
   issued:
-    - year: 2011
-      month: 11
-      day: 2
+    date-parts:
+      - - 2011
+        - 11
+        - 2
   keyword: >-
-    #nosource;_has-holding::oreilly-learning;collection::pathicles::pathicles::graphics_programming
+    #nosource;_has-holding::oreilly-learning;collection::pathicles::graphics_programming
   language: en
   publisher: Elsevier
   title: GPU Computing Gems Jade Edition
@@ -58,15 +59,13 @@ scopedTags:
   - tag: _has-holding::oreilly-learning
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: graphics_programming
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="hwu__2011__gpu" class="csl-entry">Hwu, W. W. n.d.. <i>GPU Computing Gems Jade Edition</i> (Wen-mei W Hwu, Ed.). Elsevier.</div>
+      <div data-csl-entry-id="hwu__2011__gpu" class="csl-entry">Hwu, W.W. 2011 <i>GPU Computing Gems Jade Edition</i>. Edited by Wen-mei W Hwu. Elsevier (Elsevier).</div>
     </div>
-  citation: Hwu, n.d.
-bibTex: "@book{hwu__2011__gpu,\n\tauthor = {Hwu, Wen-mei W},\n\tseries = {Elsevier},\n\teditor = {{Wen-mei W Hwu}},\n\tpublisher = {Elsevier},\n\ttitle = {GPU {Computing} {Gems} {Jade} {Edition}},\n}\n\n"
+  citation: Hwu, 2011
+bibTex: "@book{hwu__2011__gpu,\n\tauthor = {Hwu, Wen-mei W},\n\tseries = {Elsevier},\n\teditor = {{Wen-mei W Hwu}},\n\tyear = {2011},\n\tmonth = {nov 2},\n\tpublisher = {Elsevier},\n\ttitle = {GPU {Computing} {Gems} {Jade} {Edition}},\n}\n\n"
 ---

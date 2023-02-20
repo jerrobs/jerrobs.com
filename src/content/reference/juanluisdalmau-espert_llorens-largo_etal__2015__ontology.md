@@ -30,8 +30,9 @@ cslItem:
   event-place: Red Hook, NY
   ISBN: 978-1-61208-386-5 978-1-5108-0034-2
   issued:
-    - year: 2015
-  keyword: "#nosource;collection::strategy::strategy::ontology"
+    date-parts:
+      - - 2015
+  keyword: "#nosource;collection::strategy::ontology"
   language: eng
   publisher: Curran Associates, Inc
   publisher-place: Red Hook, NY
@@ -42,15 +43,13 @@ scopedTags:
   - tag: "#nosource"
   - tag: strategy
     scope: issue
-  - tag: strategy
-    scope: issue
   - tag: ontology
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="juanluisdalmau-espert_llorens-largo_etal__2015__ontology" class="csl-entry">Juan Luis Dalmau-Espert, Llorens-Largo, F., &#38; Molina-Carmona, R. n.d.. An Ontology for Formalizing and Automating the Strategic Planning Process. In <i>eKNOW 2015: the Seventh International Conference on Information, Process, and Knowledge Management: February 22-27, 2015, Lisbon, Portugal</i>. Curran Associates, Inc.</div>
+      <div data-csl-entry-id="juanluisdalmau-espert_llorens-largo_etal__2015__ontology" class="csl-entry">Juan Luis Dalmau-Espert, Llorens-Largo, F. and Molina-Carmona, R. 2015 “An Ontology for Formalizing and Automating the Strategic Planning Process,” in <i>eKNOW 2015: the Seventh International Conference on Information, Process, and Knowledge Management: February 22-27, 2015, Lisbon, Portugal</i>. Red Hook, NY: Curran Associates, Inc.</div>
     </div>
-  citation: Juan Luis Dalmau-Espert et al., n.d.
-bibTex: "@inbook{JuanOntology,\n\taddress = {Red Hook, NY},\n\tauthor = {{Juan Luis Dalmau-Espert} and Llorens-Largo, Fara{\\' o}n and Molina-Carmona, Rafael},\n\tbooktitle = {eKNOW 2015: the {Seventh} {International} {Conference} on {Information}, {Process}, and {Knowledge} {Management}: February 22-27, 2015, {Lisbon}, {Portugal}},\n\tpublisher = {Curran Associates, Inc},\n\ttitle = {An {Ontology} for {Formalizing} and {Automating} the {Strategic} {Planning} {Process}},\n}\n\n"
+  citation: Juan Luis Dalmau-Espert, Llorens-Largo and Molina-Carmona, 2015
+bibTex: "@inbook{Juan2015Ontology,\n\taddress = {Red Hook, NY},\n\tauthor = {{Juan Luis Dalmau-Espert} and Llorens-Largo, Fara{\\' o}n and Molina-Carmona, Rafael},\n\tbooktitle = {eKNOW 2015: the {Seventh} {International} {Conference} on {Information}, {Process}, and {Knowledge} {Management}: February 22-27, 2015, {Lisbon}, {Portugal}},\n\tyear = {2015},\n\tpublisher = {Curran Associates, Inc},\n\ttitle = {An {Ontology} for {Formalizing} and {Automating} the {Strategic} {Planning} {Process}},\n}\n\n"
 ---

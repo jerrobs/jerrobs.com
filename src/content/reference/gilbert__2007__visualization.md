@@ -2,9 +2,10 @@
 cslItem:
   id: gilbert__2007__visualization
   accessed:
-    - year: 2020
-      month: 11
-      day: 10
+    date-parts:
+      - - 2020
+        - 11
+        - 10
   author:
     - family: Gilbert
       given: John
@@ -12,8 +13,9 @@ cslItem:
   event-place: Dordrecht
   ISBN: 978-1-4020-3613-2
   issued:
-    - year: 2007
-  keyword: "#nosource;collection::pathicles::pathicles::educational_visualization"
+    date-parts:
+      - - 2007
+  keyword: "#nosource;collection::pathicles::educational_visualization"
   language: en-US
   note: "OCLC: 1061433373"
   publisher: Springer
@@ -26,15 +28,13 @@ scopedTags:
   - tag: "#nosource"
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: educational_visualization
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="gilbert__2007__visualization" class="csl-entry">Gilbert, J. n.d.. <i>Visualization in science education</i>. Springer. http://link.springer.com/10.1007/1-4020-3613-2</div>
+      <div data-csl-entry-id="gilbert__2007__visualization" class="csl-entry">Gilbert, J. 2007 <i>Visualization in science education</i>. Dordrecht: Springer. Available at: http://link.springer.com/10.1007/1-4020-3613-2 (Accessed: November 10, 2020).</div>
     </div>
-  citation: Gilbert, n.d.
-bibTex: "@book{gilbert__2007__visualization,\n\taddress = {Dordrecht},\n\tauthor = {Gilbert, John},\n\tnote = {OCLC: 1061433373},\n\tpublisher = {Springer},\n\ttitle = {Visualization in science education},\n}\n\n"
+  citation: Gilbert, 2007
+bibTex: "@book{gilbert__2007__visualization,\n\taddress = {Dordrecht},\n\tauthor = {Gilbert, John},\n\tyear = {2007},\n\tnote = {OCLC: 1061433373},\n\tpublisher = {Springer},\n\ttitle = {Visualization in science education},\n}\n\n"
 ---

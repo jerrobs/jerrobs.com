@@ -1,29 +1,20 @@
 ---
-import { getCollection } from "astro:content";
-import Layout from "@layouts/Layout.astro";
-import Header from "@components/Header.astro";
-import Footer from "@components/Footer.astro";
-import LinkButton from "@components/LinkButton.astro";
-import Hr from "@components/Hr.astro";
-import Card from "@components/Card";
-import Socials from "@components/Socials.astro";
-import getSortedPosts from "@utils/getSortedPosts";
-import slugify from "@utils/slugify";
-import { SOCIALS } from "@config";
+import Layout from "@layouts/Layout.astro"
+import Header from "@components/Header.astro"
+import Footer from "@components/Footer.astro"
 
-const posts = await getCollection("blog");
+import { getIssues } from "@utils/getIssues"
+import IssuePreview from "@components/IssuePreview.astro"
 
-const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
-
-const socialCount = SOCIALS.filter(social => social.active).length;
+const issues = await getIssues()
+const featuredIssues = issues
 ---
 
 <Layout>
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>J.Err.Obs.</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -41,84 +32,29 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        J.Err.Obs., the Journal of Erratic Observations, publishes mini-reviews,
+        experimental and observational studies, theoretical and computational
+        analyses, case analyses, case studies and commentaries.
       </p>
-      <p>
-        Read the blog posts or check
-        <LinkButton
-          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
-      </p>
-      {
-        // only display if at least one social link is enabled
-        socialCount > 0 && (
-          <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
-            <Socials />
-          </div>
-        )
-      }
     </section>
 
-    <Hr />
-
     {
-      featuredPosts.length > 0 && (
+      featuredIssues.length > 0 && (
         <>
           <section id="featured">
-            <h2>Featured</h2>
             <ul>
-              {featuredPosts.map(({ data }) => (
-                <Card
-                  href={`/posts/${slugify(data)}`}
-                  frontmatter={data}
-                  secHeading={false}
-                />
+              {featuredIssues.map(issue => (
+                <IssuePreview href={`/issues/${issue.slug}`} issue={issue} />
               ))}
             </ul>
           </section>
-          <Hr />
         </>
       )
     }
-
-    <section id="recent-posts">
-      <h2>Recent Posts</h2>
-      <ul>
-        {
-          sortedPosts.map(
-            ({ data }, index) =>
-              index < 4 && (
-                <Card
-                  href={`/posts/${slugify(data)}`}
-                  frontmatter={data}
-                  secHeading={false}
-                />
-              )
-          )
-        }
-      </ul>
-      <div class="all-posts-btn-wrapper">
-        <LinkButton href="/posts">
-          All Posts
-          <svg xmlns="http://www.w3.org/2000/svg"
-            ><path
-              d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
-            ></path>
-          </svg>
-        </LinkButton>
-      </div>
-    </section>
   </main>
-
-  <Footer />
 </Layout>
+
+<Footer />
 
 <style>
   /* ===== Hero Section ===== */
@@ -126,7 +62,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     @apply pt-8 pb-6;
   }
   #hero h1 {
-    @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
+    @apply my-4 inline-block text-xxxl font-bold sm:my-8 sm:text-xxl;
   }
   #hero .rss-link {
     @apply mb-6;
@@ -151,7 +87,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
   #featured h2,
   #recent-posts h2 {
-    @apply text-2xl font-semibold tracking-wide;
+    @apply text-xxl font-semibold tracking-wide;
   }
   .all-posts-btn-wrapper {
     @apply my-8 text-center;

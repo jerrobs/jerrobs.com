@@ -37,9 +37,10 @@ cslItem:
     lighting, environment mapping, particle systems, image post-processing,
     procedural textures, shadow mapping, terrain, and projective textures.
   accessed:
-    - year: 2021
-      month: 1
-      day: 11
+    date-parts:
+      - - 2021
+        - 1
+        - 11
   author:
     - family: Ginsburg
       given: Dan
@@ -49,8 +50,9 @@ cslItem:
   event-place: Upper Saddle River, NJ
   ISBN: 978-0-13-344013-3 978-0-321-93388-1 978-0-13-344012-6
   issued:
-    - year: 2014
-  keyword: "#nosource;collection::pathicles::pathicles::graphics_programming"
+    date-parts:
+      - - 2014
+  keyword: "#nosource;collection::pathicles::graphics_programming"
   language: English
   note: "OCLC: 874011580"
   publisher: Addison-Wesley
@@ -63,15 +65,13 @@ scopedTags:
   - tag: "#nosource"
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: graphics_programming
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="ginsburg_purnomo__2014__opengl" class="csl-entry">Ginsburg, D., &#38; Purnomo, B. n.d.. <i>OpenGL ES 3.0 programming guide</i>. Addison-Wesley. http://proquest.safaribooksonline.com/?fpi=9780133440133</div>
+      <div data-csl-entry-id="ginsburg_purnomo__2014__opengl" class="csl-entry">Ginsburg, D. and Purnomo, B. 2014 <i>OpenGL ES 3.0 programming guide</i>. Upper Saddle River, NJ: Addison-Wesley. Available at: http://proquest.safaribooksonline.com/?fpi=9780133440133 (Accessed: January 11, 2021).</div>
     </div>
-  citation: Ginsburg &#38; Purnomo, n.d.
-bibTex: "@book{ginsburg_purnomo__2014__opengl,\n\taddress = {Upper Saddle River, NJ},\n\tauthor = {Ginsburg, Dan and Purnomo, Budirijanto},\n\tnote = {OCLC: 874011580},\n\tpublisher = {Addison-Wesley},\n\ttitle = {OpenGL {ES} 3.0 programming guide},\n}\n\n"
+  citation: Ginsburg and Purnomo, 2014
+bibTex: "@book{ginsburg_purnomo__2014__opengl,\n\taddress = {Upper Saddle River, NJ},\n\tauthor = {Ginsburg, Dan and Purnomo, Budirijanto},\n\tyear = {2014},\n\tnote = {OCLC: 874011580},\n\tpublisher = {Addison-Wesley},\n\ttitle = {OpenGL {ES} 3.0 programming guide},\n}\n\n"
 ---

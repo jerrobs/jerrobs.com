@@ -5,8 +5,9 @@ cslItem:
     - literal: ISO
   citation-key: iso__2015__information
   issued:
-    - year: 2015
-  keyword: "#nosource;_has-type:specification;collection::space::space::space_space"
+    date-parts:
+      - - 2015
+  keyword: "#nosource;_has-type:specification;collection::space::space_space"
   language: en
   title: >-
     Information technology. Coding of audio-visual objects. Part 22: Open font
@@ -18,15 +19,13 @@ scopedTags:
   - tag: _has-type:specification
   - tag: space
     scope: issue
-  - tag: space
-    scope: issue
   - tag: space_space
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="iso__2015__information" class="csl-entry">ISO. n.d.. <i>Information technology. Coding of audio-visual objects. Part 22: Open font format</i>. http://standards.iso.org/ittf/PubliclyAvailableStandards/</div>
+      <div data-csl-entry-id="iso__2015__information" class="csl-entry">ISO 2015 <i>Information technology. Coding of audio-visual objects. Part 22: Open font format</i>. Available at: http://standards.iso.org/ittf/PubliclyAvailableStandards/.</div>
     </div>
-  citation: ISO, n.d.
-bibTex: "@techreport{iso__2015__information,\n\tauthor = {{ISO}},\n\ttitle = {Information technology. {Coding} of audio-visual objects. {Part} 22: Open font format},\n\thowpublished = {http://standards.iso.org/ittf/PubliclyAvailableStandards/},\n}\n\n"
+  citation: ISO, 2015
+bibTex: "@techreport{iso__2015__information,\n\tauthor = {{ISO}},\n\tyear = {2015},\n\ttitle = {Information technology. {Coding} of audio-visual objects. {Part} 22: Open font format},\n\thowpublished = {http://standards.iso.org/ittf/PubliclyAvailableStandards/},\n}\n\n"
 ---

@@ -43,8 +43,9 @@ cslItem:
   edition: 2nd Revised edition
   ISBN: 978-1-78899-144-5 978-1-78899-761-4
   issued:
-    - year: 2018
-  keyword: "#nosource;collection::pathicles::pathicles::game_development"
+    date-parts:
+      - - 2018
+  keyword: "#nosource;collection::pathicles::game_development"
   language: en-US
   note: "OCLC: 1099606187"
   publisher: Packt Publishing
@@ -55,15 +56,13 @@ scopedTags:
   - tag: "#nosource"
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: game_development
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="edmonds__2018__mastering" class="csl-entry">Edmonds, M. n.d.. <i>Mastering Game Development with Unreal Engine 4</i> (2nd Revised edition). Packt Publishing.</div>
+      <div data-csl-entry-id="edmonds__2018__mastering" class="csl-entry">Edmonds, M. 2018 <i>Mastering Game Development with Unreal Engine 4</i>. 2nd Revised edition. Packt Publishing.</div>
     </div>
-  citation: Edmonds, n.d.
-bibTex: "@book{edmonds__2018__mastering,\n\tauthor = {Edmonds, Matt},\n\tedition = {2nd Revised edition},\n\tnote = {OCLC: 1099606187},\n\tpublisher = {Packt Publishing},\n\ttitle = {Mastering {Game} {Development} with {Unreal} {Engine} 4},\n}\n\n"
+  citation: Edmonds, 2018
+bibTex: "@book{edmonds__2018__mastering,\n\tauthor = {Edmonds, Matt},\n\tedition = {2nd Revised edition},\n\tyear = {2018},\n\tnote = {OCLC: 1099606187},\n\tpublisher = {Packt Publishing},\n\ttitle = {Mastering {Game} {Development} with {Unreal} {Engine} 4},\n}\n\n"
 ---

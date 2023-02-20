@@ -30,11 +30,12 @@ cslItem:
   collection-title: John Wiley & Sons
   ISBN: 0-470-40535-X
   issued:
-    - year: 2011
-      month: 8
-      day: 9
+    date-parts:
+      - - 2011
+        - 8
+        - 9
   keyword: >-
-    #nosource;__strategy2030:strategic-planning;collection::strategy::strategy::definitions
+    #nosource;__strategy2030:strategic-planning;collection::strategy::definitions
   language: en-US
   publisher: John Wiley & Sons
   title: Creating Your Strategic Plan
@@ -44,15 +45,13 @@ scopedTags:
   - tag: __strategy2030:strategic-planning
   - tag: strategy
     scope: issue
-  - tag: strategy
-    scope: issue
   - tag: definitions
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="bryson_alston__2011__creating" class="csl-entry">Bryson, J. M., &#38; Alston, F. K. n.d.. <i>Creating Your Strategic Plan</i>. John Wiley &#38; Sons.</div>
+      <div data-csl-entry-id="bryson_alston__2011__creating" class="csl-entry">Bryson, J.M. and Alston, F.K. 2011 <i>Creating Your Strategic Plan</i>. John Wiley &#38; Sons (John Wiley &#38; Sons).</div>
     </div>
-  citation: Bryson &#38; Alston, n.d.
-bibTex: "@book{bryson_alston__2011__creating,\n\tauthor = {Bryson, John M and Alston, Farnum K},\n\tseries = {John {Wiley} & {Sons}},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Creating {Your} {Strategic} {Plan}},\n}\n\n"
+  citation: Bryson and Alston, 2011
+bibTex: "@book{bryson_alston__2011__creating,\n\tauthor = {Bryson, John M and Alston, Farnum K},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2011},\n\tmonth = {aug 9},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Creating {Your} {Strategic} {Plan}},\n}\n\n"
 ---

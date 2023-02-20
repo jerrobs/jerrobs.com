@@ -15,8 +15,9 @@ cslItem:
   event-place: Shelter Island, NY
   ISBN: 978-1-61729-617-8
   issued:
-    - year: 2020
-  keyword: "#nosource;collection::pathicles::pathicles::gpgpu"
+    date-parts:
+      - - 2020
+  keyword: "#nosource;collection::pathicles::gpgpu"
   note: "OCLC: on1089556349"
   number-of-pages: "533"
   publisher: Manning
@@ -29,15 +30,13 @@ scopedTags:
   - tag: "#nosource"
   - tag: pathicles
     scope: issue
-  - tag: pathicles
-    scope: issue
   - tag: gpgpu
     scope: issue
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="cai_bileschi_etal__2020__deep" class="csl-entry">Cai, S., Bileschi, S., Nielsen, E. D., &#38; Chollet, F. n.d.. <i>Deep learning with JavaScript: neural networks in TensorFlow.js</i>. Manning.</div>
+      <div data-csl-entry-id="cai_bileschi_etal__2020__deep" class="csl-entry">Cai, S. <i>et al.</i> 2020 <i>Deep learning with JavaScript: neural networks in TensorFlow.js</i>. Shelter Island, NY: Manning.</div>
     </div>
-  citation: Cai et al., n.d.
-bibTex: "@book{cai_bileschi_etal__2020__deep,\n\taddress = {Shelter Island, NY},\n\tauthor = {Cai, Shanqing and Bileschi, Stanley and Nielsen, Eric D. and Chollet, Fran{\\c c}ois},\n\tnote = {OCLC: on1089556349},\n\tpublisher = {Manning},\n\ttitle = {Deep learning with {JavaScript}: neural networks in {TensorFlow}.js},\n}\n\n"
+  citation: Cai <i>et al.</i>, 2020
+bibTex: "@book{cai_bileschi_etal__2020__deep,\n\taddress = {Shelter Island, NY},\n\tauthor = {Cai, Shanqing and Bileschi, Stanley and Nielsen, Eric D. and Chollet, Fran{\\c c}ois},\n\tyear = {2020},\n\tnote = {OCLC: on1089556349},\n\tpublisher = {Manning},\n\ttitle = {Deep learning with {JavaScript}: neural networks in {TensorFlow}.js},\n}\n\n"
 ---

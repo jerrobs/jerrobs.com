@@ -1,0 +1,34 @@
+---
+pubDatetime: 2023-02-15T00:00:00.000+00:00
+issue: pathicles
+version: "1.0 (unpublished)"
+title: The case for space
+subtitle: When some Nothing makes a Difference
+sectionNumber: SPC.001
+scopedTags:
+  - tag: space
+    scope: issue
+references:
+  tags:
+    - space/
+description: >
+  When Irish monks introduced the inter-word division into scripture to make the word of the Christian God more readable, they showed what could be done with a little nothing.
+---
+
+## Made by the Irish
+
+If you took Latin classes in school, you may recall that your first encounters with unfamiliar Latin texts were accompanied by a vague suspicion that the lines of print for which you were being asked to translate were, to you, rather Greek.
+
+When Christianity set out on its globe-spanning mission, it reached Ireland in the 5th century, bringing with it the Latin language.
+
+When the Greek added vowels to the Phoenician alphabet they had created the ancestor of all alphabets in the Western world. Vowels made reading much more easy, maybe too easy such that soon the practice of _scriptura continua_, continuous writing in which all words ran together without separation, became common.
+
+The Greeks rejected word division in XXX. The Romans retained the separation of words by full stops until the second century, when _scriptura continua_ became the standard.
+
+Word separation was reintroduced by Irish scribes in the seventh and eighth centuries, but had not spread to the European continent until the late tenth century (see <bib-ref cite-key="saenger__1997__space" />).
+
+oral basis, and in the social context where reading and writing took place. The ancient world had no desire to make reading easier and swifter. For various reasons, what modern readers view as advantages—retrieval of reference information, increased ability to read "difficult” texts, greater diffusion of literacy—were not seen as advantages in the ancient world. The notion that a larger portion of the population should be autonomous and self-motivated readers was entirely foreign to the ancient world’s elitist mentality.
+
+We have the Irish to thank for the . When Roman Catholicism made its way to Ireland by the fifth century, the Irish were given Bibles written by hand in the original Latin. Having never heard Latin spoken before, the Irish had an understandably difficult time reading it. The solution? When copying the Bible, they separated the words with a small space.
+
+## The invention of the word

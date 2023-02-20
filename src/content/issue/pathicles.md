@@ -1,12 +1,16 @@
 ---
-pubDatetime: 2021-02-07
+pubDatetime: 2023-02-21
 title: Pathicles
 subtitle: "Making **accelerator science** look @@ good"
-sigel: PTH
 color: "#2174a8"
 description: |
   The _Pathicles Issue_ of the _Journal of Erratic Observations_ introduces an open-source visualization framework for the movement of charged particles in electromagnetic fields.
-bibliography:
+articles:
+  - pth001
+  - pth002
+  - pth003
+  - pth004
+bibliographies:
   - title: Accelerator science
     tag: pathicles/accelerator_science
   - title: Numerical Integrators
