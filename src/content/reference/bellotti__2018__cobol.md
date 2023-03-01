@@ -1,7 +1,7 @@
 ---
 cslItem:
   id: bellotti__2018__cobol
-  abstract: "Face it: nobody likes fractions, not even computers."
+  abstract: 'Face it: nobody likes fractions, not even computers.'
   accessed:
     date-parts:
       - - 2021
@@ -23,11 +23,9 @@ cslItem:
   type: post-weblog
   URL: >-
     https://medium.com/the-technical-archaeologist/is-cobol-holding-you-hostage-with-math-5498c0eb428b
-scopedTags:
-  - tag: pathicles
-    scope: issue
-  - tag: floating_points
-    scope: issue
+tags:
+  - issue:pathicles
+  - topic:pathicles/floating_points
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -35,4 +33,5 @@ rendered:
     </div>
   citation: Bellotti, 2018
 bibTex: "@misc{bellotti__2018__cobol,\n\tnote = {[Online; accessed 2021-01-27]},\n\tauthor = {Bellotti, Marianne},\n\tyear = {2018},\n\tmonth = {jul 29},\n\ttitle = {Is {COBOL} holding you hostage with {Math}?},\n\thowpublished = {https://medium.com/the-technical-archaeologist/is-cobol-holding-you-hostage-with-math-5498c0eb428b},\n}\n\n"
+
 ---

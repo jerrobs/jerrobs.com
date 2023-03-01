@@ -5,12 +5,9 @@ version: "1.0 (unpublished)"
 title: Space Commander
 subtitle: Commanding space like a pro
 sectionNumber: SPC.004
-scopedTags:
-  - tag: space
-    scope: issue
-references:
-  tags:
-    - space/space_space
+tags:
+  - issue:space
+  - topic:space/space_space
 description: >
   A universal shortcode for handling different spaces in texts would allow improved typography on screen and in print; it would also make proofreading more efficient. The tool _SPACE COMMANDER_ takes care of this.
 ---

@@ -12,7 +12,7 @@ const adder = ([selector, className]) => {
 
 const write =
   className =>
-  ({ properties }) => {
-    if (!properties.className) properties.className = className
-    else properties.className += ` ${className}`
-  }
+    ({ properties }) => {
+      if (!properties.className) properties.className = className
+      else properties.className += ` ${className}`
+    }

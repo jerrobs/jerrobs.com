@@ -1,18 +1,6 @@
 import { z } from "astro:content"
 
-export type ScopedTag = {
-  tag: string
-  scope?: string
-}
-
-const scopedTags = z
-  .array(
-    z.object({
-      tag: z.string(),
-      scope: z.string().optional(),
-    })
-  )
-  .optional()
+const tags = z.array(z.string()).optional()
 
 export const articleSchema = z
   .object({
@@ -27,7 +15,7 @@ export const articleSchema = z
     featured: z.boolean().optional(),
     draft: z.boolean().optional(),
 
-    scopedTags,
+    tags,
 
     references: z
       .object({
@@ -53,7 +41,7 @@ export const issueSchema = z
 
     draft: z.boolean().optional(),
     articles: z.array(z.string()),
-    scopedTags,
+    tags,
 
     bibliographies: z
       .array(
@@ -71,7 +59,7 @@ export type IssueFrontmatter = z.infer<typeof issueSchema>
 
 export const referenceSchema = z
   .object({
-    scopedTags,
+    tags,
     bibTex: z.string(),
     rendered: z.object({
       bibliography: z.string(),

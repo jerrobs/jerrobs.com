@@ -5,12 +5,9 @@ version: "1.0 (unpublished)"
 title: Space Space
 subtitle: Vaster than you might @@ have @@ thought
 sectionNumber: SPC.003
-scopedTags:
-  - tag: space
-    scope: issue
-references:
-  tags:
-    - space/space_space
+tags:
+  - issue:space
+  - topic:space/space_space
 description: >
   Decent typography relies heavily on the proper use of space characters. Neverthess, many type designers simply don't care (or know) to implement the 15 different shades of space. Even worse: The Unicode Consortium and Adobe treat typographic properties of spaces quite differently.
 ---

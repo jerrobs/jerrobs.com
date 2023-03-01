@@ -38,13 +38,11 @@ cslItem:
   type: book
   URL: >-
     https://learning.oreilly.com/library/view/technology-strategy-patterns/9781492040866/
-scopedTags:
-  - tag: "#nosource"
-  - tag: __strategy2030:strategic-planning
-  - tag: strategy
-    scope: issue
-  - tag: definitions
-    scope: issue
+tags:
+  - '#nosource'
+  - __strategy2030:strategic-planning
+  - issue:strategy
+  - topic:strategy/definitions
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -52,4 +50,5 @@ rendered:
     </div>
   citation: Hewitt, 2018
 bibTex: "@book{hewitt__2018__technology,\n\tauthor = {Hewitt, Eben},\n\tseries = {O'{Reilly} {Media}},\n\tyear = {2018},\n\tmonth = {oct 25},\n\tpublisher = {O'Reilly Media},\n\ttitle = {Technology {Strategy} {Patterns}},\n}\n\n"
+
 ---

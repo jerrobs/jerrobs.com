@@ -29,19 +29,17 @@ cslItem:
   issued:
     date-parts:
       - - 2008
-  keyword: "#nosource;collection::pathicles::graphics_programming"
+  keyword: '#nosource;collection::pathicles::graphics_programming'
   language: en-US
-  note: "OCLC: 1099553954"
+  note: 'OCLC: 1099553954'
   source: Open WorldCat
   title: Real-Time Rendering, Third Edition, 3rd Edition
   type: book
   URL: https://www.safaribooksonline.com/library/view//9781439865293/?ar
-scopedTags:
-  - tag: "#nosource"
-  - tag: pathicles
-    scope: issue
-  - tag: graphics_programming
-    scope: issue
+tags:
+  - '#nosource'
+  - issue:pathicles
+  - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -49,4 +47,5 @@ rendered:
     </div>
   citation: Akenine-Möller <i>et al.</i>, 2008
 bibTex: "@book{Akenine2008Real,\n\tauthor = {Akenine-M{\\\" o}ller, Tomas and Haines, Eric and Hoffman, Naty and Safari, an O'Reilly Media Company},\n\tyear = {2008},\n\tnote = {OCLC: 1099553954},\n\ttitle = {Real-{Time} {Rendering}, {Third} {Edition}, 3rd {Edition}},\n\thowpublished = {https://www.safaribooksonline.com/library/view//9781439865293/?ar},\n}\n\n"
+
 ---

@@ -14,12 +14,10 @@ cslItem:
   page: 27-43
   title: First draft report on the EDVAC by john von neumann
   type: article-journal
-  volume: "15"
-scopedTags:
-  - tag: pathicles
-    scope: issue
-  - tag: gpgpu
-    scope: issue
+  volume: '15'
+tags:
+  - issue:pathicles
+  - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -27,4 +25,5 @@ rendered:
     </div>
   citation: Godfrey, 1993
 bibTex: "@article{godfrey__1993__first,\n\tauthor = {Godfrey, Michael},\n\tjournal = {IEEE Annals of the History of Computing},\n\tyear = {1993},\n\tmonth = {1},\n\tpages = {27--43},\n\ttitle = {First draft report on the {EDVAC} by john von neumann},\n\tvolume = {15},\n}\n\n"
+
 ---

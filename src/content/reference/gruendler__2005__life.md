@@ -13,15 +13,11 @@ cslItem:
   publisher: University of Reading
   title: The Life and Work of Beatrice Warde
   type: thesis
-scopedTags:
-  - tag: space
-    scope: issue
-  - tag: case_for_space
-    scope: issue
-  - tag: space
-    scope: issue
-  - tag: introduction
-    scope: issue
+tags:
+  - issue:space
+  - topic:space/case_for_space
+  - issue:space
+  - topic:space/introduction
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -29,4 +25,5 @@ rendered:
     </div>
   citation: Gruendler, 2005
 bibTex: "@phdthesis{gruendler__2005__life,\n\tauthor = {Gruendler, Shelley},\n\tyear = {2005},\n\tschool = {University of Reading},\n\ttitle = {The {Life} and {Work} of {Beatrice} {Warde}},\n}\n\n"
+
 ---

@@ -12,19 +12,17 @@ cslItem:
   issued:
     date-parts:
       - - 1832
-  keyword: "#nosource;__strategy2030:strategic-planning;collection::strategy::military"
+  keyword: '#nosource;__strategy2030:strategic-planning;collection::strategy::military'
   language: de-DE
   publisher: Null Papier
   title: Vom Kriege
   type: book
   URL: http://www.worldcat.org/title/vom-kriege-vollstandige-ausgabe/oclc/904844186
-scopedTags:
-  - tag: "#nosource"
-  - tag: __strategy2030:strategic-planning
-  - tag: strategy
-    scope: issue
-  - tag: military
-    scope: issue
+tags:
+  - '#nosource'
+  - __strategy2030:strategic-planning
+  - issue:strategy
+  - topic:strategy/military
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -32,4 +30,5 @@ rendered:
     </div>
   citation: Clausewitz, 1832
 bibTex: "@book{clausewitz__1832__vom,\n\tauthor = {Clausewitz, Carl},\n\tseries = {Null {Papier}},\n\tedition = {Epub Ausgabe. Erstausgabe 1832},\n\tyear = {1832},\n\tpublisher = {Null Papier},\n\ttitle = {Vom {Kriege}},\n}\n\n"
+
 ---

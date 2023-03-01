@@ -8,10 +8,12 @@ import sitemap from "@astrojs/sitemap"
 import compress from "astro-compress"
 import { markdownedFrontmatterPlugin } from "./src/utils/markdown/remark-markdowned-frontmatter"
 import AstroPWA from '@vite-pwa/astro'
+import addClasses from 'rehype-add-classes';
+import { rehypeAddClasses } from './src/utils/markdown/rehype-add-classes'
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-paper.pages.dev/",
+  site: "https://www.jerrobs.com/",
   integrations: [
     tailwind({
       config: {
@@ -27,14 +29,18 @@ export default defineConfig({
     remarkPlugins: [
       markdownedFrontmatterPlugin,
       sectionize,
-      remarkToc,
-      [
-        remarkCollapse,
-        {
-          test: "Table of contents",
-        },
-      ],
+      // remarkToc,
+      // [
+      //   remarkCollapse,
+      //   {
+      //     test: "Table of contents",
+      //   },
+      // ],
     ],
+    rehypePlugins: [
+      rehypeAddClasses({
+        'p': 'md'
+      })],
     shikiConfig: {
       theme: "one-dark-pro",
       wrap: true,

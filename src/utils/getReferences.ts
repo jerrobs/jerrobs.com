@@ -1,9 +1,13 @@
 import { CollectionEntry, getCollection } from "astro:content"
 
-export async function getReferences() {
-  const articles = await getCollection("reference")
+export async function getReferences(tag?: string) {
+  const references = await getCollection("reference")
 
-  return articles.sort((a, b) =>
+  const filteredReferences = tag
+    ? references.filter(reference => reference.data.tags?.includes(tag))
+    : references
+
+  return filteredReferences.sort((a, b) =>
     a.data.cslItem.id
       .toLocaleString()
       .localeCompare(b.data.cslItem.id.toLocaleString())

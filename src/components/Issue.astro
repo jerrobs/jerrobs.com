@@ -1,8 +1,9 @@
 ---
 import type { CollectionEntry } from "astro:content"
 import { getEntryBySlug } from "astro:content"
-import { renderInline } from "@utils/markdown/render.ts"
+import { renderInline } from "@utils/markdown/render"
 import ArticlePreview from "@components/ArticlePreview.astro"
+import BibList from "./BibList.astro"
 
 export interface Props {
   issue: CollectionEntry<"issue">
@@ -13,9 +14,6 @@ const { title, description, subtitle } = issue.data
 const articles = await issue.data.articles.map(
   async articleSlug => await getEntryBySlug("article", articleSlug)
 )
-
-console.log(articles)
-
 const { Content } = await issue.render()
 ---
 
@@ -31,6 +29,8 @@ const { Content } = await issue.render()
       ))
     }
   </ul>
+
+  <BibList tag={"issue:" + issue.slug} />
 
   <Content />
 </article>

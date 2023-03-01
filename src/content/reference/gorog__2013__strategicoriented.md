@@ -40,13 +40,11 @@ cslItem:
   publisher: Project Management Institute
   title: A Strategic-Oriented Implementation of Projects
   type: book
-scopedTags:
-  - tag: "#nosource"
-  - tag: __strategy2030:strategic-planning
-  - tag: strategy
-    scope: issue
-  - tag: definitions
-    scope: issue
+tags:
+  - '#nosource'
+  - __strategy2030:strategic-planning
+  - issue:strategy
+  - topic:strategy/definitions
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -54,4 +52,5 @@ rendered:
     </div>
   citation: Görög, 2013
 bibTex: "@book{gorog__2013__strategicoriented,\n\tauthor = {G{\\\" o}r{\\\" o}g, Mih{\\' a}ly},\n\tseries = {Project {Management} {Institute}},\n\tyear = {2013},\n\tpublisher = {Project Management Institute},\n\ttitle = {A {Strategic}-{Oriented} {Implementation} of {Projects}},\n}\n\n"
+
 ---

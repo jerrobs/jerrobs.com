@@ -42,17 +42,15 @@ cslItem:
       - - 2012
         - 4
         - 19
-  keyword: "#nosource;collection::pathicles::graphics_programming"
+  keyword: '#nosource;collection::pathicles::graphics_programming'
   language: en
   publisher: CRC Press
   title: Graphics Shaders
   type: book
-scopedTags:
-  - tag: "#nosource"
-  - tag: pathicles
-    scope: issue
-  - tag: graphics_programming
-    scope: issue
+tags:
+  - '#nosource'
+  - issue:pathicles
+  - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -60,4 +58,5 @@ rendered:
     </div>
   citation: Bailey and Cunningham, 2012
 bibTex: "@book{bailey_cunningham__2012__graphics,\n\tauthor = {Bailey, Mike and Cunningham, Steve},\n\tseries = {CRC {Press}},\n\tyear = {2012},\n\tmonth = {apr 19},\n\tpublisher = {CRC Press},\n\ttitle = {Graphics {Shaders}},\n}\n\n"
+
 ---

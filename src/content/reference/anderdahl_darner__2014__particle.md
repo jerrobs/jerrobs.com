@@ -32,16 +32,14 @@ cslItem:
       - - 2014
   keyword: collection::pathicles::numerical_integrators
   language: en
-  number-of-pages: "51"
+  number-of-pages: '51'
   publisher: Blekinge Institute of Technology
   publisher-place: Karlskrona
   title: Particle systems using 3D vector fields with OpenGL compute shaders
   type: thesis
-scopedTags:
-  - tag: pathicles
-    scope: issue
-  - tag: numerical_integrators
-    scope: issue
+tags:
+  - issue:pathicles
+  - topic:pathicles/numerical_integrators
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -49,4 +47,5 @@ rendered:
     </div>
   citation: Anderdahl and Darner, 2014
 bibTex: "@misc{anderdahl_darner__2014__particle,\n\taddress = {Karlskrona},\n\tauthor = {Anderdahl, Johan and Darner, Alice},\n\tyear = {2014},\n\tschool = {Blekinge Institute of Technology},\n\ttitle = {Particle systems using 3D vector fields with {OpenGL} compute shaders},\n\ttype = {Bachelor {Theses}},\n}\n\n"
+
 ---

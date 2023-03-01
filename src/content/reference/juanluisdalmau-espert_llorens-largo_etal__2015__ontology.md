@@ -32,19 +32,17 @@ cslItem:
   issued:
     date-parts:
       - - 2015
-  keyword: "#nosource;collection::strategy::ontology"
+  keyword: '#nosource;collection::strategy::ontology'
   language: eng
   publisher: Curran Associates, Inc
   publisher-place: Red Hook, NY
   source: K10plus ISBN
   title: An Ontology for Formalizing and Automating the Strategic Planning Process
   type: chapter
-scopedTags:
-  - tag: "#nosource"
-  - tag: strategy
-    scope: issue
-  - tag: ontology
-    scope: issue
+tags:
+  - '#nosource'
+  - issue:strategy
+  - topic:strategy/ontology
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -52,4 +50,5 @@ rendered:
     </div>
   citation: Juan Luis Dalmau-Espert, Llorens-Largo and Molina-Carmona, 2015
 bibTex: "@inbook{Juan2015Ontology,\n\taddress = {Red Hook, NY},\n\tauthor = {{Juan Luis Dalmau-Espert} and Llorens-Largo, Fara{\\' o}n and Molina-Carmona, Rafael},\n\tbooktitle = {eKNOW 2015: the {Seventh} {International} {Conference} on {Information}, {Process}, and {Knowledge} {Management}: February 22-27, 2015, {Lisbon}, {Portugal}},\n\tyear = {2015},\n\tpublisher = {Curran Associates, Inc},\n\ttitle = {An {Ontology} for {Formalizing} and {Automating} the {Strategic} {Planning} {Process}},\n}\n\n"
+
 ---

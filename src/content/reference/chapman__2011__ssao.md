@@ -17,11 +17,9 @@ cslItem:
   title: SSAO Tutorial
   type: post-weblog
   URL: http://john-chapman-graphics.blogspot.com/2013/01/ssao-tutorial.html
-scopedTags:
-  - tag: pathicles
-    scope: issue
-  - tag: graphics_programming
-    scope: issue
+tags:
+  - issue:pathicles
+  - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -29,4 +27,5 @@ rendered:
     </div>
   citation: Chapman, 2011
 bibTex: "@misc{chapman__2011__ssao,\n\tauthor = {Chapman, John},\n\tyear = {2011},\n\ttitle = {SSAO {Tutorial}},\n\thowpublished = {http://john-chapman-graphics.blogspot.com/2013/01/ssao-tutorial.html},\n}\n\n"
+
 ---

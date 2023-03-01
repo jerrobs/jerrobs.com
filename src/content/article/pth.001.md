@@ -5,13 +5,10 @@ version: "1.0 (unpublished)"
 title: Approximating movement
 subtitle: by relativistic leapfrogging
 sectionNumber: PTH.001
-scopedTags:
-  - tag: pathicles
-    scope: issue
-references:
-  tags:
-    - pathicles/accelerator_science
-    - pathicles/numerical_integrators
+tags: 
+  - issue:pathicles
+  - topic:pathicles/accelerator_science
+  - topic:pathicles/numerical_integrators
 description: >
   The relativitic equations of motion of a particle system can only be solved analytically in very special cases. However, there is a class of well known numerical algorithms that are specialised in the numerical approximation.
 ---

@@ -15,18 +15,16 @@ cslItem:
   issued:
     date-parts:
       - - 2000
-  keyword: "#nosource;collection::space::space_space"
+  keyword: '#nosource;collection::space::space_space'
   language: en
   title: Line breaking and page breaking
   type: paper-conference
   URL: http://uktug.tug.org/TUGboat/tb21-3/tb68fine.pdf
-  volume: "21"
-scopedTags:
-  - tag: "#nosource"
-  - tag: space
-    scope: issue
-  - tag: space_space
-    scope: issue
+  volume: '21'
+tags:
+  - '#nosource'
+  - issue:space
+  - topic:space/space_space
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -34,4 +32,5 @@ rendered:
     </div>
   citation: Fine, 2000
 bibTex: "@inproceedings{fine__2000__line,\n\tauthor = {Fine, J},\n\tbooktitle = {TUGboat, {Volume} 21 (2000), {No}. 3 --- {Proceedings} of the 2000 {Annual} {Meeting}},\n\tyear = {2000},\n\ttitle = {Line breaking and page breaking},\n\thowpublished = {http://uktug.tug.org/TUGboat/tb21-3/tb68fine.pdf},\n\tvolume = {21},\n}\n\n"
+
 ---

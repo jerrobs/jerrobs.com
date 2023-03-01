@@ -1,16 +1,13 @@
 ---
-scopedTags:
-  - tag: pathicles
-    scope: issue
+tags:
+  - issue:pathicles
+  - topic:athicles/floating_points
 issue: pathices
 pubDatetime: 2023-02-15T00:00:00.000+00:00
 version: "1.0 (unpublished)"
 title: Making it precise
 subtitle: by outsmarting floating @@  point limitations
 sectionNumber: PTH.003
-references:
-  tags:
-    - pathicles/floating_points
 description: >
   Rounding errors due to storing values as floating point values can easily get out of hand, particular care is required if you can only safely assume 16 bit precision.
 ---

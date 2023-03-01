@@ -14,21 +14,19 @@ cslItem:
   keyword: >-
     #nosource;Computer graphics;Real-time
     programming;collection::pathicles::gpgpu
-  number-of-pages: "765"
+  number-of-pages: '765'
   publisher: Addison-Wesley
   publisher-place: Boston
   source: Library of Congress ISBN
-  title: "GPU gems: programming techniques, tips, and tricks for real-time graphics"
+  title: 'GPU gems: programming techniques, tips, and tricks for real-time graphics'
   title-short: GPU gems
   type: book
-scopedTags:
-  - tag: "#nosource"
-  - tag: Computer graphics
-  - tag: Real-time programming
-  - tag: pathicles
-    scope: issue
-  - tag: gpgpu
-    scope: issue
+tags:
+  - '#nosource'
+  - Computer graphics
+  - Real-time programming
+  - issue:pathicles
+  - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -36,4 +34,5 @@ rendered:
     </div>
   citation: Fernando, 2004
 bibTex: "@book{fernando__2004__gpu,\n\taddress = {Boston},\n\teditor = {Fernando, Randima},\n\tyear = {2004},\n\tpublisher = {Addison-Wesley},\n\ttitle = {GPU gems: programming techniques, tips, and tricks for real-time graphics},\n}\n\n"
+
 ---

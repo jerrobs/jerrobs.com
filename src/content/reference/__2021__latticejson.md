@@ -25,16 +25,14 @@ cslItem:
   title: LatticeJSON
   type: software
   URL: https://github.com/nobeam/latticejson
-scopedTags:
-  - tag: "#nosource"
-  - tag: archived
-  - tag: accelerator-physics
-  - tag: json
-  - tag: lattice
-  - tag: pathicles
-    scope: issue
-  - tag: codes
-    scope: issue
+tags:
+  - '#nosource'
+  - archived
+  - accelerator-physics
+  - json
+  - lattice
+  - issue:pathicles
+  - topic:pathicles/codes
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -42,4 +40,5 @@ rendered:
     </div>
   citation: <i>LatticeJSON</i>, 2021
 bibTex: "@misc{__2021__latticejson,\n\tnote = {[Online; accessed 2021-10-13]},\n\tyear = {2021},\n\tmonth = {jul 9},\n\tpublisher = {NoBeam},\n\ttitle = {LatticeJSON},\n\ttype = {Python},\n}\n\n"
+
 ---

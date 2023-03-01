@@ -21,16 +21,14 @@ cslItem:
   number: LS-287, 761286
   page: LS-287, 761286
   source: DOI.org (Crossref)
-  title: "ELEGANT: A flexible SDDS-compliant code for accelerator simulation"
+  title: 'ELEGANT: A flexible SDDS-compliant code for accelerator simulation'
   title-short: ELEGANT
   type: report
   URL: http://www.osti.gov/servlets/purl/761286/
-scopedTags:
-  - tag: accelerator-science-code
-  - tag: pathicles
-    scope: issue
-  - tag: codes
-    scope: issue
+tags:
+  - accelerator-science-code
+  - issue:pathicles
+  - topic:pathicles/codes
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -38,4 +36,5 @@ rendered:
     </div>
   citation: Borland, 2000
 bibTex: "@techreport{borland__2000__elegant,\n\tnote = {[Online; accessed 2021-01-01]},\n\tauthor = {Borland, M},\n\tyear = {2000},\n\tmonth = {aug 18},\n\tnumber = {LS-287, 761286},\n\tpages = {LS--287, 761286},\n\ttitle = {ELEGANT: A flexible {SDDS}-compliant code for accelerator simulation},\n\thowpublished = {http://www.osti.gov/servlets/purl/761286/},\n}\n\n"
+
 ---

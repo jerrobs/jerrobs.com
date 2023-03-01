@@ -30,7 +30,7 @@ cslItem:
   issued:
     date-parts:
       - - 2012
-  keyword: "#nosource;collection::pathicles::gpgpu"
+  keyword: '#nosource;collection::pathicles::gpgpu'
   language: en
   publisher: ACTAPRESS
   publisher-place: Honolulu, USA
@@ -40,12 +40,10 @@ cslItem:
     Units
   type: paper-conference
   URL: 10.2316/P.2012.786-084
-scopedTags:
-  - tag: "#nosource"
-  - tag: pathicles
-    scope: issue
-  - tag: gpgpu
-    scope: issue
+tags:
+  - '#nosource'
+  - issue:pathicles
+  - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -53,4 +51,5 @@ rendered:
     </div>
   citation: Husselmann and Hawick, 2012
 bibTex: "@inproceedings{husselmann_hawick__2012__3d,\n\tnote = {[Online; accessed 2020-11-02]},\n\taddress = {Honolulu, USA},\n\tauthor = {Husselmann, Alwyn V. and Hawick, Ken A.},\n\tbooktitle = {Signal and {Image} {Processing}},\n\tyear = {2012},\n\torganization = {ACTAPRESS},\n\ttitle = {3D {Vector}-{Field} {Data} {Processing} and {Visualisation} on {Graphical} {Processing} {Units}},\n}\n\n"
+
 ---

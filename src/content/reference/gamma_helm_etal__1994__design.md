@@ -22,23 +22,21 @@ cslItem:
     science);Reusability;Software
     patterns;collection::strategy::software-engineering
   language: eng
-  number-of-pages: "395"
+  number-of-pages: '395'
   publisher: Addison-Wesley
   publisher-place: Reading, Mass
-  title: "Design patterns: elements of reusable object-oriented software"
+  title: 'Design patterns: elements of reusable object-oriented software'
   title-short: Design patterns
   type: book
   URL: https://archive.org/details/designpatternsel00gamm/page/315/mode/2up
-scopedTags:
-  - tag: "#nosource"
-  - tag: Computer software
-  - tag: Object-oriented programming (Computer science)
-  - tag: Reusability
-  - tag: Software patterns
-  - tag: strategy
-    scope: issue
-  - tag: software-engineering
-    scope: issue
+tags:
+  - '#nosource'
+  - Computer software
+  - Object-oriented programming (Computer science)
+  - Reusability
+  - Software patterns
+  - issue:strategy
+  - topic:strategy/software-engineering
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -46,4 +44,5 @@ rendered:
     </div>
   citation: Gamma <i>et al.</i>, 1994
 bibTex: "@book{gamma_helm_etal__1994__design,\n\taddress = {Reading, Mass},\n\tauthor = {Gamma, Erich and Helm, Richard and Johnson, Ralph and Vlissides, John},\n\tseries = {Addison-{Wesley} professional computing series},\n\tyear = {1994},\n\tpublisher = {Addison-Wesley},\n\ttitle = {Design patterns: elements of reusable object-oriented software},\n}\n\n"
+
 ---

@@ -30,14 +30,12 @@ cslItem:
   publisher: John Wiley & Sons
   title: Balanced Scorecard Strategy For Dummies
   type: book
-scopedTags:
-  - tag: "#nosource"
-  - tag: __strategy2030:strategic-planning
-  - tag: __strategy2030:strategic-planning:balanced-scorecard
-  - tag: strategy
-    scope: issue
-  - tag: definitions
-    scope: issue
+tags:
+  - '#nosource'
+  - __strategy2030:strategic-planning
+  - __strategy2030:strategic-planning:balanced-scorecard
+  - issue:strategy
+  - topic:strategy/definitions
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -45,4 +43,5 @@ rendered:
     </div>
   citation: Hannabarger <i>et al.</i>, 2007
 bibTex: "@book{hannabarger_hannabarger_etal__2007__balanced,\n\tauthor = {Hannabarger, Chuck and Hannabarger, Charles and Buchman, Rick and Buchman, Frederick and Economy, Peter},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2007},\n\tmonth = {sep 11},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Balanced {Scorecard} {Strategy} {For} {Dummies}},\n}\n\n"
+
 ---

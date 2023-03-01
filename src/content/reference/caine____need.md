@@ -16,15 +16,13 @@ cslItem:
   citation-key: caine____need
   keyword: collection::strategy::ontology
   language: en
-  page: "8"
+  page: '8'
   source: Zotero
   title: The Need and Requirements to a Strategy Ontology
   type: article-journal
-scopedTags:
-  - tag: strategy
-    scope: issue
-  - tag: ontology
-    scope: issue
+tags:
+  - issue:strategy
+  - topic:strategy/ontology
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -32,4 +30,5 @@ rendered:
     </div>
   citation: Caine, no date
 bibTex: "@article{caine____need,\n\tauthor = {Caine, Jamie},\n\tpages = {8},\n\ttitle = {The {Need} and {Requirements} to a {Strategy} {Ontology}},\n}\n\n"
+
 ---

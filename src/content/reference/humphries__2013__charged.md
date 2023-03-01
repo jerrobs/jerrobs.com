@@ -24,12 +24,10 @@ cslItem:
   title: Charged Particle Beams
   type: book
   URL: http://www.fieldp.com/cpb.html
-scopedTags:
-  - tag: _has-type:textbook
-  - tag: pathicles
-    scope: issue
-  - tag: accelerator_science
-    scope: issue
+tags:
+  - _has-type:textbook
+  - issue:pathicles
+  - topic:pathicles/accelerator_science
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -37,4 +35,5 @@ rendered:
     </div>
   citation: Humphries, 2013
 bibTex: "@book{humphries__2013__charged,\n\tauthor = {Humphries, J R Stanley},\n\tseries = {Dover {Publications}},\n\tedition = {corrected version of 1st edition from 1990},\n\tyear = {2013},\n\tmonth = {apr 4},\n\tpublisher = {Dover Publications},\n\ttitle = {Charged {Particle} {Beams}},\n}\n\n"
+
 ---

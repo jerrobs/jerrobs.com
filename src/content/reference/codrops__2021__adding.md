@@ -25,11 +25,9 @@ cslItem:
   type: post-weblog
   URL: >-
     https://tympanus.net/codrops/2021/12/28/adding-a-persistence-effect-to-three-js-scenes/
-scopedTags:
-  - tag: pathicles
-    scope: issue
-  - tag: graphics_programming
-    scope: issue
+tags:
+  - issue:pathicles
+  - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -37,4 +35,5 @@ rendered:
     </div>
   citation: Codrops, 2021
 bibTex: "@misc{codrops__2021__adding,\n\tnote = {[Online; accessed 2021-12-29]},\n\tauthor = {Codrops, Team},\n\tyear = {2021},\n\tmonth = {dec 28},\n\ttitle = {Adding a {Persistence} {Effect} to {Three}.js {Scenes}},\n\thowpublished = {https://tympanus.net/codrops/2021/12/28/adding-a-persistence-effect-to-three-js-scenes/},\n}\n\n"
+
 ---

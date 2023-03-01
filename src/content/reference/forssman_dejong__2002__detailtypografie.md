@@ -23,14 +23,12 @@ cslItem:
   type: book
   URL: >-
     http://books.google.de/books?id=RDGlSQAACAAJ&dq=intitle:Detailtypografie&hl=&cd=1&source=gbs_api
-scopedTags:
-  - tag: "#nosource"
-  - tag: _has-format:book
-  - tag: _has-setting:professional
-  - tag: space
-    scope: issue
-  - tag: microtypography
-    scope: issue
+tags:
+  - '#nosource'
+  - _has-format:book
+  - _has-setting:professional
+  - issue:space
+  - topic:space/microtypography
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -38,4 +36,5 @@ rendered:
     </div>
   citation: Forssman and de Jong, 2002
 bibTex: "@book{forssman_dejong__2002__detailtypografie,\n\taddress = {Mainz},\n\tauthor = {Forssman, Friedrich and de Jong, Ralf},\n\tedition = {2. Auflage},\n\tyear = {2002},\n\tpublisher = {Hermann Schmidt},\n\ttitle = {Detailtypografie},\n}\n\n"
+
 ---

@@ -24,14 +24,12 @@ cslItem:
   type: book
   URL: >-
     http://books.google.de/books?id=a2cEeJvXyIQC&printsec=frontcover&dq=karen+cheng&hl=&cd=1&source=gbs_api
-scopedTags:
-  - tag: "#nosource"
-  - tag: _has-format:book
-  - tag: _has-setting:professional
-  - tag: space
-    scope: issue
-  - tag: microtypography
-    scope: issue
+tags:
+  - '#nosource'
+  - _has-format:book
+  - _has-setting:professional
+  - issue:space
+  - topic:space/microtypography
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -39,4 +37,5 @@ rendered:
     </div>
   citation: Cheng, 2005
 bibTex: "@book{cheng__2005__designing,\n\taddress = {London},\n\tauthor = {Cheng, Karen},\n\tyear = {2005},\n\tpublisher = {Laurence King Publishing},\n\ttitle = {Designing type},\n}\n\n"
+
 ---

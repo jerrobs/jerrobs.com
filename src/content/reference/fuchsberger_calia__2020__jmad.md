@@ -18,18 +18,16 @@ cslItem:
       - - 2020
         - 12
         - 25
-  keyword: "#nosource;accelerator-science-code;collection::pathicles::codes"
+  keyword: '#nosource;accelerator-science-code;collection::pathicles::codes'
   title: JMad
   type: software
   URL: jmad.io
   version: 0.15.3
-scopedTags:
-  - tag: "#nosource"
-  - tag: accelerator-science-code
-  - tag: pathicles
-    scope: issue
-  - tag: codes
-    scope: issue
+tags:
+  - '#nosource'
+  - accelerator-science-code
+  - issue:pathicles
+  - topic:pathicles/codes
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -37,4 +35,5 @@ rendered:
     </div>
   citation: Fuchsberger and Calia, 2020
 bibTex: "@misc{fuchsberger_calia__2020__jmad,\n\tauthor = {Fuchsberger, Kajetan and Calia, Andrea},\n\tyear = {2020},\n\tmonth = {dec 25},\n\ttitle = {JMad},\n\ttype = {Java},\n\thowpublished = {jmad.io},\n}\n\n"
+
 ---

@@ -13,16 +13,14 @@ cslItem:
   issued:
     date-parts:
       - - 2014
-  keyword: "#nosource;collection::pathicles::graphics_programming"
+  keyword: '#nosource;collection::pathicles::graphics_programming'
   title: mattdesl/glsl-fxaa
   type: software
   URL: https://github.com/mattdesl/glsl-fxaa
-scopedTags:
-  - tag: "#nosource"
-  - tag: pathicles
-    scope: issue
-  - tag: graphics_programming
-    scope: issue
+tags:
+  - '#nosource'
+  - issue:pathicles
+  - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -30,4 +28,5 @@ rendered:
     </div>
   citation: DesLauriers, 2014
 bibTex: "@misc{deslauriers__2014__mattdesl,\n\tauthor = {DesLauriers, Matt},\n\tseries = {github.com},\n\tyear = {2014},\n\ttitle = {mattdesl/glsl-fxaa},\n\ttype = {Javascript, {OpenGL}},\n\thowpublished = {https://github.com/mattdesl/glsl-fxaa},\n}\n\n"
+
 ---

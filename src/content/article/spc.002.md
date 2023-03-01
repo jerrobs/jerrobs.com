@@ -5,12 +5,9 @@ version: "1.0 (unpublished)"
 title: Atoms of meaning
 subtitle: The reinvention of the word
 sectionNumber: SPC.002
-scopedTags:
-  - tag: space
-    scope: issue
-references:
-  tags:
-    - space/reinvention-of-the-word
+tags:
+  - issue:space
+  - topic:space/reinvention-of-the-word
 description: >
   Irish monks introduced the interword spaces in writing to make the word of their god more humanly readable. The resulting improvement of legibility was so persuasive that also today's atheists like to use it.
 ---

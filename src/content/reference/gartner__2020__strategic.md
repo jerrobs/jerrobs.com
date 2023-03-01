@@ -9,14 +9,12 @@ cslItem:
       - - 2020
   keyword: collection::strategy::definitions
   publisher: Gartner
-  title: "Strategic Planning for Research & Development: Quick Guide"
+  title: 'Strategic Planning for Research & Development: Quick Guide'
   type: document
   URL: https://www.gartner.com/en/insights/streamline-strategic-planning
-scopedTags:
-  - tag: strategy
-    scope: issue
-  - tag: definitions
-    scope: issue
+tags:
+  - issue:strategy
+  - topic:strategy/definitions
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -24,4 +22,5 @@ rendered:
     </div>
   citation: Gartner, 2020
 bibTex: "@misc{gartner__2020__strategic,\n\tauthor = {{Gartner}},\n\tyear = {2020},\n\tpublisher = {Gartner},\n\ttitle = {Strategic {Planning} for {Research} & {Development}: Quick {Guide}},\n}\n\n"
+
 ---

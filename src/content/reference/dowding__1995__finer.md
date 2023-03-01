@@ -27,13 +27,11 @@ cslItem:
   title: Finer points in the spacing and arrangement of type
   type: book
   URL: http://gt11.johncaserta.info/wp-content/uploads/2011/09/dowding_text.pdf
-scopedTags:
-  - tag: _has-setting:academic
-  - tag: _has-format:book
-  - tag: space
-    scope: issue
-  - tag: space_space
-    scope: issue
+tags:
+  - _has-setting:academic
+  - _has-format:book
+  - issue:space
+  - topic:space/space_space
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -41,4 +39,5 @@ rendered:
     </div>
   citation: Dowding, 1995
 bibTex: "@book{dowding__1995__finer,\n\tauthor = {Dowding, Geoffrey},\n\tyear = {1995},\n\tpublisher = {Hartley & Marks Publishers},\n\ttitle = {Finer points in the spacing and arrangement of type},\n}\n\n"
+
 ---

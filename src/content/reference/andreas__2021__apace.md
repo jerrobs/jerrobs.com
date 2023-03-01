@@ -17,7 +17,7 @@ cslItem:
       - - 2021
         - 10
         - 12
-  keyword: "#nosource;archived;accelerator-physics;python;collection::pathicles::codes"
+  keyword: '#nosource;archived;accelerator-physics;python;collection::pathicles::codes'
   original-date:
     literal: >-
       2018-09-03T18:10:16Z;
@@ -26,15 +26,13 @@ cslItem:
   title: apace
   type: software
   URL: https://github.com/andreasfelix/apace
-scopedTags:
-  - tag: "#nosource"
-  - tag: archived
-  - tag: accelerator-physics
-  - tag: python
-  - tag: pathicles
-    scope: issue
-  - tag: codes
-    scope: issue
+tags:
+  - '#nosource'
+  - archived
+  - accelerator-physics
+  - python
+  - issue:pathicles
+  - topic:pathicles/codes
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -42,4 +40,5 @@ rendered:
     </div>
   citation: Andreas, 2021
 bibTex: "@misc{andreas__2021__apace,\n\tnote = {[Online; accessed 2021-10-13]},\n\tauthor = {Andreas, Felix},\n\tyear = {2021},\n\tmonth = {oct 12},\n\ttitle = {apace},\n\ttype = {Python},\n\thowpublished = {https://github.com/andreasfelix/apace},\n}\n\n"
+
 ---

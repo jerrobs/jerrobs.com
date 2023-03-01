@@ -5,12 +5,9 @@ version: "1.0 (unpublished)"
 title: Case Study
 subtitle: European Synchrotron
 sectionNumber: STY.002
-scopedTags:
-  - tag: strategy
-    scope: issue
-references:
-  tags:
-    - strategy/esuo
+tags:
+  - issue:strategy
+  - topic:strategy/esuo
 description: >
   Making the European Commission change its mind
 ---

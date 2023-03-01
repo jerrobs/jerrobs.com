@@ -27,10 +27,10 @@ const generate = ({ globPattern, tagScoper }) => {
     cite.set(cslItem)
     return {
       cslItem,
-      scopedTags: cslItem.keyword
+      tags: cslItem.keyword
         ? cslItem.keyword
           .split(';')
-          .map((keyword) => keyword.replace(/\\_/g, '_'))
+          // .map((keyword) => keyword.replace(/\\_/g, '_'))
           .flatMap(tagScoper)
         : [],
       rendered: {
@@ -87,13 +87,17 @@ generate({
   tagScoper: (tag) => {
 
     if (!tag.startsWith('collection::'))
-      return [{ tag: tag, scope: undefined }]
+      // return [{ tag: tag, scope: undefined }]
+      return [tag]
 
     const split = tag.replace(/^collection::/, '').split('::')
-    return split.map((collection) => ({
-      tag: collection,
-      scope: 'issue'
-    }))
+
+    const issue = split.shift()
+
+    const tags = ["issue:" + issue]
+    tags.push(...split.map((collection) => ("topic:" + issue + "/" + collection)))
+
+    return tags
   }
 })
 

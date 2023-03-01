@@ -1,0 +1,22 @@
+---
+import { renderInline } from "@utils/markdown/render"
+import { getReferences } from "@utils/getReferences"
+
+export interface Props {
+  tag?: string
+}
+const { tag } = Astro.props
+
+const references = await getReferences(tag)
+---
+
+<ol class="bib-list">
+  {
+    references.map(reference => (
+      <li
+        class="bib-list-item"
+        set:html={reference.data.rendered.bibliography}
+      />
+    ))
+  }
+</ol>

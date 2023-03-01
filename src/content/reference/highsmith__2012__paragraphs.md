@@ -19,7 +19,7 @@ cslItem:
       given: Cyrus
   citation-key: highsmith__2012__paragraphs
   collection-title: Typographic fundamentals
-  ISBN: "89116991605"
+  ISBN: '89116991605'
   issued:
     date-parts:
       - - 2012
@@ -31,15 +31,13 @@ cslItem:
   type: book
   URL: >-
     http://books.google.de/books?id=mOWV9ikWq10C&q=highsmith+inside+paragraphs&dq=highsmith+inside+paragraphs&hl=&cd=1&source=gbs_api
-scopedTags:
-  - tag: "#nosource"
-  - tag: _has-format:book
-  - tag: _has-setting:professional
-  - tag: _has-type:handbook
-  - tag: space
-    scope: issue
-  - tag: microtypography
-    scope: issue
+tags:
+  - '#nosource'
+  - _has-format:book
+  - _has-setting:professional
+  - _has-type:handbook
+  - issue:space
+  - topic:space/microtypography
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -47,4 +45,5 @@ rendered:
     </div>
   citation: Highsmith, 2012
 bibTex: "@book{highsmith__2012__paragraphs,\n\tauthor = {Highsmith, Cyrus},\n\tseries = {Typographic fundamentals},\n\tyear = {2012},\n\tpublisher = {Font Bureau},\n\ttitle = {Inside paragraphs},\n}\n\n"
+
 ---

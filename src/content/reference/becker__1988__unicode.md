@@ -13,18 +13,16 @@ cslItem:
         - 29
   keyword: collection::space::space_space
   language: en
-  page: "10"
+  page: '10'
   publisher: Xerox Corporation
   publisher-place: Palo Alto, CA
   title: Unicode 88
   type: report
   URL: >-
     https://web.archive.org/web/20161125224409/https://unicode.org/history/unicode88.pdf
-scopedTags:
-  - tag: space
-    scope: issue
-  - tag: space_space
-    scope: issue
+tags:
+  - issue:space
+  - topic:space/space_space
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -32,4 +30,5 @@ rendered:
     </div>
   citation: Becker, 1988
 bibTex: "@techreport{becker__1988__unicode,\n\taddress = {Palo Alto, CA},\n\tauthor = {Becker, Joseph D.},\n\tyear = {1988},\n\tmonth = {aug 29},\n\tpages = {10},\n\tinstitution = {Xerox Corporation},\n\ttitle = {Unicode 88},\n}\n\n"
+
 ---

@@ -24,13 +24,11 @@ cslItem:
   publisher: John Wiley & Sons
   title: Contemporary Strategy Analysis
   type: book
-scopedTags:
-  - tag: "#nosource"
-  - tag: __strategy2030:strategic-planning
-  - tag: strategy
-    scope: issue
-  - tag: definitions
-    scope: issue
+tags:
+  - '#nosource'
+  - __strategy2030:strategic-planning
+  - issue:strategy
+  - topic:strategy/definitions
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -38,4 +36,5 @@ rendered:
     </div>
   citation: Grant, 2016
 bibTex: "@book{grant__2016__contemporary,\n\tauthor = {Grant, Robert M},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2016},\n\tmonth = {jan 5},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Contemporary {Strategy} {Analysis}},\n}\n\n"
+
 ---

@@ -19,16 +19,14 @@ cslItem:
   title: The elements of typographic style
   type: book
   URL: http://www.worldcat.org/title/elements-of-typographic-style/oclc/55633787
-scopedTags:
-  - tag: "#nosource"
-  - tag: _has-format:book
-  - tag: _has-setting:professional
-  - tag: _scope:art-and-design
-  - tag: _has-type:monograph
-  - tag: space
-    scope: issue
-  - tag: microtypography
-    scope: issue
+tags:
+  - '#nosource'
+  - _has-format:book
+  - _has-setting:professional
+  - _scope:art-and-design
+  - _has-type:monograph
+  - issue:space
+  - topic:space/microtypography
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -36,4 +34,5 @@ rendered:
     </div>
   citation: Bringhurst, 2008
 bibTex: "@book{bringhurst__2008__elements,\n\taddress = {Point Roberts (MA), Vancouver},\n\tauthor = {Bringhurst, Robert},\n\tedition = {Version 3.2},\n\tyear = {2008},\n\tpublisher = {Hartley & Marks},\n\ttitle = {The elements of typographic style},\n}\n\n"
+
 ---

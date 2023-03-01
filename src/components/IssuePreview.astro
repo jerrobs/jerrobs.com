@@ -1,6 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content"
-import { renderInline } from "@utils/markdown/render.ts"
+import { renderInline } from "@utils/markdown/render"
 
 export interface Props {
   issue: CollectionEntry<"issue">
@@ -51,9 +51,6 @@ const subtitle = renderInline(issue.data.subtitle)
     display: flex;
     flex-direction: column;
     min-height: calc(8 * var(--baseline-height));
-  }
-  :root {
-    --baseline-height: 48px;
   }
   .issue-cover__body {
     flex: 5;

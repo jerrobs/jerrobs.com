@@ -23,12 +23,12 @@ cslItem:
   publisher: Springer International Publishing
   publisher-place: Cham
   source: DOI.org (Crossref)
-  title: "Systems Mapping: How to build and use causal models of systems"
+  title: 'Systems Mapping: How to build and use causal models of systems'
   title-short: Systems Mapping
   type: book
   URL: https://link.springer.com/10.1007/978-3-031-01919-7
-scopedTags:
-  - tag: /unread
+tags:
+  - /unread
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -36,4 +36,5 @@ rendered:
     </div>
   citation: Barbrook-Johnson and Penn, 2022
 bibTex: "@book{Barbrook2022Systems,\n\tnote = {[Online; accessed 2022-11-16]},\n\taddress = {Cham},\n\tauthor = {Barbrook-Johnson, Pete and Penn, Alexandra S.},\n\tyear = {2022},\n\tpublisher = {Springer International Publishing},\n\ttitle = {Systems {Mapping}: How to build and use causal models of systems},\n}\n\n"
+
 ---

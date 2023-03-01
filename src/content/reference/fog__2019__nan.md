@@ -15,11 +15,9 @@ cslItem:
   language: en
   title: NAN propagation versus fault trapping in floating point code
   type: post-weblog
-scopedTags:
-  - tag: pathicles
-    scope: issue
-  - tag: floating_points
-    scope: issue
+tags:
+  - issue:pathicles
+  - topic:pathicles/floating_points
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -27,4 +25,5 @@ rendered:
     </div>
   citation: Fog, 2019
 bibTex: "@misc{fog__2019__nan,\n\tauthor = {Fog, Agner},\n\tyear = {2019},\n\tmonth = {may 20},\n\ttitle = {NAN propagation versus fault trapping in floating point code},\n}\n\n"
+
 ---

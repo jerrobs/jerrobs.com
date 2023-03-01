@@ -45,18 +45,16 @@ cslItem:
     #nosource;__strategy2030:strategic-planning;collection::strategy::roadmapping
   language: en-US
   publisher: John Wiley & Sons
-  title: "Visual Strategy: Strategy Mapping for Public and Nonprofit Organizations"
+  title: 'Visual Strategy: Strategy Mapping for Public and Nonprofit Organizations'
   title-short: Visual Strategy
   type: book
   URL: >-
     https://learning.oreilly.com/library/view/visual-strategy-strategy/9781118876695/
-scopedTags:
-  - tag: "#nosource"
-  - tag: __strategy2030:strategic-planning
-  - tag: strategy
-    scope: issue
-  - tag: roadmapping
-    scope: issue
+tags:
+  - '#nosource'
+  - __strategy2030:strategic-planning
+  - issue:strategy
+  - topic:strategy/roadmapping
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -64,4 +62,5 @@ rendered:
     </div>
   citation: Bryson, Ackermann and Eden, 2014
 bibTex: "@book{bryson_ackermann_etal__2014__visual,\n\tauthor = {Bryson, John M and Ackermann, Fran and Eden, Colin},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2014},\n\tmonth = {jul 28},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Visual {Strategy}: Strategy {Mapping} for {Public} and {Nonprofit} {Organizations}},\n}\n\n"
+
 ---

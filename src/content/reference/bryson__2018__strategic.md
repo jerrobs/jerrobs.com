@@ -21,14 +21,12 @@ cslItem:
   publisher: John Wiley & Sons
   title: Strategic Planning for Public and Nonprofit Organizations
   type: book
-scopedTags:
-  - tag: "#nosource"
-  - tag: __strategy2030:strategic-planning
-  - tag: __strategy2030:strategic-planning:nonprofit-organizations
-  - tag: strategy
-    scope: issue
-  - tag: esuo
-    scope: issue
+tags:
+  - '#nosource'
+  - __strategy2030:strategic-planning
+  - __strategy2030:strategic-planning:nonprofit-organizations
+  - issue:strategy
+  - topic:strategy/esuo
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -36,4 +34,5 @@ rendered:
     </div>
   citation: Bryson, 2018
 bibTex: "@book{bryson__2018__strategic,\n\tauthor = {Bryson, John M},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2018},\n\tmonth = {jan 4},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Strategic {Planning} for {Public} and {Nonprofit} {Organizations}},\n}\n\n"
+
 ---

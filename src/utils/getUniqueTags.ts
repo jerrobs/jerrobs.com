@@ -5,7 +5,7 @@ export const getUniqueTags = (items: CollectionEntry<"article">[]) => {
   let scopedTags: ScopedTag[] = []
   const filteredItems = items.filter(({ data }) => !data.draft)
   filteredItems.forEach(item => {
-    scopedTags = [...scopedTags, ...item.data.scopedTags]
+    scopedTags = [...scopedTags, ...item.data.tags]
   })
 
   const tagSet = new Set(scopedTags.map(scopedTag => JSON.stringify(scopedTag)))

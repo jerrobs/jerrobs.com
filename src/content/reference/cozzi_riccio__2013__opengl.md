@@ -17,21 +17,19 @@ cslItem:
   issued:
     date-parts:
       - - 2013
-  keyword: "#nosource;collection::pathicles::graphics_programming"
+  keyword: '#nosource;collection::pathicles::graphics_programming'
   language: en-US
-  note: "OCLC: 1086564280"
+  note: 'OCLC: 1086564280'
   publisher: CRC Press
   publisher-place: Boca Raton, Fla.
   source: Open WorldCat
   title: OpenGL insights
   type: book
   URL: https://www.taylorfrancis.com/books/e/9781439893777
-scopedTags:
-  - tag: "#nosource"
-  - tag: pathicles
-    scope: issue
-  - tag: graphics_programming
-    scope: issue
+tags:
+  - '#nosource'
+  - issue:pathicles
+  - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -39,4 +37,5 @@ rendered:
     </div>
   citation: Cozzi and Riccio, 2013
 bibTex: "@book{cozzi_riccio__2013__opengl,\n\taddress = {Boca Raton, Fla.},\n\tauthor = {Cozzi, Patrick and Riccio, Christophe},\n\tyear = {2013},\n\tnote = {OCLC: 1086564280},\n\tpublisher = {CRC Press},\n\ttitle = {OpenGL insights},\n}\n\n"
+
 ---

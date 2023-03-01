@@ -1,16 +1,13 @@
 ---
-scopedTags:
-  - tag: pathicles
-    scope: issue
+tags:
+  - issue:pathicles
+  - topic:pathicles/graphics_programming
 issue: pathices
 pubDatetime: 2023-02-15T00:00:00.000+00:00
 version: "1.0 (unpublished)"
 title: Making it look @@ good
 subtitle: by cheating in 3D
 sectionNumber: PTH.004
-references:
-  tags:
-    - pathicles/graphics_programming
 description: >
   When it comes to real-time rendering, you can't play by the rules of physics. Fortunately, the human eye is quite easy to cheat.
 ---

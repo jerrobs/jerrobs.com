@@ -5,12 +5,8 @@ version: "1.0 (unpublished)"
 title: The case for space
 subtitle: When some Nothing makes a Difference
 sectionNumber: SPC.001
-scopedTags:
-  - tag: space
-    scope: issue
-references:
-  tags:
-    - space/
+tags:
+  - issue:space
 description: >
   When Irish monks introduced the inter-word division into scripture to make the word of the Christian God more readable, they showed what could be done with a little nothing.
 ---

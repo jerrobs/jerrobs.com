@@ -29,11 +29,9 @@ cslItem:
   type: webpage
   URL: >-
     https://freedomafterthesharks.com/2016/06/27/exactly-what-is-cobol-and-why-is-cobol-still-a-widely-used-language-in-it/
-scopedTags:
-  - tag: pathicles
-    scope: issue
-  - tag: floating_points
-    scope: issue
+tags:
+  - issue:pathicles
+  - topic:pathicles/floating_points
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -41,4 +39,5 @@ rendered:
     </div>
   citation: Hudson-Searle, 2016
 bibTex: "@misc{Hudson2016Exactly,\n\tnote = {[Online; accessed 2021-01-28]},\n\tauthor = {Hudson-Searle, Geoff},\n\tyear = {2016},\n\tmonth = {jun 27},\n\ttitle = {Exactly what is {COBOL} and why is {COBOL} still a widely used language in {IT}?},\n\thowpublished = {https://freedomafterthesharks.com/2016/06/27/exactly-what-is-cobol-and-why-is-cobol-still-a-widely-used-language-in-it/},\n}\n\n"
+
 ---

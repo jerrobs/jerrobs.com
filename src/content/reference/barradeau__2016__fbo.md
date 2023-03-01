@@ -17,17 +17,15 @@ cslItem:
       - - 2016
         - 1
         - 11
-  keyword: "#nosource;collection::pathicles::gpgpu"
+  keyword: '#nosource;collection::pathicles::gpgpu'
   language: en-US
   title: FBO particles
   type: post-weblog
   URL: http://barradeau.com/blog/?p=621
-scopedTags:
-  - tag: "#nosource"
-  - tag: pathicles
-    scope: issue
-  - tag: gpgpu
-    scope: issue
+tags:
+  - '#nosource'
+  - issue:pathicles
+  - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -35,4 +33,5 @@ rendered:
     </div>
   citation: Barradeau, 2016
 bibTex: "@misc{barradeau__2016__fbo,\n\tnote = {[Online; accessed 2020-11-19]},\n\tauthor = {Barradeau, Nicolas},\n\tyear = {2016},\n\tmonth = {jan 11},\n\ttitle = {FBO particles},\n\thowpublished = {http://barradeau.com/blog/?p=621},\n}\n\n"
+
 ---

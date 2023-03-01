@@ -19,11 +19,9 @@ cslItem:
   type: webpage
   URL: >-
     https://web.archive.org/web/20000819090542/http://www.cnn.com/WORLD/9606/04/rocket.explode/
-scopedTags:
-  - tag: pathicles
-    scope: issue
-  - tag: floating_points
-    scope: issue
+tags:
+  - issue:pathicles
+  - topic:pathicles/floating_points
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -31,4 +29,5 @@ rendered:
     </div>
   citation: CNN, 1996
 bibTex: "@misc{cnn__1996__unmanned,\n\tnote = {[Online; accessed 2021-01-28]},\n\tauthor = {{CNN}},\n\tyear = {1996},\n\tmonth = {jun 4},\n\ttitle = {Unmanned {European} rocket explodes on first flight - {June} 4, 1996},\n\thowpublished = {https://web.archive.org/web/20000819090542/http://www.cnn.com/WORLD/9606/04/rocket.explode/},\n}\n\n"
+
 ---

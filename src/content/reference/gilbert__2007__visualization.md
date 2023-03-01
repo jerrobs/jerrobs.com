@@ -15,21 +15,19 @@ cslItem:
   issued:
     date-parts:
       - - 2007
-  keyword: "#nosource;collection::pathicles::educational_visualization"
+  keyword: '#nosource;collection::pathicles::educational_visualization'
   language: en-US
-  note: "OCLC: 1061433373"
+  note: 'OCLC: 1061433373'
   publisher: Springer
   publisher-place: Dordrecht
   source: Open WorldCat
   title: Visualization in science education
   type: book
   URL: http://link.springer.com/10.1007/1-4020-3613-2
-scopedTags:
-  - tag: "#nosource"
-  - tag: pathicles
-    scope: issue
-  - tag: educational_visualization
-    scope: issue
+tags:
+  - '#nosource'
+  - issue:pathicles
+  - topic:pathicles/educational_visualization
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -37,4 +35,5 @@ rendered:
     </div>
   citation: Gilbert, 2007
 bibTex: "@book{gilbert__2007__visualization,\n\taddress = {Dordrecht},\n\tauthor = {Gilbert, John},\n\tyear = {2007},\n\tnote = {OCLC: 1061433373},\n\tpublisher = {Springer},\n\ttitle = {Visualization in science education},\n}\n\n"
+
 ---

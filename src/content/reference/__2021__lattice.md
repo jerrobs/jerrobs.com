@@ -26,15 +26,13 @@ cslItem:
   title: Lattice summaries website
   type: software
   URL: https://github.com/nobeam/lattice-summaries-website
-scopedTags:
-  - tag: "#nosource"
-  - tag: accelerator-physics
-  - tag: magnetic-lattice
-  - tag: synchrotron-light-sources
-  - tag: pathicles
-    scope: issue
-  - tag: accelerator_science
-    scope: issue
+tags:
+  - '#nosource'
+  - accelerator-physics
+  - magnetic-lattice
+  - synchrotron-light-sources
+  - issue:pathicles
+  - topic:pathicles/accelerator_science
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -42,4 +40,5 @@ rendered:
     </div>
   citation: <i>Lattice summaries website</i>, 2021
 bibTex: "@misc{__2021__lattice,\n\tnote = {[Online; accessed 2021-10-13]},\n\tyear = {2021},\n\tmonth = {oct 13},\n\tpublisher = {NoBeam},\n\ttitle = {Lattice summaries website},\n\ttype = {Vue},\n}\n\n"
+
 ---

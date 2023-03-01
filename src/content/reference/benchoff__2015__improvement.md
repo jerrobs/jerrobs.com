@@ -22,11 +22,9 @@ cslItem:
   title: An Improvement To Floating Point Numbers
   type: post-weblog
   URL: https://hackaday.com/2015/10/22/an-improvement-to-floating-point-numbers/
-scopedTags:
-  - tag: pathicles
-    scope: issue
-  - tag: floating_points
-    scope: issue
+tags:
+  - issue:pathicles
+  - topic:pathicles/floating_points
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -34,4 +32,5 @@ rendered:
     </div>
   citation: Benchoff, 2015
 bibTex: "@misc{benchoff__2015__improvement,\n\tnote = {[Online; accessed 2021-01-27]},\n\tauthor = {Benchoff, Brian},\n\tyear = {2015},\n\tmonth = {oct 22},\n\ttitle = {An {Improvement} {To} {Floating} {Point} {Numbers}},\n\thowpublished = {https://hackaday.com/2015/10/22/an-improvement-to-floating-point-numbers/},\n}\n\n"
+
 ---

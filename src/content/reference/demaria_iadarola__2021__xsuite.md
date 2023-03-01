@@ -16,11 +16,9 @@ cslItem:
   keyword: collection::pathicles::codes
   title: Xsuite code
   type: speech
-scopedTags:
-  - tag: pathicles
-    scope: issue
-  - tag: codes
-    scope: issue
+tags:
+  - issue:pathicles
+  - topic:pathicles/codes
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -28,4 +26,5 @@ rendered:
     </div>
   citation: De Maria and Iadarola, 2021
 bibTex: "@misc{demaria_iadarola__2021__xsuite,\n\tauthor = {De Maria, E and Iadarola, G.},\n\tyear = {2021},\n\tmonth = {sep 30},\n\ttitle = {Xsuite code},\n}\n\n"
+
 ---

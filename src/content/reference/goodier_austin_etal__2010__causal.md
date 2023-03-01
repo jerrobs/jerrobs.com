@@ -39,8 +39,8 @@ cslItem:
   container-title: Futures
   container-title-short: Futures
   DOI: 10.1016/j.futures.2009.11.007
-  ISSN: "00163287"
-  issue: "3"
+  ISSN: '00163287'
+  issue: '3'
   issued:
     date-parts:
       - - 2010
@@ -52,12 +52,10 @@ cslItem:
   title: Causal mapping and scenario building with multiple organisations
   type: article-journal
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0016328709001815
-  volume: "42"
-scopedTags:
-  - tag: strategy
-    scope: issue
-  - tag: roadmapping
-    scope: issue
+  volume: '42'
+tags:
+  - issue:strategy
+  - topic:strategy/roadmapping
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -65,4 +63,5 @@ rendered:
     </div>
   citation: Goodier <i>et al.</i>, 2010
 bibTex: "@article{goodier_austin_etal__2010__causal,\n\tnote = {[Online; accessed 2021-02-22]},\n\tauthor = {Goodier, Chris and Austin, Simon and Soetanto, Robby and Dainty, Andrew},\n\tjournal = {Futures},\n\tnumber = {3},\n\tyear = {2010},\n\tmonth = {4},\n\tpages = {219--229},\n\ttitle = {Causal mapping and scenario building with multiple organisations},\n\thowpublished = {https://linkinghub.elsevier.com/retrieve/pii/S0016328709001815},\n\tvolume = {42},\n}\n\n"
+
 ---

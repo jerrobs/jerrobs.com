@@ -22,11 +22,9 @@ cslItem:
   type: bill
   URL: >-
     https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=DE
-scopedTags:
-  - tag: jerrobs
-    scope: issue
-  - tag: privacy
-    scope: issue
+tags:
+  - issue:jerrobs
+  - topic:jerrobs/privacy
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -34,4 +32,5 @@ rendered:
     </div>
   citation: <i>General Data Protection Regulation Regulation</i>, 2016
 bibTex: "@misc{eu__2016__general,\n\tnote = {[Online; accessed 2020-03-27]},\n\tyear = {2016},\n\tmonth = {apr 27},\n\ttitle = {General {Data} {Protection} {Regulation} {Regulation}},\n\thowpublished = {https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=DE},\n}\n\n"
+
 ---

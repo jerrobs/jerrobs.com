@@ -5,15 +5,12 @@ version: "1.0 (unpublished)"
 title: What is strategy?
 subtitle: A multidisciplinary review
 sectionNumber: STY.001
-scopedTags:
-  - tag: space
-    scope: issue
-references:
-  tags:
-    - strategy/management-theory
-    - strategy/game-theory
-    - strategy/military
-    - strategy/software-engineering
+tags:
+  - issue:strategy
+  - topic:strategy/management-theory
+  - topic:strategy/game-theory
+  - topic:strategy/military
+  - topic:strategy/software-engineering
 description: >
   If you have many cooks, you can let them spoil the broth. Alternatively, you can orchestrate their talents to whip up a buffet for all to feast o
 ---

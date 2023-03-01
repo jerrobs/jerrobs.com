@@ -11,17 +11,15 @@ cslItem:
       - - 2019
         - 1
         - 1
-  keyword: "#nosource;collection::pathicles::floating_points"
+  keyword: '#nosource;collection::pathicles::floating_points'
   language: en
   title: Exposing Floating Point
   type: post-weblog
   URL: https://float.exposed/0x4009200000000000
-scopedTags:
-  - tag: "#nosource"
-  - tag: pathicles
-    scope: issue
-  - tag: floating_points
-    scope: issue
+tags:
+  - '#nosource'
+  - issue:pathicles
+  - topic:pathicles/floating_points
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -29,4 +27,5 @@ rendered:
     </div>
   citation: Ciechanowski, 2019
 bibTex: "@misc{ciechanowski__2019__exposing,\n\tauthor = {Ciechanowski, Bartosz},\n\tyear = {2019},\n\tmonth = {jan 1},\n\ttitle = {Exposing {Floating} {Point}},\n\thowpublished = {https://float.exposed/0x4009200000000000},\n}\n\n"
+
 ---

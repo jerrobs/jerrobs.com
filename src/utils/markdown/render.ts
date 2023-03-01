@@ -4,7 +4,8 @@ import remarkGfm from "remark-gfm"
 import remarkRehype from "remark-rehype"
 import rehypeStringify from "rehype-stringify"
 
-export async function renderInline(source: string) {
+export async function renderInline(source: string | undefined) {
+  if (!source) return source
   const html = String(
     await unified()
       .use(remarkParse)

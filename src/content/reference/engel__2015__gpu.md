@@ -39,13 +39,11 @@ cslItem:
   publisher: CRC Press
   title: GPU Pro 6
   type: book
-scopedTags:
-  - tag: "#nosource"
-  - tag: _has-holding::oreilly-learning
-  - tag: pathicles
-    scope: issue
-  - tag: graphics_programming
-    scope: issue
+tags:
+  - '#nosource'
+  - _has-holding::oreilly-learning
+  - issue:pathicles
+  - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -53,4 +51,5 @@ rendered:
     </div>
   citation: Engel, 2015
 bibTex: "@book{engel__2015__gpu,\n\tauthor = {Engel, Wolfgang},\n\tyear = {2015},\n\tmonth = {jul 28},\n\tpublisher = {CRC Press},\n\ttitle = {GPU {Pro} 6},\n}\n\n"
+
 ---

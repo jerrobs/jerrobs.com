@@ -5,12 +5,9 @@ version: "1.0 (unpublished)"
 title: Making it fast
 subtitle: with graphics @@ processor parallelism
 sectionNumber: PTH.002
-scopedTags:
-  - tag: pathicles
-    scope: issue
-references:
-  tags:
-    - pathicles/gpgpu
+tags:
+  - issue:pathicles
+  - topic:pathicles/gpgpu
 description: >
   For real-time rendering How graphic cards can accelerate particle simulations
 ---

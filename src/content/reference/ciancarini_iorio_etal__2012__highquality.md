@@ -14,7 +14,7 @@ cslItem:
     - family: Furini
       given: L
   citation-key: ciancarini_iorio_etal__2012__highquality
-  container-title: "Software: Practice and …"
+  container-title: 'Software: Practice and …'
   DOI: 10.1002/spe.1096
   issued:
     date-parts:
@@ -25,14 +25,12 @@ cslItem:
   title: High-quality pagination for publishing
   type: article-journal
   URL: http://onlinelibrary.wiley.com/doi/10.1002/spe.1096/full
-scopedTags:
-  - tag: "#nosource"
-  - tag: _has-setting:academic
-  - tag: _has-format:article
-  - tag: space
-    scope: issue
-  - tag: space_space
-    scope: issue
+tags:
+  - '#nosource'
+  - _has-setting:academic
+  - _has-format:article
+  - issue:space
+  - topic:space/space_space
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
@@ -40,4 +38,5 @@ rendered:
     </div>
   citation: Ciancarini, Iorio and Furini, 2012
 bibTex: "@article{ciancarini_iorio_etal__2012__highquality,\n\tauthor = {Ciancarini, P and Iorio, A D and Furini, L},\n\tjournal = {Software: Practice and ...},\n\tyear = {2012},\n\ttitle = {High-quality pagination for publishing},\n\thowpublished = {http://onlinelibrary.wiley.com/doi/10.1002/spe.1096/full},\n}\n\n"
+
 ---

@@ -63,6 +63,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
     {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
   </head>
   <body>
-    <slot />
+    <div class="layout">
+      <div class="layout__main">
+        <slot />
+      </div>
+    </div>
   </body>
 </html>
