@@ -29,7 +29,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="opengl__4.6" class="csl-entry">Khronos Group 2019 <i>OpenGL Specification. Version 4.6</i>. Khronos Group, p. 172. Available at: https://www.khronos.org/registry/webgl/specs/1.0.0/ (Accessed: April 13, 2020).</div>
+      <div data-csl-entry-id="opengl__4.6" class="csl-entry">Khronos Group 2019 <i>OpenGL Specification. Version 4.6</i>. Khronos Group, p. 172. Available at: <a href='https://www.khronos.org/registry/webgl/specs/1.0.0/'>https://www.khronos.org/registry/webgl/specs/1.0.0/</a> (Accessed: April 13, 2020).</div>
     </div>
   citation: Khronos Group, 2019
 bibTex: "@techreport{Khronos2019OpenGL,\n\tauthor = {{Khronos Group}},\n\tyear = {2019},\n\tmonth = {oct 22},\n\tnote = {Inline referece: OpenGL 1},\n\tpages = {172},\n\tinstitution = {Khronos Group},\n\ttitle = {OpenGL {Specification}. {Version} 4.6},\n}\n\n"

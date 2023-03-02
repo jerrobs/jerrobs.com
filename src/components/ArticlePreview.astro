@@ -13,9 +13,9 @@ const { data, slug } = await article
 
 <div class="article-preview">
   <a href={`/articles/${slug}`}>
-    <h3 set:html={renderInline(data.title)} />
-    <p set:html={renderInline(data.description)} />
-  </a>
+    <h3 class="md" set:html={renderInline(data.title)} /></a
+  >
+  <p class="md" set:html={renderInline(data.description)} />
 </div>
 
 <style>

@@ -34,7 +34,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="thrax__1874__tekhne" class="csl-entry">Thrax, D. 1874 <i>Tekhnē Grammatikē. The grammar of Dionysios Thrax</i>. Translated by T. Davidson. St. Louis, Mo. : Studley. Available at: http://archive.org/details/grammarofdionysi00dionuoft (Accessed: April 25, 2021).</div>
+      <div data-csl-entry-id="thrax__1874__tekhne" class="csl-entry">Thrax, D. 1874 <i>Tekhnē Grammatikē. The grammar of Dionysios Thrax</i>. Translated by T. Davidson. St. Louis, Mo. : Studley. Available at: <a href='http://archive.org/details/grammarofdionysi00dionuoft'>http://archive.org/details/grammarofdionysi00dionuoft</a> (Accessed: April 25, 2021).</div>
     </div>
   citation: Thrax, 1874
 bibTex: "@book{thrax__1874__tekhne,\n\tnote = {[Online; accessed 2021-04-25]},\n\tauthor = {Thrax, Dionysius},\n\tyear = {1874},\n\tpublisher = {St. Louis, Mo. : Studley},\n\ttitle = {Tekhn{\\= e} {Grammatik}{\\= e}. {The} grammar of {Dionysios} {Thrax}},\n}\n\n"

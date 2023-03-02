@@ -35,7 +35,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="dmitryiv__chen_etal__2006__stackgl" class="csl-entry">Dmitry IV. <i>et al.</i> 2006 <i>stackgl/glsl-transpiler</i>. Available at: https://github.com/stackgl/glsl-transpiler (Accessed: October 12, 2020).</div>
+      <div data-csl-entry-id="dmitryiv__chen_etal__2006__stackgl" class="csl-entry">Dmitry IV. <i>et al.</i> 2006 <i>stackgl/glsl-transpiler</i>. Available at: <a href='https://github.com/stackgl/glsl-transpiler'>https://github.com/stackgl/glsl-transpiler</a> (Accessed: October 12, 2020).</div>
     </div>
   citation: Dmitry IV. <i>et al.</i>, 2006
 bibTex: "@misc{dmitryiv__chen_etal__2006__stackgl,\n\tauthor = {{Dmitry IV.} and Chen, Xiaoji and Marz, Jamen and Kluge, Alex},\n\tyear = {2006},\n\tmonth = {dec 13},\n\tnote = {http://web.archive.org/web/20201012132849/http://www.vizitsolutions.com/portfolio/webgl/gpgpu/},\n\ttitle = {stackgl/glsl-transpiler},\n\thowpublished = {https://github.com/stackgl/glsl-transpiler},\n}\n\n"

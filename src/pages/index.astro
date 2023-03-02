@@ -1,6 +1,7 @@
 ---
 import Layout from "@layouts/Layout.astro"
 import Header from "@components/Header.astro"
+import IssueList from "@components/IssuesList.astro"
 import Footer from "@components/Footer.astro"
 
 import { getIssues } from "@utils/getIssues"
@@ -31,7 +32,7 @@ const featuredIssues = issues
         </svg>
       </a>
 
-      <p>
+      <p class="md large">
         J.Err.Obs., the Journal of Erratic Observations, publishes mini-reviews,
         experimental and observational studies, theoretical and computational
         analyses, case analyses, case studies and commentaries.
@@ -40,15 +41,9 @@ const featuredIssues = issues
 
     {
       featuredIssues.length > 0 && (
-        <>
-          <section id="featured">
-            <ul>
-              {featuredIssues.map(issue => (
-                <IssuePreview href={`/issues/${issue.slug}`} issue={issue} />
-              ))}
-            </ul>
-          </section>
-        </>
+        <section id="featured">
+          <IssueList issues={featuredIssues} />
+        </section>
       )
     }
   </main>

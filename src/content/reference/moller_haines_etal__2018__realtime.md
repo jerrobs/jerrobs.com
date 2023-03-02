@@ -33,7 +33,6 @@ cslItem:
   source: Open WorldCat
   title: Real-time rendering
   type: book
-  URL: https://books.google.de/books?id=0g1mDwAAQBAJ
 tags:
   - _has-holding::oreilly-learning
   - issue:pathicles
@@ -41,7 +40,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="moller_haines_etal__2018__realtime" class="csl-entry">Möller, T., Haines, E. and Hoffman, N. 2018 <i>Real-time rendering</i>. 4th edition. CRC Press. Available at: https://books.google.de/books?id=0g1mDwAAQBAJ.</div>
+      <div data-csl-entry-id="moller_haines_etal__2018__realtime" class="csl-entry">Möller, T., Haines, E. and Hoffman, N. 2018 <i>Real-time rendering</i>. 4th edition. CRC Press.</div>
     </div>
   citation: Möller, Haines and Hoffman, 2018
 bibTex: "@book{moller_haines_etal__2018__realtime,\n\tauthor = {M{\\\" o}ller, Tomas and Haines, Eric and Hoffman, Naty},\n\tedition = {4th edition},\n\tyear = {2018},\n\tnote = {OCLC: 1028582028},\n\tpublisher = {CRC Press},\n\ttitle = {Real-time rendering},\n}\n\n"

@@ -40,7 +40,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="gamma_helm_etal__1994__design" class="csl-entry">Gamma, E. <i>et al.</i> 1994 <i>Design patterns: elements of reusable object-oriented software</i>. Reading, Mass: Addison-Wesley (Addison-Wesley professional computing series). Available at: https://archive.org/details/designpatternsel00gamm/page/315/mode/2up.</div>
+      <div data-csl-entry-id="gamma_helm_etal__1994__design" class="csl-entry">Gamma, E. <i>et al.</i> 1994 <i>Design patterns: elements of reusable object-oriented software</i>. Reading, Mass: Addison-Wesley (Addison-Wesley professional computing series). Available at: <a href='https://archive.org/details/designpatternsel00gamm/page/315/mode/2up.'>https://archive.org/details/designpatternsel00gamm/page/315/mode/2up.</a></div>
     </div>
   citation: Gamma <i>et al.</i>, 1994
 bibTex: "@book{gamma_helm_etal__1994__design,\n\taddress = {Reading, Mass},\n\tauthor = {Gamma, Erich and Helm, Richard and Johnson, Ralph and Vlissides, John},\n\tseries = {Addison-{Wesley} professional computing series},\n\tyear = {1994},\n\tpublisher = {Addison-Wesley},\n\ttitle = {Design patterns: elements of reusable object-oriented software},\n}\n\n"

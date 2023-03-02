@@ -25,7 +25,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="mueller-stewens_gillenkirch__2018__strategie" class="csl-entry">Müller-Stewens, G. and Gillenkirch, R. 2018 “Strategie,” <i>Gablers Wirtschaftslexikon</i>. Available at: https://wirtschaftslexikon.gabler.de/definition/strategie-43591/version-266920.</div>
+      <div data-csl-entry-id="mueller-stewens_gillenkirch__2018__strategie" class="csl-entry">Müller-Stewens, G. and Gillenkirch, R. 2018 “Strategie,” <i>Gablers Wirtschaftslexikon</i>. Available at: <a href='https://wirtschaftslexikon.gabler.de/definition/strategie-43591/version-266920.'>https://wirtschaftslexikon.gabler.de/definition/strategie-43591/version-266920.</a></div>
     </div>
   citation: Müller-Stewens and Gillenkirch, 2018
 bibTex: "@misc{Muller2018Strategie,\n\tauthor = {M{\\\" u}ller-Stewens, G{\\\" u}nter and Gillenkirch, Robert},\n\tyear = {2018},\n\tmonth = {feb 19},\n\ttitle = {Strategie},\n\thowpublished = {https://wirtschaftslexikon.gabler.de/definition/strategie-43591/version-266920},\n}\n\n"

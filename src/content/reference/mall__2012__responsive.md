@@ -24,7 +24,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="mall__2012__responsive" class="csl-entry">Mall, D. 2012 “Responsive line breaks.” Available at: http://v3.danielmall.com/articles/responsive-line-breaks/.</div>
+      <div data-csl-entry-id="mall__2012__responsive" class="csl-entry">Mall, D. 2012 “Responsive line breaks.” Available at: <a href='http://v3.danielmall.com/articles/responsive-line-breaks/.'>http://v3.danielmall.com/articles/responsive-line-breaks/.</a></div>
     </div>
   citation: Mall, 2012
 bibTex: "@article{mall__2012__responsive,\n\tauthor = {Mall, Dan},\n\tyear = {2012},\n\tmonth = {8},\n\ttitle = {Responsive line breaks},\n\thowpublished = {http://v3.danielmall.com/articles/responsive-line-breaks/},\n}\n\n"

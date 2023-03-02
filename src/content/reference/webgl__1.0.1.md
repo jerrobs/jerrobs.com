@@ -28,7 +28,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="webgl__1.0.1" class="csl-entry">Khronos Group 2012 <i>WebGL Specification. Version 1.0.1</i>. Khronos Group. Available at: https://www.khronos.org/registry/webgl/specs/1.0.0/ (Accessed: April 13, 2020).</div>
+      <div data-csl-entry-id="webgl__1.0.1" class="csl-entry">Khronos Group 2012 <i>WebGL Specification. Version 1.0.1</i>. Khronos Group. Available at: <a href='https://www.khronos.org/registry/webgl/specs/1.0.0/'>https://www.khronos.org/registry/webgl/specs/1.0.0/</a> (Accessed: April 13, 2020).</div>
     </div>
   citation: Khronos Group, 2012
 bibTex: "@techreport{Khronos2012WebGL,\n\tauthor = {{Khronos Group}},\n\tyear = {2012},\n\tmonth = {jan 27},\n\tnote = {Inline referece: WebGL 1.0.1},\n\tinstitution = {Khronos Group},\n\ttitle = {WebGL {Specification}. {Version} 1.0.1},\n}\n\n"

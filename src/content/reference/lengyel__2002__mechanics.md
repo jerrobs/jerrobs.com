@@ -35,7 +35,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="lengyel__2002__mechanics" class="csl-entry">Lengyel, E. 2002 “The Mechanics of Robust Stencil Shadows,” <i>Gamasutra</i>. Available at: http://www.gamasutra.com/view/feature/131351/the_mechanics_of_robust_stencil_.php?print=1.</div>
+      <div data-csl-entry-id="lengyel__2002__mechanics" class="csl-entry">Lengyel, E. 2002 “The Mechanics of Robust Stencil Shadows,” <i>Gamasutra</i>. Available at: <a href='http://www.gamasutra.com/view/feature/131351/the_mechanics_of_robust_stencil_.php?print=1.'>http://www.gamasutra.com/view/feature/131351/the_mechanics_of_robust_stencil_.php?print=1.</a></div>
     </div>
   citation: Lengyel, 2002
 bibTex: "@misc{lengyel__2002__mechanics,\n\tauthor = {Lengyel, Eric},\n\tyear = {2002},\n\ttitle = {The {Mechanics} of {Robust} {Stencil} {Shadows}},\n\ttype = {Magazine},\n\thowpublished = {http://www.gamasutra.com/view/feature/131351/the\\textunderscore{}mechanics\\textunderscore{}of\\textunderscore{}robust\\textunderscore{}stencil\\textunderscore{}.php?print=1},\n}\n\n"

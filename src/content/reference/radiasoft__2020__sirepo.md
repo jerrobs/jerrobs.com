@@ -28,7 +28,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="radiasoft__2020__sirepo" class="csl-entry">RadiaSoft 2020 <i>Sirepo</i>. Available at: https://www.sirepo.com/ (Accessed: February 9, 2021).</div>
+      <div data-csl-entry-id="radiasoft__2020__sirepo" class="csl-entry">RadiaSoft 2020 <i>Sirepo</i>. Available at: <a href='https://www.sirepo.com/'>https://www.sirepo.com/</a> (Accessed: February 9, 2021).</div>
     </div>
   citation: RadiaSoft, 2020
 bibTex: "@misc{radiasoft__2020__sirepo,\n\tnote = {[Online; accessed 2021-02-09]},\n\tauthor = {{RadiaSoft}},\n\tyear = {2020},\n\ttitle = {Sirepo},\n\thowpublished = {https://www.sirepo.com/},\n}\n\n"

@@ -31,7 +31,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="bouvier__2013__efficient" class="csl-entry">Bouvier, B. 2013 “Efficient float32 arithmetic in JavaScript,” <i>JavaScript. All about Mozilla’s JavaScript engine</i>. Available at: https://blog.mozilla.org/javascript/2013/11/07/efficient-float32-arithmetic-in-javascript/ (Accessed: December 15, 2020).</div>
+      <div data-csl-entry-id="bouvier__2013__efficient" class="csl-entry">Bouvier, B. 2013 “Efficient float32 arithmetic in JavaScript,” <i>JavaScript. All about Mozilla’s JavaScript engine</i>. Available at: <a href='https://blog.mozilla.org/javascript/2013/11/07/efficient-float32-arithmetic-in-javascript/'>https://blog.mozilla.org/javascript/2013/11/07/efficient-float32-arithmetic-in-javascript/</a> (Accessed: December 15, 2020).</div>
     </div>
   citation: Bouvier, 2013
 bibTex: "@misc{bouvier__2013__efficient,\n\tnote = {[Online; accessed 2020-12-15]},\n\tauthor = {Bouvier, Benjamin},\n\tyear = {2013},\n\ttitle = {Efficient float32 arithmetic in {JavaScript}},\n\thowpublished = {https://blog.mozilla.org/javascript/2013/11/07/efficient-float32-arithmetic-in-javascript/},\n}\n\n"

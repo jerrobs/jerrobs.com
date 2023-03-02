@@ -24,7 +24,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="sukop__2014__line" class="csl-entry">Sukop, J. 2014 “Line breaking,” February. Available at: http://xxyxyz.org/line-breaking/.</div>
+      <div data-csl-entry-id="sukop__2014__line" class="csl-entry">Sukop, J. 2014 “Line breaking,” February. Available at: <a href='http://xxyxyz.org/line-breaking/.'>http://xxyxyz.org/line-breaking/.</a></div>
     </div>
   citation: Sukop, 2014
 bibTex: "@misc{sukop__2014__line,\n\tauthor = {Sukop, Juraj},\n\tyear = {2014},\n\tmonth = {2},\n\ttitle = {Line breaking},\n\thowpublished = {http://xxyxyz.org/line-breaking/},\n}\n\n"

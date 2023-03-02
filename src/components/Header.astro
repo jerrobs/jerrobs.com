@@ -13,11 +13,22 @@ const { activeNav } = Astro.props
 ---
 
 <header>
-  <a id="skip-to-content" href="#main-content">Skip to content</a>
+  <a class="skip-to-content" href="#main-content">Skip to content</a>
   <div class="nav-container">
     <a href="/" class="logo">
       {SITE.title}
     </a>
+    <div class="taglines">
+      <p class="md">
+        <strong>observed</strong>, <strong>written</strong>, and <strong
+          >peer-reviewed</strong
+        >
+      </p>
+
+      <p class="md">
+        by <strong>Dirk Rathje</strong> of <strong>Hamburg</strong>
+      </p>
+    </div>
     <nav id="nav-menu">
       <button
         class="hamburger-menu focus-outline"
@@ -60,7 +71,7 @@ const { activeNav } = Astro.props
             About
           </a>
         </li>
-        <li>
+        <!-- <li>
           <LinkButton
             href="/search"
             className={`focus-outline p-3 sm:p-1 ${
@@ -97,16 +108,22 @@ const { activeNav } = Astro.props
               </button>
             )
           }
-        </li>
+        </li> -->
       </ul>
     </nav>
   </div>
 </header>
 
 <style lang="stylus">
+  button {
+    height: 2rem;
+    width: 2rem;
+  }
   .nav-container {
     display: flex;
     flex-direction: row;
+    height: 5rem;
+    // background-color: red;
   }
   .logo {
     flex-grow: 1;
@@ -118,6 +135,41 @@ const { activeNav } = Astro.props
   }
   .menu-item li {
     padding: 0 1rem;
+  }
+
+  a.skip-to-content {
+    left: -999px;
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+  }
+  a.skip-to-content:focus,
+  a.skip-to-content:active {
+    color: #fff;
+    background-color: #000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow: auto;
+    margin: 10px 35%;
+    padding: 5px;
+    border-radius: 15px;
+    border: 4px solid yellow;
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 999;
+  }
+
+  .logo {
+    font-size: 8rem;
+    overflow: hidden;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 700;
   }
 </style>
 

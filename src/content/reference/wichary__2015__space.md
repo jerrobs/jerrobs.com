@@ -28,7 +28,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="wichary__2015__space" class="csl-entry">Wichary, M. 2015 “Space yourself,” <i>Smashing Magazine</i>, October. Available at: https://www.smashingmagazine.com/2015/10/space-yourself/.</div>
+      <div data-csl-entry-id="wichary__2015__space" class="csl-entry">Wichary, M. 2015 “Space yourself,” <i>Smashing Magazine</i>, October. Available at: <a href='https://www.smashingmagazine.com/2015/10/space-yourself/.'>https://www.smashingmagazine.com/2015/10/space-yourself/.</a></div>
     </div>
   citation: Wichary, 2015
 bibTex: "@misc{wichary__2015__space,\n\tauthor = {Wichary, Marcin},\n\tyear = {2015},\n\tmonth = {10},\n\ttitle = {Space yourself},\n\thowpublished = {https://www.smashingmagazine.com/2015/10/space-yourself/},\n}\n\n"

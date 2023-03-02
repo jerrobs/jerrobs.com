@@ -29,7 +29,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="olena__2018__brief" class="csl-entry">Olena 2018 <i>A Brief History of GPU</i>, <i>Medium</i>. Available at: https://medium.com/altumea/a-brief-history-of-gpu-47d98d6a0f8a (Accessed: January 29, 2021).</div>
+      <div data-csl-entry-id="olena__2018__brief" class="csl-entry">Olena 2018 <i>A Brief History of GPU</i>, <i>Medium</i>. Available at: <a href='https://medium.com/altumea/a-brief-history-of-gpu-47d98d6a0f8a'>https://medium.com/altumea/a-brief-history-of-gpu-47d98d6a0f8a</a> (Accessed: January 29, 2021).</div>
     </div>
   citation: Olena, 2018
 bibTex: "@misc{olena__2018__brief,\n\tnote = {[Online; accessed 2021-01-29]},\n\tauthor = {{Olena}},\n\tyear = {2018},\n\tmonth = {feb 22},\n\ttitle = {A {Brief} {History} of {GPU}},\n\thowpublished = {https://medium.com/altumea/a-brief-history-of-gpu-47d98d6a0f8a},\n}\n\n"

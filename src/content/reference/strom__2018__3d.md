@@ -25,11 +25,7 @@ cslItem:
     to the code that you just typed! Along the way, you'll pick up a ton of
     programming knowledge, and dive in even deeper with some more advanced
     chapters. Whatever you want to do, this book has your back. Best of all, you
-    get to create awesome games and say, "I made this!" You need the latest
-    version of the Google Chrome Web browser, available for free from
-    https://chrome.google.com. You also need an Internet connection to access
-    the ICE Code Editor the first time. ICE Code Editor will be loaded onto your
-    computer, so you won't need Internet access for later projects
+    get to create awesome games and say, "I made this!"
   author:
     - family: Strom
       given: Chris

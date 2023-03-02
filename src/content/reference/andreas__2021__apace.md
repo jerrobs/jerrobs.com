@@ -36,7 +36,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="andreas__2021__apace" class="csl-entry">Andreas, F. 2021 <i>apace</i>. Available at: https://github.com/andreasfelix/apace (Accessed: October 13, 2021).</div>
+      <div data-csl-entry-id="andreas__2021__apace" class="csl-entry">Andreas, F. 2021 <i>apace</i>. Available at: <a href='https://github.com/andreasfelix/apace'>https://github.com/andreasfelix/apace</a> (Accessed: October 13, 2021).</div>
     </div>
   citation: Andreas, 2021
 bibTex: "@misc{andreas__2021__apace,\n\tnote = {[Online; accessed 2021-10-13]},\n\tauthor = {Andreas, Felix},\n\tyear = {2021},\n\tmonth = {oct 12},\n\ttitle = {apace},\n\ttype = {Python},\n\thowpublished = {https://github.com/andreasfelix/apace},\n}\n\n"

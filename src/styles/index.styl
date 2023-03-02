@@ -22,136 +22,46 @@ html {
   -webkit-print-color-adjust: exact;
 }
 
-h2.category {
-  font-family: var(--font-family--headings);
-  $baselined-typography(body-md);
-  $category();
-}
-
-.space-commander-example {
-  display: flex;
-  flex-direction: column;
-
-  +mq--gte-md() {
-    flex-direction: row;
-  }
-
-  .input {
-    flex: 1;
-
-    code {
-      white-space: normal;
-      font-family: monospace;
-    }
-  }
-
-  .output {
-    flex: 1;
-  }
-}
-
-.math {
-  font-family: $FONT-FAMILY--CODE;
-}
-
-div.math {
-  height: $bl(1);
-  $baselined-typography(math);
-  vertical-align: bottom;
-  opacity: 1;
-
-  p {
-    top: unset;
-    margin: unset;
-    font-size: unset;
-  }
-}
-
-.content__bibliography {
-  h2.md {
-    $baselined-typography(body-md);
-    margin-bottom: $bl(0);
-  }
-
-  ol {
-    margin-bottom: $bl(1);
-  }
-}
-
 body {
+  background-color: var(--color-background);
   background: linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), #fff;
-  background-size: 100% $bl(0.5), 100% $bl(1), 100% 100%;
-}
-
-.layout--screen-view {
-  .page {
-    min-height: 100vh;
-  }
-}
-
-.toc-item[data-depth='3'] {
-  > a > .toc-item__body {
-    text-transform: uppercase;
-  }
-}
-
-.skip-to-content-link {
-  position: absolute;
-  transition: transform 0.3s;
-  transform: translateY(-500%);
-}
-
-.skip-to-content-link:focus {
-  transform: translateY(-100%);
-}
-
-.layout {
-  position: relative;
-}
-
-.layout__main {
-  min-height: 100vh;
-  transform-origin: top left;
-}
-
-.layout__sidebar {
-  z-index: 10000;
-}
-
-.layout__navbar {
-  z-index: 11000;
-}
-
-+mq--lte-sm() {
-  .layout__sidebar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transition: transform 200ms;
-    transform: translateY(100vh);
-  }
-
-  .layout__navbar {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    bottom: -webkit-fill-available;
-    left: 0;
-  }
-
-  .layout[data-sidebar-status='SIDEBAR__VISIBLE'] {
-    .layout__sidebar {
-      transition: transform 200ms;
-      transform: translateY(0);
-    }
-  }
+  background-size: 100% 1rem, 100% 5rem, 100% 100%;
 }
 
 .layout__main {
   position: relative;
-  max-width: 120ch;
+  max-width: 80ch;
   margin: 0 auto;
   transition: 200ms;
+}
+
+#sun-svg, html[data-theme='dark'] #moon-svg {
+  display: none;
+}
+
+#moon-svg, html[data-theme='dark'] #sun-svg {
+  display: block;
+}
+
+#main-content {
+}
+
+.button-container {
+  height: 2rem;
+  width: 2rem;
+  background-color: red;
+  overflow: hidden;
+
+  svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+.bib-list {
+  columns: 3;
+}
+
+.csl-entry a {
+  word-break: break-word;
 }

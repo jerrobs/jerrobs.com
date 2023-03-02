@@ -73,7 +73,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="adelmann_calvo_etal__2019__opal" class="csl-entry">Adelmann, A. <i>et al.</i> 2019 “OPAL a Versatile Tool for Charged Particle Accelerator Simulations,” <i>arXiv:1905.06654 [physics]</i> [Preprint]. Available at: http://arxiv.org/abs/1905.06654 (Accessed: April 11, 2020).</div>
+      <div data-csl-entry-id="adelmann_calvo_etal__2019__opal" class="csl-entry">Adelmann, A. <i>et al.</i> 2019 “OPAL a Versatile Tool for Charged Particle Accelerator Simulations,” <i>arXiv:1905.06654 [physics]</i> [Preprint]. Available at: <a href='http://arxiv.org/abs/1905.06654'>http://arxiv.org/abs/1905.06654</a> (Accessed: April 11, 2020).</div>
     </div>
   citation: Adelmann <i>et al.</i>, 2019
 bibTex: "@article{adelmann_calvo_etal__2019__opal,\n\tnote = {[Online; accessed 2020-04-11]},\n\tauthor = {Adelmann, Andreas and Calvo, Pedro and Frey, Matthias and Gsell, Achim and Locans, Uldis and Metzger-Kraus, Christof and Neveu, Nicole and Rogers, Chris and Russell, Steve and Sheehy, Suzanne and Snuverink, Jochem and Winklehner, Daniel},\n\tjournal = {arXiv:1905.06654 [physics]},\n\tyear = {2019},\n\tmonth = {may 16},\n\ttitle = {OPAL a {Versatile} {Tool} for {Charged} {Particle} {Accelerator} {Simulations}},\n\thowpublished = {http://arxiv.org/abs/1905.06654},\n}\n\n"

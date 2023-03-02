@@ -35,7 +35,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="dowding__1995__finer" class="csl-entry">Dowding, G. 1995 <i>Finer points in the spacing and arrangement of type</i>. Hartley &#38; Marks Publishers. Available at: http://gt11.johncaserta.info/wp-content/uploads/2011/09/dowding_text.pdf.</div>
+      <div data-csl-entry-id="dowding__1995__finer" class="csl-entry">Dowding, G. 1995 <i>Finer points in the spacing and arrangement of type</i>. Hartley &#38; Marks Publishers. Available at: <a href='http://gt11.johncaserta.info/wp-content/uploads/2011/09/dowding_text.pdf.'>http://gt11.johncaserta.info/wp-content/uploads/2011/09/dowding_text.pdf.</a></div>
     </div>
   citation: Dowding, 1995
 bibTex: "@book{dowding__1995__finer,\n\tauthor = {Dowding, Geoffrey},\n\tyear = {1995},\n\tpublisher = {Hartley & Marks Publishers},\n\ttitle = {Finer points in the spacing and arrangement of type},\n}\n\n"

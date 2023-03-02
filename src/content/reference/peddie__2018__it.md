@@ -29,7 +29,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="peddie__2018__it" class="csl-entry">Peddie, J. 2018 “Is It Time to Rename the Gpu?,” <i>IEEE Computer Society: Chasing Pixels</i>, 17 July. Available at: https://www.computer.org/is-it-time-to-rename-the-gpu/ (Accessed: January 29, 2021).</div>
+      <div data-csl-entry-id="peddie__2018__it" class="csl-entry">Peddie, J. 2018 “Is It Time to Rename the Gpu?,” <i>IEEE Computer Society: Chasing Pixels</i>, 17 July. Available at: <a href='https://www.computer.org/is-it-time-to-rename-the-gpu/'>https://www.computer.org/is-it-time-to-rename-the-gpu/</a> (Accessed: January 29, 2021).</div>
     </div>
   citation: Peddie, 2018
 bibTex: "@misc{peddie__2018__it,\n\tnote = {[Online; accessed 2021-01-29]},\n\tauthor = {Peddie, Jon},\n\tyear = {2018},\n\tmonth = {jul 17},\n\ttitle = {Is {It} {Time} to {Rename} the {Gpu}?},\n\thowpublished = {https://www.computer.org/is-it-time-to-rename-the-gpu/},\n}\n\n"

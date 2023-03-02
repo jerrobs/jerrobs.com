@@ -20,7 +20,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="khronosgroup__2000__khronos" class="csl-entry">Khronos Group 2000 <i>About The Khronos Group</i>, <i>www.khronos.org</i>. Available at: https://www.khronos.org/about/.</div>
+      <div data-csl-entry-id="khronosgroup__2000__khronos" class="csl-entry">Khronos Group 2000 <i>About The Khronos Group</i>, <i>www.khronos.org</i>. Available at: <a href='https://www.khronos.org/about/.'>https://www.khronos.org/about/.</a></div>
     </div>
   citation: Khronos Group, 2000
 bibTex: "@misc{khronosgroup__2000__khronos,\n\tauthor = {{Khronos Group}},\n\tyear = {2000},\n\ttitle = {About {The} {Khronos} {Group}},\n\thowpublished = {https://www.khronos.org/about/},\n}\n\n"

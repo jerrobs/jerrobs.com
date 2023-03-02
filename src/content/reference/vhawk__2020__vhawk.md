@@ -30,7 +30,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="vhawk__2020__vhawk" class="csl-entry">vHawk 2020 <i>vHawk/three-csm</i>. Available at: https://github.com/vHawk/three-csm (Accessed: April 14, 2020).</div>
+      <div data-csl-entry-id="vhawk__2020__vhawk" class="csl-entry">vHawk 2020 <i>vHawk/three-csm</i>. Available at: <a href='https://github.com/vHawk/three-csm'>https://github.com/vHawk/three-csm</a> (Accessed: April 14, 2020).</div>
     </div>
   citation: vHawk, 2020
 bibTex: "@misc{vhawk__2020__vhawk,\n\tauthor = {{vHawk}},\n\tyear = {2020},\n\tmonth = {apr 8},\n\tnote = {http://web.archive.org/web/20200414103905/https://github.com/vHawk/three-csm},\n\ttitle = {vHawk/three-csm},\n\ttype = {JavaScript},\n\thowpublished = {https://github.com/vHawk/three-csm},\n}\n\n"

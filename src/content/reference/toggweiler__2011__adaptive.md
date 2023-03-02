@@ -38,7 +38,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="toggweiler__2011__adaptive" class="csl-entry">Toggweiler, M. 2011 <i>An adaptive time integration method for more efficient simulation of particle accelerators</i>. Master thesis. ETH Zürich. Available at: https://doi.org/10.3929/ethz-a-006911936.</div>
+      <div data-csl-entry-id="toggweiler__2011__adaptive" class="csl-entry">Toggweiler, M. 2011 <i>An adaptive time integration method for more efficient simulation of particle accelerators</i>. Master thesis. ETH Zürich. Available at: <a href='https://doi.org/10.3929/ethz-a-006911936.'>https://doi.org/10.3929/ethz-a-006911936.</a></div>
     </div>
   citation: Toggweiler, 2011
 bibTex: "@misc{toggweiler__2011__adaptive,\n\tauthor = {Toggweiler, Matthias},\n\tyear = {2011},\n\tnote = {tex.DOI 10.3929/ethz-a-006911936},\n\tschool = {ETH Z{\\\" u}rich},\n\ttitle = {An adaptive time integration method for more efficient simulation of particle accelerators},\n\ttype = {Master thesis},\n}\n\n"

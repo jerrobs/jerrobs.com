@@ -46,7 +46,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="hewitt__2018__technology" class="csl-entry">Hewitt, E. 2018 <i>Technology Strategy Patterns</i>. O’Reilly Media (O’Reilly Media). Available at: https://learning.oreilly.com/library/view/technology-strategy-patterns/9781492040866/.</div>
+      <div data-csl-entry-id="hewitt__2018__technology" class="csl-entry">Hewitt, E. 2018 <i>Technology Strategy Patterns</i>. O’Reilly Media (O’Reilly Media). Available at: <a href='https://learning.oreilly.com/library/view/technology-strategy-patterns/9781492040866/.'>https://learning.oreilly.com/library/view/technology-strategy-patterns/9781492040866/.</a></div>
     </div>
   citation: Hewitt, 2018
 bibTex: "@book{hewitt__2018__technology,\n\tauthor = {Hewitt, Eben},\n\tseries = {O'{Reilly} {Media}},\n\tyear = {2018},\n\tmonth = {oct 25},\n\tpublisher = {O'Reilly Media},\n\ttitle = {Technology {Strategy} {Patterns}},\n}\n\n"

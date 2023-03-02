@@ -13,16 +13,14 @@ const title = renderInline(issue.data.title)
 const subtitle = renderInline(issue.data.subtitle)
 ---
 
-<div class="issue-cover">
-  <div class="issue-cover__body">
-    <div class="issue-cover__header">
+<div class="issue-preview" id={"issue-" +issue.slug}>
+  <div class="issue-preview__body">
+    <div class="issue-preview__header">
       <a href={`/issues/${issue.slug}`}>
-        <div class="issue__title">
+        <h1 class="issue__title md" >
           <span set:html={title} />
-        </div>
-        <div class="issue__subtitle">
-          <span set:html={subtitle} />
-        </div>
+        </h1>
+        <p class="issue__subtitle" ><span set:html={subtitle}/></p>
       </a>
     </div>
     <ul class="issue__toc">
@@ -32,39 +30,72 @@ const subtitle = renderInline(issue.data.subtitle)
       </li>
     </ul>
   </div>
-  <div class="issue-cover__footer">
-    <div class="taglines">
-      <p>
-        <strong>observed</strong>, <strong>written</strong>, and <strong
-          >peer-reviewed</strong
-        >
-      </p>
-    </div>
-  </div>
-  <p>by <strong>Dirk Rathje</strong> of <strong>Hamburg</strong></p>
+  
 </div>
 
-<style>
-  .issue-cover {
-    box-shadow: 5px rgba(black, 1);
+<style lang="stylus">
+  .issue-preview {
+    // box-shadow: 5px rgba(black, 1);
     background-color: #eeeeee;
     display: flex;
     flex-direction: column;
     min-height: calc(8 * var(--baseline-height));
+    // width: 40%;
+    flex: 1 0 15rem;
+    border rgba(white,.5) solid .5rem;
+    padding .5rem;
+    // margin .5rem;
+    
+    
+    a {
+    text-decoration: none;
+    }
+    &:hover a {
+      text-decoration: underline;
+      }
   }
-  .issue-cover__body {
+  .issue-preview__body {
     flex: 5;
   }
-  .issue-cover__footer {
+  .issue-preview__footer {
     flex: 1%;
     background-color: #fff;
     position: relative;
   }
-  .issue-cover__footer .taglines {
+  .issue-preview__footer .taglines {
     left: calc((0.75) * var(--baseline-height));
   }
-  .issue-cover__footer p {
+  .issue-preview__footer p {
     font-variant: all-small-caps;
     height: calc((0.5) * var(--baseline-height));
   }
+  .issue__subtitle {
+  $baselined-typography(body-lg);
+  }
+  .issue__title {
+    font-weight: var(--font-weight--bold);
+  // $baselined-typography(body-lg);
+  }
+.issue__subtitle, .issue__title  {
+  span {
+    background-color: white;;
+  
+  }}
+  
+
+  #issue-pathicles {
+    background-image: url(/assets/cover__pathicles_cropped-lg.jpg);
+    background-size:cover
+    background-repeat:  no-repeat;
+    }
+  #issue-space {
+    background-image: url(/assets/cover__space-lg.jpg);
+    background-size:cover
+    background-repeat:  no-repeat;
+    }
+  #issue-strategy {
+    background-image: url(/assets/cover__strategy-lg.jpg);
+    background-size:cover
+    background-repeat:  no-repeat;
+    }
 </style>

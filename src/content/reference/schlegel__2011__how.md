@@ -24,7 +24,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="schlegel__2011__how" class="csl-entry">Schlegel, F. 2011 “How to use GL_HALF_FLOAT_OES typed textures in iOS?,” <i>stackoverflow.com</i>, 23 November. Available at: https://stackoverflow.com/questions/8621095/how-to-use-gl-half-float-oes-typed-textures-in-ios.</div>
+      <div data-csl-entry-id="schlegel__2011__how" class="csl-entry">Schlegel, F. 2011 “How to use GL_HALF_FLOAT_OES typed textures in iOS?,” <i>stackoverflow.com</i>, 23 November. Available at: <a href='https://stackoverflow.com/questions/8621095/how-to-use-gl-half-float-oes-typed-textures-in-ios.'>https://stackoverflow.com/questions/8621095/how-to-use-gl-half-float-oes-typed-textures-in-ios.</a></div>
     </div>
   citation: Schlegel, 2011
 bibTex: "@misc{schlegel__2011__how,\n\tauthor = {Schlegel, Frank},\n\tyear = {2011},\n\tmonth = {nov 23},\n\ttitle = {How to use {GL}\\textunderscore{}{HALF}\\textunderscore{}{FLOAT}\\textunderscore{}{OES} typed textures in {iOS}?},\n\thowpublished = {https://stackoverflow.com/questions/8621095/how-to-use-gl-half-float-oes-typed-textures-in-ios},\n}\n\n"

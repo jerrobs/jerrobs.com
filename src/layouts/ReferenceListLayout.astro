@@ -24,16 +24,15 @@ const next = pageNum < totalPages ? "" : "disabled"
 <Layout title={`REFERENCES | ${SITE.title}`}>
   <Header activeNav="references" />
   <Main pageTitle="References" pageDesc="All of them.">
-    <ul class="text-sm">
+    <ol class="bib-list md">
       {
         references.map(({ data }) => (
           <>
-            <br />
             <li set:html={data.rendered.bibliography} />
           </>
         ))
       }
-    </ul>
+    </ol>
   </Main>
 
   {

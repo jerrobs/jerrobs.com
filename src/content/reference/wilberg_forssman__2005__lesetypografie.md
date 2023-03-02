@@ -29,7 +29,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="wilberg_forssman__2005__lesetypografie" class="csl-entry">Wilberg, H.P. and Forssman, F. 2005 <i>Lesetypografie</i>. Mainz: Hermann Schmidt. Available at: http://www.worldcat.org/title/lesetypographie/oclc/66532356.</div>
+      <div data-csl-entry-id="wilberg_forssman__2005__lesetypografie" class="csl-entry">Wilberg, H.P. and Forssman, F. 2005 <i>Lesetypografie</i>. Mainz: Hermann Schmidt. Available at: <a href='http://www.worldcat.org/title/lesetypographie/oclc/66532356.'>http://www.worldcat.org/title/lesetypographie/oclc/66532356.</a></div>
     </div>
   citation: Wilberg and Forssman, 2005
 bibTex: "@book{wilberg_forssman__2005__lesetypografie,\n\taddress = {Mainz},\n\tauthor = {Wilberg, Hans Peter and Forssman, Friedrich},\n\tyear = {2005},\n\tpublisher = {Hermann Schmidt},\n\ttitle = {Lesetypografie},\n}\n\n"

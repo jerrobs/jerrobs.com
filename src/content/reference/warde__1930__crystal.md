@@ -31,7 +31,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="warde__1930__crystal" class="csl-entry">Warde, B. 1930 “The Crystal Goblet, or Printing Should Be Invisible.” Available at: https://web.archive.org/web/20180702214319/http://gmunch.home.pipeline.com/typo-L/misc/ward.htm.</div>
+      <div data-csl-entry-id="warde__1930__crystal" class="csl-entry">Warde, B. 1930 “The Crystal Goblet, or Printing Should Be Invisible.” Available at: <a href='https://web.archive.org/web/20180702214319/http://gmunch.home.pipeline.com/typo-L/misc/ward.htm.'>https://web.archive.org/web/20180702214319/http://gmunch.home.pipeline.com/typo-L/misc/ward.htm.</a></div>
     </div>
   citation: Warde, 1930
 bibTex: "@unpublished{warde__1930__crystal,\n\tauthor = {Warde, Beatrice},\n\tyear = {1930},\n\tmonth = {10},\n\ttitle = {The {Crystal} {Goblet}, or {Printing} {Should} {Be} {Invisible}},\n\thowpublished = {https://web.archive.org/web/20180702214319/http://gmunch.home.pipeline.com/typo-L/misc/ward.htm},\n}\n\n"

@@ -22,7 +22,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="kellogg_kello__2017__mkkellogg" class="csl-entry">Kellogg, M. and Kello 2017 <i>mkkellogg/TrailRendererJS</i>. Available at: https://github.com/mkkellogg/TrailRendererJS.</div>
+      <div data-csl-entry-id="kellogg_kello__2017__mkkellogg" class="csl-entry">Kellogg, M. and Kello 2017 <i>mkkellogg/TrailRendererJS</i>. Available at: <a href='https://github.com/mkkellogg/TrailRendererJS.'>https://github.com/mkkellogg/TrailRendererJS.</a></div>
     </div>
   citation: Kellogg and Kello, 2017
 bibTex: "@misc{kellogg_kello__2017__mkkellogg,\n\tauthor = {Kellogg, Mark and {Kello}},\n\tyear = {2017},\n\ttitle = {mkkellogg/{TrailRendererJS}},\n\ttype = {Javascript, {OpenGL}},\n\thowpublished = {https://github.com/mkkellogg/TrailRendererJS},\n}\n\n"

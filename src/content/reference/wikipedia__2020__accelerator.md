@@ -41,7 +41,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="wikipedia__2020__accelerator" class="csl-entry">Wikipedia 2020 “Accelerator physics codes,” <i>Wikipedia</i>. Available at: https://en.wikipedia.org/w/index.php?title=Accelerator_physics_codes&#38;oldid=996895935 (Accessed: January 1, 2021).</div>
+      <div data-csl-entry-id="wikipedia__2020__accelerator" class="csl-entry">Wikipedia 2020 “Accelerator physics codes,” <i>Wikipedia</i>. Available at: <a href='https://en.wikipedia.org/w/index.php?title=Accelerator_physics_codes&#38'>https://en.wikipedia.org/w/index.php?title=Accelerator_physics_codes&#38</a>;oldid=996895935 (Accessed: January 1, 2021).</div>
     </div>
   citation: Wikipedia, 2020
 bibTex: "@misc{wikipedia__2020__accelerator,\n\tauthor = {{Wikipedia}},\n\tyear = {2020},\n\tmonth = {dec 29},\n\tnote = {Page Version ID: 996895935},\n\ttitle = {Accelerator physics codes},\n\thowpublished = {https://en.wikipedia.org/w/index.php?title=Accelerator\\textunderscore{}physics\\textunderscore{}codes&oldid=996895935},\n}\n\n"

@@ -1,0 +1,33 @@
+---
+import type { CollectionEntry } from "astro:content"
+import { renderInline } from "@utils/markdown/render"
+import IssuePreview from "@components/IssuePreview.astro"
+
+export interface Props {
+  issues: CollectionEntry<"issue">[]
+}
+
+const { issues } = Astro.props
+---
+
+{
+  issues.length > 0 && (
+    <>
+      <div class="issues">
+        {issues.map(issue => (
+          <IssuePreview href={`/issues/${issue.slug}`} issue={issue} />
+        ))}
+      </div>
+    </>
+  )
+}
+
+<style lang="stylus">
+.issues {
+  display flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+}
+</style>

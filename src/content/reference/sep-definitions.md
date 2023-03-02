@@ -25,7 +25,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="sep-definitions" class="csl-entry">Gupta, A. 2021 “Definitions,” in Zalta, E.N. (ed.) <i>The Stanford encyclopedia of philosophy</i>. Summer 2021. Metaphysics Research Lab, Stanford University. Available at: https://plato.stanford.edu/archives/sum2021/entries/definitions/.</div>
+      <div data-csl-entry-id="sep-definitions" class="csl-entry">Gupta, A. 2021 “Definitions,” in Zalta, E.N. (ed.) <i>The Stanford encyclopedia of philosophy</i>. Summer 2021. Metaphysics Research Lab, Stanford University. Available at: <a href='https://plato.stanford.edu/archives/sum2021/entries/definitions/.'>https://plato.stanford.edu/archives/sum2021/entries/definitions/.</a></div>
     </div>
   citation: Gupta, 2021
 bibTex: "@inbook{Gupta2021Definitions,\n\tauthor = {Gupta, Anil},\n\tbooktitle = {The {Stanford} encyclopedia of philosophy},\n\tedition = {Summer 2021},\n\teditor = {Zalta, Edward N.},\n\tyear = {2021},\n\tpublisher = {Metaphysics Research Lab, Stanford University},\n\ttitle = {Definitions},\n}\n\n"

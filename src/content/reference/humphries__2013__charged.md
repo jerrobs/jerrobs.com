@@ -31,7 +31,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="humphries__2013__charged" class="csl-entry">Humphries, J.R.S. 2013 <i>Charged Particle Beams</i>. corrected version of 1st edition from 1990. Dover Publications (Dover Publications). Available at: http://www.fieldp.com/cpb.html.</div>
+      <div data-csl-entry-id="humphries__2013__charged" class="csl-entry">Humphries, J.R.S. 2013 <i>Charged Particle Beams</i>. corrected version of 1st edition from 1990. Dover Publications (Dover Publications). Available at: <a href='http://www.fieldp.com/cpb.html.'>http://www.fieldp.com/cpb.html.</a></div>
     </div>
   citation: Humphries, 2013
 bibTex: "@book{humphries__2013__charged,\n\tauthor = {Humphries, J R Stanley},\n\tseries = {Dover {Publications}},\n\tedition = {corrected version of 1st edition from 1990},\n\tyear = {2013},\n\tmonth = {apr 4},\n\tpublisher = {Dover Publications},\n\ttitle = {Charged {Particle} {Beams}},\n}\n\n"

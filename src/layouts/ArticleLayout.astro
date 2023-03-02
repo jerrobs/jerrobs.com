@@ -18,11 +18,8 @@ const { Content } = await article.render()
 
 <Layout title={title} author={author} description={description}>
   <Header />
-  <div class="mx-auto flex w-full max-w-3xl justify-start px-2">
-    <button
-      class="focus-outline mt-8 mb-2 flex hover:opacity-75"
-      onclick="history.back()"
-    >
+  <div class="button-container">
+    <button class="" onclick="history.back()">
       <svg xmlns="http://www.w3.org/2000/svg"
         ><path
           d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
@@ -32,7 +29,7 @@ const { Content } = await article.render()
   </div>
   <main id="main-content">
     <h1 class="article-title">{title}</h1>
-    <Datetime datetime={pubDatetime} size="lg" className="my-2" />
+    <!-- <Datetime datetime={pubDatetime} size="lg" className="my-2" /> -->
     <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
       <Content />
     </article>
@@ -40,14 +37,4 @@ const { Content } = await article.render()
   <Footer />
 </Layout>
 
-<style>
-  main {
-    @apply mx-auto w-full max-w-3xl px-4 pb-12;
-  }
-  .article-title {
-    @apply text-xxl font-semibold text-skin-accent;
-  }
-  .tags-container {
-    @apply my-8;
-  }
-</style>
+<style lang="stylus"></style>

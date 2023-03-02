@@ -29,7 +29,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="lupton__2014__type" class="csl-entry">Lupton, E. 2014 <i>Type on screen</i>. New York: Princeton Architectural Press. Available at: http://www.worldcat.org/title/type-on-screen-a-guide-for-designers-developers-writers-and-students/oclc/952778640.</div>
+      <div data-csl-entry-id="lupton__2014__type" class="csl-entry">Lupton, E. 2014 <i>Type on screen</i>. New York: Princeton Architectural Press. Available at: <a href='http://www.worldcat.org/title/type-on-screen-a-guide-for-designers-developers-writers-and-students/oclc/952778640.'>http://www.worldcat.org/title/type-on-screen-a-guide-for-designers-developers-writers-and-students/oclc/952778640.</a></div>
     </div>
   citation: Lupton, 2014
 bibTex: "@book{lupton__2014__type,\n\taddress = {New York},\n\tauthor = {Lupton, Ellen},\n\tyear = {2014},\n\tpublisher = {Princeton Architectural Press},\n\ttitle = {Type on screen},\n}\n\n"

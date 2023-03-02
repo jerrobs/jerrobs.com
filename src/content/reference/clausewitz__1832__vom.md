@@ -26,7 +26,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="clausewitz__1832__vom" class="csl-entry">Clausewitz, C. von 1832 <i>Vom Kriege</i>. Epub Ausgabe. Erstausgabe 1832. Null Papier (Null Papier). Available at: http://www.worldcat.org/title/vom-kriege-vollstandige-ausgabe/oclc/904844186.</div>
+      <div data-csl-entry-id="clausewitz__1832__vom" class="csl-entry">Clausewitz, C. von 1832 <i>Vom Kriege</i>. Epub Ausgabe. Erstausgabe 1832. Null Papier (Null Papier). Available at: <a href='http://www.worldcat.org/title/vom-kriege-vollstandige-ausgabe/oclc/904844186.'>http://www.worldcat.org/title/vom-kriege-vollstandige-ausgabe/oclc/904844186.</a></div>
     </div>
   citation: Clausewitz, 1832
 bibTex: "@book{clausewitz__1832__vom,\n\tauthor = {Clausewitz, Carl},\n\tseries = {Null {Papier}},\n\tedition = {Epub Ausgabe. Erstausgabe 1832},\n\tyear = {1832},\n\tpublisher = {Null Papier},\n\ttitle = {Vom {Kriege}},\n}\n\n"

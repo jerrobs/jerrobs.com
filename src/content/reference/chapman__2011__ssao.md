@@ -23,7 +23,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="chapman__2011__ssao" class="csl-entry">Chapman, J. 2011 “SSAO Tutorial,” <i>john-chapman-graphics</i>. Available at: http://john-chapman-graphics.blogspot.com/2013/01/ssao-tutorial.html.</div>
+      <div data-csl-entry-id="chapman__2011__ssao" class="csl-entry">Chapman, J. 2011 “SSAO Tutorial,” <i>john-chapman-graphics</i>. Available at: <a href='http://john-chapman-graphics.blogspot.com/2013/01/ssao-tutorial.html.'>http://john-chapman-graphics.blogspot.com/2013/01/ssao-tutorial.html.</a></div>
     </div>
   citation: Chapman, 2011
 bibTex: "@misc{chapman__2011__ssao,\n\tauthor = {Chapman, John},\n\tyear = {2011},\n\ttitle = {SSAO {Tutorial}},\n\thowpublished = {http://john-chapman-graphics.blogspot.com/2013/01/ssao-tutorial.html},\n}\n\n"

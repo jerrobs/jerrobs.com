@@ -29,7 +29,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="butterick__2016__drowning" class="csl-entry">Butterick, M. 2016 <i>Drowning the crystal goblet</i>. Available at: https://practicaltypography.com/drowning-the-crystal-goblet.html.</div>
+      <div data-csl-entry-id="butterick__2016__drowning" class="csl-entry">Butterick, M. 2016 <i>Drowning the crystal goblet</i>. Available at: <a href='https://practicaltypography.com/drowning-the-crystal-goblet.html.'>https://practicaltypography.com/drowning-the-crystal-goblet.html.</a></div>
     </div>
   citation: Butterick, 2016
 bibTex: "@misc{butterick__2016__drowning,\n\tauthor = {Butterick, Matthew},\n\tyear = {2016},\n\tmonth = {2},\n\ttitle = {Drowning the crystal goblet},\n\thowpublished = {https://practicaltypography.com/drowning-the-crystal-goblet.html},\n}\n\n"

@@ -28,7 +28,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="middendorp__2012__shaping" class="csl-entry">Middendorp, J. 2012 <i>Shaping text</i>. Amsterdam: BIS Publishers. Available at: http://www.worldcat.org/title/shaping-text/oclc/794841908.</div>
+      <div data-csl-entry-id="middendorp__2012__shaping" class="csl-entry">Middendorp, J. 2012 <i>Shaping text</i>. Amsterdam: BIS Publishers. Available at: <a href='http://www.worldcat.org/title/shaping-text/oclc/794841908.'>http://www.worldcat.org/title/shaping-text/oclc/794841908.</a></div>
     </div>
   citation: Middendorp, 2012
 bibTex: "@book{middendorp__2012__shaping,\n\taddress = {Amsterdam},\n\tauthor = {Middendorp, Jan},\n\tyear = {2012},\n\tpublisher = {BIS Publishers},\n\ttitle = {Shaping text},\n}\n\n"

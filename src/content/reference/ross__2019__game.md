@@ -25,7 +25,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="ross__2019__game" class="csl-entry">Ross, D. 2019 “Game theory,” in Zalta, E.N. (ed.) <i>The Stanford Encyclopedia of Philosophy</i>. Winter 2019. Metaphysics Research Lab, Stanford University. Available at: https://plato.stanford.edu/archives/win2019/entries/game-theory/.</div>
+      <div data-csl-entry-id="ross__2019__game" class="csl-entry">Ross, D. 2019 “Game theory,” in Zalta, E.N. (ed.) <i>The Stanford Encyclopedia of Philosophy</i>. Winter 2019. Metaphysics Research Lab, Stanford University. Available at: <a href='https://plato.stanford.edu/archives/win2019/entries/game-theory/.'>https://plato.stanford.edu/archives/win2019/entries/game-theory/.</a></div>
     </div>
   citation: Ross, 2019
 bibTex: "@inbook{ross__2019__game,\n\tauthor = {Ross, Don},\n\tbooktitle = {The {Stanford} {Encyclopedia} of {Philosophy}},\n\tedition = {Winter 2019},\n\teditor = {Zalta, Edward N.},\n\tyear = {2019},\n\tpublisher = {Metaphysics Research Lab, Stanford University},\n\ttitle = {Game theory},\n}\n\n"

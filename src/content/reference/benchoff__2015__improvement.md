@@ -28,7 +28,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="benchoff__2015__improvement" class="csl-entry">Benchoff, B. 2015 “An Improvement To Floating Point Numbers,” <i>Hackaday</i>, 22 October. Available at: https://hackaday.com/2015/10/22/an-improvement-to-floating-point-numbers/ (Accessed: January 27, 2021).</div>
+      <div data-csl-entry-id="benchoff__2015__improvement" class="csl-entry">Benchoff, B. 2015 “An Improvement To Floating Point Numbers,” <i>Hackaday</i>, 22 October. Available at: <a href='https://hackaday.com/2015/10/22/an-improvement-to-floating-point-numbers/'>https://hackaday.com/2015/10/22/an-improvement-to-floating-point-numbers/</a> (Accessed: January 27, 2021).</div>
     </div>
   citation: Benchoff, 2015
 bibTex: "@misc{benchoff__2015__improvement,\n\tnote = {[Online; accessed 2021-01-27]},\n\tauthor = {Benchoff, Brian},\n\tyear = {2015},\n\tmonth = {oct 22},\n\ttitle = {An {Improvement} {To} {Floating} {Point} {Numbers}},\n\thowpublished = {https://hackaday.com/2015/10/22/an-improvement-to-floating-point-numbers/},\n}\n\n"

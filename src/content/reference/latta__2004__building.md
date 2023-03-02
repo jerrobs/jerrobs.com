@@ -24,7 +24,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="latta__2004__building" class="csl-entry">Latta, L. 2004 “Building a Million Particle System,” <i>Gamasutra</i>, 28 July. Available at: https://www.gamasutra.com/view/feature/130535/building_a_millionparticle_system.php?page=1.</div>
+      <div data-csl-entry-id="latta__2004__building" class="csl-entry">Latta, L. 2004 “Building a Million Particle System,” <i>Gamasutra</i>, 28 July. Available at: <a href='https://www.gamasutra.com/view/feature/130535/building_a_millionparticle_system.php?page=1.'>https://www.gamasutra.com/view/feature/130535/building_a_millionparticle_system.php?page=1.</a></div>
     </div>
   citation: Latta, 2004
 bibTex: "@misc{latta__2004__building,\n\tauthor = {Latta, Lutz},\n\tyear = {2004},\n\tmonth = {jul 28},\n\ttitle = {Building a {Million} {Particle} {System}},\n\ttype = {Magazine},\n\thowpublished = {https://www.gamasutra.com/view/feature/130535/building\\textunderscore{}a\\textunderscore{}millionparticle\\textunderscore{}system.php?page=1},\n}\n\n"

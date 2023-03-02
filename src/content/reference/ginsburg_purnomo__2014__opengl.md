@@ -68,7 +68,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="ginsburg_purnomo__2014__opengl" class="csl-entry">Ginsburg, D. and Purnomo, B. 2014 <i>OpenGL ES 3.0 programming guide</i>. Upper Saddle River, NJ: Addison-Wesley. Available at: http://proquest.safaribooksonline.com/?fpi=9780133440133 (Accessed: January 11, 2021).</div>
+      <div data-csl-entry-id="ginsburg_purnomo__2014__opengl" class="csl-entry">Ginsburg, D. and Purnomo, B. 2014 <i>OpenGL ES 3.0 programming guide</i>. Upper Saddle River, NJ: Addison-Wesley. Available at: <a href='http://proquest.safaribooksonline.com/?fpi=9780133440133'>http://proquest.safaribooksonline.com/?fpi=9780133440133</a> (Accessed: January 11, 2021).</div>
     </div>
   citation: Ginsburg and Purnomo, 2014
 bibTex: "@book{ginsburg_purnomo__2014__opengl,\n\taddress = {Upper Saddle River, NJ},\n\tauthor = {Ginsburg, Dan and Purnomo, Budirijanto},\n\tyear = {2014},\n\tnote = {OCLC: 874011580},\n\tpublisher = {Addison-Wesley},\n\ttitle = {OpenGL {ES} 3.0 programming guide},\n}\n\n"

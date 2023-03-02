@@ -21,7 +21,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="wolfram__2014__nonprinting" class="csl-entry">Wolfram 2014 <i>Non-printing characters</i>, <i>Wolfram Language &#38; System, Documentation Center</i>. Available at: https://reference.wolfram.com/language/guide/NonPrintingCharacters.html.</div>
+      <div data-csl-entry-id="wolfram__2014__nonprinting" class="csl-entry">Wolfram 2014 <i>Non-printing characters</i>, <i>Wolfram Language &#38; System, Documentation Center</i>. Available at: <a href='https://reference.wolfram.com/language/guide/NonPrintingCharacters.html.'>https://reference.wolfram.com/language/guide/NonPrintingCharacters.html.</a></div>
     </div>
   citation: Wolfram, 2014
 bibTex: "@misc{wolfram__2014__nonprinting,\n\tauthor = {{Wolfram}},\n\tyear = {2014},\n\ttitle = {Non-printing characters},\n\thowpublished = {https://reference.wolfram.com/language/guide/NonPrintingCharacters.html},\n}\n\n"

@@ -36,7 +36,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="__2021__latticejson" class="csl-entry"><i>LatticeJSON</i> 2021. NoBeam. Available at: https://github.com/nobeam/latticejson (Accessed: October 13, 2021).</div>
+      <div data-csl-entry-id="__2021__latticejson" class="csl-entry"><i>LatticeJSON</i> 2021. NoBeam. Available at: <a href='https://github.com/nobeam/latticejson'>https://github.com/nobeam/latticejson</a> (Accessed: October 13, 2021).</div>
     </div>
   citation: <i>LatticeJSON</i>, 2021
 bibTex: "@misc{__2021__latticejson,\n\tnote = {[Online; accessed 2021-10-13]},\n\tyear = {2021},\n\tmonth = {jul 9},\n\tpublisher = {NoBeam},\n\ttitle = {LatticeJSON},\n\ttype = {Python},\n}\n\n"

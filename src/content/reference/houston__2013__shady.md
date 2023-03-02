@@ -25,7 +25,6 @@ cslItem:
     Shady characters: The secret life of punctuation, symbols, and other
     typographical marks
   type: book
-  URL: https://books.google.de/books?id=3fbWAAAAQBAJ
 tags:
   - '#nosource'
   - issue:space
@@ -33,7 +32,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="houston__2013__shady" class="csl-entry">Houston, K. 2013 <i>Shady characters: The secret life of punctuation, symbols, and other typographical marks</i>. New York, London: W. W. Norton. Available at: https://books.google.de/books?id=3fbWAAAAQBAJ.</div>
+      <div data-csl-entry-id="houston__2013__shady" class="csl-entry">Houston, K. 2013 <i>Shady characters: The secret life of punctuation, symbols, and other typographical marks</i>. New York, London: W. W. Norton.</div>
     </div>
   citation: Houston, 2013
 bibTex: "@book{houston__2013__shady,\n\taddress = {New York, London},\n\tauthor = {Houston, K},\n\tyear = {2013},\n\tpublisher = {W. W. Norton},\n\ttitle = {Shady characters: The secret life of punctuation, symbols, and other typographical marks},\n}\n\n"

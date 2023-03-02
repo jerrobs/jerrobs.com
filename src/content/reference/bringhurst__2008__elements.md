@@ -30,7 +30,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="bringhurst__2008__elements" class="csl-entry">Bringhurst, R. 2008 <i>The elements of typographic style</i>. Version 3.2. Point Roberts (MA), Vancouver: Hartley &#38; Marks. Available at: http://www.worldcat.org/title/elements-of-typographic-style/oclc/55633787.</div>
+      <div data-csl-entry-id="bringhurst__2008__elements" class="csl-entry">Bringhurst, R. 2008 <i>The elements of typographic style</i>. Version 3.2. Point Roberts (MA), Vancouver: Hartley &#38; Marks. Available at: <a href='http://www.worldcat.org/title/elements-of-typographic-style/oclc/55633787.'>http://www.worldcat.org/title/elements-of-typographic-style/oclc/55633787.</a></div>
     </div>
   citation: Bringhurst, 2008
 bibTex: "@book{bringhurst__2008__elements,\n\taddress = {Point Roberts (MA), Vancouver},\n\tauthor = {Bringhurst, Robert},\n\tedition = {Version 3.2},\n\tyear = {2008},\n\tpublisher = {Hartley & Marks},\n\ttitle = {The elements of typographic style},\n}\n\n"

@@ -7,6 +7,7 @@ import Footer from "@components/Footer.astro"
 import LinkButton from "@components/LinkButton.astro"
 import type { CollectionEntry } from "astro:content"
 import IssuePreview from "@components/IssuePreview.astro"
+import IssuesList from "@components/IssuesList.astro"
 
 export interface Props {
   pageNum: number
@@ -22,19 +23,8 @@ const next = pageNum < totalPages ? "" : "disabled"
 
 <Layout title={`Issues | ${SITE.title}`}>
   <Header activeNav="issues" />
-  <Main pageTitle="Issues" pageDesc="All issues published.">
-    {
-      issues.length > 0 && (
-        <>
-          <div class="grid grid-cols-3 gap-4">
-            {issues.map(issue => (
-              <IssuePreview href={`/issues/${issue.slug}`} issue={issue} />
-            ))}
-          </div>
-        </>
-      )
-    }
-  </Main>
+  <Main pageTitle="Issues" pageDesc="All issues published." />
+  <IssuesList issues={issues} />
 
   {
     totalPages > 1 && (
@@ -68,6 +58,9 @@ const next = pageNum < totalPages ? "" : "disabled"
 </Layout>
 
 <style>
+  .issues {
+    display: grid;
+  }
   .pagination-wrapper {
     @apply mt-auto mb-8 flex justify-center;
   }

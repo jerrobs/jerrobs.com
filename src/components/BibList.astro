@@ -10,7 +10,7 @@ const { tag } = Astro.props
 const references = await getReferences(tag)
 ---
 
-<ol class="bib-list">
+<ol class="bib-list md">
   {
     references.map(reference => (
       <li
@@ -20,3 +20,5 @@ const references = await getReferences(tag)
     ))
   }
 </ol>
+
+<style lang="stylus"></style>

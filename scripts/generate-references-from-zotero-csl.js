@@ -7,6 +7,11 @@ import '@citation-js/plugin-csl'
 import { readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 
+
+const URL_REGEXP = /(https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/=]*))/
+
+const linkify = (str) => str.replace(URL_REGEXP, "<a href='$1'>$1</a>")
+
 const readCSLItems = (fileNames) =>
   fileNames.flatMap(
     (fileName) => JSON.parse(readFileSync(fileName).toString())
@@ -34,13 +39,13 @@ const generate = ({ globPattern, tagScoper }) => {
           .flatMap(tagScoper)
         : [],
       rendered: {
-        bibliography: processCitation(
+        bibliography: linkify(processCitation(
           cite.format('bibliography', {
             format: 'html',
             template: 'harvard1',
             lang: 'en-US'
           })
-        ), citation: processCitation(
+        )), citation: processCitation(
           cite.format('citation', {
             format: 'html',
             template: 'harvard1',

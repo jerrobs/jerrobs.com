@@ -12,7 +12,7 @@ cslItem:
     date-parts:
       - - 1997
   keyword: >-
-    _has-setting:academic;_has-format:book;_is-cited;collection::space::space_space;collection::space::case_for_space
+    _has-format:book;_has-setting:academic;_is-cited;collection::space::space_space;collection::space::case_for_space
   language: eng
   number-of-pages: '480'
   publisher: Stanford University Press
@@ -20,10 +20,9 @@ cslItem:
   title: 'Space between words: the origins of silent reading'
   title-short: Space between words
   type: book
-  URL: https://books.google.de/books?id=w3vZaFoaa3EC
 tags:
-  - _has-setting:academic
   - _has-format:book
+  - _has-setting:academic
   - _is-cited
   - issue:space
   - topic:space/space_space
@@ -32,7 +31,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="saenger__1997__space" class="csl-entry">Saenger, P.H. 1997 <i>Space between words: the origins of silent reading</i>. Stanford, California: Stanford University Press (Figurae reading medieval culture). Available at: https://books.google.de/books?id=w3vZaFoaa3EC.</div>
+      <div data-csl-entry-id="saenger__1997__space" class="csl-entry">Saenger, P.H. 1997 <i>Space between words: the origins of silent reading</i>. Stanford, California: Stanford University Press (Figurae reading medieval culture).</div>
     </div>
   citation: Saenger, 1997
 bibTex: "@book{saenger__1997__space,\n\taddress = {Stanford, California},\n\tauthor = {Saenger, Paul Henry},\n\tseries = {Figurae reading medieval culture},\n\tyear = {1997},\n\tpublisher = {Stanford University Press},\n\ttitle = {Space between words: the origins of silent reading},\n}\n\n"

@@ -60,7 +60,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="halladay__2019__practical" class="csl-entry">Halladay, K. 2019 <i>Practical Shader Development Vertex and Fragment Shaders for Game Developers</i>. Available at: https://doi.org/10.1007/978-1-4842-4457-9 (Accessed: January 11, 2021).</div>
+      <div data-csl-entry-id="halladay__2019__practical" class="csl-entry">Halladay, K. 2019 <i>Practical Shader Development Vertex and Fragment Shaders for Game Developers</i>. Available at: <a href='https://doi.org/10.1007/978-1-4842-4457-9'>https://doi.org/10.1007/978-1-4842-4457-9</a> (Accessed: January 11, 2021).</div>
     </div>
   citation: Halladay, 2019
 bibTex: "@book{halladay__2019__practical,\n\tauthor = {Halladay, Kyle},\n\tyear = {2019},\n\tnote = {OCLC: 1137099837},\n\ttitle = {Practical {Shader} {Development} {Vertex} and {Fragment} {Shaders} for {Game} {Developers}},\n\thowpublished = {https://doi.org/10.1007/978-1-4842-4457-9},\n}\n\n"

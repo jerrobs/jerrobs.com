@@ -36,7 +36,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="__2021__lattice" class="csl-entry"><i>Lattice summaries website</i> 2021. NoBeam. Available at: https://github.com/nobeam/lattice-summaries-website (Accessed: October 13, 2021).</div>
+      <div data-csl-entry-id="__2021__lattice" class="csl-entry"><i>Lattice summaries website</i> 2021. NoBeam. Available at: <a href='https://github.com/nobeam/lattice-summaries-website'>https://github.com/nobeam/lattice-summaries-website</a> (Accessed: October 13, 2021).</div>
     </div>
   citation: <i>Lattice summaries website</i>, 2021
 bibTex: "@misc{__2021__lattice,\n\tnote = {[Online; accessed 2021-10-13]},\n\tyear = {2021},\n\tmonth = {oct 13},\n\tpublisher = {NoBeam},\n\ttitle = {Lattice summaries website},\n\ttype = {Vue},\n}\n\n"

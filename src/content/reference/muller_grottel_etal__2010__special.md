@@ -29,7 +29,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="muller_grottel_etal__2010__special" class="csl-entry">Müller, T., Grottel, S. and Weiskopf, D. 2010 “Special relativistic visualization by local ray tracing,” <i>IEEE Transactions on Visualization and Computer Graphics</i>, 16(6). Available at: http://dx.doi.org/10.1109/TVCG.2010.196.</div>
+      <div data-csl-entry-id="muller_grottel_etal__2010__special" class="csl-entry">Müller, T., Grottel, S. and Weiskopf, D. 2010 “Special relativistic visualization by local ray tracing,” <i>IEEE Transactions on Visualization and Computer Graphics</i>, 16(6). Available at: <a href='http://dx.doi.org/10.1109/TVCG.2010.196.'>http://dx.doi.org/10.1109/TVCG.2010.196.</a></div>
     </div>
   citation: Müller, Grottel and Weiskopf, 2010
 bibTex: "@article{muller_grottel_etal__2010__special,\n\tauthor = {M{\\\" u}ller, Thomas and Grottel, Sebastian and Weiskopf, Daniel},\n\tjournal = {IEEE Transactions on Visualization and Computer Graphics},\n\tnumber = {6},\n\tyear = {2010},\n\tnote = {http://web.archive.org/web/20200401133716/https://ieeexplore.ieee.org/document/5613464/},\n\ttitle = {Special relativistic visualization by local ray tracing},\n\thowpublished = {http://dx.doi.org/10.1109/TVCG.2010.196},\n\tvolume = {16},\n}\n\n"

@@ -35,7 +35,7 @@ tags:
 rendered:
   bibliography: |-
     <div class="csl-bib-body">
-      <div data-csl-entry-id="prokop__1999__cacheoblivious" class="csl-entry">Prokop, H. 1999 <i>Cache-Oblivious Algorithms</i>. Master thesis. MASSACHUSETTS INSTITUTE OF TECHNOLOG. Available at: http://supertech.csail.mit.edu/papers/Prokop99.pdf.</div>
+      <div data-csl-entry-id="prokop__1999__cacheoblivious" class="csl-entry">Prokop, H. 1999 <i>Cache-Oblivious Algorithms</i>. Master thesis. MASSACHUSETTS INSTITUTE OF TECHNOLOG. Available at: <a href='http://supertech.csail.mit.edu/papers/Prokop99.pdf.'>http://supertech.csail.mit.edu/papers/Prokop99.pdf.</a></div>
     </div>
   citation: Prokop, 1999
 bibTex: "@misc{prokop__1999__cacheoblivious,\n\tauthor = {Prokop, Harald},\n\tyear = {1999},\n\tmonth = {6},\n\tschool = {MASSACHUSETTS INSTITUTE OF TECHNOLOG},\n\ttitle = {Cache-{Oblivious} {Algorithms}},\n\ttype = {Master thesis},\n}\n\n"

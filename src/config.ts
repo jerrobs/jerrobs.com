@@ -4,12 +4,12 @@ export const SITE = {
   website: "https://astro-paper.pages.dev/",
   author: "Dirk Rathje",
   desc: "Journal of Erratic Observations",
-  title: "J.Err.Obs.",
+  title: "J. Err. Obs.",
 
   lightAndDarkMode: true,
   articlesPerPage: 10,
   issuesPerPage: 5,
-  referencesPerPage: 50,
+  referencesPerPage: 250,
 }
 
 export const LOGO_IMAGE = {
