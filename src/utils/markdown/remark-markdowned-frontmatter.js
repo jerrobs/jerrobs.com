@@ -22,8 +22,6 @@ const md2html = async (obj, path, value = "") => {
 export function markdownedFrontmatterPlugin() {
   // All remark and rehype plugins return a separate function
   return function (tree, file) {
-
-
     const frontmatter = file.data.astro.frontmatter
 
     if (!frontmatter.title__md) frontmatter.title__md = frontmatter.title

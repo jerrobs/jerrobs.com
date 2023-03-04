@@ -22,14 +22,14 @@ cslItem:
   issued:
     date-parts:
       - - 2002
-  keyword: '#nosource;collection::pathicles::graphics_programming'
+  keyword: "#nosource;collection::pathicles::graphics_programming"
   language: en
   title: The Mechanics of Robust Stencil Shadows
   type: post-weblog
   URL: >-
     http://www.gamasutra.com/view/feature/131351/the_mechanics_of_robust_stencil_.php?print=1
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/graphics_programming
 rendered:
@@ -39,5 +39,4 @@ rendered:
     </div>
   citation: Lengyel, 2002
 bibTex: "@misc{lengyel__2002__mechanics,\n\tauthor = {Lengyel, Eric},\n\tyear = {2002},\n\ttitle = {The {Mechanics} of {Robust} {Stencil} {Shadows}},\n\ttype = {Magazine},\n\thowpublished = {http://www.gamasutra.com/view/feature/131351/the\\textunderscore{}mechanics\\textunderscore{}of\\textunderscore{}robust\\textunderscore{}stencil\\textunderscore{}.php?print=1},\n}\n\n"
-
 ---

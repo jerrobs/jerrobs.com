@@ -29,5 +29,4 @@ rendered:
     </div>
   citation: Müller-Stewens and Gillenkirch, 2018
 bibTex: "@misc{Muller2018Strategie,\n\tauthor = {M{\\\" u}ller-Stewens, G{\\\" u}nter and Gillenkirch, Robert},\n\tyear = {2018},\n\tmonth = {feb 19},\n\ttitle = {Strategie},\n\thowpublished = {https://wirtschaftslexikon.gabler.de/definition/strategie-43591/version-266920},\n}\n\n"
-
 ---

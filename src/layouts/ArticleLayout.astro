@@ -2,7 +2,7 @@
 import Layout from "@layouts/Layout.astro"
 import Header from "@components/Header.astro"
 import Footer from "@components/Footer.astro"
-import Datetime from "@components/Datetime"
+
 import type { CollectionEntry } from "astro:content"
 
 export interface Props {
@@ -11,7 +11,7 @@ export interface Props {
 
 const { article } = Astro.props
 
-const { title, author, description, pubDatetime } = article.data
+const { title, author, description } = article.data
 
 const { Content } = await article.render()
 ---
@@ -36,5 +36,3 @@ const { Content } = await article.render()
   </main>
   <Footer />
 </Layout>
-
-<style lang="stylus"></style>

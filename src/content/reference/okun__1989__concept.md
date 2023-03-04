@@ -14,7 +14,7 @@ cslItem:
   container-title-short: Physics Today
   DOI: 10.1063/1.881171
   ISSN: 0031-9228, 1945-0699
-  issue: '6'
+  issue: "6"
   issued:
     date-parts:
       - - 1989
@@ -26,7 +26,7 @@ cslItem:
   title: The Concept of Mass
   type: article-journal
   URL: http://physicstoday.scitation.org/doi/10.1063/1.881171
-  volume: '42'
+  volume: "42"
 tags:
   - issue:pathicles
   - topic:pathicles/accelerator_science
@@ -37,5 +37,4 @@ rendered:
     </div>
   citation: Okun, 1989
 bibTex: "@article{okun__1989__concept,\n\tnote = {[Online; accessed 2021-04-11]},\n\tauthor = {Okun, Lev B.},\n\tjournal = {Physics Today},\n\tnumber = {6},\n\tyear = {1989},\n\tmonth = {6},\n\tpages = {31--36},\n\ttitle = {The {Concept} of {Mass}},\n\thowpublished = {http://physicstoday.scitation.org/doi/10.1063/1.881171},\n\tvolume = {42},\n}\n\n"
-
 ---

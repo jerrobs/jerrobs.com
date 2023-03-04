@@ -33,5 +33,4 @@ rendered:
     </div>
   citation: Butterick, 2016
 bibTex: "@misc{butterick__2016__drowning,\n\tauthor = {Butterick, Matthew},\n\tyear = {2016},\n\tmonth = {2},\n\ttitle = {Drowning the crystal goblet},\n\thowpublished = {https://practicaltypography.com/drowning-the-crystal-goblet.html},\n}\n\n"
-
 ---

@@ -1,6 +1,5 @@
 ---
 import type { CollectionEntry } from "astro:content"
-import { renderInline } from "@utils/markdown/render"
 import IssuePreview from "@components/IssuePreview.astro"
 
 export interface Props {
@@ -22,12 +21,11 @@ const { issues } = Astro.props
   )
 }
 
-<style lang="stylus">
-.issues {
-  display flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 1rem;
-
-}
+<style>
+  .issues {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
 </style>

@@ -55,7 +55,7 @@ cslItem:
   title: GPU Computing Gems Jade Edition
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-holding::oreilly-learning
   - issue:pathicles
   - topic:pathicles/graphics_programming
@@ -66,5 +66,4 @@ rendered:
     </div>
   citation: Hwu, 2011
 bibTex: "@book{hwu__2011__gpu,\n\tauthor = {Hwu, Wen-mei W},\n\tseries = {Elsevier},\n\teditor = {{Wen-mei W Hwu}},\n\tyear = {2011},\n\tmonth = {nov 2},\n\tpublisher = {Elsevier},\n\ttitle = {GPU {Computing} {Gems} {Jade} {Edition}},\n}\n\n"
-
 ---

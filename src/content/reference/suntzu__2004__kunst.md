@@ -16,13 +16,13 @@ cslItem:
       - - 2004
         - 6
         - 18
-  keyword: '#nosource;__strategy2030:strategic-planning;collection::strategy::military'
+  keyword: "#nosource;__strategy2030:strategic-planning;collection::strategy::military"
   language: de-DE
   title: Die Kunst des Krieges
   type: book
   URL: https://archive.org/details/SunTzuDieKunstDesKrieges
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
   - issue:strategy
   - topic:strategy/military
@@ -33,5 +33,4 @@ rendered:
     </div>
   citation: Sun Tzu, 2004
 bibTex: "@book{suntzu__2004__kunst,\n\tauthor = {Sun Tzu, Wu},\n\tyear = {2004},\n\tmonth = {jun 18},\n\ttitle = {Die {Kunst} des {Krieges}},\n\thowpublished = {https://archive.org/details/SunTzuDieKunstDesKrieges},\n}\n\n"
-
 ---

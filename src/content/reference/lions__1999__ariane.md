@@ -32,5 +32,4 @@ rendered:
     </div>
   citation: Lions, 1999
 bibTex: "@techreport{lions__1999__ariane,\n\tnote = {[Online; accessed 2021-01-28]},\n\tauthor = {Lions, Jacques-Louis},\n\tyear = {1999},\n\tmonth = {feb 2},\n\tinstitution = {ESA Inquiry Board},\n\ttitle = {ARIANE 5 {Failure}. {Full} {Report}},\n}\n\n"
-
 ---

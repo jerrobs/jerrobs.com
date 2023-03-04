@@ -35,5 +35,4 @@ rendered:
     </div>
   citation: Whitehead and Fit-Florea, 2011
 bibTex: "@techreport{Whitehead2011Precision,\n\tauthor = {Whitehead, Nathan and Fit-Florea, Alex},\n\tyear = {2011},\n\tmonth = {jan 1},\n\tinstitution = {NVIDEA},\n\ttitle = {Precision & performance: floating point and {IEEE} 754 compliance for {NVIDIA} {GPUs}},\n}\n\n"
-
 ---

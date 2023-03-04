@@ -19,7 +19,7 @@ cslItem:
   citation-key: ripken____nonlinear
   keyword: ⛔ No DOI found;/unread;collection::pathicles::codes
   language: en
-  page: '55'
+  page: "55"
   source: Zotero
   title: >-
     NON-LINEAR CANONICAL EQUATIONS OF COUPLED SYNCHRO-BETATRON MOTION AND THEIR
@@ -38,5 +38,4 @@ rendered:
     </div>
   citation: Ripken, no date
 bibTex: "@article{ripken____nonlinear,\n\tauthor = {Ripken, G},\n\tpages = {55},\n\ttitle = {NON-{LINEAR} {CANONICAL} {EQUATIONS} {OF} {COUPLED} {SYNCHRO}-{BETATRON} {MOTION} {AND} {THEIR} {SOLUTION} {WITHIN} {THE} {FRAMEWORK} {OF} {A} {NON}-{LINEAR} 6-{DIMENSIONAL} ({SYMPLECTIC}) {TRACKING} {PROGRAM} {FOR} {ULTRA}-{RELATIVISTIC} {PROTONS}},\n}\n\n"
-
 ---

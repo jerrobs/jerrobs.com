@@ -11,7 +11,7 @@ cslItem:
     - family: Peddie
       given: Jon
   citation-key: peddie__2018__it
-  container-title: 'IEEE Computer Society: Chasing Pixels'
+  container-title: "IEEE Computer Society: Chasing Pixels"
   issued:
     date-parts:
       - - 2018
@@ -33,5 +33,4 @@ rendered:
     </div>
   citation: Peddie, 2018
 bibTex: "@misc{peddie__2018__it,\n\tnote = {[Online; accessed 2021-01-29]},\n\tauthor = {Peddie, Jon},\n\tyear = {2018},\n\tmonth = {jul 17},\n\ttitle = {Is {It} {Time} to {Rename} the {Gpu}?},\n\thowpublished = {https://www.computer.org/is-it-time-to-rename-the-gpu/},\n}\n\n"
-
 ---

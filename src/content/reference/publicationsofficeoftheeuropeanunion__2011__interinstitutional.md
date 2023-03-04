@@ -17,7 +17,7 @@ cslItem:
   URL: >-
     http://www.worldcat.org/title/interinstitutional-style-guide-2011/oclc/726047118
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-setting:professional
   - _has-format:report
   - issue:space
@@ -29,5 +29,4 @@ rendered:
     </div>
   citation: Publications Office of the European Union, 2011
 bibTex: "@book{publicationsofficeoftheeuropeanunion__2011__interinstitutional,\n\tauthor = {{Publications Office of the European Union}},\n\tyear = {2011},\n\tpublisher = {Publications Office of the European Union},\n\ttitle = {Interinstitutional style guide},\n}\n\n"
-
 ---

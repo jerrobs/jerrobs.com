@@ -14,10 +14,10 @@ cslItem:
   keyword: >-
     _has-format:book;_has-setting:academic;_is-cited;collection::space::space_space;collection::space::case_for_space
   language: eng
-  number-of-pages: '480'
+  number-of-pages: "480"
   publisher: Stanford University Press
   publisher-place: Stanford, California
-  title: 'Space between words: the origins of silent reading'
+  title: "Space between words: the origins of silent reading"
   title-short: Space between words
   type: book
 tags:
@@ -35,5 +35,4 @@ rendered:
     </div>
   citation: Saenger, 1997
 bibTex: "@book{saenger__1997__space,\n\taddress = {Stanford, California},\n\tauthor = {Saenger, Paul Henry},\n\tseries = {Figurae reading medieval culture},\n\tyear = {1997},\n\tpublisher = {Stanford University Press},\n\ttitle = {Space between words: the origins of silent reading},\n}\n\n"
-
 ---

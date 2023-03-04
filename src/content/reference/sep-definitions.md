@@ -13,13 +13,13 @@ cslItem:
   issued:
     date-parts:
       - - 2021
-  keyword: '#nosource;collection::strategy::definitions'
+  keyword: "#nosource;collection::strategy::definitions"
   publisher: Metaphysics Research Lab, Stanford University
   title: Definitions
   type: chapter
   URL: https://plato.stanford.edu/archives/sum2021/entries/definitions/
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:strategy
   - topic:strategy/definitions
 rendered:
@@ -29,5 +29,4 @@ rendered:
     </div>
   citation: Gupta, 2021
 bibTex: "@inbook{Gupta2021Definitions,\n\tauthor = {Gupta, Anil},\n\tbooktitle = {The {Stanford} encyclopedia of philosophy},\n\tedition = {Summer 2021},\n\teditor = {Zalta, Edward N.},\n\tyear = {2021},\n\tpublisher = {Metaphysics Research Lab, Stanford University},\n\ttitle = {Definitions},\n}\n\n"
-
 ---

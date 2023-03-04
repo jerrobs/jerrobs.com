@@ -33,7 +33,7 @@ cslItem:
   container-title-short: Computer Graphics Forum
   DOI: 10.1111/cgf.12673
   ISSN: 0167-7055, 1467-8659
-  issue: '4'
+  issue: "4"
   issued:
     date-parts:
       - - 2015
@@ -45,7 +45,7 @@ cslItem:
   title: Stochastic Soft Shadow Mapping
   type: article-journal
   URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12673
-  volume: '34'
+  volume: "34"
 tags:
   - issue:pathicles
   - topic:pathicles/graphics_programming
@@ -56,5 +56,4 @@ rendered:
     </div>
   citation: Liktor <i>et al.</i>, 2015
 bibTex: "@article{liktor_spassov_etal__2015__stochastic,\n\tnote = {[Online; accessed 2020-10-22]},\n\tauthor = {Liktor, G. and Spassov, S. and M{\\\" u}ckl, G. and Dachsbacher, C.},\n\tjournal = {Computer Graphics Forum},\n\tnumber = {4},\n\tyear = {2015},\n\tmonth = {7},\n\tpages = {1--11},\n\ttitle = {Stochastic {Soft} {Shadow} {Mapping}},\n\thowpublished = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12673},\n\tvolume = {34},\n}\n\n"
-
 ---

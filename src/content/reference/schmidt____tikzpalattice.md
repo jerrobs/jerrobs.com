@@ -7,7 +7,7 @@ cslItem:
   citation-key: schmidt____tikzpalattice
   keyword: ⛔ No DOI found;collection::pathicles::educational_visualization
   language: en
-  page: '10'
+  page: "10"
   source: Zotero
   title: tikz-palattice - draw particle accelerator lattices with TikZ
   type: article-journal
@@ -22,5 +22,4 @@ rendered:
     </div>
   citation: Schmidt, no date
 bibTex: "@article{schmidt____tikzpalattice,\n\tauthor = {Schmidt, Jan},\n\tpages = {10},\n\ttitle = {tikz-palattice - draw particle accelerator lattices with {TikZ}},\n}\n\n"
-
 ---

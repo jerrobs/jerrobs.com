@@ -36,5 +36,4 @@ rendered:
     </div>
   citation: Vivo and Lowe, 2015
 bibTex: "@misc{vivo_lowe__2015__book,\n\tnote = {[Online; accessed 2020-03-26]},\n\tauthor = {Vivo, Patricio Gonzalez and Lowe, Jen},\n\tyear = {2015},\n\tmonth = {mar 15},\n\ttitle = {The {Book} of {Shaders}},\n\thowpublished = {https://thebookofshaders.com/},\n}\n\n"
-
 ---

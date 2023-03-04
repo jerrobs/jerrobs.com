@@ -14,7 +14,7 @@ cslItem:
       - - 1953
   keyword: game-theory;collection::strategy::game-theory
   language: eng
-  number-of-pages: '668'
+  number-of-pages: "668"
   publisher: Princeton University Press
   title: Theory of games and economic behavior
   type: book
@@ -29,5 +29,4 @@ rendered:
     </div>
   citation: von Neumann and Morgenstern, 1953
 bibTex: "@book{vonneumann_morgenstern__1953__theory,\n\tauthor = {von Neumann, John and Morgenstern, Oskar},\n\tedition = {Third edition},\n\tyear = {1953},\n\tpublisher = {Princeton University Press},\n\ttitle = {Theory of games and economic behavior},\n}\n\n"
-
 ---

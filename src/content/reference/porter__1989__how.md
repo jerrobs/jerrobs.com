@@ -39,5 +39,4 @@ rendered:
     </div>
   citation: Porter, 1989
 bibTex: "@inbook{porter__1989__how,\n\taddress = {London},\n\tauthor = {Porter, Michael E.},\n\tbooktitle = {Readings in strategic management},\n\teditor = {Asch, David and Bowman, Cliff},\n\tyear = {1989},\n\tpages = {133--143},\n\tpublisher = {Macmillan Education UK},\n\ttitle = {How competitive forces shape strategy},\n}\n\n"
-
 ---

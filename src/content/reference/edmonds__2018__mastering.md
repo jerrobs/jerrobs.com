@@ -45,15 +45,15 @@ cslItem:
   issued:
     date-parts:
       - - 2018
-  keyword: '#nosource;collection::pathicles::game_development'
+  keyword: "#nosource;collection::pathicles::game_development"
   language: en-US
-  note: 'OCLC: 1099606187'
+  note: "OCLC: 1099606187"
   publisher: Packt Publishing
   source: Open WorldCat
   title: Mastering Game Development with Unreal Engine 4
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/game_development
 rendered:
@@ -63,5 +63,4 @@ rendered:
     </div>
   citation: Edmonds, 2018
 bibTex: "@book{edmonds__2018__mastering,\n\tauthor = {Edmonds, Matt},\n\tedition = {2nd Revised edition},\n\tyear = {2018},\n\tnote = {OCLC: 1099606187},\n\tpublisher = {Packt Publishing},\n\ttitle = {Mastering {Game} {Development} with {Unreal} {Engine} 4},\n}\n\n"
-
 ---

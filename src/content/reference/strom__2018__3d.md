@@ -38,17 +38,17 @@ cslItem:
   issued:
     date-parts:
       - - 2018
-  keyword: '#nosource;collection::pathicles::game_development'
-  note: 'OCLC: on1002672786'
-  number-of-pages: '348'
+  keyword: "#nosource;collection::pathicles::game_development"
+  note: "OCLC: on1002672786"
+  number-of-pages: "348"
   publisher: The Pragmatic Bookshelf
   publisher-place: Raleigh, North Carolina
   source: Library of Congress ISBN
-  title: '3D game programming for kids: create interactive worlds with JavaScript'
+  title: "3D game programming for kids: create interactive worlds with JavaScript"
   title-short: 3D game programming for kids
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/game_development
 rendered:
@@ -58,5 +58,4 @@ rendered:
     </div>
   citation: Strom, 2018
 bibTex: "@book{strom__2018__3d,\n\taddress = {Raleigh, North Carolina},\n\tauthor = {Strom, Chris},\n\tseries = {The {Pragmatic} {Programmers}},\n\tedition = {Second edition},\n\tyear = {2018},\n\tnote = {OCLC: on1002672786},\n\tpublisher = {The Pragmatic Bookshelf},\n\ttitle = {3D game programming for kids: create interactive worlds with {JavaScript}},\n}\n\n"
-
 ---

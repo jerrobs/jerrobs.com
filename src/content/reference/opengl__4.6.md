@@ -16,8 +16,8 @@ cslItem:
         - 22
   keyword: collection::pathicles::gpgpu
   language: en
-  note: 'Inline referece: OpenGL 1'
-  page: '172'
+  note: "Inline referece: OpenGL 1"
+  page: "172"
   publisher: Khronos Group
   title: OpenGL Specification. Version 4.6
   title-short: OpenGL 4.6
@@ -33,5 +33,4 @@ rendered:
     </div>
   citation: Khronos Group, 2019
 bibTex: "@techreport{Khronos2019OpenGL,\n\tauthor = {{Khronos Group}},\n\tyear = {2019},\n\tmonth = {oct 22},\n\tnote = {Inline referece: OpenGL 1},\n\tpages = {172},\n\tinstitution = {Khronos Group},\n\ttitle = {OpenGL {Specification}. {Version} 4.6},\n}\n\n"
-
 ---

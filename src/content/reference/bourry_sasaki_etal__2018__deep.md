@@ -29,13 +29,13 @@ cslItem:
   issued:
     date-parts:
       - - 2018
-  keyword: '#nosource;collection::pathicles::graphics_programming'
+  keyword: "#nosource;collection::pathicles::graphics_programming"
   language: en
   publisher: Bleeding Edge Press
   title: Deep Learning in the Browser
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/graphics_programming
 rendered:
@@ -45,5 +45,4 @@ rendered:
     </div>
   citation: Bourry <i>et al.</i>, 2018
 bibTex: "@book{bourry_sasaki_etal__2018__deep,\n\tauthor = {Bourry, Xavier and Sasaki, Kai and K{\\\" o}rner, Christoph and Nakano, Reiichiro},\n\tseries = {Bleeding {Edge} {Press}},\n\tyear = {2018},\n\tpublisher = {Bleeding Edge Press},\n\ttitle = {Deep {Learning} in the {Browser}},\n}\n\n"
-
 ---

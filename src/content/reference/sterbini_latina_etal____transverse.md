@@ -13,7 +13,7 @@ cslItem:
   citation-key: sterbini_latina_etal____transverse
   keyword: ⛔ No DOI found;/unread
   language: en
-  page: '20'
+  page: "20"
   source: Zotero
   title: Transverse Linear Beam Dynamics Primer using Python
   type: article-journal
@@ -27,5 +27,4 @@ rendered:
     </div>
   citation: Sterbini <i>et al.</i>, no date
 bibTex: "@article{sterbini_latina_etal____transverse,\n\tauthor = {Sterbini, G and Latina, A and Poyet, A and Ziemann, V},\n\tpages = {20},\n\ttitle = {Transverse {Linear} {Beam} {Dynamics} {Primer} using {Python}},\n}\n\n"
-
 ---

@@ -29,5 +29,4 @@ rendered:
     </div>
   citation: Litherum, 2015
 bibTex: "@misc{litherum__2015__knuthplass,\n\tauthor = {{Litherum}},\n\tyear = {2015},\n\tmonth = {7},\n\ttitle = {Knuth-plass line breaking algorithm},\n\thowpublished = {http://litherum.blogspot.com/2015/07/knuth-plass-line-breaking-algorithm.html},\n}\n\n"
-
 ---

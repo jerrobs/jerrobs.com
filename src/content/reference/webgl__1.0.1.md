@@ -16,7 +16,7 @@ cslItem:
         - 27
   keyword: collection::pathicles::gpgpu
   language: en
-  note: 'Inline referece: WebGL 1.0.1'
+  note: "Inline referece: WebGL 1.0.1"
   publisher: Khronos Group
   title: WebGL Specification. Version 1.0.1
   title-short: WebGL 1.0.1
@@ -32,5 +32,4 @@ rendered:
     </div>
   citation: Khronos Group, 2012
 bibTex: "@techreport{Khronos2012WebGL,\n\tauthor = {{Khronos Group}},\n\tyear = {2012},\n\tmonth = {jan 27},\n\tnote = {Inline referece: WebGL 1.0.1},\n\tinstitution = {Khronos Group},\n\ttitle = {WebGL {Specification}. {Version} 1.0.1},\n}\n\n"
-
 ---

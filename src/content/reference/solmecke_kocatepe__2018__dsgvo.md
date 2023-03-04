@@ -14,9 +14,9 @@ cslItem:
   issued:
     date-parts:
       - - 2018
-  keyword: '#nosource;collection::jerrobs::privacy'
+  keyword: "#nosource;collection::jerrobs::privacy"
   language: de
-  number-of-pages: '275'
+  number-of-pages: "275"
   publisher: Rheinwerk Verlag
   publisher-place: Bonn
   title: >-
@@ -25,7 +25,7 @@ cslItem:
   title-short: DSGVO für Website-Betreiber
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:jerrobs
   - topic:jerrobs/privacy
 rendered:
@@ -35,5 +35,4 @@ rendered:
     </div>
   citation: Solmecke and Kocatepe, 2018
 bibTex: "@book{solmecke_kocatepe__2018__dsgvo,\n\taddress = {Bonn},\n\tauthor = {Solmecke, Christian and Kocatepe, Sibel},\n\tseries = {Rheinwerk {Computing}},\n\tedition = {2., aktualisierte und erweiterte Auflage},\n\tyear = {2018},\n\tpublisher = {Rheinwerk Verlag},\n\ttitle = {DSGVO f{\\\" u}r {Website}-{Betreiber}: ihr {Leitfaden} f{\\\" u}r die sichere {Umsetzung} der {EU}-{Datenschutz}-{Grundverordnung}},\n}\n\n"
-
 ---

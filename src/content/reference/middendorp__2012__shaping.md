@@ -19,7 +19,7 @@ cslItem:
   type: book
   URL: http://www.worldcat.org/title/shaping-text/oclc/794841908
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-format:book
   - _has-setting:professional
   - _scope:art-and-design
@@ -32,5 +32,4 @@ rendered:
     </div>
   citation: Middendorp, 2012
 bibTex: "@book{middendorp__2012__shaping,\n\taddress = {Amsterdam},\n\tauthor = {Middendorp, Jan},\n\tyear = {2012},\n\tpublisher = {BIS Publishers},\n\ttitle = {Shaping text},\n}\n\n"
-
 ---

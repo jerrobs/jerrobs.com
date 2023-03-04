@@ -16,8 +16,8 @@ cslItem:
         - 28
   keyword: collection::pathicles::gpgpu
   language: en
-  note: 'Inline referece: OpenGL ES 1'
-  page: '172'
+  note: "Inline referece: OpenGL ES 1"
+  page: "172"
   publisher: Khronos Group
   title: OpenGL ES Specification. Version 1.0
   title-short: OpenGL 1.0
@@ -33,5 +33,4 @@ rendered:
     </div>
   citation: OpenGL Review Board, 2003
 bibTex: "@techreport{openglreviewboard__2003__opengl,\n\tauthor = {{OpenGL Review Board}},\n\tyear = {2003},\n\tmonth = {jul 28},\n\tnote = {Inline referece: OpenGL ES 1},\n\tpages = {172},\n\tinstitution = {Khronos Group},\n\ttitle = {OpenGL {ES} {Specification}. {Version} 1.0},\n}\n\n"
-
 ---

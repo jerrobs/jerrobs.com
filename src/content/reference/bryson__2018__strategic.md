@@ -22,7 +22,7 @@ cslItem:
   title: Strategic Planning for Public and Nonprofit Organizations
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
   - __strategy2030:strategic-planning:nonprofit-organizations
   - issue:strategy
@@ -34,5 +34,4 @@ rendered:
     </div>
   citation: Bryson, 2018
 bibTex: "@book{bryson__2018__strategic,\n\tauthor = {Bryson, John M},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2018},\n\tmonth = {jan 4},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Strategic {Planning} for {Public} and {Nonprofit} {Organizations}},\n}\n\n"
-
 ---

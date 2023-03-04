@@ -28,7 +28,7 @@ cslItem:
         - 29
   keyword: accelerator-science-code;collection::pathicles::educational_visualization
   language: en
-  note: 'Page Version ID: 996895935'
+  note: "Page Version ID: 996895935"
   source: Wikipedia
   title: Accelerator physics codes
   type: entry-encyclopedia
@@ -45,5 +45,4 @@ rendered:
     </div>
   citation: Wikipedia, 2020
 bibTex: "@misc{wikipedia__2020__accelerator,\n\tauthor = {{Wikipedia}},\n\tyear = {2020},\n\tmonth = {dec 29},\n\tnote = {Page Version ID: 996895935},\n\ttitle = {Accelerator physics codes},\n\thowpublished = {https://en.wikipedia.org/w/index.php?title=Accelerator\\textunderscore{}physics\\textunderscore{}codes&oldid=996895935},\n}\n\n"
-
 ---

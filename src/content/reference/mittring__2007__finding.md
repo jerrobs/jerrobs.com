@@ -20,11 +20,11 @@ cslItem:
       - - 2007
   keyword: collection::pathicles::graphics_programming
   language: en
-  page: '97'
+  page: "97"
   publisher: ACM Press
   publisher-place: San Diego, California
   source: DOI.org (Crossref)
-  title: 'Finding next gen: CryEngine 2'
+  title: "Finding next gen: CryEngine 2"
   title-short: Finding next gen
   type: paper-conference
   URL: http://dl.acm.org/citation.cfm?doid=1281500.1281671
@@ -38,5 +38,4 @@ rendered:
     </div>
   citation: Mittring, 2007
 bibTex: "@inproceedings{mittring__2007__finding,\n\tnote = {[Online; accessed 2020-01-09]},\n\taddress = {San Diego, California},\n\tauthor = {Mittring, Martin},\n\tbooktitle = {ACM {SIGGRAPH} 2007 courses on - {SIGGRAPH} '07},\n\tyear = {2007},\n\tpages = {97},\n\torganization = {ACM Press},\n\ttitle = {Finding next gen: CryEngine 2},\n}\n\n"
-
 ---

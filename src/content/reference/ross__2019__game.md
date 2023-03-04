@@ -13,13 +13,13 @@ cslItem:
   issued:
     date-parts:
       - - 2019
-  keyword: '#nosource;collection::strategy::game-theory'
+  keyword: "#nosource;collection::strategy::game-theory"
   publisher: Metaphysics Research Lab, Stanford University
   title: Game theory
   type: chapter
   URL: https://plato.stanford.edu/archives/win2019/entries/game-theory/
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:strategy
   - topic:strategy/game-theory
 rendered:
@@ -29,5 +29,4 @@ rendered:
     </div>
   citation: Ross, 2019
 bibTex: "@inbook{ross__2019__game,\n\tauthor = {Ross, Don},\n\tbooktitle = {The {Stanford} {Encyclopedia} of {Philosophy}},\n\tedition = {Winter 2019},\n\teditor = {Zalta, Edward N.},\n\tyear = {2019},\n\tpublisher = {Metaphysics Research Lab, Stanford University},\n\ttitle = {Game theory},\n}\n\n"
-
 ---

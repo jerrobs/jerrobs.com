@@ -27,7 +27,7 @@ cslItem:
   container-title-short: Int. J. Innovation Technol. Management
   DOI: 10.1142/S0219877019500445
   ISSN: 0219-8770, 1793-6950
-  issue: '06'
+  issue: "06"
   issued:
     date-parts:
       - - 2019
@@ -37,15 +37,15 @@ cslItem:
   language: en
   note: >-
     http://web.archive.org/web/20200114175814/https://www.worldscientific.com/action/cookieAbsent
-  page: '1950044'
+  page: "1950044"
   source: DOI.org (Crossref)
-  title: 'Synchronization in Strategic Planning: A Roadmapping Framework'
+  title: "Synchronization in Strategic Planning: A Roadmapping Framework"
   title-short: Synchronization in Strategic Planning
   type: article-journal
   URL: 10.1142/S0219877019500445
-  volume: '16'
+  volume: "16"
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning:roadmapping
   - issue:strategy
   - topic:strategy/roadmapping
@@ -56,5 +56,4 @@ rendered:
     </div>
   citation: Vinayavekhin and Phaal, 2019
 bibTex: "@article{vinayavekhin_phaal__2019__synchronization,\n\tauthor = {Vinayavekhin, Sukrit and Phaal, Robert},\n\tjournal = {International Journal of Innovation and Technology Management},\n\tnumber = {06},\n\tyear = {2019},\n\tmonth = {10},\n\tnote = {http://web.archive.org/web/20200114175814/https://www.worldscientific.com/action/cookieAbsent},\n\tpages = {1950044},\n\ttitle = {Synchronization in {Strategic} {Planning}: A {Roadmapping} {Framework}},\n\thowpublished = {10.1142/S0219877019500445},\n\tvolume = {16},\n}\n\n"
-
 ---

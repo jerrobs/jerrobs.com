@@ -41,5 +41,4 @@ rendered:
     </div>
   citation: Smolyakov, 2018
 bibTex: "@inbook{smolyakov__2018__motion,\n\tnote = {[Online; accessed 2020-12-15]},\n\tauthor = {Smolyakov, Nikolay},\n\tbooktitle = {Accelerator {Physics} - {Radiation} {Safety} and {Applications}},\n\teditor = {Ahmad, Ishaq and Malek, Maaza},\n\tyear = {2018},\n\tmonth = {feb 21},\n\tpublisher = {InTech},\n\ttitle = {Motion of {Electrons} in {Planar} {Ideal} {Undulator}},\n}\n\n"
-
 ---

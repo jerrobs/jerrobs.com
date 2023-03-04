@@ -33,7 +33,7 @@ cslItem:
   title: Thinking with type
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-setting:academic
   - _has-format:book
   - _has-type:handbook
@@ -46,5 +46,4 @@ rendered:
     </div>
   citation: Lupton, 2010
 bibTex: "@book{lupton__2010__thinking,\n\tauthor = {Lupton, Ellen},\n\tseries = {A critical guide for designers, writers, editors, and students},\n\tedition = {2nd revised and expanded edition},\n\tyear = {2010},\n\tpublisher = {Princeton Architectural Press},\n\ttitle = {Thinking with type},\n}\n\n"
-
 ---

@@ -17,8 +17,8 @@ cslItem:
       - - 1874
   keyword: Greek language -- Grammar To 1500;collection::space::case_for_space
   language: eng
-  number-of-pages: '16'
-  publisher: 'St. Louis, Mo. : Studley'
+  number-of-pages: "16"
+  publisher: "St. Louis, Mo. : Studley"
   source: Internet Archive
   title: Tekhnē Grammatikē. The grammar of Dionysios Thrax
   title-short: Tekhnē Grammatikē
@@ -38,5 +38,4 @@ rendered:
     </div>
   citation: Thrax, 1874
 bibTex: "@book{thrax__1874__tekhne,\n\tnote = {[Online; accessed 2021-04-25]},\n\tauthor = {Thrax, Dionysius},\n\tyear = {1874},\n\tpublisher = {St. Louis, Mo. : Studley},\n\ttitle = {Tekhn{\\= e} {Grammatik}{\\= e}. {The} grammar of {Dionysios} {Thrax}},\n}\n\n"
-
 ---

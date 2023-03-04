@@ -33,7 +33,7 @@ cslItem:
   keyword: collection::pathicles::floating_points
   language: en
   publisher-place: Miami Beach, Florida
-  title: 'High performance computing: Are we just getting wrong answers faster?'
+  title: "High performance computing: Are we just getting wrong answers faster?"
   type: speech
   URL: https://www3.nd.edu/~markst/cast-award-speech.pdf
 tags:
@@ -46,5 +46,4 @@ rendered:
     </div>
   citation: Stadther, 1998
 bibTex: "@misc{stadther__1998__high,\n\taddress = {Miami Beach, Florida},\n\tauthor = {Stadther, Mark A.},\n\tyear = {1998},\n\tmonth = {nov 17},\n\ttitle = {High performance computing: Are we just getting wrong answers faster?},\n\thowpublished = {https://www3.nd.edu/\\textasciitilde{}markst/cast-award-speech.pdf},\n}\n\n"
-
 ---

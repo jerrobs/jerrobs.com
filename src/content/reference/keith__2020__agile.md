@@ -38,17 +38,17 @@ cslItem:
   issued:
     date-parts:
       - - 2020
-  keyword: '#nosource;collection::pathicles::game_development'
+  keyword: "#nosource;collection::pathicles::game_development"
   language: English
-  note: 'OCLC: 1162606503'
+  note: "OCLC: 1162606503"
   source: Open WorldCat
-  title: 'Agile Game Development: Build, Play, Repeat'
+  title: "Agile Game Development: Build, Play, Repeat"
   title-short: Agile Game Development
   type: book
   URL: >-
     https://go.oreilly.com/queensland-university-of-technology/library/view/-/9780136204831/?ar
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/game_development
 rendered:
@@ -58,5 +58,4 @@ rendered:
     </div>
   citation: Keith, 2020
 bibTex: "@book{keith__2020__agile,\n\tauthor = {Keith, Clinton},\n\tedition = {2nd Edition},\n\tyear = {2020},\n\tnote = {OCLC: 1162606503},\n\ttitle = {Agile {Game} {Development}: Build, {Play}, {Repeat}},\n\thowpublished = {https://go.oreilly.com/queensland-university-of-technology/library/view/-/9780136204831/?ar},\n}\n\n"
-
 ---

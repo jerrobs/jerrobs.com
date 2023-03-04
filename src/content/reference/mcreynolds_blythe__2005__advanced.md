@@ -12,13 +12,13 @@ cslItem:
   issued:
     date-parts:
       - - 2005
-  keyword: '#nosource;collection::pathicles::graphics_programming'
+  keyword: "#nosource;collection::pathicles::graphics_programming"
   language: en
   publisher: Elsevier Science
   title: Advanced graphics programming using OpenGL
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/graphics_programming
 rendered:
@@ -28,5 +28,4 @@ rendered:
     </div>
   citation: McReynolds and Blythe, 2005
 bibTex: "@book{mcreynolds_blythe__2005__advanced,\n\tauthor = {McReynolds, T and Blythe, D},\n\tseries = {The morgan kaufmann series in computer graphics},\n\tyear = {2005},\n\tpublisher = {Elsevier Science},\n\ttitle = {Advanced graphics programming using {OpenGL}},\n}\n\n"
-
 ---

@@ -25,7 +25,7 @@ cslItem:
   container-title-short: Physics of Plasmas
   DOI: 10.1063/1.2837054
   ISSN: 1070-664X, 1089-7674
-  issue: '5'
+  issue: "5"
   issued:
     date-parts:
       - - 2008
@@ -33,12 +33,12 @@ cslItem:
   keyword: >-
     collection::pathicles::accelerator_science;collection::pathicles::numerical_integrators
   language: en
-  page: '056701'
+  page: "056701"
   source: DOI.org (Crossref)
   title: Simulation of beams or plasmas crossing at relativistic velocity
   type: article-journal
   URL: http://aip.scitation.org/doi/10.1063/1.2837054
-  volume: '15'
+  volume: "15"
 tags:
   - issue:pathicles
   - topic:pathicles/accelerator_science
@@ -51,5 +51,4 @@ rendered:
     </div>
   citation: Vay, 2008
 bibTex: "@article{vay__2008__simulation,\n\tnote = {[Online; accessed 2021-04-07]},\n\tauthor = {Vay, J.-L.},\n\tjournal = {Physics of Plasmas},\n\tnumber = {5},\n\tyear = {2008},\n\tmonth = {5},\n\tpages = {056701},\n\ttitle = {Simulation of beams or plasmas crossing at relativistic velocity},\n\thowpublished = {http://aip.scitation.org/doi/10.1063/1.2837054},\n\tvolume = {15},\n}\n\n"
-
 ---

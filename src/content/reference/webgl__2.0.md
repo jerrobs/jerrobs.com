@@ -16,7 +16,7 @@ cslItem:
         - 6
   keyword: collection::pathicles::gpgpu
   language: en
-  note: 'Inline referece: WebGL1.0.2'
+  note: "Inline referece: WebGL1.0.2"
   publisher: Khronos Group
   title: WebGL Specification. Version 2.0. Editor's Draft
   title-short: WebGL 2.0
@@ -32,5 +32,4 @@ rendered:
     </div>
   citation: Khronos Group, 2020
 bibTex: "@techreport{Khronos2020WebGL,\n\tauthor = {{Khronos Group}},\n\tyear = {2020},\n\tmonth = {mar 6},\n\tnote = {Inline referece: WebGL1.0.2},\n\tinstitution = {Khronos Group},\n\ttitle = {WebGL {Specification}. {Version} 2.0. {Editor}'s {Draft}},\n}\n\n"
-
 ---

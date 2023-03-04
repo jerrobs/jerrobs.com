@@ -33,69 +33,67 @@ const subtitle = renderInline(issue.data.subtitle)
   
 </div>
 
-<style lang="stylus">
-  .issue-preview {
-    // box-shadow: 5px rgba(black, 1);
-    background-color: #eeeeee;
-    display: flex;
-    flex-direction: column;
-    min-height: calc(8 * var(--baseline-height));
-    // width: 40%;
-    flex: 1 0 15rem;
-    border rgba(white,.5) solid .5rem;
-    padding .5rem;
-    // margin .5rem;
-    
-    
-    a {
+<style lang="styl">
+.issue-preview {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  min-height: 8rem;
+  flex: 1 0 30rem;
+  border: rgba(white, 0.5) solid 0.5rem;
+  padding: 0.5rem;
+
+  a {
     text-decoration: none;
-    }
-    &:hover a {
-      text-decoration: underline;
-      }
   }
+
+  .issue-preview :hover a {
+    text-decoration: underline;
+  }
+
   .issue-preview__body {
     flex: 5;
   }
+
   .issue-preview__footer {
     flex: 1%;
     background-color: #fff;
     position: relative;
   }
+
   .issue-preview__footer .taglines {
-    left: calc((0.75) * var(--baseline-height));
+    left: calc(0.75 * var(--baseline-height));
   }
+
   .issue-preview__footer p {
     font-variant: all-small-caps;
-    height: calc((0.5) * var(--baseline-height));
+    height: calc(0.5 * var(--baseline-height));
   }
+
   .issue__subtitle {
-  $baselined-typography(body-lg);
+    $baselined-typography(body-lg);
   }
+
   .issue__title {
     font-weight: var(--font-weight--bold);
-  // $baselined-typography(body-lg);
   }
-.issue__subtitle, .issue__title  {
-  span {
-    background-color: white;;
-  
-  }}
-  
+}
 
-  #issue-pathicles {
-    background-image: url(/assets/cover__pathicles_cropped-lg.jpg);
-    background-size:cover
-    background-repeat:  no-repeat;
-    }
-  #issue-space {
-    background-image: url(/assets/cover__space-lg.jpg);
-    background-size:cover
-    background-repeat:  no-repeat;
-    }
-  #issue-strategy {
-    background-image: url(/assets/cover__strategy-lg.jpg);
-    background-size:cover
-    background-repeat:  no-repeat;
-    }
+.issue__subtitle,.issue__title {
+  span {
+    background-color: white;
+  }
+}
+
+#issue-space {
+  background-image: url('/assets/cover__space-lg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#issue-strategy {
+  background-image: url('/assets/cover__strategy-lg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 </style>

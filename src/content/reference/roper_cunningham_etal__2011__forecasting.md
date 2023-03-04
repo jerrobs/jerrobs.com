@@ -30,7 +30,7 @@ cslItem:
   title: Forecasting and Management of Technology
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
   - __strategy2030:strategic-planning:forecasting
   - issue:strategy
@@ -42,5 +42,4 @@ rendered:
     </div>
   citation: Roper <i>et al.</i>, 2011
 bibTex: "@book{roper_cunningham_etal__2011__forecasting,\n\tauthor = {Roper, Alan Thomas and Cunningham, Scott W and Porter, Alan L and Mason, Thomas W and Rossini, Frederick A and Banks, Jerry},\n\tyear = {2011},\n\ttitle = {Forecasting and {Management} of {Technology}},\n}\n\n"
-
 ---

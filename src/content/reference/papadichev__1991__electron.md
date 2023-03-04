@@ -29,22 +29,22 @@ cslItem:
     Spectrometers, Detectors and Associated Equipment
   DOI: 10.1016/0168-9002(91)90969-W
   ISSN: 0168-9002
-  issue: '1'
+  issue: "1"
   issued:
     date-parts:
       - - 1991
         - 7
         - 1
-  keyword: '#nosource;collection::pathicles::accelerator_science'
+  keyword: "#nosource;collection::pathicles::accelerator_science"
   language: en
   page: 749-752
   source: ScienceDirect
   title: Electron trajectories in undulators
   type: article-journal
   URL: 10.1016/0168-9002(91)90969-W
-  volume: '304'
+  volume: "304"
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/accelerator_science
 rendered:
@@ -54,5 +54,4 @@ rendered:
     </div>
   citation: Papadichev, 1991
 bibTex: "@article{papadichev__1991__electron,\n\tnote = {[Online; accessed 2020-12-15]},\n\tauthor = {Papadichev, V. A.},\n\tjournal = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},\n\tnumber = {1},\n\tyear = {1991},\n\tmonth = {jul 1},\n\tpages = {749--752},\n\ttitle = {Electron trajectories in undulators},\n\thowpublished = {10.1016/0168-9002(91)90969-W},\n\tvolume = {304},\n}\n\n"
-
 ---

@@ -27,7 +27,7 @@ cslItem:
   container-title-short: Eur. J. Phys.
   DOI: 10.1088/0143-0807/34/1/147
   ISSN: 0143-0807, 1361-6404
-  issue: '1'
+  issue: "1"
   issued:
     date-parts:
       - - 2013
@@ -40,7 +40,7 @@ cslItem:
   title: Charged particles constrained to a curved surface
   type: article-journal
   URL: https://iopscience.iop.org/article/10.1088/0143-0807/34/1/147
-  volume: '34'
+  volume: "34"
 tags:
   - issue:pathicles
   - topic:pathicles/educational_visualization
@@ -51,5 +51,4 @@ rendered:
     </div>
   citation: Müller and Frauendiener, 2013
 bibTex: "@article{muller_frauendiener__2013__charged,\n\tnote = {[Online; accessed 2020-04-27]},\n\tauthor = {M{\\\" u}ller, Thomas and Frauendiener, J{\\\" o}rg},\n\tjournal = {European Journal of Physics},\n\tnumber = {1},\n\tyear = {2013},\n\tmonth = {jan 1},\n\tpages = {147--160},\n\ttitle = {Charged particles constrained to a curved surface},\n\thowpublished = {https://iopscience.iop.org/article/10.1088/0143-0807/34/1/147},\n\tvolume = {34},\n}\n\n"
-
 ---

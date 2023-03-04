@@ -19,7 +19,7 @@ cslItem:
   title: Creating shared vision
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
   - issue:strategy
   - topic:strategy/definitions
@@ -30,5 +30,4 @@ rendered:
     </div>
   citation: Parker, 1990
 bibTex: "@book{parker__1990__creating,\n\tauthor = {Parker, Marjorie},\n\tseries = {Dialog {Intl}},\n\tyear = {1990},\n\tmonth = {jan 1},\n\tpublisher = {Dialog Intl},\n\ttitle = {Creating shared vision},\n}\n\n"
-
 ---

@@ -21,7 +21,7 @@ cslItem:
   number: LS-287, 761286
   page: LS-287, 761286
   source: DOI.org (Crossref)
-  title: 'ELEGANT: A flexible SDDS-compliant code for accelerator simulation'
+  title: "ELEGANT: A flexible SDDS-compliant code for accelerator simulation"
   title-short: ELEGANT
   type: report
   URL: http://www.osti.gov/servlets/purl/761286/
@@ -36,5 +36,4 @@ rendered:
     </div>
   citation: Borland, 2000
 bibTex: "@techreport{borland__2000__elegant,\n\tnote = {[Online; accessed 2021-01-01]},\n\tauthor = {Borland, M},\n\tyear = {2000},\n\tmonth = {aug 18},\n\tnumber = {LS-287, 761286},\n\tpages = {LS--287, 761286},\n\ttitle = {ELEGANT: A flexible {SDDS}-compliant code for accelerator simulation},\n\thowpublished = {http://www.osti.gov/servlets/purl/761286/},\n}\n\n"
-
 ---

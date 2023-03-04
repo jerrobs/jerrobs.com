@@ -26,7 +26,7 @@ cslItem:
   type: software
   URL: https://github.com/nobeam/latticejson
 tags:
-  - '#nosource'
+  - "#nosource"
   - archived
   - accelerator-physics
   - json
@@ -40,5 +40,4 @@ rendered:
     </div>
   citation: <i>LatticeJSON</i>, 2021
 bibTex: "@misc{__2021__latticejson,\n\tnote = {[Online; accessed 2021-10-13]},\n\tyear = {2021},\n\tmonth = {jul 9},\n\tpublisher = {NoBeam},\n\ttitle = {LatticeJSON},\n\ttype = {Python},\n}\n\n"
-
 ---

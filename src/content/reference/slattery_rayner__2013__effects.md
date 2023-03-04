@@ -16,7 +16,7 @@ cslItem:
   container-title-short: Atten Percept Psychophys
   DOI: 10/f45tfg
   ISSN: 1943-3921, 1943-393X
-  issue: '6'
+  issue: "6"
   issued:
     date-parts:
       - - 2013
@@ -31,7 +31,7 @@ cslItem:
   title-short: Effects of intraword and interword spacing on eye movements during reading
   type: article-journal
   URL: http://link.springer.com/10.3758/s13414-013-0463-8
-  volume: '75'
+  volume: "75"
 tags:
   - issue:space
   - topic:space/case_for_space
@@ -42,5 +42,4 @@ rendered:
     </div>
   citation: Slattery and Rayner, 2013
 bibTex: "@article{slattery_rayner__2013__effects,\n\tnote = {[Online; accessed 2021-01-14]},\n\tauthor = {Slattery, Timothy J. and Rayner, Keith},\n\tjournal = {Attention, Perception, & Psychophysics},\n\tnumber = {6},\n\tyear = {2013},\n\tmonth = {8},\n\tpages = {1275--1292},\n\ttitle = {Effects of intraword and interword spacing on eye movements during reading: Exploring the optimal use of space in a line of text},\n\thowpublished = {http://link.springer.com/10.3758/s13414-013-0463-8},\n\tvolume = {75},\n}\n\n"
-
 ---

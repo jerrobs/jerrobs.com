@@ -28,11 +28,11 @@ cslItem:
   keyword: >-
     #nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:strategy-maps;collection::strategy::roadmapping
   language: english
-  publisher: ': Harvard Business Review Press'
+  publisher: ": Harvard Business Review Press"
   title: Strategy maps
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
   - __strategy2030:strategic-planning:strategy-maps
   - issue:strategy
@@ -44,5 +44,4 @@ rendered:
     </div>
   citation: Kaplan and Norton, 2004
 bibTex: "@book{kaplan_norton__2004__strategy,\n\tauthor = {Kaplan, Robert S and Norton, David P},\n\tyear = {2004},\n\tpublisher = {: Harvard Business Review Press},\n\ttitle = {Strategy maps},\n}\n\n"
-
 ---

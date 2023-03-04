@@ -35,5 +35,4 @@ rendered:
     </div>
   citation: Warde, 1930
 bibTex: "@unpublished{warde__1930__crystal,\n\tauthor = {Warde, Beatrice},\n\tyear = {1930},\n\tmonth = {10},\n\ttitle = {The {Crystal} {Goblet}, or {Printing} {Should} {Be} {Invisible}},\n\thowpublished = {https://web.archive.org/web/20180702214319/http://gmunch.home.pipeline.com/typo-L/misc/ward.htm},\n}\n\n"
-
 ---

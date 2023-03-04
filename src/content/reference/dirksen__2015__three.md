@@ -11,10 +11,10 @@ cslItem:
   issued:
     date-parts:
       - - 2015
-  keyword: '#nosource;collection::pathicles::graphics_programming'
+  keyword: "#nosource;collection::pathicles::graphics_programming"
   language: eng
-  note: 'OCLC: 930609190'
-  number-of-pages: '283'
+  note: "OCLC: 930609190"
+  number-of-pages: "283"
   source: Gemeinsamer Bibliotheksverbund ISBN
   title: >-
     Three.js cookbook: over 80 shortcuts, solutions, and recipes that allow you
@@ -23,7 +23,7 @@ cslItem:
   title-short: Three.js cookbook
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/graphics_programming
 rendered:
@@ -33,5 +33,4 @@ rendered:
     </div>
   citation: Dirksen, 2015
 bibTex: "@book{dirksen__2015__three,\n\tauthor = {Dirksen, Jos},\n\tseries = {Open source {Community} experience distilled. {Quick} answers to common problems},\n\tedition = {1th edition},\n\tyear = {2015},\n\tnote = {OCLC: 930609190},\n\ttitle = {Three.js cookbook: over 80 shortcuts, solutions, and recipes that allow you to create the most stunning visualizations and 3D scenes using the {Three}.js library},\n}\n\n"
-
 ---

@@ -22,7 +22,7 @@ cslItem:
   citation-key: mintzberg__1978__patterns
   container-title: Management Science
   DOI: 10.1287/mnsc.24.9.934
-  issue: '9'
+  issue: "9"
   issued:
     date-parts:
       - - 1978
@@ -36,9 +36,9 @@ cslItem:
   type: article-journal
   URL: >-
     https://www.researchgate.net/publication/227444830_Patterns_in_Strategy_Formation
-  volume: '24'
+  volume: "24"
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
   - issue:strategy
   - topic:strategy/military
@@ -51,5 +51,4 @@ rendered:
     </div>
   citation: Mintzberg, 1978
 bibTex: "@article{mintzberg__1978__patterns,\n\tauthor = {Mintzberg, Henry},\n\tjournal = {Management Science},\n\tnumber = {9},\n\tyear = {1978},\n\tmonth = {may 1},\n\tpages = {934--948},\n\ttitle = {Patterns in {Strategy} {Formation}},\n\thowpublished = {https://www.researchgate.net/publication/227444830\\textunderscore{}Patterns\\textunderscore{}in\\textunderscore{}Strategy\\textunderscore{}Formation},\n\tvolume = {24},\n}\n\n"
-
 ---

@@ -21,7 +21,7 @@ cslItem:
   type: book
   URL: http://www.worldcat.org/title/lesetypographie/oclc/66532356
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-format:book
   - _has-setting:professional
   - issue:space
@@ -33,5 +33,4 @@ rendered:
     </div>
   citation: Wilberg and Forssman, 2005
 bibTex: "@book{wilberg_forssman__2005__lesetypografie,\n\taddress = {Mainz},\n\tauthor = {Wilberg, Hans Peter and Forssman, Friedrich},\n\tyear = {2005},\n\tpublisher = {Hermann Schmidt},\n\ttitle = {Lesetypografie},\n}\n\n"
-
 ---

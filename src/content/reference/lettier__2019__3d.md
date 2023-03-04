@@ -34,5 +34,4 @@ rendered:
     </div>
   citation: Lettier, 2019
 bibTex: "@book{lettier__2019__3d,\n\tnote = {[Online; accessed 2020-03-26]},\n\tauthor = {Lettier, David},\n\tyear = {2019},\n\tpublisher = {github.com},\n\ttitle = {3D {Game} {Shaders} {For} {Beginners}},\n}\n\n"
-
 ---

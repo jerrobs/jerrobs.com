@@ -87,7 +87,7 @@ cslItem:
   title: Visual portrays of roadmaps
   type: paper-conference
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning:roadmapping
   - issue:strategy
   - topic:strategy/roadmapping
@@ -98,5 +98,4 @@ rendered:
     </div>
   citation: Simonse, Buijs and Hultink, 2012
 bibTex: "@inproceedings{simonse_buijs_etal__2012__visual,\n\taddress = {Helsinki},\n\tauthor = {Simonse, Lianne and Buijs, Jan and Hultink, Erik},\n\tyear = {2012},\n\tmonth = {jul 6},\n\ttitle = {Visual portrays of roadmaps},\n}\n\n"
-
 ---

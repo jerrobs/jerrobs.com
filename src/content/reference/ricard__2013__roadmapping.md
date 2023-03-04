@@ -41,7 +41,7 @@ cslItem:
     connectivity matters
   type: thesis
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning:roadmapping
   - issue:strategy
   - topic:strategy/roadmapping
@@ -52,5 +52,4 @@ rendered:
     </div>
   citation: Ricard, 2013
 bibTex: "@phdthesis{ricard__2013__roadmapping,\n\tauthor = {Ricard, Lykke Margot},\n\tyear = {2013},\n\tschool = {Technical University of Denmark},\n\ttitle = {Roadmapping and {Strategy} in {Science}, {Technology} and {Innovation}: Why connectivity matters},\n}\n\n"
-
 ---

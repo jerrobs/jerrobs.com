@@ -52,9 +52,9 @@ cslItem:
   issued:
     date-parts:
       - - 2014
-  keyword: '#nosource;collection::pathicles::graphics_programming'
+  keyword: "#nosource;collection::pathicles::graphics_programming"
   language: English
-  note: 'OCLC: 874011580'
+  note: "OCLC: 874011580"
   publisher: Addison-Wesley
   publisher-place: Upper Saddle River, NJ
   source: Open WorldCat
@@ -62,7 +62,7 @@ cslItem:
   type: book
   URL: http://proquest.safaribooksonline.com/?fpi=9780133440133
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/graphics_programming
 rendered:
@@ -72,5 +72,4 @@ rendered:
     </div>
   citation: Ginsburg and Purnomo, 2014
 bibTex: "@book{ginsburg_purnomo__2014__opengl,\n\taddress = {Upper Saddle River, NJ},\n\tauthor = {Ginsburg, Dan and Purnomo, Budirijanto},\n\tyear = {2014},\n\tnote = {OCLC: 874011580},\n\tpublisher = {Addison-Wesley},\n\ttitle = {OpenGL {ES} 3.0 programming guide},\n}\n\n"
-
 ---

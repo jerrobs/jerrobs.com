@@ -19,7 +19,7 @@ cslItem:
   type: software
   URL: https://github.com/bramstein/typeset
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-setting:professional
   - _access:free
   - _has-format:software
@@ -32,5 +32,4 @@ rendered:
     </div>
   citation: Stein, 2012
 bibTex: "@misc{stein__2012__typeset,\n\tauthor = {Stein, Bram},\n\tyear = {2012},\n\ttitle = {typeset. {TeX} line breaking algorithm in {JavaScript}},\n\thowpublished = {https://github.com/bramstein/typeset},\n}\n\n"
-
 ---

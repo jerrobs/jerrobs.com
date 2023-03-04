@@ -1,5 +1,6 @@
 @import './config/index.styl';
 // @import './mixins/index.styl'
+// @import './fonts/barlow-baselined/stylesheet.css';
 @import './reset.styl';
 @import './root.styl';
 
@@ -24,13 +25,13 @@ html {
 
 body {
   background-color: var(--color-background);
-  background: linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), #fff;
+  background: linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), var(--color-background);
   background-size: 100% 1rem, 100% 5rem, 100% 100%;
 }
 
 .layout__main {
   position: relative;
-  max-width: 80ch;
+  max-width: 32rem;
   margin: 0 auto;
   transition: 200ms;
 }
@@ -64,4 +65,20 @@ body {
 
 .csl-entry a {
   word-break: break-word;
+}
+
+.body-md {
+  $baselined-typography(body-md);
+}
+
+.body-lg {
+  $baselined-typography(body-lg);
+}
+
+.body-xl {
+  $baselined-typography(body-xl);
+}
+
+.body-xxl {
+  $baselined-typography(body-xxl);
 }

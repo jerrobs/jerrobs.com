@@ -25,7 +25,7 @@ cslItem:
   keyword: collection::pathicles::numerical_integrators
   language: en
   note: tex.DOI 10.3929/ethz-a-006911936
-  number-of-pages: '49'
+  number-of-pages: "49"
   publisher: ETH Zürich
   title: >-
     An adaptive time integration method for more efficient simulation of
@@ -42,5 +42,4 @@ rendered:
     </div>
   citation: Toggweiler, 2011
 bibTex: "@misc{toggweiler__2011__adaptive,\n\tauthor = {Toggweiler, Matthias},\n\tyear = {2011},\n\tnote = {tex.DOI 10.3929/ethz-a-006911936},\n\tschool = {ETH Z{\\\" u}rich},\n\ttitle = {An adaptive time integration method for more efficient simulation of particle accelerators},\n\ttype = {Master thesis},\n}\n\n"
-
 ---

@@ -35,7 +35,7 @@ cslItem:
   title: Project Strategy and Strategic Portfolio Management
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
   - __strategy2030:strategic-planning:project-management
   - __strategy2030:strategic-planning:portfolio-management
@@ -48,5 +48,4 @@ rendered:
     </div>
   citation: Johnson, 2013
 bibTex: "@book{johnson__2013__project,\n\tauthor = {Johnson, William H A},\n\tseries = {Business {Expert} {Press}},\n\tyear = {2013},\n\tmonth = {may 20},\n\tpublisher = {Business Expert Press},\n\ttitle = {Project {Strategy} and {Strategic} {Portfolio} {Management}},\n}\n\n"
-
 ---

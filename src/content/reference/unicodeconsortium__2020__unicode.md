@@ -18,7 +18,7 @@ cslItem:
   type: chapter
   URL: http://www.unicode.org/reports/tr14/tr14-39.html
 tags:
-  - '#nosource'
+  - "#nosource"
   - _scope:art-and-design
   - _has-type:specification
   - issue:space
@@ -30,5 +30,4 @@ rendered:
     </div>
   citation: Unicode Consortium, 2020
 bibTex: "@inbook{unicodeconsortium__2020__unicode,\n\tauthor = {{Unicode Consortium}},\n\tbooktitle = {The {Unicode} standard 13.0.0},\n\tedition = {13.0.0},\n\tyear = {2020},\n\tmonth = {oct 3},\n\ttitle = {Unicode line breaking algorithm},\n\thowpublished = {http://www.unicode.org/reports/tr14/tr14-39.html},\n}\n\n"
-
 ---

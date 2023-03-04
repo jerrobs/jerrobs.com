@@ -32,5 +32,4 @@ rendered:
     </div>
   citation: Benchoff, 2015
 bibTex: "@misc{benchoff__2015__improvement,\n\tnote = {[Online; accessed 2021-01-27]},\n\tauthor = {Benchoff, Brian},\n\tyear = {2015},\n\tmonth = {oct 22},\n\ttitle = {An {Improvement} {To} {Floating} {Point} {Numbers}},\n\thowpublished = {https://hackaday.com/2015/10/22/an-improvement-to-floating-point-numbers/},\n}\n\n"
-
 ---

@@ -35,5 +35,4 @@ rendered:
     </div>
   citation: Savage, 2015
 bibTex: "@misc{savage__2015__origin,\n\tnote = {[Online; accessed 2021-01-09]},\n\tauthor = {Savage, Adam},\n\tyear = {2015},\n\tmonth = {dec 15},\n\ttitle = {The {Origin} of \"{Remember}, {Kids} ...\"},\n\thowpublished = {https://www.tested.com/making/557288-origin-only-difference-between-screwing-around-and-science-writing-it-down/},\n}\n\n"
-
 ---

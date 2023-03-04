@@ -1,4 +1,3 @@
-import { slugifyAll } from "./slugify"
 import type { CollectionEntry } from "astro:content"
 
 export const getArticlesByIssue = (

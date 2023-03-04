@@ -13,12 +13,12 @@ cslItem:
   issued:
     date-parts:
       - - 2018
-  keyword: '#nosource;collection::pathicles::graphics_programming'
+  keyword: "#nosource;collection::pathicles::graphics_programming"
   title: dmnsgn/glsl-smaa
   type: software
   URL: https://github.com/dmnsgn/glsl-smaa
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/graphics_programming
 rendered:
@@ -28,5 +28,4 @@ rendered:
     </div>
   citation: Seguin, 2018
 bibTex: "@misc{seguin__2018__dmnsgn,\n\tauthor = {Seguin, Damien},\n\tseries = {github.com},\n\tyear = {2018},\n\ttitle = {dmnsgn/glsl-smaa},\n\ttype = {Javascript, {OpenGL}},\n\thowpublished = {https://github.com/dmnsgn/glsl-smaa},\n}\n\n"
-
 ---

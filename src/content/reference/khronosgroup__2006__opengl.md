@@ -3,7 +3,7 @@ cslItem:
   id: khronosgroup__2006__opengl
   author:
     - family: Khronos Group
-      given: ''
+      given: ""
   citation-key: khronosgroup__2006__opengl
   issued:
     literal: 1st July, 2006 - S
@@ -23,5 +23,4 @@ rendered:
     </div>
   citation: Khronos Group, 1st July, 2006 - S
 bibTex: "@techreport{khronosgroup__2006__opengl,\n\tauthor = {{Khronos Group}},\n\ttitle = {OpenGL {ARB} to {Pass} {Control} of {OpenGL} {Specification} to {Khronos} {Group}},\n\thowpublished = {https://web.archive.org/web/20080503182855/http://www.khronos.org/news/press/releases/opengl\\textunderscore{}arb\\textunderscore{}to\\textunderscore{}pass\\textunderscore{}control\\textunderscore{}of\\textunderscore{}opengl\\textunderscore{}specification\\textunderscore{}to\\textunderscore{}khronos\\textunderscore{}group/},\n}\n\n"
-
 ---

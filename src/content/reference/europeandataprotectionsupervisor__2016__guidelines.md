@@ -8,7 +8,7 @@ cslItem:
     date-parts:
       - - 2016
         - 11
-  keyword: '#nosource;collection::jerrobs::privacy'
+  keyword: "#nosource;collection::jerrobs::privacy"
   language: en
   title: >-
     Guidelines on the protection of personal data processed through web services
@@ -17,7 +17,7 @@ cslItem:
   URL: >-
     https://edps.europa.eu/sites/edp/files/publication/16-11-07_guidelines_web_services_en.pdf
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:jerrobs
   - topic:jerrobs/privacy
 rendered:
@@ -27,5 +27,4 @@ rendered:
     </div>
   citation: European data protection supervisor, 2016
 bibTex: "@techreport{europeandataprotectionsupervisor__2016__guidelines,\n\tauthor = {{European data protection supervisor}},\n\tyear = {2016},\n\tmonth = {11},\n\ttitle = {Guidelines on the protection of personal data processed through web services provided by {EU} institutions},\n\thowpublished = {https://edps.europa.eu/sites/edp/files/publication/16-11-07\\textunderscore{}guidelines\\textunderscore{}web\\textunderscore{}services\\textunderscore{}en.pdf},\n}\n\n"
-
 ---

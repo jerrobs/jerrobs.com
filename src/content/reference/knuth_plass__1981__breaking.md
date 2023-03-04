@@ -12,9 +12,9 @@ cslItem:
     - family: Plass
       given: Michael F
   citation-key: knuth_plass__1981__breaking
-  container-title: 'Software: Practice and Experience'
+  container-title: "Software: Practice and Experience"
   DOI: 10.1002/spe.4380111102
-  issue: '11'
+  issue: "11"
   issued:
     date-parts:
       - - 1981
@@ -26,7 +26,7 @@ cslItem:
   title: Breaking paragraphs into lines
   type: article-journal
   URL: http://doi.wiley.com/10.1002/spe.4380111102
-  volume: '11'
+  volume: "11"
 tags:
   - _has-setting:academic
   - _has-format:article
@@ -39,5 +39,4 @@ rendered:
     </div>
   citation: Knuth and Plass, 1981
 bibTex: "@article{knuth_plass__1981__breaking,\n\tauthor = {Knuth, Donald E and Plass, Michael F},\n\tjournal = {Software: Practice and Experience},\n\tnumber = {11},\n\tyear = {1981},\n\tmonth = {11},\n\tpages = {1119--1184},\n\ttitle = {Breaking paragraphs into lines},\n\thowpublished = {http://doi.wiley.com/10.1002/spe.4380111102},\n\tvolume = {11},\n}\n\n"
-
 ---

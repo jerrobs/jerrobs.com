@@ -40,7 +40,7 @@ cslItem:
   citation-key: adzobu__2014__testing
   container-title: International Journal of Knowledge Content Development & Technology
   DOI: 10.5865/IJKCT.2014.4.2.049
-  issue: '2'
+  issue: "2"
   issued:
     date-parts:
       - - 2014
@@ -59,7 +59,7 @@ cslItem:
   title-short: Testing the Andrews Framework of Strategy Formulation and Implementation
   type: article-journal
   URL: 10.5865/IJKCT.2014.4.2.049
-  volume: '4'
+  volume: "4"
 tags:
   - __strategy2030:strategic-planning
   - __strategy2030:strategic-planning:swot
@@ -72,5 +72,4 @@ rendered:
     </div>
   citation: Adzobu, 2014
 bibTex: "@article{adzobu__2014__testing,\n\tauthor = {Adzobu, Nesba Yaa Anima},\n\tjournal = {International Journal of Knowledge Content Development & Technology},\n\tnumber = {2},\n\tyear = {2014},\n\tmonth = {dec 31},\n\tnote = {http://web.archive.org/web/20200117095141/http://koreascience.or.kr/article/JAKO201405458147004.page},\n\tpages = {49--65},\n\ttitle = {Testing the {Andrews} {Framework} of {Strategy} {Formulation} and {Implementation}: Case {Study} of the {University} of {Cape} {Coast} {Digital} {Library} in {Ghana}},\n\thowpublished = {10.5865/IJKCT.2014.4.2.049},\n\tvolume = {4},\n}\n\n"
-
 ---

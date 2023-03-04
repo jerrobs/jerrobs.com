@@ -15,14 +15,14 @@ cslItem:
   issued:
     date-parts:
       - - 1994
-  keyword: '#nosource;game-theory;collection::strategy::game-theory'
+  keyword: "#nosource;game-theory;collection::strategy::game-theory"
   language: eng
   title: Von Neumann and Morgenstern in historical perspective
   type: chapter
   URL: >-
     https://www.researchgate.net/publication/4798823_Von_Neumann_and_Morgenstern_in_Historical_Perspective
 tags:
-  - '#nosource'
+  - "#nosource"
   - game-theory
   - issue:strategy
   - topic:strategy/game-theory
@@ -33,5 +33,4 @@ rendered:
     </div>
   citation: Dimand and Dimand, 1994
 bibTex: "@inbook{dimand_dimand__1994__neumann,\n\tauthor = {Dimand, Robert W. and Dimand, Mary Ann},\n\tbooktitle = {Game {Theory} and {Economic} {Analysis}. a {Quiet} {Revolution} in {Economics}},\n\teditor = {Schmidt, Christian},\n\tyear = {1994},\n\ttitle = {Von {Neumann} and {Morgenstern} in historical perspective},\n\thowpublished = {https://www.researchgate.net/publication/4798823\\textunderscore{}Von\\textunderscore{}Neumann\\textunderscore{}and\\textunderscore{}Morgenstern\\textunderscore{}in\\textunderscore{}Historical\\textunderscore{}Perspective},\n}\n\n"
-
 ---

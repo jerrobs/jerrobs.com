@@ -44,9 +44,9 @@ cslItem:
   issued:
     date-parts:
       - - 2018
-  keyword: '#nosource;collection::pathicles::graphics_programming'
+  keyword: "#nosource;collection::pathicles::graphics_programming"
   language: English
-  note: 'OCLC: 1105773916'
+  note: "OCLC: 1105773916"
   publisher: A K Peters/CRC Press
   publisher-place: Place of publication not identified
   source: Open WorldCat
@@ -54,7 +54,7 @@ cslItem:
   type: book
   URL: https://www.safaribooksonline.com/library/view/title/9781482229417/?ar
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/graphics_programming
 rendered:
@@ -64,5 +64,4 @@ rendered:
     </div>
   citation: Marschner and Shirley, 2018
 bibTex: "@book{marschner_shirley__2018__fundamentals,\n\taddress = {Place of publication not identified},\n\tauthor = {Marschner, Steve and Shirley, Peter},\n\tyear = {2018},\n\tnote = {OCLC: 1105773916},\n\tpublisher = {A K Peters/CRC Press},\n\ttitle = {Fundamentals of {Computer} {Graphics}, 4th {Edition}},\n}\n\n"
-
 ---

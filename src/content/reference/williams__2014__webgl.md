@@ -13,7 +13,7 @@ cslItem:
       - - 2014
   keyword: collection::pathicles::graphics_programming
   language: eng
-  number-of-pages: '289'
+  number-of-pages: "289"
   publisher: Packt Publishing
   publisher-place: Birmingham Mumbai
   source: Gemeinsamer Bibliotheksverbund ISBN
@@ -32,5 +32,4 @@ rendered:
     </div>
   citation: Williams, 2014
 bibTex: "@book{williams__2014__webgl,\n\taddress = {Birmingham Mumbai},\n\tauthor = {Williams, Mitch},\n\tseries = {Community experience distilled},\n\tyear = {2014},\n\tpublisher = {Packt Publishing},\n\ttitle = {WebGL hotshot: create interactive 3D content for web pages and mobile devices},\n}\n\n"
-
 ---

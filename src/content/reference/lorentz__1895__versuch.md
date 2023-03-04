@@ -14,7 +14,7 @@ cslItem:
   issued:
     date-parts:
       - - 1895
-  keyword: '#nosource;collection::pathicles::accelerator_science'
+  keyword: "#nosource;collection::pathicles::accelerator_science"
   language: de
   publisher: E. J. Brill
   publisher-place: Leiden
@@ -25,7 +25,7 @@ cslItem:
   URL: >-
     https://echo.mpiwg-berlin.mpg.de/ECHOdocuView?url=/permanent/einstein_exhibition/sources/43GVDDTM&viewMode=auto&pn=7
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/accelerator_science
 rendered:
@@ -35,5 +35,4 @@ rendered:
     </div>
   citation: Lorentz, 1895
 bibTex: "@book{lorentz__1895__versuch,\n\tnote = {[Online; accessed 2021-02-03]},\n\taddress = {Leiden},\n\tauthor = {Lorentz, Hendrik Antoon},\n\tyear = {1895},\n\tpublisher = {E. J. Brill},\n\ttitle = {Versuch einer {Theorie} der electrischen und optischen {Erscheinungen} in bewegten {K}{\\\" o}rpern},\n}\n\n"
-
 ---

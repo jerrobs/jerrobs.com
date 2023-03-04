@@ -8,14 +8,14 @@ cslItem:
   issued:
     date-parts:
       - - 2020
-  keyword: '#nosource;collection::space::space_space'
+  keyword: "#nosource;collection::space::space_space"
   language: en
   publisher: Microsoft
   title: OpenType specification 1.8.4
   type: report
   URL: https://www.microsoft.com/en-us/Typography/OpenTypeSpecification.aspx
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:space
   - topic:space/space_space
 rendered:
@@ -25,5 +25,4 @@ rendered:
     </div>
   citation: Microsoft and Adobe Systems, 2020
 bibTex: "@techreport{microsoft_adobesystems__2020__opentype,\n\tauthor = {{Microsoft} and {Adobe Systems}},\n\tyear = {2020},\n\tinstitution = {Microsoft},\n\ttitle = {OpenType specification 1.8.4},\n}\n\n"
-
 ---

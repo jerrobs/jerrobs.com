@@ -28,5 +28,4 @@ rendered:
     </div>
   citation: Latta, 2004
 bibTex: "@misc{latta__2004__building,\n\tauthor = {Latta, Lutz},\n\tyear = {2004},\n\tmonth = {jul 28},\n\ttitle = {Building a {Million} {Particle} {System}},\n\ttype = {Magazine},\n\thowpublished = {https://www.gamasutra.com/view/feature/130535/building\\textunderscore{}a\\textunderscore{}millionparticle\\textunderscore{}system.php?page=1},\n}\n\n"
-
 ---

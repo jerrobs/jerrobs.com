@@ -39,5 +39,4 @@ rendered:
     </div>
   citation: Dowding, 1995
 bibTex: "@book{dowding__1995__finer,\n\tauthor = {Dowding, Geoffrey},\n\tyear = {1995},\n\tpublisher = {Hartley & Marks Publishers},\n\ttitle = {Finer points in the spacing and arrangement of type},\n}\n\n"
-
 ---

@@ -6,9 +6,8 @@ window.addEventListener("load", () => {
     ".message #toast-message"
   )!
   const pwaCloseBtn = pwaToast.querySelector<HTMLButtonElement>("#pwa-close")!
-  const pwaRefreshBtn = pwaToast.querySelector<HTMLButtonElement>(
-    "#pwa-refresh"
-  )!
+  const pwaRefreshBtn =
+    pwaToast.querySelector<HTMLButtonElement>("#pwa-refresh")!
 
   let refreshSW: ((reloadPage?: boolean) => Promise<void>) | undefined
 

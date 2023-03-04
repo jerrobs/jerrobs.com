@@ -28,13 +28,13 @@ cslItem:
       - - 2020
         - 2
         - 11
-  keyword: '#nosource;__strategy2030:strategic-planning'
+  keyword: "#nosource;__strategy2030:strategic-planning"
   language: English
   publisher: Harvard Business Press
   title: HBR Guide to Managing Strategic Initiatives
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
 rendered:
   bibliography: |-
@@ -43,5 +43,4 @@ rendered:
     </div>
   citation: Review, 2020
 bibTex: "@book{review__2020__hbr,\n\tauthor = {Review, Harvard Business},\n\tseries = {Harvard {Business} {Press}},\n\tyear = {2020},\n\tmonth = {feb 11},\n\tpublisher = {Harvard Business Press},\n\ttitle = {HBR {Guide} to {Managing} {Strategic} {Initiatives}},\n}\n\n"
-
 ---

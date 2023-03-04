@@ -32,5 +32,4 @@ rendered:
     </div>
   citation: RadiaSoft, 2020
 bibTex: "@misc{radiasoft__2020__sirepo,\n\tnote = {[Online; accessed 2021-02-09]},\n\tauthor = {{RadiaSoft}},\n\tyear = {2020},\n\ttitle = {Sirepo},\n\thowpublished = {https://www.sirepo.com/},\n}\n\n"
-
 ---

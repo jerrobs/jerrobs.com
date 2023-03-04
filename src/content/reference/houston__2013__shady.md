@@ -17,7 +17,7 @@ cslItem:
   issued:
     date-parts:
       - - 2013
-  keyword: '#nosource;collection::space::space_space'
+  keyword: "#nosource;collection::space::space_space"
   language: en
   publisher: W. W. Norton
   publisher-place: New York, London
@@ -26,7 +26,7 @@ cslItem:
     typographical marks
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:space
   - topic:space/space_space
 rendered:
@@ -36,5 +36,4 @@ rendered:
     </div>
   citation: Houston, 2013
 bibTex: "@book{houston__2013__shady,\n\taddress = {New York, London},\n\tauthor = {Houston, K},\n\tyear = {2013},\n\tpublisher = {W. W. Norton},\n\ttitle = {Shady characters: The secret life of punctuation, symbols, and other typographical marks},\n}\n\n"
-
 ---

@@ -26,13 +26,13 @@ cslItem:
   issued:
     date-parts:
       - - 2013
-  keyword: '#nosource;collection::pathicles::accelerator_science'
+  keyword: "#nosource;collection::pathicles::accelerator_science"
   language: en
   title: Introduction to motion of charged particles in Earth's magnetosphere
   type: report
   URL: https://www.s.u-tokyo.ac.jp/en/utrip/archive/2013/pdf/06NgYuting.pdf
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/accelerator_science
 rendered:
@@ -42,5 +42,4 @@ rendered:
     </div>
   citation: Ng <i>et al.</i>, 2013
 bibTex: "@techreport{ng_hoshino_etal__2013__introduction,\n\tauthor = {Ng, Yuting and Hoshino, Masahiro and Amano, Takanobu and Higashimori, Katsuaki and Shirakawa, Keisuke},\n\tyear = {2013},\n\ttitle = {Introduction to motion of charged particles in {Earth}'s magnetosphere},\n\thowpublished = {https://www.s.u-tokyo.ac.jp/en/utrip/archive/2013/pdf/06NgYuting.pdf},\n}\n\n"
-
 ---

@@ -13,9 +13,9 @@ cslItem:
   issued:
     date-parts:
       - - 2019
-  keyword: '#nosource;collection::pathicles::game_development'
+  keyword: "#nosource;collection::pathicles::game_development"
   language: en-US
-  note: 'OCLC: 1130664400'
+  note: "OCLC: 1130664400"
   publisher: PACKT Publishing Limited
   publisher-place: Place of publication not identified
   source: Open WorldCat
@@ -25,7 +25,7 @@ cslItem:
   title-short: Unity Game Optimization
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/game_development
 rendered:
@@ -35,5 +35,4 @@ rendered:
     </div>
   citation: Aversa and Dickinson, 2019
 bibTex: "@book{aversa_dickinson__2019__unity,\n\taddress = {Place of publication not identified},\n\tauthor = {Aversa, Davide and Dickinson, Chris},\n\tedition = {3rd edition.},\n\tyear = {2019},\n\tnote = {OCLC: 1130664400},\n\tpublisher = {PACKT Publishing Limited},\n\ttitle = {Unity {Game} {Optimization}: Enhance and {Extend} the {Performance} of {All} {Aspects} of {Your} {Unity} {Games}},\n}\n\n"
-
 ---

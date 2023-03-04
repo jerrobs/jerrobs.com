@@ -22,19 +22,19 @@ cslItem:
   container-title-short: ACM Comput. Surv.
   DOI: 10.1145/103162.103163
   ISSN: 0360-0300
-  issue: '1'
+  issue: "1"
   issued:
     date-parts:
       - - 1991
         - 3
   keyword: collection::pathicles::floating_points
-  number-of-pages: '44'
+  number-of-pages: "44"
   page: 5–48
   publisher: Association for Computing Machinery
   title: What every computer scientist should know about floating-point arithmetic
   type: article-journal
   URL: https://doi.org/10.1145/103162.103163
-  volume: '23'
+  volume: "23"
 tags:
   - issue:pathicles
   - topic:pathicles/floating_points
@@ -45,5 +45,4 @@ rendered:
     </div>
   citation: Goldberg, 1991
 bibTex: "@article{goldberg__1991__what,\n\tauthor = {Goldberg, David},\n\tjournal = {ACM Computing Surveys},\n\tnumber = {1},\n\tyear = {1991},\n\tmonth = {3},\n\tpages = {5--48},\n\tpublisher = {Association for Computing Machinery},\n\ttitle = {What every computer scientist should know about floating-point arithmetic},\n\tvolume = {23},\n}\n\n"
-
 ---

@@ -25,5 +25,4 @@ rendered:
     </div>
   citation: Gruendler, 2005
 bibTex: "@phdthesis{gruendler__2005__life,\n\tauthor = {Gruendler, Shelley},\n\tyear = {2005},\n\tschool = {University of Reading},\n\ttitle = {The {Life} and {Work} of {Beatrice} {Warde}},\n}\n\n"
-
 ---

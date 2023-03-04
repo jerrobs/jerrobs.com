@@ -27,8 +27,8 @@ cslItem:
       - - 2018
   keyword: _has-holding::oreilly-learning;collection::pathicles::graphics_programming
   language: en
-  note: 'OCLC: 1028582028'
-  number-of-pages: '1155'
+  note: "OCLC: 1028582028"
+  number-of-pages: "1155"
   publisher: CRC Press
   source: Open WorldCat
   title: Real-time rendering
@@ -44,5 +44,4 @@ rendered:
     </div>
   citation: Möller, Haines and Hoffman, 2018
 bibTex: "@book{moller_haines_etal__2018__realtime,\n\tauthor = {M{\\\" o}ller, Tomas and Haines, Eric and Hoffman, Naty},\n\tedition = {4th edition},\n\tyear = {2018},\n\tnote = {OCLC: 1028582028},\n\tpublisher = {CRC Press},\n\ttitle = {Real-time rendering},\n}\n\n"
-
 ---

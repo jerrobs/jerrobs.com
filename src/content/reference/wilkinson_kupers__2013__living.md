@@ -42,5 +42,4 @@ rendered:
     </div>
   citation: Wilkinson and Kupers, 2013
 bibTex: "@article{wilkinson_kupers__2013__living,\n\tauthor = {Wilkinson, Angela and Kupers, Roland},\n\tjournal = {Harvard Business Review},\n\tnumber = {May 2013},\n\tyear = {2013},\n\tmonth = {may 1},\n\tnote = {http://web.archive.org/web/20200207094551/https://hbr.org/2013/05/living-in-the-futures},\n\ttitle = {Living in the {Futures}},\n\thowpublished = {https://hbr.org/2013/05/living-in-the-futures},\n}\n\n"
-
 ---

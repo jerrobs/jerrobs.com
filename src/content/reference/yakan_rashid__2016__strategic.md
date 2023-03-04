@@ -29,17 +29,17 @@ cslItem:
     - family: Rashid
       given: Ameer Sardar K
   citation-key: yakan_rashid__2016__strategic
-  issue: '1'
+  issue: "1"
   issued:
     date-parts:
       - - 2016
   keyword: collection::strategy::ontology
   language: en
-  page: '20'
+  page: "20"
   source: Zotero
   title: Strategic Business Ontology Model
   type: article-journal
-  volume: '12'
+  volume: "12"
 tags:
   - issue:strategy
   - topic:strategy/ontology
@@ -50,5 +50,4 @@ rendered:
     </div>
   citation: Yakan and Rashid, 2016
 bibTex: "@article{yakan_rashid__2016__strategic,\n\tauthor = {Yakan, Ammar C and Rashid, Ameer Sardar K},\n\tnumber = {1},\n\tyear = {2016},\n\tpages = {20},\n\ttitle = {Strategic {Business} {Ontology} {Model}},\n\tvolume = {12},\n}\n\n"
-
 ---

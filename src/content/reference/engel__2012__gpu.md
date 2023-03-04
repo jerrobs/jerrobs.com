@@ -16,16 +16,16 @@ cslItem:
   issued:
     date-parts:
       - - 2012
-  keyword: '#nosource;_has-holding::oreilly-learning;collection::pathicles::gpgpu'
+  keyword: "#nosource;_has-holding::oreilly-learning;collection::pathicles::gpgpu"
   language: en-US
-  note: 'OCLC: 827253254'
+  note: "OCLC: 827253254"
   publisher: A K Peters/CRC Press
   publisher-place: Boca Raton, Fla
   source: Open WorldCat
   title: GPU Pro 3
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-holding::oreilly-learning
   - issue:pathicles
   - topic:pathicles/gpgpu
@@ -36,5 +36,4 @@ rendered:
     </div>
   citation: Engel, 2012
 bibTex: "@book{engel__2012__gpu,\n\taddress = {Boca Raton, Fla},\n\tauthor = {Engel, Wolfgang},\n\tyear = {2012},\n\tnote = {OCLC: 827253254},\n\tpublisher = {A K Peters/CRC Press},\n\ttitle = {GPU {Pro} 3},\n}\n\n"
-
 ---

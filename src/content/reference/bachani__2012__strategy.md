@@ -35,7 +35,7 @@ cslItem:
   title: Strategy Making in Nonprofit Organizations
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
   - __strategy2030:strategic-planning:nonprofit-organizations
   - issue:strategy
@@ -47,5 +47,4 @@ rendered:
     </div>
   citation: Bachani, 2012
 bibTex: "@book{bachani__2012__strategy,\n\tauthor = {Bachani, Jyoti},\n\tyear = {2012},\n\tmonth = {dec 10},\n\ttitle = {Strategy {Making} in {Nonprofit} {Organizations}},\n}\n\n"
-
 ---

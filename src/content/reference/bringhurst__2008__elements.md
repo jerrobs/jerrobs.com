@@ -20,7 +20,7 @@ cslItem:
   type: book
   URL: http://www.worldcat.org/title/elements-of-typographic-style/oclc/55633787
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-format:book
   - _has-setting:professional
   - _scope:art-and-design
@@ -34,5 +34,4 @@ rendered:
     </div>
   citation: Bringhurst, 2008
 bibTex: "@book{bringhurst__2008__elements,\n\taddress = {Point Roberts (MA), Vancouver},\n\tauthor = {Bringhurst, Robert},\n\tedition = {Version 3.2},\n\tyear = {2008},\n\tpublisher = {Hartley & Marks},\n\ttitle = {The elements of typographic style},\n}\n\n"
-
 ---

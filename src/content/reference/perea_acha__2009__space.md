@@ -26,8 +26,8 @@ cslItem:
   container-title: Vision Research
   container-title-short: Vision Research
   DOI: 10/fvrzqx
-  ISSN: '00426989'
-  issue: '15'
+  ISSN: "00426989"
+  issue: "15"
   issued:
     date-parts:
       - - 2009
@@ -39,7 +39,7 @@ cslItem:
   title: Space information is important for reading
   type: article-journal
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0042698909002442
-  volume: '49'
+  volume: "49"
 tags:
   - issue:space
   - topic:space/case_for_space
@@ -50,5 +50,4 @@ rendered:
     </div>
   citation: Perea and Acha, 2009
 bibTex: "@article{perea_acha__2009__space,\n\tnote = {[Online; accessed 2021-02-04]},\n\tauthor = {Perea, Manuel and Acha, Joana},\n\tjournal = {Vision Research},\n\tnumber = {15},\n\tyear = {2009},\n\tmonth = {7},\n\tpages = {1994--2000},\n\ttitle = {Space information is important for reading},\n\thowpublished = {https://linkinghub.elsevier.com/retrieve/pii/S0042698909002442},\n\tvolume = {49},\n}\n\n"
-
 ---

@@ -16,7 +16,7 @@ cslItem:
   type: article-journal
   URL: http://v3.danielmall.com/articles/responsive-line-breaks/
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-format:article
   - _has-setting:professional
   - issue:space
@@ -28,5 +28,4 @@ rendered:
     </div>
   citation: Mall, 2012
 bibTex: "@article{mall__2012__responsive,\n\tauthor = {Mall, Dan},\n\tyear = {2012},\n\tmonth = {8},\n\ttitle = {Responsive line breaks},\n\thowpublished = {http://v3.danielmall.com/articles/responsive-line-breaks/},\n}\n\n"
-
 ---

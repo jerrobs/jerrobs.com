@@ -36,5 +36,4 @@ rendered:
     </div>
   citation: <i>SixTrack</i>, 2022
 bibTex: "@misc{__2022__sixtrack,\n\tnote = {[Online; accessed 2022-10-18]},\n\tyear = {2022},\n\tmonth = {apr 4},\n\tpublisher = {SixTrack},\n\ttitle = {SixTrack},\n\ttype = {Fortran},\n}\n\n"
-
 ---

@@ -34,5 +34,4 @@ rendered:
     </div>
   citation: Washietl, 2013
 bibTex: "@misc{washietl__2013__beauty,\n\tnote = {[Online; accessed 2021-01-18]},\n\tauthor = {Washietl, Stefan},\n\tyear = {2013},\n\tmonth = {jun 27},\n\ttitle = {The beauty of scientific papers - {Design} trends of the past 350 years},\n\thowpublished = {https://paperpile.com/blog/the-beauty-of-scientific-papers-design-trends-of-the-past-350-years/},\n}\n\n"
-
 ---

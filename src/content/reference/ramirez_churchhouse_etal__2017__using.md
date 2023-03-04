@@ -17,7 +17,7 @@ cslItem:
       given: J
   citation-key: ramirez_churchhouse_etal__2017__using
   container-title: MIT Sloan Management Review
-  issue: '4'
+  issue: "4"
   issued:
     date-parts:
       - - 2017
@@ -30,7 +30,7 @@ cslItem:
   type: article-journal
   URL: >-
     https://sloanreview.mit.edu/article/using-scenario-planning-to-reshape-strategy/
-  volume: '58'
+  volume: "58"
 tags:
   - __strategy2030:strategic-planning
   - __strategy2030:strategic-planning:forecasting
@@ -44,5 +44,4 @@ rendered:
     </div>
   citation: Ramirez <i>et al.</i>, 2017
 bibTex: "@article{ramirez_churchhouse_etal__2017__using,\n\tauthor = {Ramirez, R and Churchhouse, S and Palermo, A and Hoffmann, J},\n\tjournal = {MIT Sloan Management Review},\n\tnumber = {4},\n\tyear = {2017},\n\tmonth = {jun 13},\n\ttitle = {Using scenario planning to reshape strategy},\n\thowpublished = {https://sloanreview.mit.edu/article/using-scenario-planning-to-reshape-strategy/},\n\tvolume = {58},\n}\n\n"
-
 ---

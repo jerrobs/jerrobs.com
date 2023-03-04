@@ -35,7 +35,7 @@ cslItem:
   title: Strategic Project Management
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
   - __strategy2030:strategic-planning:project-management
   - issue:strategy
@@ -47,5 +47,4 @@ rendered:
     </div>
   citation: Roberts, 2012
 bibTex: "@book{roberts__2012__strategic,\n\tauthor = {Roberts, Paul},\n\tseries = {Kogan {Page} {Publishers}},\n\tyear = {2012},\n\tmonth = {jul 3},\n\tpublisher = {Kogan Page Publishers},\n\ttitle = {Strategic {Project} {Management}},\n}\n\n"
-
 ---

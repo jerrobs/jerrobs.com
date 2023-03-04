@@ -29,7 +29,7 @@ cslItem:
   title: Understanding and Managing Public Organizations
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
   - __strategy2030:strategic-planning:nonprofit-organizations
   - issue:strategy
@@ -41,5 +41,4 @@ rendered:
     </div>
   citation: Rainey, 2014
 bibTex: "@book{rainey__2014__understanding,\n\tauthor = {Rainey, Hal G},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2014},\n\tmonth = {feb 3},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Understanding and {Managing} {Public} {Organizations}},\n}\n\n"
-
 ---

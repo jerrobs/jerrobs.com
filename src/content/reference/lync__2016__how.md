@@ -21,7 +21,7 @@ cslItem:
   URL: >-
     http://www.theatlantic.com/technology/archive/2016/09/the-beauty-of-the-en-space/499337/
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-format:article
   - _has-setting:professional
   - issue:space
@@ -33,5 +33,4 @@ rendered:
     </div>
   citation: Lync, 2016
 bibTex: "@article{lync__2016__how,\n\tauthor = {Lync, Lindsay},\n\tjournal = {The Atlantic},\n\tyear = {2016},\n\tmonth = {9},\n\ttitle = {How {I} came to love the en space},\n\thowpublished = {http://www.theatlantic.com/technology/archive/2016/09/the-beauty-of-the-en-space/499337/},\n}\n\n"
-
 ---

@@ -19,7 +19,7 @@ cslItem:
     Beams and X-Rays
   type: paper-conference
 tags:
-  - '#nosource'
+  - "#nosource"
   - accelerator-science-code
   - issue:pathicles
   - topic:pathicles/numerical_integrators
@@ -30,5 +30,4 @@ rendered:
     </div>
   citation: Sagan, 2012
 bibTex: "@inproceedings{sagan__2012__design,\n\tauthor = {Sagan, David},\n\tseries = {Proceedings of {ICAP}, {Rostock}-{Warnemunde}, {Germany}},\n\tyear = {2012},\n\tpages = {WEACI1},\n\ttitle = {Design and {Applications} of the {Bmad} {Library} for the {Simulation} of {Particle} {Beams} and {X}-{Rays}},\n}\n\n"
-
 ---

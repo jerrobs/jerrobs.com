@@ -19,11 +19,11 @@ cslItem:
   issued:
     date-parts:
       - - 2007
-  keyword: '#nosource;collection::space::space_space'
+  keyword: "#nosource;collection::space::space_space"
   language: eng
   medium: electronic resource
-  note: 'OCLC: ocn297576019'
-  number-of-pages: '1016'
+  note: "OCLC: ocn297576019"
+  number-of-pages: "1016"
   publisher: O'Reilly Media
   publisher-place: Beijing ; Sebastopol, Calif
   source: Library of Congress ISBN
@@ -31,7 +31,7 @@ cslItem:
   type: book
   URL: http://proquest.safaribooksonline.com/?fpi=9780596102425
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:space
   - topic:space/space_space
 rendered:
@@ -41,5 +41,4 @@ rendered:
     </div>
   citation: Haralambous and Horne, 2007
 bibTex: "@book{haralambous_horne__2007__fonts,\n\taddress = {Beijing ; Sebastopol, Calif},\n\tauthor = {Haralambous, Yannis and Horne, P. Scott},\n\tedition = {1st ed},\n\tyear = {2007},\n\tnote = {OCLC: ocn297576019},\n\tpublisher = {O'Reilly Media},\n\ttitle = {Fonts & encodings},\n}\n\n"
-
 ---

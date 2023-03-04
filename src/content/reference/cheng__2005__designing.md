@@ -23,7 +23,7 @@ cslItem:
   title: Designing type
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-format:book
   - _has-setting:professional
   - issue:space
@@ -35,5 +35,4 @@ rendered:
     </div>
   citation: Cheng, 2005
 bibTex: "@book{cheng__2005__designing,\n\taddress = {London},\n\tauthor = {Cheng, Karen},\n\tyear = {2005},\n\tpublisher = {Laurence King Publishing},\n\ttitle = {Designing type},\n}\n\n"
-
 ---

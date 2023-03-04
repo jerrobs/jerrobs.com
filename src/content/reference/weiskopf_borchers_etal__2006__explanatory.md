@@ -43,14 +43,14 @@ cslItem:
     date-parts:
       - - 2006
         - 7
-  keyword: '#nosource;collection::pathicles::educational_visualization'
+  keyword: "#nosource;collection::pathicles::educational_visualization"
   language: en
   page: 522-34
   title: Explanatory and illustrative visualization of special and general relativity
   type: article-journal
-  volume: '12'
+  volume: "12"
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/educational_visualization
 rendered:
@@ -60,5 +60,4 @@ rendered:
     </div>
   citation: Weiskopf <i>et al.</i>, 2006
 bibTex: "@article{weiskopf_borchers_etal__2006__explanatory,\n\tauthor = {Weiskopf, Daniel and Borchers, Marc and Ertl, Thomas and Falk, Martin and Fechtig, Oliver and Frank, Regine and Grave, Frank and King, Andreas and Kraus, Ute and M{\\\" u}ller, Thomas and Nollert, Hans-Peter and Mendez, Isabel and Ruder, Hanns and Schafhitzel, Tobias and Schar, Sonja and Zahn, Corvin and Zatloukal, Michael},\n\tjournal = {IEEE transactions on visualization and computer graphics},\n\tyear = {2006},\n\tmonth = {7},\n\tpages = {522--34},\n\ttitle = {Explanatory and illustrative visualization of special and general relativity},\n\tvolume = {12},\n}\n\n"
-
 ---

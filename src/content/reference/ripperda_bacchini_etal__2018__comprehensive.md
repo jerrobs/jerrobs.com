@@ -47,7 +47,7 @@ cslItem:
   container-title-short: ApJS
   DOI: 10.3847/1538-4365/aab114
   ISSN: 1538-4365
-  issue: '1'
+  issue: "1"
   issued:
     date-parts:
       - - 2018
@@ -55,12 +55,12 @@ cslItem:
         - 15
   keyword: collection::pathicles::numerical_integrators
   language: en
-  page: '21'
+  page: "21"
   source: DOI.org (Crossref)
   title: A Comprehensive Comparison of Relativistic Particle Integrators
   type: article-journal
   URL: https://iopscience.iop.org/article/10.3847/1538-4365/aab114
-  volume: '235'
+  volume: "235"
 tags:
   - issue:pathicles
   - topic:pathicles/numerical_integrators
@@ -71,5 +71,4 @@ rendered:
     </div>
   citation: Ripperda <i>et al.</i>, 2018
 bibTex: "@article{ripperda_bacchini_etal__2018__comprehensive,\n\tnote = {[Online; accessed 2021-02-12]},\n\tauthor = {Ripperda, B. and Bacchini, F. and Teunissen, J. and Xia, C. and Porth, O. and Sironi, L. and Lapenta, G. and Keppens, R.},\n\tjournal = {The Astrophysical Journal Supplement Series},\n\tnumber = {1},\n\tyear = {2018},\n\tmonth = {mar 15},\n\tpages = {21},\n\ttitle = {A {Comprehensive} {Comparison} of {Relativistic} {Particle} {Integrators}},\n\thowpublished = {https://iopscience.iop.org/article/10.3847/1538-4365/aab114},\n\tvolume = {235},\n}\n\n"
-
 ---

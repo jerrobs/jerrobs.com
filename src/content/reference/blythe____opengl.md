@@ -7,7 +7,7 @@ cslItem:
   citation-key: blythe____opengl
   keyword: collection::pathicles::gpgpu
   language: en
-  page: '84'
+  page: "84"
   source: Zotero
   title: OpenGL R ES Common/Common-Lite Proﬁle Speciﬁcation
   type: article-journal
@@ -21,5 +21,4 @@ rendered:
     </div>
   citation: Blythe, no date
 bibTex: "@article{blythe____opengl,\n\tauthor = {Blythe, David},\n\tpages = {84},\n\ttitle = {OpenGL {R} {ES} {Common}/{Common}-{Lite} {Profile} {Specification}},\n}\n\n"
-
 ---

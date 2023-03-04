@@ -57,5 +57,4 @@ rendered:
     </div>
   citation: Dori and Belcher, 2005
 bibTex: "@inbook{dori_belcher__2005__learning,\n\tnote = {[Online; accessed 2020-12-31]},\n\taddress = {Dordrecht},\n\tauthor = {Dori, Yehudit Judy and Belcher, John},\n\tbooktitle = {Visualization in {Science} {Education}},\n\teditor = {Gilbert, John K.},\n\tyear = {2005},\n\tpages = {187--216},\n\tpublisher = {Springer Netherlands},\n\ttitle = {Learning {Electromagnetism} with {Visualizations} and {Active} {Learning}},\n}\n\n"
-
 ---

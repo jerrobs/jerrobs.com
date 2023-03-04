@@ -10,14 +10,14 @@ cslItem:
   issued:
     date-parts:
       - - 2018
-  keyword: '#nosource;_access:free;collection::pathicles::graphics_programming'
+  keyword: "#nosource;_access:free;collection::pathicles::graphics_programming"
   language: en
   publisher: David J. Eck
   title: Introduction to Computer Graphic
   type: book
   URL: http://math.hws.edu/graphicsbook/
 tags:
-  - '#nosource'
+  - "#nosource"
   - _access:free
   - issue:pathicles
   - topic:pathicles/graphics_programming
@@ -28,5 +28,4 @@ rendered:
     </div>
   citation: Eck, 2018
 bibTex: "@book{eck__2018__introduction,\n\tauthor = {Eck, David J},\n\tseries = {David {J}. {Eck} / {Hobart} and {William} {Smith} {Colleges}},\n\tedition = {veersion 1.2},\n\tyear = {2018},\n\tpublisher = {David J. Eck},\n\ttitle = {Introduction to {Computer} {Graphic}},\n}\n\n"
-
 ---

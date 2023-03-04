@@ -13,7 +13,7 @@ cslItem:
     China;Early works to 1800;Military art and
     science;collection::strategy::military
   language: en-US
-  number-of-pages: '188'
+  number-of-pages: "188"
   publisher: Tuttle Publishing
   title: >-
     Sun Tzu's the Art of War. Bilingual edition with complete Chinese and
@@ -33,5 +33,4 @@ rendered:
     </div>
   citation: Sun Tzu, 2008
 bibTex: "@book{suntzu__2008__sun,\n\tauthor = {Sun Tzu, Wu},\n\tyear = {2008},\n\tpublisher = {Tuttle Publishing},\n\ttitle = {Sun {Tzu}'s the {Art} of {War}. {Bilingual} edition with complete {Chinese} and {English} text.},\n}\n\n"
-
 ---

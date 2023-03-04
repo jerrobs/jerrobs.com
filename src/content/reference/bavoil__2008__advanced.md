@@ -12,7 +12,7 @@ cslItem:
       - - 2008
   keyword: collection::pathicles::graphics_programming
   language: en
-  page: '74'
+  page: "74"
   publisher-place: San Francisco, CA
   source: Zotero
   title: Advanced Soft Shadow Mapping Techniques
@@ -27,5 +27,4 @@ rendered:
     </div>
   citation: Bavoil, 2008
 bibTex: "@inproceedings{bavoil__2008__advanced,\n\taddress = {San Francisco, CA},\n\tauthor = {Bavoil, Louis},\n\tyear = {2008},\n\tpages = {74},\n\ttitle = {Advanced {Soft} {Shadow} {Mapping} {Techniques}},\n}\n\n"
-
 ---

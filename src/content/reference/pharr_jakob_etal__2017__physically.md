@@ -18,16 +18,16 @@ cslItem:
       - - 2017
   keyword: >-
     #nosource;_has-holding::oreilly-learning;collection::pathicles::graphics_programming
-  note: 'OCLC: ocn936532273'
-  number-of-pages: '1233'
+  note: "OCLC: ocn936532273"
+  number-of-pages: "1233"
   publisher: Morgan Kaufmann Publishers/Elsevier
   publisher-place: Cambridge, MA
   source: Library of Congress ISBN
-  title: 'Physically based rendering: from theory to implementation'
+  title: "Physically based rendering: from theory to implementation"
   title-short: Physically based rendering
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-holding::oreilly-learning
   - issue:pathicles
   - topic:pathicles/graphics_programming
@@ -38,5 +38,4 @@ rendered:
     </div>
   citation: Pharr, Jakob and Humphreys, 2017
 bibTex: "@book{pharr_jakob_etal__2017__physically,\n\taddress = {Cambridge, MA},\n\tauthor = {Pharr, Matt and Jakob, Wenzel and Humphreys, Greg},\n\tedition = {Third edition},\n\tyear = {2017},\n\tnote = {OCLC: ocn936532273},\n\tpublisher = {Morgan Kaufmann Publishers/Elsevier},\n\ttitle = {Physically based rendering: from theory to implementation},\n}\n\n"
-
 ---

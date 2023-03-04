@@ -16,7 +16,7 @@ cslItem:
   type: post-weblog
   URL: http://xxyxyz.org/line-breaking/
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-format:article
   - _has-setting:professional
   - issue:space
@@ -28,5 +28,4 @@ rendered:
     </div>
   citation: Sukop, 2014
 bibTex: "@misc{sukop__2014__line,\n\tauthor = {Sukop, Juraj},\n\tyear = {2014},\n\tmonth = {2},\n\ttitle = {Line breaking},\n\thowpublished = {http://xxyxyz.org/line-breaking/},\n}\n\n"
-
 ---

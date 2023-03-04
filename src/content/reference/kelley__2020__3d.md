@@ -34,5 +34,4 @@ rendered:
     </div>
   citation: Kelley, 2020
 bibTex: "@misc{kelley__2020__3d,\n\tauthor = {Kelley, Sean},\n\tyear = {2020},\n\tmonth = {may 19},\n\tnote = {http://web.archive.org/web/20201012132918/https://observablehq.com/@flimsyhat/3d-view-of-tdse-simulation},\n\ttitle = {3D {View} of {TDSE} {Simulation}},\n\thowpublished = {https://observablehq.com/@flimsyhat/3d-view-of-tdse-simulation},\n}\n\n"
-
 ---

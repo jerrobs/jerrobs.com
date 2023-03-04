@@ -23,7 +23,7 @@ cslItem:
   title: Strategic Planning Kit For Dummies
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
   - issue:strategy
   - topic:strategy/definitions
@@ -34,5 +34,4 @@ rendered:
     </div>
   citation: Olsen, 2011
 bibTex: "@book{olsen__2011__strategic,\n\tauthor = {Olsen, Erica},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2011},\n\tmonth = {nov 15},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Strategic {Planning} {Kit} {For} {Dummies}},\n}\n\n"
-
 ---

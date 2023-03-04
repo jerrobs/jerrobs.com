@@ -16,11 +16,11 @@ cslItem:
     date-parts:
       - - 1998
   keyword: Strategic planning;collection::strategy::management-theory
-  number-of-pages: '406'
+  number-of-pages: "406"
   publisher: Free Press
   publisher-place: New York
   source: Library of Congress ISBN
-  title: 'Strategy safari: a guided tour through the wilds of strategic management'
+  title: "Strategy safari: a guided tour through the wilds of strategic management"
   title-short: Strategy safari
   type: book
 tags:
@@ -34,5 +34,4 @@ rendered:
     </div>
   citation: Mintzberg, Ahlstrand and Lampel, 1998
 bibTex: "@book{mintzberg_ahlstrand_etal__1998__strategy,\n\taddress = {New York},\n\tauthor = {Mintzberg, Henry and Ahlstrand, Bruce W. and Lampel, Joseph},\n\tyear = {1998},\n\tpublisher = {Free Press},\n\ttitle = {Strategy safari: a guided tour through the wilds of strategic management},\n}\n\n"
-
 ---

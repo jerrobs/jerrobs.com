@@ -3,11 +3,11 @@ cslItem:
   id: eknow__2015__eknow
   author:
     - family: eKNOW
-      given: ''
+      given: ""
   citation-key: eknow__2015__eknow
   contributor:
     - family: International Academy, Research, and Industry Association
-      given: ''
+      given: ""
   editor:
     - family: Malzahn
       given: Dirk
@@ -20,7 +20,7 @@ cslItem:
       - - 2015
   keyword: collection::strategy::ontology
   language: eng
-  number-of-pages: '175'
+  number-of-pages: "175"
   publisher: Curran Associates, Inc
   publisher-place: Red Hook, NY
   source: K10plus ISBN
@@ -39,5 +39,4 @@ rendered:
     </div>
   citation: eKNOW, 2015
 bibTex: "@book{eknow__2015__eknow,\n\taddress = {Red Hook, NY},\n\tauthor = {{eKNOW}},\n\teditor = {Malzahn, Dirk and Granja, Concei{\\c c}{\\~ a}o},\n\tyear = {2015},\n\tpublisher = {Curran Associates, Inc},\n\ttitle = {eKNOW 2015: the {Seventh} {International} {Conference} on {Information}, {Process}, and {Knowledge} {Management}: February 22-27, 2015, {Lisbon}, {Portugal}},\n}\n\n"
-
 ---

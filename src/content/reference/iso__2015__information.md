@@ -7,7 +7,7 @@ cslItem:
   issued:
     date-parts:
       - - 2015
-  keyword: '#nosource;_has-type:specification;collection::space::space_space'
+  keyword: "#nosource;_has-type:specification;collection::space::space_space"
   language: en
   title: >-
     Information technology. Coding of audio-visual objects. Part 22: Open font
@@ -15,7 +15,7 @@ cslItem:
   type: report
   URL: http://standards.iso.org/ittf/PubliclyAvailableStandards/
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-type:specification
   - issue:space
   - topic:space/space_space
@@ -26,5 +26,4 @@ rendered:
     </div>
   citation: ISO, 2015
 bibTex: "@techreport{iso__2015__information,\n\tauthor = {{ISO}},\n\tyear = {2015},\n\ttitle = {Information technology. {Coding} of audio-visual objects. {Part} 22: Open font format},\n\thowpublished = {http://standards.iso.org/ittf/PubliclyAvailableStandards/},\n}\n\n"
-
 ---

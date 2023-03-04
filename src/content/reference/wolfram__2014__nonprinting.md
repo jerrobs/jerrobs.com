@@ -8,13 +8,13 @@ cslItem:
   issued:
     date-parts:
       - - 2014
-  keyword: '#nosource;_scope:art-and-design;collection::space::space_space'
+  keyword: "#nosource;_scope:art-and-design;collection::space::space_space"
   language: en
   title: Non-printing characters
   type: webpage
   URL: https://reference.wolfram.com/language/guide/NonPrintingCharacters.html
 tags:
-  - '#nosource'
+  - "#nosource"
   - _scope:art-and-design
   - issue:space
   - topic:space/space_space
@@ -25,5 +25,4 @@ rendered:
     </div>
   citation: Wolfram, 2014
 bibTex: "@misc{wolfram__2014__nonprinting,\n\tauthor = {{Wolfram}},\n\tyear = {2014},\n\ttitle = {Non-printing characters},\n\thowpublished = {https://reference.wolfram.com/language/guide/NonPrintingCharacters.html},\n}\n\n"
-
 ---

@@ -37,7 +37,7 @@ cslItem:
   title: Project Decisions, 2nd Edition
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
   - __strategy2030:strategic-planning:decision-making
   - __strategy2030:strategic-planning:project-management
@@ -50,5 +50,4 @@ rendered:
     </div>
   citation: Virine and Trumper, 2019
 bibTex: "@book{virine_trumper__2019__project,\n\tauthor = {Virine, Lev and Trumper, Michael},\n\tseries = {Berrett-{Koehler} {Publishers}},\n\tyear = {2019},\n\tmonth = {nov 5},\n\tpublisher = {Berrett-Koehler Publishers},\n\ttitle = {Project {Decisions}, 2nd {Edition}},\n}\n\n"
-
 ---

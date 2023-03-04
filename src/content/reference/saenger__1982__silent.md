@@ -18,17 +18,17 @@ cslItem:
     date-parts:
       - - 1982
         - 1
-  keyword: '#nosource;collection::space::case_for_space'
+  keyword: "#nosource;collection::space::case_for_space"
   language: eng
   page: 367-414
   source: DOI.org (Crossref)
-  title: 'Silent Reading: Its Impact on Late Medieval Script and Society'
+  title: "Silent Reading: Its Impact on Late Medieval Script and Society"
   title-short: Silent Reading
   type: article-journal
   URL: https://www.brepolsonline.net/doi/10.1484/J.VIATOR.2.301476
-  volume: '13'
+  volume: "13"
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:space
   - topic:space/case_for_space
 rendered:
@@ -38,5 +38,4 @@ rendered:
     </div>
   citation: Saenger, 1982
 bibTex: "@article{saenger__1982__silent,\n\tnote = {[Online; accessed 2021-04-25]},\n\tauthor = {Saenger, Paul},\n\tjournal = {Viator},\n\tyear = {1982},\n\tmonth = {1},\n\tpages = {367--414},\n\ttitle = {Silent {Reading}: Its {Impact} on {Late} {Medieval} {Script} and {Society}},\n\thowpublished = {https://www.brepolsonline.net/doi/10.1484/J.VIATOR.2.301476},\n\tvolume = {13},\n}\n\n"
-
 ---

@@ -12,15 +12,15 @@ cslItem:
   issued:
     date-parts:
       - - 2018
-  keyword: '#nosource;collection::pathicles::game_development'
-  number-of-pages: '1'
+  keyword: "#nosource;collection::pathicles::game_development"
+  number-of-pages: "1"
   publisher: Taylor and Francis, CRC Press
   publisher-place: Boca Raton
   source: Library of Congress ISBN
   title: Game engine architecture
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/game_development
 rendered:
@@ -30,5 +30,4 @@ rendered:
     </div>
   citation: Gregory, 2018
 bibTex: "@book{gregory__2018__game,\n\taddress = {Boca Raton},\n\tauthor = {Gregory, Jason},\n\tedition = {Third edition},\n\tyear = {2018},\n\tpublisher = {{Taylor and Francis, CRC Press}},\n\ttitle = {Game engine architecture},\n}\n\n"
-
 ---

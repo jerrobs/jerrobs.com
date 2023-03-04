@@ -15,7 +15,7 @@ cslItem:
   type: report
   URL: https://www.w3.org/html/wg/wiki/HTMLCharacterUsage
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-format:article
   - _has-setting:professional
   - issue:space
@@ -27,5 +27,4 @@ rendered:
     </div>
   citation: W3C, 2007
 bibTex: "@techreport{w3c__2007__html,\n\tauthor = {{W3C}},\n\tyear = {2007},\n\tinstitution = {W3C},\n\ttitle = {HTML character usage},\n}\n\n"
-
 ---

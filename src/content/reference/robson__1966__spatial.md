@@ -14,7 +14,7 @@ cslItem:
   container-title-short: J. Opt. Soc. Am.
   DOI: 10.1364/JOSA.56.001141
   ISSN: 0030-3941
-  issue: '8'
+  issue: "8"
   issued:
     date-parts:
       - - 1966
@@ -22,12 +22,12 @@ cslItem:
         - 1
   keyword: collection::pathicles::gpgpu
   language: en
-  page: '1141'
+  page: "1141"
   source: DOI.org (Crossref)
   title: Spatial and Temporal Contrast-Sensitivity Functions of the Visual System
   type: article-journal
   URL: https://www.osapublishing.org/abstract.cfm?URI=josa-56-8-1141
-  volume: '56'
+  volume: "56"
 tags:
   - issue:pathicles
   - topic:pathicles/gpgpu
@@ -38,5 +38,4 @@ rendered:
     </div>
   citation: Robson, 1966
 bibTex: "@article{robson__1966__spatial,\n\tnote = {[Online; accessed 2021-02-04]},\n\tauthor = {Robson, J. G.},\n\tjournal = {Journal of the Optical Society of America},\n\tnumber = {8},\n\tyear = {1966},\n\tmonth = {aug 1},\n\tpages = {1141},\n\ttitle = {Spatial and {Temporal} {Contrast}-{Sensitivity} {Functions} of the {Visual} {System}},\n\thowpublished = {https://www.osapublishing.org/abstract.cfm?URI=josa-56-8-1141},\n\tvolume = {56},\n}\n\n"
-
 ---

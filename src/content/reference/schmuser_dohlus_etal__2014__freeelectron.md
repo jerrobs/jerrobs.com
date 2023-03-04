@@ -61,5 +61,4 @@ rendered:
     </div>
   citation: Schmüser <i>et al.</i>, 2014
 bibTex: "@book{schmuser_dohlus_etal__2014__freeelectron,\n\tauthor = {Schm{\\\" u}ser, Peter and Dohlus, Martin and Rossbach, J{\\\" o}rg and Behrens, Christopher},\n\tseries = {Springer},\n\tyear = {2014},\n\tmonth = {feb 19},\n\tpublisher = {Springer},\n\ttitle = {Free-{Electron} {Lasers} in the {Ultraviolet} and {X}-{Ray} {Regime}. {Physical} {Principles}, {Experimental} {Results}, {Technical} {Realization}},\n}\n\n"
-
 ---

@@ -22,7 +22,7 @@ cslItem:
   title: GPU Gems 2
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-setting:professional
   - _has-holding::oreilly-learning
   - issue:pathicles
@@ -34,5 +34,4 @@ rendered:
     </div>
   citation: Pharr and Fernando, 2005
 bibTex: "@book{pharr_fernando__2005__gpu,\n\tauthor = {Pharr, Matt and Fernando, Randima},\n\tseries = {Addison-{Wesley} {Professional}},\n\tyear = {2005},\n\tpublisher = {Addison-Wesley Professional},\n\ttitle = {GPU {Gems} 2},\n}\n\n"
-
 ---

@@ -27,5 +27,4 @@ rendered:
     </div>
   citation: Chapman, 2011
 bibTex: "@misc{chapman__2011__ssao,\n\tauthor = {Chapman, John},\n\tyear = {2011},\n\ttitle = {SSAO {Tutorial}},\n\thowpublished = {http://john-chapman-graphics.blogspot.com/2013/01/ssao-tutorial.html},\n}\n\n"
-
 ---

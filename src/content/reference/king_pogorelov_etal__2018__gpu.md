@@ -51,7 +51,7 @@ cslItem:
   title: GPU acceleration and performance of the particle-beam-dynamics code Elegant
   type: article-journal
   URL: https://www.osti.gov/pages/biblio/1482835
-  volume: '235'
+  volume: "235"
 tags:
   - /unread
 rendered:
@@ -61,5 +61,4 @@ rendered:
     </div>
   citation: King <i>et al.</i>, 2018
 bibTex: "@article{king_pogorelov_etal__2018__gpu,\n\tauthor = {King, J. R. and Pogorelov, I. V. and Amyx, K. M. and Borland, M. and Soliday, R.},\n\tjournal = {Computer Physics Communications},\n\tyear = {2018},\n\tmonth = {oct 16},\n\tnote = {1 citations (Crossref) [2022-10-17]},\n\tpublisher = {Elsevier},\n\ttitle = {GPU acceleration and performance of the particle-beam-dynamics code {Elegant}},\n\tvolume = {235},\n}\n\n"
-
 ---

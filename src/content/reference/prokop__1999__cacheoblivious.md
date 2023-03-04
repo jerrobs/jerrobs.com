@@ -21,15 +21,15 @@ cslItem:
     date-parts:
       - - 1999
         - 6
-  keyword: '#nosource;collection::pathicles::graphics_programming'
+  keyword: "#nosource;collection::pathicles::graphics_programming"
   language: en
-  number-of-pages: '70'
+  number-of-pages: "70"
   publisher: MASSACHUSETTS INSTITUTE OF TECHNOLOG
   title: Cache-Oblivious Algorithms
   type: thesis
   URL: http://supertech.csail.mit.edu/papers/Prokop99.pdf
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/graphics_programming
 rendered:
@@ -39,5 +39,4 @@ rendered:
     </div>
   citation: Prokop, 1999
 bibTex: "@misc{prokop__1999__cacheoblivious,\n\tauthor = {Prokop, Harald},\n\tyear = {1999},\n\tmonth = {6},\n\tschool = {MASSACHUSETTS INSTITUTE OF TECHNOLOG},\n\ttitle = {Cache-{Oblivious} {Algorithms}},\n\ttype = {Master thesis},\n}\n\n"
-
 ---

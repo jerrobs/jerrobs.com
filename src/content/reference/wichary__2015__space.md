@@ -32,5 +32,4 @@ rendered:
     </div>
   citation: Wichary, 2015
 bibTex: "@misc{wichary__2015__space,\n\tauthor = {Wichary, Marcin},\n\tyear = {2015},\n\tmonth = {10},\n\ttitle = {Space yourself},\n\thowpublished = {https://www.smashingmagazine.com/2015/10/space-yourself/},\n}\n\n"
-
 ---

@@ -13,8 +13,8 @@ cslItem:
       - - 2015
   keyword: collection::pathicles::graphics_programming
   language: eng
-  note: 'OCLC: 1056096125'
-  number-of-pages: '491'
+  note: "OCLC: 1056096125"
+  number-of-pages: "491"
   publisher: Packt Publishing
   publisher-place: Birmingham Mumbai
   source: Gemeinsamer Bibliotheksverbund ISBN
@@ -34,5 +34,4 @@ rendered:
     </div>
   citation: Singh, 2015
 bibTex: "@book{singh__2015__opengl,\n\taddress = {Birmingham Mumbai},\n\tauthor = {Singh, Parminder},\n\tseries = {Quick answers to common problems},\n\tyear = {2015},\n\tnote = {OCLC: 1056096125},\n\tpublisher = {Packt Publishing},\n\ttitle = {OpenGL {ES} 3.0 cookbook: over 90 ready-to-serve, real-time rendering recipes on {Android} and {iOS} platforms using {OpenGL} {ES} 3.0 and {GL} shading language 3.0 to solve day-to-day modern 3D graphics challenges},\n}\n\n"
-
 ---

@@ -16,13 +16,13 @@ cslItem:
   issued:
     date-parts:
       - - 2013
-  keyword: '#nosource;_access:free;collection::pathicles::gpgpu'
+  keyword: "#nosource;_access:free;collection::pathicles::gpgpu"
   language: en
   page: WEPWA044
   title: Electron Trajectories in a Three-dimensional Undulator Magnetic Field
   type: paper-conference
 tags:
-  - '#nosource'
+  - "#nosource"
   - _access:free
   - issue:pathicles
   - topic:pathicles/gpgpu
@@ -33,5 +33,4 @@ rendered:
     </div>
   citation: Smolyakov, Geloni and Tomin, 2013
 bibTex: "@inproceedings{smolyakov_geloni_etal__2013__electron,\n\tauthor = {Smolyakov, Nikolay and Geloni, Gianluca and Tomin, Sergey},\n\tseries = {Proceedings of {IPAC}, {Shanghai}, {China}},\n\tbooktitle = {Proceedings of {IPAC}, {Shanghai}, {China}},\n\tyear = {2013},\n\tpages = {WEPWA044},\n\ttitle = {Electron {Trajectories} in a {Three}-dimensional {Undulator} {Magnetic} {Field}},\n}\n\n"
-
 ---

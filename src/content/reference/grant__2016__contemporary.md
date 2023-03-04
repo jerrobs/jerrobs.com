@@ -25,7 +25,7 @@ cslItem:
   title: Contemporary Strategy Analysis
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
   - issue:strategy
   - topic:strategy/definitions
@@ -36,5 +36,4 @@ rendered:
     </div>
   citation: Grant, 2016
 bibTex: "@book{grant__2016__contemporary,\n\tauthor = {Grant, Robert M},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2016},\n\tmonth = {jan 5},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Contemporary {Strategy} {Analysis}},\n}\n\n"
-
 ---

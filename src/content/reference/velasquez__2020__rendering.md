@@ -32,5 +32,4 @@ rendered:
     </div>
   citation: Velasquez, 2020
 bibTex: "@misc{velasquez__2020__rendering,\n\tnote = {[Online; accessed 2020-03-26]},\n\tauthor = {Velasquez, Daniel},\n\tyear = {2020},\n\tmonth = {mar 8},\n\ttitle = {Rendering 100k spheres, instantiating and draw calls},\n\thowpublished = {https://velasquezdaniel.com/blog/rendering-100k-spheres-instantianing-and-draw-calls/},\n}\n\n"
-
 ---

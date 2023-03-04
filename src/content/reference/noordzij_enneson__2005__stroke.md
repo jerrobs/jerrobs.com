@@ -14,12 +14,12 @@ cslItem:
       - - 2005
   keyword: collection::space::case_for_space
   language: eng
-  note: 'OCLC: 254729489'
-  number-of-pages: '86'
+  note: "OCLC: 254729489"
+  number-of-pages: "86"
   publisher: Hyphen
   publisher-place: London
   source: Gemeinsamer Bibliotheksverbund ISBN
-  title: 'The stroke: theory of writing'
+  title: "The stroke: theory of writing"
   title-short: The stroke
   type: book
 tags:
@@ -32,5 +32,4 @@ rendered:
     </div>
   citation: Noordzij and Enneson, 2005
 bibTex: "@book{noordzij_enneson__2005__stroke,\n\taddress = {London},\n\tauthor = {Noordzij, Gerrit and Enneson, Peter},\n\tyear = {2005},\n\tnote = {OCLC: 254729489},\n\tpublisher = {Hyphen},\n\ttitle = {The stroke: theory of writing},\n}\n\n"
-
 ---

@@ -21,7 +21,7 @@ cslItem:
       - - 2014
         - 7
         - 31
-  keyword: '#nosource;collection::pathicles::educational_visualization'
+  keyword: "#nosource;collection::pathicles::educational_visualization"
   original-date:
     date-parts:
       - - 2014
@@ -33,7 +33,7 @@ cslItem:
   type: software
   URL: https://github.com/particle-clicker/particle-clicker
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/educational_visualization
 rendered:
@@ -43,5 +43,4 @@ rendered:
     </div>
   citation: Dungs and Novak, 2014
 bibTex: "@misc{dungs_novak__2014__particleclicker,\n\tnote = {[Online; accessed 2021-01-03]},\n\tauthor = {Dungs, Kevin and Novak, Tadej},\n\tyear = {2014},\n\tmonth = {jul 31},\n\tpublisher = {Particle Clicker},\n\ttitle = {particle-clicker/particle-clicker},\n\ttype = {JavaScript},\n}\n\n"
-
 ---

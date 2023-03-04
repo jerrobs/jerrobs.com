@@ -25,5 +25,4 @@ rendered:
     </div>
   citation: Kluge, 2016
 bibTex: "@misc{kluge__2016__speed,\n\tauthor = {Kluge, Alex},\n\tyear = {2016},\n\ttitle = {Speed {Bumps}},\n\thowpublished = {http://www.vizitsolutions.com/portfolio/webgl/gpgpu/speedBumps.html},\n}\n\n"
-
 ---

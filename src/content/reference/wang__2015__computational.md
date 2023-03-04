@@ -10,13 +10,13 @@ cslItem:
   issued:
     date-parts:
       - - 2015
-  keyword: '#nosource;collection::pathicles::gpgpu'
+  keyword: "#nosource;collection::pathicles::gpgpu"
   language: en
   publisher: Wiley
   title: Computational Modeling and Visualization of Physical Systems with Python
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/gpgpu
 rendered:
@@ -26,5 +26,4 @@ rendered:
     </div>
   citation: Wang, 2015
 bibTex: "@book{wang__2015__computational,\n\tauthor = {Wang, J},\n\tseries = {Wiley},\n\tyear = {2015},\n\tpublisher = {Wiley},\n\ttitle = {Computational {Modeling} and {Visualization} of {Physical} {Systems} with {Python}},\n}\n\n"
-
 ---

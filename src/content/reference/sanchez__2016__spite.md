@@ -13,12 +13,12 @@ cslItem:
   issued:
     date-parts:
       - - 2016
-  keyword: '#nosource;collection::pathicles::graphics_programming'
+  keyword: "#nosource;collection::pathicles::graphics_programming"
   title: spite/THREE.FBOHelper
   type: software
   URL: https://github.com/spite/THREE.FBOHelper
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/graphics_programming
 rendered:
@@ -28,5 +28,4 @@ rendered:
     </div>
   citation: Sanchez, 2016
 bibTex: "@misc{sanchez__2016__spite,\n\tauthor = {Sanchez, Jaume},\n\tseries = {github.com},\n\tyear = {2016},\n\ttitle = {spite/{THREE}.{FBOHelper}},\n\ttype = {Javascript, {OpenGL}},\n\thowpublished = {https://github.com/spite/THREE.FBOHelper},\n}\n\n"
-
 ---

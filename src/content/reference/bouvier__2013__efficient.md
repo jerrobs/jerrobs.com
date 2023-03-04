@@ -18,14 +18,14 @@ cslItem:
   issued:
     date-parts:
       - - 2013
-  keyword: '#nosource;collection::pathicles::floating_points'
+  keyword: "#nosource;collection::pathicles::floating_points"
   language: en
   title: Efficient float32 arithmetic in JavaScript
   type: post-weblog
   URL: >-
     https://blog.mozilla.org/javascript/2013/11/07/efficient-float32-arithmetic-in-javascript/
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/floating_points
 rendered:
@@ -35,5 +35,4 @@ rendered:
     </div>
   citation: Bouvier, 2013
 bibTex: "@misc{bouvier__2013__efficient,\n\tnote = {[Online; accessed 2020-12-15]},\n\tauthor = {Bouvier, Benjamin},\n\tyear = {2013},\n\ttitle = {Efficient float32 arithmetic in {JavaScript}},\n\thowpublished = {https://blog.mozilla.org/javascript/2013/11/07/efficient-float32-arithmetic-in-javascript/},\n}\n\n"
-
 ---

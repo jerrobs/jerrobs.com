@@ -12,16 +12,16 @@ cslItem:
   issued:
     date-parts:
       - - 2014
-  keyword: '#nosource;collection::pathicles::graphics_programming'
-  note: 'OCLC: ocn830813818'
-  number-of-pages: '384'
+  keyword: "#nosource;collection::pathicles::graphics_programming"
+  note: "OCLC: ocn830813818"
+  number-of-pages: "384"
   publisher: O'Reilly
   publisher-place: Beijing
   source: Library of Congress ISBN
   title: Programming 3D applications with HTML5 and WebGL
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/graphics_programming
 rendered:
@@ -31,5 +31,4 @@ rendered:
     </div>
   citation: Parisi, 2014
 bibTex: "@book{parisi__2014__programming,\n\taddress = {Beijing},\n\tauthor = {Parisi, Tony},\n\tedition = {First edition},\n\tyear = {2014},\n\tnote = {OCLC: ocn830813818},\n\tpublisher = {O'Reilly},\n\ttitle = {Programming 3D applications with {HTML5} and {WebGL}},\n}\n\n"
-
 ---

@@ -33,5 +33,4 @@ rendered:
     </div>
   citation: Olena, 2018
 bibTex: "@misc{olena__2018__brief,\n\tnote = {[Online; accessed 2021-01-29]},\n\tauthor = {{Olena}},\n\tyear = {2018},\n\tmonth = {feb 22},\n\ttitle = {A {Brief} {History} of {GPU}},\n\thowpublished = {https://medium.com/altumea/a-brief-history-of-gpu-47d98d6a0f8a},\n}\n\n"
-
 ---

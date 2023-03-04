@@ -77,5 +77,4 @@ rendered:
     </div>
   citation: Adelmann <i>et al.</i>, 2019
 bibTex: "@article{adelmann_calvo_etal__2019__opal,\n\tnote = {[Online; accessed 2020-04-11]},\n\tauthor = {Adelmann, Andreas and Calvo, Pedro and Frey, Matthias and Gsell, Achim and Locans, Uldis and Metzger-Kraus, Christof and Neveu, Nicole and Rogers, Chris and Russell, Steve and Sheehy, Suzanne and Snuverink, Jochem and Winklehner, Daniel},\n\tjournal = {arXiv:1905.06654 [physics]},\n\tyear = {2019},\n\tmonth = {may 16},\n\ttitle = {OPAL a {Versatile} {Tool} for {Charged} {Particle} {Accelerator} {Simulations}},\n\thowpublished = {http://arxiv.org/abs/1905.06654},\n}\n\n"
-
 ---

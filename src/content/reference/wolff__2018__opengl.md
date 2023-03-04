@@ -55,7 +55,7 @@ cslItem:
   title: OpenGL 4 Shading Language Cookbook
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-setting:professional
   - issue:pathicles
   - topic:pathicles/graphics_programming
@@ -66,5 +66,4 @@ rendered:
     </div>
   citation: Wolff, 2018
 bibTex: "@book{wolff__2018__opengl,\n\tauthor = {Wolff, David},\n\tseries = {Packt {Publishing} {Ltd}},\n\tedition = {3rd edition},\n\tyear = {2018},\n\tmonth = {sep 28},\n\tpublisher = {Packt Publishing Ltd},\n\ttitle = {OpenGL 4 {Shading} {Language} {Cookbook}},\n}\n\n"
-
 ---

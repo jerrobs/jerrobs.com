@@ -5,7 +5,6 @@ import IssueList from "@components/IssuesList.astro"
 import Footer from "@components/Footer.astro"
 
 import { getIssues } from "@utils/getIssues"
-import IssuePreview from "@components/IssuePreview.astro"
 
 const issues = await getIssues()
 const featuredIssues = issues
@@ -14,30 +13,20 @@ const featuredIssues = issues
 <Layout>
   <Header />
   <main id="main-content">
-    <section id="hero">
-      <h1>J.Err.Obs.</h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="rss-link"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
-          ><path
-            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
-          ></path><path
-            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
-          ></path><circle cx="6" cy="18" r="2"></circle>
-        </svg>
-      </a>
+    <div id="masthead">
+      <div class="masthead__title body-xxl">
+        Journal of <strong>Erratic&nbsp;Observations</strong>
+      </div>
+      <div class="masthead__tagline body-xl">
+        observed, written, and peer-reviewed by Dirk Rathje of Hamburg
+      </div>
+    </div>
 
-      <p class="md large">
+    <!-- <p class="md large">
         J.Err.Obs., the Journal of Erratic Observations, publishes mini-reviews,
         experimental and observational studies, theoretical and computational
         analyses, case analyses, case studies and commentaries.
-      </p>
-    </section>
+      </p> -->
 
     {
       featuredIssues.length > 0 && (
@@ -47,44 +36,25 @@ const featuredIssues = issues
       )
     }
   </main>
+  <Footer />
 </Layout>
 
-<Footer />
+<style lang="stylus">
 
-<style>
-  /* ===== Hero Section ===== */
-  #hero {
-    @apply pt-8 pb-6;
-  }
-  #hero h1 {
-    @apply my-4 inline-block text-xxxl font-bold sm:my-8 sm:text-xxl;
-  }
-  #hero .rss-link {
-    @apply mb-6;
-  }
-  #hero .rss-icon {
-    @apply mb-2 h-6 w-6 scale-110 fill-skin-accent sm:mb-3 sm:scale-125;
-  }
-  #hero p {
-    @apply my-2;
-  }
-  .social-wrapper {
-    @apply mt-4 flex flex-col sm:flex-row sm:items-center;
-  }
-  .social-links {
-    @apply mr-2 mb-1 whitespace-nowrap sm:mb-0;
-  }
 
-  /* ===== Featured & Recent Posts Sections ===== */
-  #featured,
-  #recent-posts {
-    @apply pt-12 pb-6;
-  }
-  #featured h2,
-  #recent-posts h2 {
-    @apply text-xxl font-semibold tracking-wide;
-  }
-  .all-posts-btn-wrapper {
-    @apply my-8 text-center;
-  }
+#masthead {
+	border-top: 0.25rem solid black;
+	border-bottom: 0.25rem solid black;
+	margin-bottom: 0.75rem;
+	padding: 4rem 0;
+	// padding-bottom: 2rem;
+	// height: 12rem;
+}
+.masthead__title {
+  // font-weight: var(--font-weight--bold);
+  font-style: italic;
+  text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
 </style>

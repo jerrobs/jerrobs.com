@@ -40,7 +40,7 @@ cslItem:
   title: GPU Pro 6
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-holding::oreilly-learning
   - issue:pathicles
   - topic:pathicles/graphics_programming
@@ -51,5 +51,4 @@ rendered:
     </div>
   citation: Engel, 2015
 bibTex: "@book{engel__2015__gpu,\n\tauthor = {Engel, Wolfgang},\n\tyear = {2015},\n\tmonth = {jul 28},\n\tpublisher = {CRC Press},\n\ttitle = {GPU {Pro} 6},\n}\n\n"
-
 ---

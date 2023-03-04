@@ -11,12 +11,12 @@ cslItem:
   issued:
     date-parts:
       - - 2017
-  keyword: '#nosource;collection::pathicles::graphics_programming'
+  keyword: "#nosource;collection::pathicles::graphics_programming"
   title: mkkellogg/TrailRendererJS
   type: software
   URL: https://github.com/mkkellogg/TrailRendererJS
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/graphics_programming
 rendered:
@@ -26,5 +26,4 @@ rendered:
     </div>
   citation: Kellogg and Kello, 2017
 bibTex: "@misc{kellogg_kello__2017__mkkellogg,\n\tauthor = {Kellogg, Mark and {Kello}},\n\tyear = {2017},\n\ttitle = {mkkellogg/{TrailRendererJS}},\n\ttype = {Javascript, {OpenGL}},\n\thowpublished = {https://github.com/mkkellogg/TrailRendererJS},\n}\n\n"
-
 ---

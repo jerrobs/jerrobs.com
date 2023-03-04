@@ -26,13 +26,13 @@ cslItem:
       - - 2018
         - 12
         - 18
-  keyword: '#nosource;__strategy2030:strategic-planning'
+  keyword: "#nosource;__strategy2030:strategic-planning"
   language: English
   publisher: Harvard Business Press
   title: HBR Guide to Thinking Strategically (HBR Guide Series)
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
 rendered:
   bibliography: |-
@@ -41,5 +41,4 @@ rendered:
     </div>
   citation: Review, 2018
 bibTex: "@book{review__2018__hbr,\n\tauthor = {Review, Harvard Business},\n\tseries = {Harvard {Business} {Press}},\n\tyear = {2018},\n\tmonth = {dec 18},\n\tpublisher = {Harvard Business Press},\n\ttitle = {HBR {Guide} to {Thinking} {Strategically} ({HBR} {Guide} {Series})},\n}\n\n"
-
 ---

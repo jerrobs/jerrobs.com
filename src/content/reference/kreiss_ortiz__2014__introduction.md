@@ -13,8 +13,8 @@ cslItem:
   issued:
     date-parts:
       - - 2014
-  keyword: '#nosource;collection::pathicles::numerical_integrators'
-  number-of-pages: '176'
+  keyword: "#nosource;collection::pathicles::numerical_integrators"
+  number-of-pages: "176"
   publisher: Wiley
   publisher-place: Hoboken, New Jersey
   source: Library of Congress ISBN
@@ -23,7 +23,7 @@ cslItem:
   URL: >-
     https://learning.oreilly.com/library/view/introduction-to-numerical/9781118838914/
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/numerical_integrators
 rendered:
@@ -33,5 +33,4 @@ rendered:
     </div>
   citation: Kreiss and Ortiz, 2014
 bibTex: "@book{kreiss_ortiz__2014__introduction,\n\taddress = {Hoboken, New Jersey},\n\tauthor = {Kreiss, H. and Ortiz, Omar Eduardo},\n\tyear = {2014},\n\tpublisher = {Wiley},\n\ttitle = {Introduction to numerical methods for time dependent differential equations},\n}\n\n"
-
 ---

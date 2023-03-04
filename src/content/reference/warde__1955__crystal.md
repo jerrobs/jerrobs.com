@@ -9,13 +9,13 @@ cslItem:
   issued:
     date-parts:
       - - 1955
-  keyword: '#nosource;collection::space::case_for_space;collection::space::introduction'
+  keyword: "#nosource;collection::space::case_for_space;collection::space::introduction"
   publisher: Sylvan Press
   publisher-place: London
   title: The crystal goblet. Sixteen essays on typography
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:space
   - topic:space/case_for_space
   - issue:space
@@ -27,5 +27,4 @@ rendered:
     </div>
   citation: Warde, 1955
 bibTex: "@book{warde__1955__crystal,\n\taddress = {London},\n\tauthor = {Warde, Beatrice},\n\tyear = {1955},\n\tpublisher = {Sylvan Press},\n\ttitle = {The crystal goblet. {Sixteen} essays on typography},\n}\n\n"
-
 ---

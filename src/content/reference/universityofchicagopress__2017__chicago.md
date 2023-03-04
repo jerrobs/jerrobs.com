@@ -9,13 +9,13 @@ cslItem:
   issued:
     date-parts:
       - - 2017
-  keyword: '#nosource;collection::jerrobs::referencing'
+  keyword: "#nosource;collection::jerrobs::referencing"
   language: en-US
   publisher: University of Chicago Press
   title: The Chicago Manual of Style
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:jerrobs
   - topic:jerrobs/referencing
 rendered:
@@ -25,5 +25,4 @@ rendered:
     </div>
   citation: University of Chicago Press, 2017
 bibTex: "@book{universityofchicagopress__2017__chicago,\n\tauthor = {{University of Chicago Press}},\n\tseries = {Chicago manual of style},\n\tyear = {2017},\n\tpublisher = {University of Chicago Press},\n\ttitle = {The {Chicago} {Manual} of {Style}},\n}\n\n"
-
 ---

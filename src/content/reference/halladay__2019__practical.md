@@ -47,13 +47,13 @@ cslItem:
   keyword: >-
     #nosource;_has-holding::oreilly-learning;collection::pathicles::graphics_programming
   language: English
-  note: 'OCLC: 1137099837'
+  note: "OCLC: 1137099837"
   source: Open WorldCat
   title: Practical Shader Development Vertex and Fragment Shaders for Game Developers
   type: book
   URL: https://doi.org/10.1007/978-1-4842-4457-9
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-holding::oreilly-learning
   - issue:pathicles
   - topic:pathicles/graphics_programming
@@ -64,5 +64,4 @@ rendered:
     </div>
   citation: Halladay, 2019
 bibTex: "@book{halladay__2019__practical,\n\tauthor = {Halladay, Kyle},\n\tyear = {2019},\n\tnote = {OCLC: 1137099837},\n\ttitle = {Practical {Shader} {Development} {Vertex} and {Fragment} {Shaders} for {Game} {Developers}},\n\thowpublished = {https://doi.org/10.1007/978-1-4842-4457-9},\n}\n\n"
-
 ---

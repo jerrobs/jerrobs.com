@@ -32,5 +32,4 @@ rendered:
     </div>
   citation: Kluge, 2016
 bibTex: "@misc{kluge__2016__unleash,\n\tauthor = {Kluge, Alex},\n\tyear = {2016},\n\tnote = {http://web.archive.org/web/20201012132849/http://www.vizitsolutions.com/portfolio/webgl/gpgpu/},\n\ttitle = {Unleash {Your} {Inner} {Supercomputer}. {Your} {Guide} to {GPGPU} with {WebGL}},\n\thowpublished = {http://www.vizitsolutions.com/portfolio/webgl/gpgpu/},\n}\n\n"
-
 ---

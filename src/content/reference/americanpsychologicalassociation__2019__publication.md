@@ -47,7 +47,7 @@ cslItem:
   issued:
     date-parts:
       - - 2019
-  keyword: '#nosource;collection::jerrobs::referencing'
+  keyword: "#nosource;collection::jerrobs::referencing"
   language: en-US
   publisher: American Psychological Association
   publisher-place: Washington
@@ -55,7 +55,7 @@ cslItem:
   title: Publication manual of the American psychological association
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:jerrobs
   - topic:jerrobs/referencing
 rendered:
@@ -65,5 +65,4 @@ rendered:
     </div>
   citation: American Psychological Association, 2019
 bibTex: "@book{americanpsychologicalassociation__2019__publication,\n\taddress = {Washington},\n\tauthor = {{American Psychological Association}},\n\tedition = {Seventh edition},\n\tyear = {2019},\n\tpublisher = {American Psychological Association},\n\ttitle = {Publication manual of the {American} psychological association},\n}\n\n"
-
 ---

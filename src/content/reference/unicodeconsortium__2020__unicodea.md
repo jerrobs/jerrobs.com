@@ -34,5 +34,4 @@ rendered:
     </div>
   citation: Unicode Consortium, 2020
 bibTex: "@book{unicodeconsortium__2020__unicodea,\n\taddress = {Mountain View, CA},\n\tauthor = {{Unicode Consortium}},\n\tedition = {13.0.0},\n\tyear = {2020},\n\tmonth = {oct 3},\n\tpublisher = {Unicode Consortium},\n\ttitle = {The {Unicode} standard 13.0.0},\n}\n\n"
-
 ---

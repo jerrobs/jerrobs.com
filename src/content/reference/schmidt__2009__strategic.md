@@ -46,7 +46,7 @@ cslItem:
   title: Strategic Project Management Made Simple
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
   - __strategy2030:strategic-planning:project-management
   - issue:strategy
@@ -58,5 +58,4 @@ rendered:
     </div>
   citation: Schmidt, 2009
 bibTex: "@book{schmidt__2009__strategic,\n\tauthor = {Schmidt, Terry},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2009},\n\tmonth = {feb 9},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Strategic {Project} {Management} {Made} {Simple}},\n}\n\n"
-
 ---

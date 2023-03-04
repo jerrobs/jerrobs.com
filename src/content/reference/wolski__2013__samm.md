@@ -14,7 +14,7 @@ cslItem:
     date-parts:
       - - 2013
   keyword: accelerator-science-code;collection::pathicles::numerical_integrators
-  title: 'SAMM: Simple Accelerator Modelling in Matlab'
+  title: "SAMM: Simple Accelerator Modelling in Matlab"
   type: software
 tags:
   - accelerator-science-code
@@ -27,5 +27,4 @@ rendered:
     </div>
   citation: Wolski, 2013
 bibTex: "@misc{wolski__2013__samm,\n\tauthor = {Wolski, A},\n\tyear = {2013},\n\ttitle = {SAMM: Simple {Accelerator} {Modelling} in {Matlab}},\n}\n\n"
-
 ---

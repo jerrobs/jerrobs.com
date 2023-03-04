@@ -56,5 +56,4 @@ rendered:
     </div>
   citation: Wiedemann, 2015
 bibTex: "@book{wiedemann__2015__particle,\n\tnote = {[Online; accessed 2020-12-15]},\n\taddress = {Cham},\n\tauthor = {Wiedemann, Helmut},\n\tseries = {Graduate {Texts} in {Physics}},\n\tedition = {4th edition},\n\teditor = {Wiedemann, Helmut},\n\tyear = {2015},\n\tpublisher = {Springer International Publishing},\n\ttitle = {Particle {Accelerator} {Physics}},\n}\n\n"
-
 ---

@@ -10,7 +10,7 @@ cslItem:
       given: Michael E.
   citation-key: porter__2008__five
   container-title: Harvard Business Review
-  issue: '1'
+  issue: "1"
   issued:
     date-parts:
       - - 2008
@@ -18,7 +18,7 @@ cslItem:
   page: 78-93
   title: The Five Competitive Forces That Shape Strategy
   type: article-magazine
-  volume: '88'
+  volume: "88"
 tags:
   - issue:strategy
   - topic:strategy/management-theory
@@ -29,5 +29,4 @@ rendered:
     </div>
   citation: Porter, 2008
 bibTex: "@article{porter__2008__five,\n\tauthor = {Porter, Michael E.},\n\tjournal = {Harvard Business Review},\n\tnumber = {1},\n\tyear = {2008},\n\tpages = {78--93},\n\ttitle = {The {Five} {Competitive} {Forces} {That} {Shape} {Strategy}},\n\tvolume = {88},\n}\n\n"
-
 ---

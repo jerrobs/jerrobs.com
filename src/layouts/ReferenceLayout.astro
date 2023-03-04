@@ -11,8 +11,6 @@ export interface Props {
 
 const { reference } = Astro.props
 
-const { cslItem } = reference.data
-
 const { Content } = await reference.render()
 ---
 
@@ -31,8 +29,6 @@ const { Content } = await reference.render()
     </button>
   </div>
   <main id="main-content">
-    <h1 class="reference-title">{title}</h1>
-
     <article class="prose mx-auto mt-8 max-w-3xl">
       <Content />
     </article>

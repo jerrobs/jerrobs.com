@@ -20,7 +20,7 @@ cslItem:
   URL: >-
     http://www.worldcat.org/title/type-on-screen-a-guide-for-designers-developers-writers-and-students/oclc/952778640
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-setting:academic
   - _has-format:book
   - _scope:art-and-design
@@ -33,5 +33,4 @@ rendered:
     </div>
   citation: Lupton, 2014
 bibTex: "@book{lupton__2014__type,\n\taddress = {New York},\n\tauthor = {Lupton, Ellen},\n\tyear = {2014},\n\tpublisher = {Princeton Architectural Press},\n\ttitle = {Type on screen},\n}\n\n"
-
 ---

@@ -22,7 +22,7 @@ cslItem:
   title: Detailtypografie
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - _has-format:book
   - _has-setting:professional
   - issue:space
@@ -34,5 +34,4 @@ rendered:
     </div>
   citation: Forssman and de Jong, 2002
 bibTex: "@book{forssman_dejong__2002__detailtypografie,\n\taddress = {Mainz},\n\tauthor = {Forssman, Friedrich and de Jong, Ralf},\n\tedition = {2. Auflage},\n\tyear = {2002},\n\tpublisher = {Hermann Schmidt},\n\ttitle = {Detailtypografie},\n}\n\n"
-
 ---

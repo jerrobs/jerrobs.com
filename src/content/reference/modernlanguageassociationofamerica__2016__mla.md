@@ -10,16 +10,16 @@ cslItem:
   issued:
     date-parts:
       - - 2016
-  keyword: '#nosource;collection::jerrobs::referencing'
+  keyword: "#nosource;collection::jerrobs::referencing"
   language: en-US
-  number-of-pages: '146'
+  number-of-pages: "146"
   publisher: The Modern Language Association of America
   publisher-place: New York
   source: Gemeinsamer Bibliotheksverbund ISBN
   title: MLA handbook
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:jerrobs
   - topic:jerrobs/referencing
 rendered:
@@ -29,5 +29,4 @@ rendered:
     </div>
   citation: Modern Language Association of America, 2016
 bibTex: "@book{modernlanguageassociationofamerica__2016__mla,\n\taddress = {New York},\n\tauthor = {{Modern Language Association of America}},\n\tedition = {Eighth edition ; Large Print edition},\n\tyear = {2016},\n\tpublisher = {The Modern Language Association of America},\n\ttitle = {MLA handbook},\n}\n\n"
-
 ---

@@ -53,7 +53,7 @@ cslItem:
   title-short: Introducing the Strategy Lifecycle
   type: chapter
   URL: http://link.springer.com/10.1007/978-3-319-94541-5_14
-  volume: '527'
+  volume: "527"
 tags:
   - issue:strategy
   - topic:strategy/ontology
@@ -64,5 +64,4 @@ rendered:
     </div>
   citation: Caine and von Rosing, 2018
 bibTex: "@inbook{caine_vonrosing__2018__introducing,\n\tnote = {[Online; accessed 2021-07-13]},\n\taddress = {Cham},\n\tauthor = {Caine, Jamie and von Rosing, Mark},\n\tbooktitle = {Digitalisation, {Innovation}, and {Transformation}},\n\teditor = {Liu, Kecheng and Nakata, Keiichi and Li, Weizi and Baranauskas, Cecilia},\n\tyear = {2018},\n\tpages = {136--144},\n\tpublisher = {Springer International Publishing},\n\ttitle = {Introducing the {Strategy} {Lifecycle}: Using {Ontology} and {Semiotics} to {Interlink} {Strategy} {Design} to {Strategy} {Execution}},\n\tvolume = {527},\n}\n\n"
-
 ---

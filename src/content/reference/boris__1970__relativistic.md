@@ -31,5 +31,4 @@ rendered:
     </div>
   citation: Boris, 1970
 bibTex: "@inproceedings{boris__1970__relativistic,\n\taddress = {Washington D.C.},\n\tauthor = {Boris, Jay P.},\n\tbooktitle = {Proceedings of the 4th {Conference} on {Numerical} {Simulation} of {Plasmas}. {Naval} {Res}. {Lab}},\n\tyear = {1970},\n\tmonth = {11},\n\tpages = {3--67},\n\ttitle = {Relativistic plasma simulation-optimization of a hybrid code},\n\thowpublished = {https://books.google.de/books?id=uYIuAAAAIAAJ&hl=de&pg=PR3#v=onepage&q&f=false},\n}\n\n"
-
 ---

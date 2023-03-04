@@ -12,12 +12,12 @@ cslItem:
   issued:
     date-parts:
       - - 2016
-  keyword: '#nosource;accelerator-science-code;collection::pathicles::codes'
+  keyword: "#nosource;accelerator-science-code;collection::pathicles::codes"
   title: OPAL
   type: software
   URL: https://gitlab.psi.ch/OPAL
 tags:
-  - '#nosource'
+  - "#nosource"
   - accelerator-science-code
   - issue:pathicles
   - topic:pathicles/codes
@@ -28,5 +28,4 @@ rendered:
     </div>
   citation: PSI, 2016
 bibTex: "@misc{psi__2016__opal,\n\tauthor = {{PSI}},\n\tyear = {2016},\n\ttitle = {OPAL},\n\ttype = {en},\n\thowpublished = {https://gitlab.psi.ch/OPAL},\n}\n\n"
-
 ---

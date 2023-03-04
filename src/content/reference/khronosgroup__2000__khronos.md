@@ -3,18 +3,18 @@ cslItem:
   id: khronosgroup__2000__khronos
   author:
     - family: Khronos Group
-      given: ''
+      given: ""
   citation-key: khronosgroup__2000__khronos
   container-title: www.khronos.org
   issued:
     date-parts:
       - - 2000
-  keyword: '#nosource;collection::pathicles::gpgpu'
+  keyword: "#nosource;collection::pathicles::gpgpu"
   title: About The Khronos Group
   type: webpage
   URL: https://www.khronos.org/about/
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/gpgpu
 rendered:
@@ -24,5 +24,4 @@ rendered:
     </div>
   citation: Khronos Group, 2000
 bibTex: "@misc{khronosgroup__2000__khronos,\n\tauthor = {{Khronos Group}},\n\tyear = {2000},\n\ttitle = {About {The} {Khronos} {Group}},\n\thowpublished = {https://www.khronos.org/about/},\n}\n\n"
-
 ---

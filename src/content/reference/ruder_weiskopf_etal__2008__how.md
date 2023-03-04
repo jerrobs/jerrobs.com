@@ -15,14 +15,14 @@ cslItem:
   issued:
     date-parts:
       - - 2008
-  keyword: '#nosource;collection::pathicles::educational_visualization'
+  keyword: "#nosource;collection::pathicles::educational_visualization"
   language: en
   title: How computers can help us in creating an intuitive access to relativity
   type: article-journal
   URL: http://dx.doi.org/10.1088/1367-2630/10/12/125014
-  volume: '10'
+  volume: "10"
 tags:
-  - '#nosource'
+  - "#nosource"
   - issue:pathicles
   - topic:pathicles/educational_visualization
 rendered:
@@ -32,5 +32,4 @@ rendered:
     </div>
   citation: Ruder <i>et al.</i>, 2008
 bibTex: "@article{ruder_weiskopf_etal__2008__how,\n\tauthor = {Ruder, Hanns and Weiskopf, Daniel and Nollert, Hans-Peter and M{\\\" u}ller, Thomas},\n\tjournal = {New Journal of Physics},\n\tyear = {2008},\n\ttitle = {How computers can help us in creating an intuitive access to relativity},\n\thowpublished = {http://dx.doi.org/10.1088/1367-2630/10/12/125014},\n\tvolume = {10},\n}\n\n"
-
 ---

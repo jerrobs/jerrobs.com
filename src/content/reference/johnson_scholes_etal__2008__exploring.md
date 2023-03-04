@@ -33,7 +33,7 @@ cslItem:
   title: Exploring Corporate Strategy
   type: book
 tags:
-  - '#nosource'
+  - "#nosource"
   - __strategy2030:strategic-planning
   - issue:strategy
   - topic:strategy/definitions
@@ -44,5 +44,4 @@ rendered:
     </div>
   citation: Johnson, Scholes and Whittington, 2008
 bibTex: "@book{johnson_scholes_etal__2008__exploring,\n\tauthor = {Johnson, Gerry and Scholes, Kevan and Whittington, Richard},\n\tseries = {Pearson {Education}},\n\tyear = {2008},\n\tmonth = {jan 1},\n\tpublisher = {Pearson Education},\n\ttitle = {Exploring {Corporate} {Strategy}},\n}\n\n"
-
 ---

@@ -12,14 +12,14 @@ cslItem:
   keyword: >-
     _has-format:book;_has-setting:professional;#nosource;collection::space::microtypography
   language: de
-  number-of-pages: '297'
+  number-of-pages: "297"
   publisher: Maro Verlag
   title: Die Kunst der Typographie
   type: book
 tags:
   - _has-format:book
   - _has-setting:professional
-  - '#nosource'
+  - "#nosource"
   - issue:space
   - topic:space/microtypography
 rendered:
@@ -29,5 +29,4 @@ rendered:
     </div>
   citation: Renner, 2003
 bibTex: "@book{renner__2003__kunst,\n\tauthor = {Renner, Paul},\n\tyear = {2003},\n\tpublisher = {Maro Verlag},\n\ttitle = {Die {Kunst} der {Typographie}},\n}\n\n"
-
 ---
