@@ -69,7 +69,7 @@ const generate = ({ globPattern, tagScoper }) => {
         'reference',
         `${bibliographyEntry.cslItem.id}.md`
       ),
-      `---\n${dump(bibliographyEntry)}\n---\n`
+      `---\n${dump(bibliographyEntry, { quotingType: '"' })}---\n`
     )
   })
 
