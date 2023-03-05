@@ -14,7 +14,35 @@ import rehypeAddClasses from "rehype-add-classes"
 // https://astro.build/config
 export default defineConfig({
   site: "https://www.jerrobs.com/",
-  integrations: [react(), sitemap(), compress(), AstroPWA()],
+  integrations: [react(), sitemap(), compress(), AstroPWA({
+    manifest: {
+      name: 'Journal of Erratic Obervations',
+      short_name: 'J.Err.Obs.',
+      theme_color: '#ffffff',
+      icons: [
+        {
+          src: '/assets/icons/manifest-icon-192.png',
+          sizes: '192x192',
+          type: 'image/png',
+        },
+        {
+          src: '/assets/icons/manifest-icon-512.png',
+          sizes: '512x512',
+          type: 'image/png',
+        },
+        {
+          src: '/assets/icons/manifest-icon-512.png',
+          sizes: '512x512',
+          type: 'image/png',
+          purpose: 'any maskable',
+        },
+      ],
+    },
+    workbox: {
+      navigateFallback: '/404',
+      globPatterns: ['**/*.{css,js,html,svg,png,ico,txt}'],
+    },
+  })],
   markdown: {
     remarkPlugins: [
       markdownedFrontmatterPlugin,
