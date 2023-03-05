@@ -8,18 +8,13 @@ import compress from "astro-compress"
 import { markdownedFrontmatterPlugin } from "./src/utils/markdown/remark-markdowned-frontmatter"
 import AstroPWA from "@vite-pwa/astro"
 import rehypeRewrite from "rehype-rewrite"
-import spaceCommand from './src/utils/space-commander.ts'
+import spaceCommand from "./src/utils/space-commander.ts"
 import rehypeAddClasses from "rehype-add-classes"
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://www.jerrobs.com/",
-  integrations: [
-    react(),
-    sitemap(),
-    compress(),
-    AstroPWA(),
-  ],
+  integrations: [react(), sitemap(), compress(), AstroPWA()],
   markdown: {
     remarkPlugins: [
       markdownedFrontmatterPlugin,

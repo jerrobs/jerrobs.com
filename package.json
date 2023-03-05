@@ -3,58 +3,50 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "generate:references": "node ./scripts/generate-references-from-zotero-csl.js",
-    "dev": "astro dev",
-    "start": "astro dev",
     "build": "astro build",
+    "build:references": "node ./scripts/generate-references-from-zotero-csl.js",
+    "dev": "astro dev",
+    "format": "prettier-package-json --write; prettier --plugin-search-dir=. --write .",
+    "lint": "eslint .",
     "preview": "astro preview",
-    "sync": "astro sync",
-    "astro": "astro",
-    "format:check": "prettier --plugin-search-dir=. --check .",
-    "format": "prettier --plugin-search-dir=. --write .",
-    "cz": "cz",
-    "lint": "eslint ."
+    "sync": "astro sync"
   },
   "dependencies": {
-    "rehype-rewrite": "3.0.6",
-    "hast-util-select": "5.0.5",
-    "@fontsource/barlow-semi-condensed": "4.5.4",
-    "js-yaml": "4.1.0",
+    "@astrojs/rss": "^2.1.1",
     "@citation-js/core": "0.6.5",
     "@citation-js/plugin-bibtex": "0.6.6",
     "@citation-js/plugin-csl": "0.6.7",
-    "fast-glob": "3.2.12",
-    "@astrojs/rss": "^2.1.1",
+    "@fontsource/barlow-semi-condensed": "4.5.10",
     "astro": "2.0.17",
+    "fast-glob": "3.2.12",
     "fuse.js": "^6.6.2",
     "github-slugger": "^2.0.0",
+    "hast-util-select": "5.0.5",
+    "js-yaml": "4.1.0",
+    "rehype-rewrite": "3.0.6",
     "remark-collapse": "^0.1.2",
-    "remark-toc": "^8.0.1",
-    "remark-sectionize": "1.1.1"
+    "remark-sectionize": "1.1.1",
+    "remark-toc": "^8.0.1"
   },
   "devDependencies": {
-    "rehype-add-classes": "1.0.0",
-    "@vite-pwa/astro": "0.0.4",
-    "remove-markdown": "0.5.0",
-    "stylus": "0.59.0",
-    "astro-compress": "1.1.35",
     "@astrojs/react": "2.0.2",
     "@astrojs/sitemap": "1.1.0",
     "@types/github-slugger": "^2.0.0",
     "@types/react": "^18.0.28",
     "@typescript-eslint/parser": "^5.54.0",
+    "@vite-pwa/astro": "0.0.5",
+    "astro-compress": "1.1.35",
     "astro-eslint-parser": "0.11.0",
     "eslint": "8.35.0",
     "eslint-plugin-astro": "0.23.0",
     "prettier": "2.8.4",
+    "prettier-package-json": "2.8.0",
     "prettier-plugin-astro": "0.8.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+    "react-dom": "^18.2.0",
+    "rehype-add-classes": "1.0.0",
+    "remove-markdown": "0.5.0",
+    "stylus": "0.59.0"
   },
   "lint-staged": {
     "*": [

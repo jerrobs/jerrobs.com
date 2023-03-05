@@ -3,7 +3,6 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-
 ## What?
 
 The _Journal of Erratic Observations_ (<abbr class="jerrobs" title="Journal of Erratic Observations">J. @ Err. @ Obs.</abbr>) publishes minireviews, experimental and observational studies, theoretical and computational analyses, case studies, and commentaries.

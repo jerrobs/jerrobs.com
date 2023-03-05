@@ -13,14 +13,14 @@ const title = renderInline(issue.data.title)
 const subtitle = renderInline(issue.data.subtitle)
 ---
 
-<div class="issue-preview" id={"issue-" +issue.slug}>
+<div class="issue-preview" id={"issue-" + issue.slug}>
   <div class="issue-preview__body">
     <div class="issue-preview__header">
       <a href={`/issues/${issue.slug}`}>
-        <h1 class="issue__title md" >
+        <h1 class="issue__title md">
           <span set:html={title} />
         </h1>
-        <p class="issue__subtitle" ><span set:html={subtitle}/></p>
+        <p class="issue__subtitle"><span set:html={subtitle} /></p>
       </a>
     </div>
     <ul class="issue__toc">
@@ -30,7 +30,6 @@ const subtitle = renderInline(issue.data.subtitle)
       </li>
     </ul>
   </div>
-  
 </div>
 
 <style lang="styl">

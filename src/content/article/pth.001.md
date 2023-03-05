@@ -5,7 +5,7 @@ version: "1.0 (unpublished)"
 title: Approximating movement
 subtitle: by relativistic leapfrogging
 sectionNumber: PTH.001
-tags: 
+tags:
   - issue:pathicles
   - topic:pathicles/accelerator_science
   - topic:pathicles/numerical_integrators
