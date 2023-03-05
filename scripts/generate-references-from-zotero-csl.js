@@ -8,7 +8,7 @@ import { readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 
 
-const URL_REGEXP = /(https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/=]*))/
+const URL_REGEXP = /(https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_+.~#?&/=]*))/
 
 const linkify = (str) => str.replace(URL_REGEXP, "<a href='$1'>$1</a>")
 
@@ -28,14 +28,12 @@ const generate = ({ globPattern, tagScoper }) => {
 
   let bibliography = clsItems.flatMap((cslItem) => {
 
-
     cite.set(cslItem)
     return {
       cslItem,
       tags: cslItem.keyword
         ? cslItem.keyword
           .split(';')
-          // .map((keyword) => keyword.replace(/\\_/g, '_'))
           .flatMap(tagScoper)
         : [],
       rendered: {
@@ -52,8 +50,6 @@ const generate = ({ globPattern, tagScoper }) => {
             lang: 'en-US'
           })
         )
-
-
       },
       bibTex: cite.format('bibtex')
     }
@@ -72,18 +68,6 @@ const generate = ({ globPattern, tagScoper }) => {
       `---\n${dump(bibliographyEntry, { quotingType: '"' })}---\n`
     )
   })
-
-
-  // context.bibliography = makeBibliography(
-  //   createBibtex({
-  //     tmpPath: context.tempPath,
-  //     mdIt
-  //   }) +
-  //     combineBibtexFiles(
-  //       fg.sync(path.join(context.sourceDir, '/**/*.bib'))
-  //     ),
-  //   options.keywords || []
-  // )
 }
 
 

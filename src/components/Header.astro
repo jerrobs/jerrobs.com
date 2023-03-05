@@ -34,11 +34,11 @@ const { activeNav } = Astro.props
             Issues
           </a>
         </li>
-        <li>
+        <!-- <li>
           <a href="/articles" class={activeNav === "articles" ? "active" : ""}>
             Articles
           </a>
-        </li>
+        </li> -->
 
         <li>
           <a
@@ -146,13 +146,24 @@ const { activeNav } = Astro.props
     height: 3rem;
     // background-color: red;
     padding-top: 1rem;
+    position relative
   }
+  .nav-container:after {
+    content: " "
+    display: block;
+    position absolute
+    bottom 0
+    background-color black
+    width 100%
+    height: .25rem;
+    }
   .logo {
     flex-grow: 1;
   }
 
   img.jerrobs {
     height: 1rem;
+    margin-top: 5px;
     }
   #menu-items {
     // flex-grow: 0;

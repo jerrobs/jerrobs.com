@@ -17,10 +17,10 @@ const subtitle = renderInline(issue.data.subtitle)
   <div class="issue-preview__body">
     <div class="issue-preview__header">
       <a href={`/issues/${issue.slug}`}>
-        <h1 class="issue__title md">
+        <h1 class="issue__title body-xl">
           <span set:html={title} />
         </h1>
-        <p class="issue__subtitle"><span set:html={subtitle} /></p>
+        <p class="issue__subtitle body-lg"><span set:html={subtitle} /></p>
       </a>
     </div>
     <ul class="issue__toc">
@@ -32,58 +32,53 @@ const subtitle = renderInline(issue.data.subtitle)
   </div>
 </div>
 
-<style lang="styl">
+<style lang="stylus">
+
 .issue-preview {
   background-color: #eeeeee;
   display: flex;
   flex-direction: column;
-  min-height: 8rem;
+  min-height: 15rem;
   flex: 1 0 30rem;
-  border: rgba(white, 0.5) solid 0.5rem;
-  padding: 0.5rem;
-
+  border: rgba(white, 1) solid 0.5rem;
+  padding: 0.5rem 0;
+  padding-top: 3rem;
+}
   a {
     text-decoration: none;
   }
 
-  .issue-preview :hover a {
+  .issue-preview:hover a {
     text-decoration: underline;
   }
 
   .issue-preview__body {
-    flex: 5;
+    flex: 1;
   }
 
-  .issue-preview__footer {
-    flex: 1%;
-    background-color: #fff;
-    position: relative;
-  }
-
-  .issue-preview__footer .taglines {
-    left: calc(0.75 * var(--baseline-height));
-  }
-
-  .issue-preview__footer p {
-    font-variant: all-small-caps;
-    height: calc(0.5 * var(--baseline-height));
-  }
 
   .issue__subtitle {
-    $baselined-typography(body-lg);
+    $baselined-typography(body-md);
   }
 
   .issue__title {
     font-weight: var(--font-weight--bold);
+    text-transform: uppercase;
+    font-style: italic;
   }
-}
 
 .issue__subtitle,.issue__title {
   span {
     background-color: white;
+    padding: 0 .5rem;
   }
 }
 
+#issue-pathicles {
+  background-image: url('/assets/cover__pathicles_cropped-lg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #issue-space {
   background-image: url('/assets/cover__space-lg.jpg');
   background-size: cover;

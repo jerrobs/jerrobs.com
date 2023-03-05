@@ -13,7 +13,7 @@ const references = await getReferences(tag)
   {
     references.map(reference => (
       <li
-        class="bib-list-item"
+        class="bib-list-item body-sm"
         set:html={reference.data.rendered.bibliography}
       />
     ))
