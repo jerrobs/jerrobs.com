@@ -2,6 +2,16 @@
 import type { CollectionEntry } from "astro:content"
 import { renderInline } from "@utils/markdown/render"
 
+import pathiclesCover from "@assets/cover__pathicles.jpg"
+import spaceCover from "@assets/cover__space.jpg"
+import strategyCover from "@assets/cover__strategy.jpg"
+
+const covers = {
+  pathicles: pathiclesCover,
+  space: spaceCover,
+  strategy: strategyCover,
+}
+
 export interface Props {
   issue: CollectionEntry<"issue">
   href: string
@@ -13,7 +23,11 @@ const title = renderInline(issue.data.title)
 const subtitle = renderInline(issue.data.subtitle)
 ---
 
-<div class="issue-preview" id={"issue-" + issue.slug}>
+<div
+  class="issue-preview"
+  id={"issue-" + issue.slug}
+  style={"background-image: url(" + covers[issue.slug] + ")"}
+>
   <div class="issue-preview__body">
     <div class="issue-preview__header">
       <a href={`/issues/${issue.slug}`}>
@@ -75,18 +89,18 @@ const subtitle = renderInline(issue.data.subtitle)
 }
 
 #issue-pathicles {
-  background-image: url('/assets/cover__pathicles_cropped-lg.jpg');
+
   background-size: cover;
   background-repeat: no-repeat;
 }
 #issue-space {
-  background-image: url('/assets/cover__space-lg.jpg');
+  
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #issue-strategy {
-  background-image: url('/assets/cover__strategy-lg.jpg');
+  
   background-size: cover;
   background-repeat: no-repeat;
 }
