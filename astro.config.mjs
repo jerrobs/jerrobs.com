@@ -1,5 +1,5 @@
 import { defineConfig } from "astro/config"
-import react from "@astrojs/react"
+
 import remarkToc from "remark-toc"
 import sectionize from "remark-sectionize"
 import remarkCollapse from "remark-collapse"
@@ -13,9 +13,20 @@ import rehypeAddClasses from "rehype-add-classes"
 
 // https://astro.build/config
 export default defineConfig({
+  vite: {
+    build: {
+      rollupOptions: {
+        output: {
+          assetFileNames: 'assets/[name]-[hash][extname]',
+        }
+      }
+    }
+  },
+  output: 'static',
   site: "https://www.jerrobs.com/",
-  integrations: [react(), sitemap(), compress(), AstroPWA({
+  integrations: [sitemap(), compress(), AstroPWA({
     manifest: {
+      "$schema": "https://json.schemastore.org/web-manifest-combined.json",
       name: 'Journal of Erratic Obervations',
       short_name: 'J.Err.Obs.',
       theme_color: '#ffffff',
