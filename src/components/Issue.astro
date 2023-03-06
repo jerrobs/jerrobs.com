@@ -11,23 +11,31 @@ export interface Props {
 const { issue } = Astro.props
 const { title, description, subtitle } = issue.data
 
-const articles = await issue.data.articles.map(
-  async articleSlug => await getEntryBySlug("article", articleSlug)
+const articles = await Promise.all(
+  issue.data.articles.map(
+    async articleSlug =>
+      (await getEntryBySlug(
+        "article",
+        articleSlug
+      )) as CollectionEntry<"article">
+  )
 )
 const { Content } = await issue.render()
 ---
 
-<article id="issue" role="article" class="prose mx-auto mt-8 max-w-3xl">
-  <h1 class="issue-title" set:html={renderInline(title)} />
-  <p class="issue-subtitle" set:html={renderInline(subtitle)} />
-  <p class="issue-abstract" set:html={renderInline(description)} />
+<article id="issue" role="article">
+  <h1
+    class="issue-title body-xl italic bold uppercase"
+    set:html={renderInline(title)}
+  />
+  <p
+    class="issue-subtitle body-lg italic uppercase"
+    set:html={renderInline(subtitle)}
+  />
+  <p class="issue-abstract body-md bold" set:html={renderInline(description)} />
 
   <ul class="issue__articles">
-    {
-      articles.map(article => (
-        <ArticlePreview href={`/articles/${article.slug}`} article={article} />
-      ))
-    }
+    {articles.map(article => <ArticlePreview article={article} />)}
   </ul>
 
   <BibList tag={"issue:" + issue.slug} />

@@ -10,6 +10,7 @@ import AstroPWA from "@vite-pwa/astro"
 import rehypeRewrite from "rehype-rewrite"
 import spaceCommand from "./src/utils/space-commander.ts"
 import rehypeAddClasses from "rehype-add-classes"
+import image from "@astrojs/image"
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,37 +18,44 @@ export default defineConfig({
     build: {
       rollupOptions: {
         output: {
-          assetFileNames: 'assets/[name]-[hash][extname]',
-        }
-      }
-    }
-  },
-  output: 'static',
-  site: "https://www.jerrobs.com/",
-  integrations: [sitemap(), compress(), AstroPWA({
-    manifest: {
-      "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-      name: 'Journal of Erratic Obervations',
-      short_name: 'J.Err.Obs.',
-      theme_color: '#ffffff',
-      icons: [
-        {
-          src: '/assets/icons/manifest-icon-192.png',
-          sizes: '192x192',
-          type: 'image/png',
+          assetFileNames: "assets/[name]-[hash][extname]",
         },
-        {
-          src: '/assets/icons/manifest-icon-512.png',
-          sizes: '512x512',
-          type: 'image/png',
-        }
-      ],
+      },
     },
-    workbox: {
-      navigateFallback: '/404',
-      globPatterns: ['**/*.{css,js,html,svg,png,ico,txt}'],
-    },
-  })],
+  },
+  output: "static",
+  site: "https://www.jerrobs.com/",
+  integrations: [
+    image({
+      serviceEntryPoint: "@astrojs/image/sharp",
+    }),
+    sitemap(),
+    compress(),
+    AstroPWA({
+      manifest: {
+        $schema: "https://json.schemastore.org/web-manifest-combined.json",
+        name: "Journal of Erratic Obervations",
+        short_name: "J.Err.Obs.",
+        theme_color: "#ffffff",
+        icons: [
+          {
+            src: "/assets/icons/manifest-icon-192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icons/manifest-icon-512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+        ],
+      },
+      workbox: {
+        navigateFallback: "/404",
+        globPatterns: ["**/*.{css,js,html,svg,png,ico,txt}"],
+      },
+    }),
+  ],
   markdown: {
     remarkPlugins: [
       markdownedFrontmatterPlugin,

@@ -1,15 +1,8 @@
 ---
-import { SITE } from "@config"
-import Issues from "@layouts/IssueListLayout.astro"
+import IssuesListLayout from "@layouts/IssuesListLayout.astro"
 import { getIssues } from "@utils/getIssues"
 
-import { getPageNumbers } from "@utils/getPageNumbers"
-
 const issues = await getIssues()
-
-const totalPages = getPageNumbers(issues.length, SITE.issuesPerPage)
-
-const paginatedIssues = issues.slice(0, SITE.issuesPerPage)
 ---
 
-<Issues issues={paginatedIssues} pageNum={1} totalPages={totalPages.length} />
+<IssuesListLayout issues={issues} />

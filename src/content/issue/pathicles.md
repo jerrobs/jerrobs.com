@@ -2,15 +2,16 @@
 pubDatetime: 2023-02-21
 title: Pathicles
 subtitle: "Making **accelerator science** look @@ good"
-coverImage: import '@assets/cover__pathicles.jpg'
+coverImage: '@assets/cover__pathicles.jpg'
+coverImageAlt: Visualization of poarticle trajectories
 color: "#2174a8"
 description: |
   The _Pathicles Issue_ of the _Journal of Erratic Observations_ introduces an open-source visualization framework for the movement of charged particles in electromagnetic fields.
 articles:
-  - pth001
-  - pth002
-  - pth003
-  - pth004
+  - pth-001
+  - pth-002
+  - pth-003
+  - pth-004
 bibliographies:
   - title: Accelerator science
     tag: pathicles/accelerator_science

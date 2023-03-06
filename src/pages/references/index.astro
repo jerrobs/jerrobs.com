@@ -1,20 +1,5 @@
 ---
-import { SITE } from "@config"
-import ReferenceList from "@layouts/ReferenceListLayout.astro"
-
-import { getPageNumbers } from "@utils/getPageNumbers"
-
-import { getReferences } from "@utils/getReferences"
-
-const references = await getReferences()
-
-const totalPages = getPageNumbers(references.length, SITE.issuesPerPage)
-
-const paginatedReferences = references.slice(0, SITE.referencesPerPage)
+import BibListLayout from "@layouts/BibListLayout.astro"
 ---
 
-<ReferenceList
-  references={paginatedReferences}
-  pageNum={1}
-  totalPages={totalPages.length}
-/>
+<BibListLayout />

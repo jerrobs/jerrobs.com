@@ -1,13 +1,14 @@
 ---
-coverImage: /media/cover__space-lg.webp
+coverImage: '@assets/cover__space.jpg'
+coverImageAlt: Photo of a field of stars with a hole in the centre
 coverImageCaption: >
   The dark nebula LDN 483 as recorded by the Wide Field Imager (WFI) on the MPG/ESO 2.2-metre telescope at the La Silla Observatory in Chile. The object is a region of space clogged with gas and dust. These materials are dense enough to effectively eclipse the light of background stars. LDN 483 is located about 700 light-years away in the constellation of Serpens (The Serpent). (Source: ESO)
 pubDatetime: 2023-02-21
 articles:
-  - spc001
-  - spc002
-  - spc003
-  - spc004
+  - spc-001
+  - spc-002
+  - spc-003
+  - spc-004
 title: Space
 subtitle: >
   Healing **typography** from **space @@ sickness**

@@ -1,0 +1,31 @@
+---
+import type { CollectionEntry } from "astro:content"
+
+import { renderInline } from "@utils/markdown/render"
+
+import BibList from "./BibList.astro"
+
+export interface Props {
+  article: CollectionEntry<"article">
+}
+const { article } = Astro.props
+const { title, description, subtitle, issue } = article.data
+
+const { Content } = await article.render()
+---
+
+<article id="article" role="article">
+  <h1
+    class="issue-title body-xl italic bold uppercase"
+    set:html={renderInline(title)}
+  />
+  <p
+    class="issue-subtitle body-lg italic uppercase"
+    set:html={renderInline(subtitle)}
+  />
+  <p class="issue-abstract body-md bold" set:html={renderInline(description)} />
+
+  <BibList tag={"issue:" + issue} />
+
+  <Content />
+</article>

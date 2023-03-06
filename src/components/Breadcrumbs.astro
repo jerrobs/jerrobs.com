@@ -8,43 +8,44 @@ const breadcrumbList = currentUrlPath.split("/").slice(1)
 
 // if breadcrumb is Home > Posts > 1 <etc>
 // replace Posts with Posts (page number)
-breadcrumbList[0] === "posts" &&
-  breadcrumbList.splice(0, 2, `Posts (page ${breadcrumbList[1] || 1})`)
+// breadcrumbList[0] === "posts" &&
+//   breadcrumbList.splice(0, 2, `Posts (page ${breadcrumbList[1] || 1})`)
 ---
 
 <nav class="breadcrumb" aria-label="breadcrumb">
-  <ul>
-    <li class="body-md">
-      <a href="/">Home</a>
-      <span aria-hidden="true">&#62;</span>
-    </li>
-    {
-      breadcrumbList.map((breadcrumb, index) =>
-        index + 1 === breadcrumbList.length ? (
-          <li class="body-md">
-            <span
-              class={`${index > 0 ? "lowercase" : "capitalize"}`}
-              aria-current="page"
-            >
-              {/* make the last part lowercase in Home > Tags > some-tag */}
+  <p>
+    <ul>
+      <li class="body-sm">
+        <a href="/">Home</a>
+      </li>
+      {
+        breadcrumbList.map((breadcrumb, index) => (
+          <li class="body-sm">
+            <a href={`/${breadcrumbList.slice(0, index + 1).join("/")}`}>
               {breadcrumb}
-            </span>
+            </a>
           </li>
-        ) : (
-          <li>
-            <a href={`/${breadcrumb}`}>{breadcrumb}</a>
-            <span aria-hidden="true">&#62;</span>
-          </li>
-        )
-      )
-    }
-  </ul>
-</nav>
+        ))
+      }
+    </ul>
+  </p>
 
-<style>
-  .breadcrumb ul {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1rem;
-  }
-</style>
+  <style>
+    .breadcrumb ul {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+    .breadcrumb li:after {
+      content: ">";
+      padding-right: 0.1rem;
+    }
+    .breadcrumb li:last-child a {
+      text-decoration: none;
+    }
+    .breadcrumb li:last-child:after {
+      content: "";
+    }
+  </style>
+</nav>

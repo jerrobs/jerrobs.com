@@ -1,0 +1,22 @@
+---
+import { SITE } from "@config"
+import Layout from "@layouts/Layout.astro"
+import type { CollectionEntry } from "astro:content"
+import IssuesList from "@components/IssuesList.astro"
+
+export interface Props {
+  issues: CollectionEntry<"issue">[]
+}
+
+const { issues } = Astro.props
+---
+
+<Layout title={`Issues | ${SITE.title}`}>
+  <IssuesList issues={issues} />
+</Layout>
+
+<style>
+  .issues {
+    display: grid;
+  }
+</style>

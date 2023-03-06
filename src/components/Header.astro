@@ -1,8 +1,6 @@
 ---
 import { SITE } from "@config"
 
-import jerrobsLogo from "@assets/jerrobs.svg"
-
 export interface Props {
   activeNav?: "issues" | "tags" | "references" | "about" | "search"
 }
@@ -15,7 +13,7 @@ const { activeNav } = Astro.props
   <div class="nav-container">
     <a href="/" class="logo">
       <img
-        src={jerrobsLogo}
+        src="/assets/jerrobs.svg"
         class="jerrobs"
         height="28"
         width="138"

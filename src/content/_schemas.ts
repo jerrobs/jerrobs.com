@@ -34,8 +34,9 @@ export const issueSchema = z
     pubDatetime: z.date(),
     color: z.string(),
     version: z.string().optional(),
-    coverImage: z.string().optional(),
+    coverImage: z.string(),
     coverImageCaption: z.string().optional(),
+    coverImageAlt: z.string(),
     title: z.string(),
     subtitle: z.string().optional(),
 

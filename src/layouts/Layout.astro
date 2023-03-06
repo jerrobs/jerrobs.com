@@ -5,12 +5,14 @@ import { SITE } from "@config"
 import "../styles/index.styl"
 import "@fontsource/barlow-semi-condensed/400.css"
 import "@fontsource/barlow-semi-condensed/700.css"
+import Footer from "@components/Footer.astro"
+import Header from "@components/Header.astro"
+import Breadcrumbs from "@components/Breadcrumbs.astro"
 
 export interface Props {
   title?: string
   author?: string
   description?: string
-  ogImage?: string
 }
 
 const {
@@ -20,10 +22,6 @@ const {
 } = Astro.props
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site)
-
-// const socialImageURL = new URL(Astro.url.origin).href
-
-// const fallbackImageURL = new URL(SITE.ogImage, Astro.url.origin).href
 ---
 
 <!DOCTYPE html>
@@ -34,21 +32,26 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
     <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
-
-    <!-- General Meta Tags -->
     <title>{title}</title>
     <meta name="title" content={title} />
     <meta name="description" content={description} />
     <meta name="author" content={author} />
 
-    <script is:inline src="/src/_astro/scripts/toggle-theme.js" defer></script>
-    <script src="/src/pwa.ts" defer></script>
+    <script is:inline src="/toggle-theme.js" defer></script>
+    <script src="/src/pwa.ts"></script>
     {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
   </head>
   <body>
     <div class="layout">
+      <div class="layout__header">
+        <Header />
+        <Breadcrumbs />
+      </div>
       <div class="layout__main">
         <slot />
+      </div>
+      <div class="layout__footer">
+        <Footer />
       </div>
     </div>
   </body>

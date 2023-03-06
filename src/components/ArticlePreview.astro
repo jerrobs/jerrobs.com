@@ -9,10 +9,12 @@ export interface Props {
 const { article } = Astro.props
 
 const { data, slug } = await article
+
+const { issue } = data
 ---
 
 <div class="article-preview">
-  <a href={`/articles/${slug}`}>
+  <a href={`/issues/${issue}/${slug}`}>
     <h3 class="md" set:html={renderInline(data.title)} /></a
   >
   <p class="md" set:html={renderInline(data.description)} />

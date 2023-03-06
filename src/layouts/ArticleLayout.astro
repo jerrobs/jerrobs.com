@@ -1,9 +1,7 @@
 ---
 import Layout from "@layouts/Layout.astro"
-import Header from "@components/Header.astro"
-import Footer from "@components/Footer.astro"
-
 import type { CollectionEntry } from "astro:content"
+import Article from "@components/Article.astro"
 
 export interface Props {
   article: CollectionEntry<"article">
@@ -11,28 +9,9 @@ export interface Props {
 
 const { article } = Astro.props
 
-const { title, author, description } = article.data
-
-const { Content } = await article.render()
+const { title, description } = article.data
 ---
 
-<Layout title={title} author={author} description={description}>
-  <Header />
-  <div class="button-container">
-    <button class="" onclick="history.back()">
-      <svg xmlns="http://www.w3.org/2000/svg"
-        ><path
-          d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
-        ></path>
-      </svg><span>Go back</span>
-    </button>
-  </div>
-  <main id="main-content">
-    <h1 class="article-title">{title}</h1>
-    <!-- <Datetime datetime={pubDatetime} size="lg" className="my-2" /> -->
-    <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
-      <Content />
-    </article>
-  </main>
-  <Footer />
+<Layout title={title} description={description}>
+  <Article article={article} />
 </Layout>

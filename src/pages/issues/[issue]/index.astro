@@ -1,0 +1,21 @@
+---
+import { CollectionEntry, getCollection } from "astro:content"
+import IssueLayout from "@layouts/IssueLayout.astro"
+
+export interface Props {
+  issue: CollectionEntry<"issue">
+}
+
+export async function getStaticPaths() {
+  const issues = await getCollection("issue", ({ data }) => !data.draft)
+
+  return issues.map(issue => ({
+    params: { issue: issue.slug },
+    props: { issue },
+  }))
+}
+
+const { issue } = Astro.props
+---
+
+<IssueLayout issue={issue} />

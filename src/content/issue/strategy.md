@@ -1,12 +1,15 @@
 ---
 pubDatetime: 2023-02-21
+coverImage: '@assets/cover__strategy.jpg'
+coverImageAlt: chessboard with figures
 title: Strategy
-subtitle: STRATEGICALLY IMPORTANT NOT TO MESS UP
+subtitle: "**Coping** with **complexity**"
 color: "#2174a8"
-description: The Strategy Issue of the Journal of Erratic Observations sets out to develop an understanding of strategy that can be used across disciplines.
+description: |
+  The _Strategy Issue_ of the _Journal of Erratic Observations_ sets out to develop an understanding of strategy that can be used across disciplines.
 articles:
-  - stg001
-  - stg002
+  - stg-001
+  - stg-002
 bibliographies:
   - title: Strategy
     tag: strategy
