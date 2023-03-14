@@ -42,9 +42,9 @@ tags:
   - topic:pathicles/numerical_integrators
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="qin_zhang_etal__2013__why" class="csl-entry">Qin, H. <i>et al.</i> 2013 “Why is Boris algorithm so good?,” <i>Physics of Plasmas</i>, 20(8), p. 084503. doi:10.1063/1.4818428.</div>
-    </div>
-  citation: Qin <i>et al.</i>, 2013
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="qin_zhang_etal__2013__why" class="csl-entry">Qin, H., Zhang, S., Xiao, J., Liu, J., Sun, Y., &#38; Tang, W. M. 2013. Why is Boris algorithm so good? <i>Physics of Plasmas</i>, <i>20</i>(8), 084503. <a href='https://doi.org/10.1063/1.4818428'>https://doi.org/10.1063/1.4818428</a></span>
+    </span>
+  citation: Qin et al., 2013
 bibTex: "@article{qin_zhang_etal__2013__why,\n\tnote = {[Online; accessed 2021-03-09]},\n\tauthor = {Qin, Hong and Zhang, Shuangxi and Xiao, Jianyuan and Liu, Jian and Sun, Yajuan and Tang, William M.},\n\tjournal = {Physics of Plasmas},\n\tnumber = {8},\n\tyear = {2013},\n\tmonth = {8},\n\tpages = {084503},\n\ttitle = {Why is {Boris} algorithm so good?},\n\thowpublished = {http://aip.scitation.org/doi/10.1063/1.4818428},\n\tvolume = {20},\n}\n\n"
 ---

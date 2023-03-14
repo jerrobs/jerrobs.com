@@ -13,7 +13,7 @@ cslItem:
   issued:
     date-parts:
       - - 2002
-  keyword: Economics;Game theory;/unread
+  keyword: Economics;Game theory;/unread;collection::strategy::game-theory
   language: eng
   number-of-pages: "193"
   publisher: Routledge
@@ -25,11 +25,13 @@ tags:
   - Economics
   - Game theory
   - /unread
+  - issue:strategy
+  - topic:strategy/game-theory
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="schmidt__2002__game" class="csl-entry">Schmidt, C. ed. (2002) <i>Game theory and economic analysis</i>. London ; New York: Routledge (Routledge advances in game theory, 1).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="schmidt__2002__game" class="csl-entry">Schmidt, C. Ed.. (2002). <i>Game theory and economic analysis</i>. Routledge.</span>
+    </span>
   citation: Schmidt, 2002
 bibTex: "@book{schmidt__2002__game,\n\taddress = {London ; New York},\n\tnumber = {1},\n\tseries = {Routledge advances in game theory},\n\teditor = {Schmidt, Christian},\n\tyear = {2002},\n\tpublisher = {Routledge},\n\ttitle = {Game theory and economic analysis},\n}\n\n"
 ---

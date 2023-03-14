@@ -25,9 +25,9 @@ tags:
   - topic:pathicles/game_development
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="gregory__2018__game" class="csl-entry">Gregory, J. 2018 <i>Game engine architecture</i>. Third edition. Boca Raton: Taylor and Francis, CRC Press.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="gregory__2018__game" class="csl-entry">Gregory, J. 2018. <i>Game engine architecture</i> (Third edition). Taylor and Francis, CRC Press.</span>
+    </span>
   citation: Gregory, 2018
 bibTex: "@book{gregory__2018__game,\n\taddress = {Boca Raton},\n\tauthor = {Gregory, Jason},\n\tedition = {Third edition},\n\tyear = {2018},\n\tpublisher = {{Taylor and Francis, CRC Press}},\n\ttitle = {Game engine architecture},\n}\n\n"
 ---

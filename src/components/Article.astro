@@ -9,23 +9,25 @@ export interface Props {
   article: CollectionEntry<"article">
 }
 const { article } = Astro.props
-const { title, description, subtitle, issue } = article.data
+const { title, description, subtitle, issue, tags } = article.data
+
+const topics = (tags || []).filter(tag => tag.startsWith("topic:"))
 
 const { Content } = await article.render()
 ---
 
 <article id="article" role="article">
   <h1
-    class="issue-title body-xl italic bold uppercase"
+    class="issue-title body-xxl italic bold uppercase"
     set:html={renderInline(title)}
   />
   <p
-    class="issue-subtitle body-lg italic uppercase"
+    class="issue-subtitle body-xl italic uppercase"
     set:html={renderInline(subtitle)}
   />
   <p class="issue-abstract body-md bold" set:html={renderInline(description)} />
 
-  <BibList tag={"issue:" + issue} />
-
   <Content />
+
+  <BibList tag={"issue:" + issue} />
 </article>

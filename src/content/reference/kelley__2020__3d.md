@@ -29,9 +29,9 @@ tags:
   - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="kelley__2020__3d" class="csl-entry">Kelley, S. 2020 “3D View of TDSE Simulation,” <i>observablehq.com</i>, 19 May. Available at: <a href='https://observablehq.com/@flimsyhat/3d-view-of-tdse-simulation'>https://observablehq.com/@flimsyhat/3d-view-of-tdse-simulation</a> (Accessed: October 12, 2020).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="kelley__2020__3d" class="csl-entry">Kelley, S. 2020, May 19. 3D View of TDSE Simulation. <i>Observablehq.Com</i>. <a href='https://observablehq.com/@flimsyhat/3d-view-of-tdse-simulation'>https://observablehq.com/@flimsyhat/3d-view-of-tdse-simulation</a></span>
+    </span>
   citation: Kelley, 2020
 bibTex: "@misc{kelley__2020__3d,\n\tauthor = {Kelley, Sean},\n\tyear = {2020},\n\tmonth = {may 19},\n\tnote = {http://web.archive.org/web/20201012132918/https://observablehq.com/@flimsyhat/3d-view-of-tdse-simulation},\n\ttitle = {3D {View} of {TDSE} {Simulation}},\n\thowpublished = {https://observablehq.com/@flimsyhat/3d-view-of-tdse-simulation},\n}\n\n"
 ---

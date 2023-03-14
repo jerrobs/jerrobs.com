@@ -32,9 +32,9 @@ tags:
   - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="cai_bileschi_etal__2020__deep" class="csl-entry">Cai, S. <i>et al.</i> 2020 <i>Deep learning with JavaScript: neural networks in TensorFlow.js</i>. Shelter Island, NY: Manning.</div>
-    </div>
-  citation: Cai <i>et al.</i>, 2020
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="cai_bileschi_etal__2020__deep" class="csl-entry">Cai, S., Bileschi, S., Nielsen, E. D., &#38; Chollet, F. 2020. <i>Deep learning with JavaScript: neural networks in TensorFlow.js</i>. Manning.</span>
+    </span>
+  citation: Cai et al., 2020
 bibTex: "@book{cai_bileschi_etal__2020__deep,\n\taddress = {Shelter Island, NY},\n\tauthor = {Cai, Shanqing and Bileschi, Stanley and Nielsen, Eric D. and Chollet, Fran{\\c c}ois},\n\tyear = {2020},\n\tnote = {OCLC: on1089556349},\n\tpublisher = {Manning},\n\ttitle = {Deep learning with {JavaScript}: neural networks in {TensorFlow}.js},\n}\n\n"
 ---

@@ -24,9 +24,9 @@ tags:
   - topic:strategy/management-theory
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="porter__2008__five" class="csl-entry">Porter, M.E. 2008 “The Five Competitive Forces That Shape Strategy,” <i>Harvard Business Review</i>, pp. 78–93.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="porter__2008__five" class="csl-entry">Porter, M. E. 2008. The Five Competitive Forces That Shape Strategy. <i>Harvard Business Review</i>, <i>88</i>(1), 78–93.</span>
+    </span>
   citation: Porter, 2008
 bibTex: "@article{porter__2008__five,\n\tauthor = {Porter, Michael E.},\n\tjournal = {Harvard Business Review},\n\tnumber = {1},\n\tyear = {2008},\n\tpages = {78--93},\n\ttitle = {The {Five} {Competitive} {Forces} {That} {Shape} {Strategy}},\n\tvolume = {88},\n}\n\n"
 ---

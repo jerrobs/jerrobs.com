@@ -1,6 +1,8 @@
 ---
 import type { CollectionEntry } from "astro:content"
-import { renderInline } from "@utils/markdown/render.ts"
+import { renderInline } from "@utils/markdown/render.js"
+
+import "./../styles/mixins/index.styl"
 
 export interface Props {
   article: CollectionEntry<"article">
@@ -15,32 +17,30 @@ const { issue } = data
 
 <div class="article-preview">
   <a href={`/issues/${issue}/${slug}`}>
-    <h3 class="md" set:html={renderInline(data.title)} /></a
-  >
-  <p class="md" set:html={renderInline(data.description)} />
-</div>
+    <div class="article-preview__id body-xxl bold">{slug.substring(4)}</div>
 
-<style>
-  .issue-cover {
-    box-shadow: 5px rgba(black, 1);
-    background-color: #eeeeee;
-    display: flex;
-    flex-direction: column;
-    min-height: calc(8 * var(--baseline-height));
-  }
-  .issue-cover__body {
-    flex: 5;
-  }
-  .issue-cover__footer {
-    flex: 1%;
-    background-color: #fff;
-    position: relative;
-  }
-  .issue-cover__footer .taglines {
-    left: calc((0.75) * var(--baseline-height));
-  }
-  .issue-cover__footer p {
-    font-variant: all-small-caps;
-    height: calc((0.5) * var(--baseline-height));
-  }
+    <h3 class="md italic uppercase bold" set:html={renderInline(data.title)} />
+    <p class="md" set:html={renderInline(data.description)} />
+  </a>
+
+  <style lang="stylus">
+
+
+
+ .article-preview {
+  clear: both;
+  position: relative;
+  padding-left: 6rem;
+  min-height: 6rem;
+ }
+ .article-preview__id {
+  padding-top: 1rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  position: absolute;
+  left: 0
+  opacity: .5;
+  font-variant-numeric: tabular-nums; 
+ }
 </style>
+</div>

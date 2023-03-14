@@ -15,30 +15,33 @@ cslItem:
     matter most Spot trends in your company and in your industry Consider future
     outcomes when making decisions Manage trade-offs Embrace a leadership
     mindset
-  author:
-    - family: Review
-      given: Harvard Business
   citation-key: review__2018__hbr
   collection-title: Harvard Business Press
+  editor:
+    - family: Review
+      given: Harvard Business
   ISBN: 1-63369-694-4
   issued:
     date-parts:
       - - 2018
         - 12
         - 18
-  keyword: "#nosource;__strategy2030:strategic-planning"
+  keyword: >-
+    __strategy2030:strategic-planning;#nosource;collection::strategy::management-theory
   language: English
   publisher: Harvard Business Press
   title: HBR Guide to Thinking Strategically (HBR Guide Series)
   type: book
 tags:
-  - "#nosource"
   - __strategy2030:strategic-planning
+  - "#nosource"
+  - issue:strategy
+  - topic:strategy/management-theory
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="review__2018__hbr" class="csl-entry">Review, H.B. 2018 <i>HBR Guide to Thinking Strategically (HBR Guide Series)</i>. Harvard Business Press (Harvard Business Press).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="review__2018__hbr" class="csl-entry">Review, H. B. Ed.. (2018). <i>HBR Guide to Thinking Strategically (HBR Guide Series)</i>. Harvard Business Press.</span>
+    </span>
   citation: Review, 2018
-bibTex: "@book{review__2018__hbr,\n\tauthor = {Review, Harvard Business},\n\tseries = {Harvard {Business} {Press}},\n\tyear = {2018},\n\tmonth = {dec 18},\n\tpublisher = {Harvard Business Press},\n\ttitle = {HBR {Guide} to {Thinking} {Strategically} ({HBR} {Guide} {Series})},\n}\n\n"
+bibTex: "@book{review__2018__hbr,\n\tseries = {Harvard {Business} {Press}},\n\teditor = {Review, Harvard Business},\n\tyear = {2018},\n\tmonth = {dec 18},\n\tpublisher = {Harvard Business Press},\n\ttitle = {HBR {Guide} to {Thinking} {Strategically} ({HBR} {Guide} {Series})},\n}\n\n"
 ---

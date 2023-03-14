@@ -51,9 +51,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="liktor_spassov_etal__2015__stochastic" class="csl-entry">Liktor, G. <i>et al.</i> 2015 “Stochastic Soft Shadow Mapping,” <i>Computer Graphics Forum</i>, 34(4), pp. 1–11. doi:10.1111/cgf.12673.</div>
-    </div>
-  citation: Liktor <i>et al.</i>, 2015
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="liktor_spassov_etal__2015__stochastic" class="csl-entry">Liktor, G., Spassov, S., Mückl, G., &#38; Dachsbacher, C. 2015. Stochastic Soft Shadow Mapping. <i>Computer Graphics Forum</i>, <i>34</i>(4), 1–11. <a href='https://doi.org/10.1111/cgf.12673'>https://doi.org/10.1111/cgf.12673</a></span>
+    </span>
+  citation: Liktor et al., 2015
 bibTex: "@article{liktor_spassov_etal__2015__stochastic,\n\tnote = {[Online; accessed 2020-10-22]},\n\tauthor = {Liktor, G. and Spassov, S. and M{\\\" u}ckl, G. and Dachsbacher, C.},\n\tjournal = {Computer Graphics Forum},\n\tnumber = {4},\n\tyear = {2015},\n\tmonth = {7},\n\tpages = {1--11},\n\ttitle = {Stochastic {Soft} {Shadow} {Mapping}},\n\thowpublished = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12673},\n\tvolume = {34},\n}\n\n"
 ---

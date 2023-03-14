@@ -1,0 +1,34 @@
+---
+import { getReferences } from "@utils/getReferences"
+import { getEntryBySlug } from "astro:content"
+
+export interface Props {
+  refId: string
+  locator: string
+}
+const { refId, locator } = Astro.props
+
+const reference = await getEntryBySlug("reference", refId)
+---
+
+{
+  reference && (
+    <>
+      <span class="bib-ref__container" onclick="this.classList.toggle('open')">
+        <span
+          class="bib-ref__citation"
+          set:html={reference.data.rendered.citation}
+        />
+        <span
+          class="bib-ref__locator"
+          set:html={locator}
+        />
+        <span
+          class="bib-ref__bibliography"
+          set:html={reference.data.rendered.bibliography}
+        />
+      </span>
+    </>
+  )
+}
+{!reference && <span class="bib-ref__error">NOT FOUND {refId}</span>}

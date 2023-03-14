@@ -24,9 +24,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="wong_wang__2017__realtime" class="csl-entry">Wong, G. and Wang, J. 2017 <i>Real-Time Rendering: Computer Graphics with Control Engineering</i>. CRC Press.</div>
-    </div>
-  citation: Wong and Wang, 2017
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="wong_wang__2017__realtime" class="csl-entry">Wong, G., &#38; Wang, J. 2017. <i>Real-Time Rendering: Computer Graphics with Control Engineering</i>. CRC Press.</span>
+    </span>
+  citation: Wong &#38; Wang, 2017
 bibTex: "@book{wong_wang__2017__realtime,\n\tauthor = {Wong, Gabriyel and Wang, Jianliang},\n\tyear = {2017},\n\tnote = {OCLC: 1017847770},\n\tpublisher = {CRC Press},\n\ttitle = {Real-{Time} {Rendering}: Computer {Graphics} with {Control} {Engineering}},\n}\n\n"
 ---

@@ -45,9 +45,9 @@ tags:
   - topic:space/case_for_space
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="perea_acha__2009__space" class="csl-entry">Perea, M. and Acha, J. 2009 “Space information is important for reading,” <i>Vision Research</i>, 49(15), pp. 1994–2000. doi:10/fvrzqx.</div>
-    </div>
-  citation: Perea and Acha, 2009
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="perea_acha__2009__space" class="csl-entry">Perea, M., &#38; Acha, J. 2009. Space information is important for reading. <i>Vision Research</i>, <i>49</i>(15), 1994–2000. <a href='https://doi.org/10/fvrzqx'>https://doi.org/10/fvrzqx</a></span>
+    </span>
+  citation: Perea &#38; Acha, 2009
 bibTex: "@article{perea_acha__2009__space,\n\tnote = {[Online; accessed 2021-02-04]},\n\tauthor = {Perea, Manuel and Acha, Joana},\n\tjournal = {Vision Research},\n\tnumber = {15},\n\tyear = {2009},\n\tmonth = {7},\n\tpages = {1994--2000},\n\ttitle = {Space information is important for reading},\n\thowpublished = {https://linkinghub.elsevier.com/retrieve/pii/S0042698909002442},\n\tvolume = {49},\n}\n\n"
 ---

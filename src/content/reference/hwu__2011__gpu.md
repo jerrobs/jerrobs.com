@@ -61,9 +61,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="hwu__2011__gpu" class="csl-entry">Hwu, W.W. 2011 <i>GPU Computing Gems Jade Edition</i>. Edited by Wen-mei W Hwu. Elsevier (Elsevier).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="hwu__2011__gpu" class="csl-entry">Hwu, W. W. 2011. <i>GPU Computing Gems Jade Edition</i> (Wen-mei W Hwu, Ed.). Elsevier.</span>
+    </span>
   citation: Hwu, 2011
 bibTex: "@book{hwu__2011__gpu,\n\tauthor = {Hwu, Wen-mei W},\n\tseries = {Elsevier},\n\teditor = {{Wen-mei W Hwu}},\n\tyear = {2011},\n\tmonth = {nov 2},\n\tpublisher = {Elsevier},\n\ttitle = {GPU {Computing} {Gems} {Jade} {Edition}},\n}\n\n"
 ---

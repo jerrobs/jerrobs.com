@@ -28,9 +28,9 @@ tags:
   - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="openglreviewboard__2003__opengl" class="csl-entry">OpenGL Review Board 2003 <i>OpenGL ES Specification. Version 1.0</i>. Khronos Group, p. 172. Available at: <a href='https://www.khronos.org/registry/webgl/specs/1.0.0/'>https://www.khronos.org/registry/webgl/specs/1.0.0/</a> (Accessed: April 13, 2020).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="openglreviewboard__2003__opengl" class="csl-entry">OpenGL Review Board. 2003. <i>OpenGL ES Specification. Version 1.0</i> (p. 172). Khronos Group. <a href='https://www.khronos.org/registry/webgl/specs/1.0.0/'>https://www.khronos.org/registry/webgl/specs/1.0.0/</a></span>
+    </span>
   citation: OpenGL Review Board, 2003
 bibTex: "@techreport{openglreviewboard__2003__opengl,\n\tauthor = {{OpenGL Review Board}},\n\tyear = {2003},\n\tmonth = {jul 28},\n\tnote = {Inline referece: OpenGL ES 1},\n\tpages = {172},\n\tinstitution = {Khronos Group},\n\ttitle = {OpenGL {ES} {Specification}. {Version} 1.0},\n}\n\n"
 ---

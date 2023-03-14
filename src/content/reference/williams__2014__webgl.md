@@ -27,9 +27,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="williams__2014__webgl" class="csl-entry">Williams, M. 2014 <i>WebGL hotshot: create interactive 3D content for web pages and mobile devices</i>. Birmingham Mumbai: Packt Publishing (Community experience distilled).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="williams__2014__webgl" class="csl-entry">Williams, M. 2014. <i>WebGL hotshot: create interactive 3D content for web pages and mobile devices</i>. Packt Publishing.</span>
+    </span>
   citation: Williams, 2014
 bibTex: "@book{williams__2014__webgl,\n\taddress = {Birmingham Mumbai},\n\tauthor = {Williams, Mitch},\n\tseries = {Community experience distilled},\n\tyear = {2014},\n\tpublisher = {Packt Publishing},\n\ttitle = {WebGL hotshot: create interactive 3D content for web pages and mobile devices},\n}\n\n"
 ---

@@ -18,29 +18,32 @@ cslItem:
     advice you need to succeed on the job, from a source you trust. Packed with
     how-to essentials from leading experts, the HBR Guides provide smart answers
     to your most pressing work challenges.
-  author:
-    - family: Review
-      given: Harvard Business
   citation-key: review__2020__hbr
   collection-title: Harvard Business Press
+  editor:
+    - family: Review
+      given: Harvard Business
   issued:
     date-parts:
       - - 2020
         - 2
         - 11
-  keyword: "#nosource;__strategy2030:strategic-planning"
+  keyword: >-
+    __strategy2030:strategic-planning;#nosource;collection::strategy::management-theory
   language: English
   publisher: Harvard Business Press
   title: HBR Guide to Managing Strategic Initiatives
   type: book
 tags:
-  - "#nosource"
   - __strategy2030:strategic-planning
+  - "#nosource"
+  - issue:strategy
+  - topic:strategy/management-theory
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="review__2020__hbr" class="csl-entry">Review, H.B. 2020 <i>HBR Guide to Managing Strategic Initiatives</i>. Harvard Business Press (Harvard Business Press).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="review__2020__hbr" class="csl-entry">Review, H. B. Ed.. (2020). <i>HBR Guide to Managing Strategic Initiatives</i>. Harvard Business Press.</span>
+    </span>
   citation: Review, 2020
-bibTex: "@book{review__2020__hbr,\n\tauthor = {Review, Harvard Business},\n\tseries = {Harvard {Business} {Press}},\n\tyear = {2020},\n\tmonth = {feb 11},\n\tpublisher = {Harvard Business Press},\n\ttitle = {HBR {Guide} to {Managing} {Strategic} {Initiatives}},\n}\n\n"
+bibTex: "@book{review__2020__hbr,\n\tseries = {Harvard {Business} {Press}},\n\teditor = {Review, Harvard Business},\n\tyear = {2020},\n\tmonth = {feb 11},\n\tpublisher = {Harvard Business Press},\n\ttitle = {HBR {Guide} to {Managing} {Strategic} {Initiatives}},\n}\n\n"
 ---

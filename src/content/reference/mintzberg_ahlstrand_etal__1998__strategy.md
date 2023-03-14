@@ -29,9 +29,9 @@ tags:
   - topic:strategy/management-theory
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="mintzberg_ahlstrand_etal__1998__strategy" class="csl-entry">Mintzberg, H., Ahlstrand, B.W. and Lampel, J. 1998 <i>Strategy safari: a guided tour through the wilds of strategic management</i>. New York: Free Press.</div>
-    </div>
-  citation: Mintzberg, Ahlstrand and Lampel, 1998
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="mintzberg_ahlstrand_etal__1998__strategy" class="csl-entry">Mintzberg, H., Ahlstrand, B. W., &#38; Lampel, J. 1998. <i>Strategy safari: a guided tour through the wilds of strategic management</i>. Free Press.</span>
+    </span>
+  citation: Mintzberg et al., 1998
 bibTex: "@book{mintzberg_ahlstrand_etal__1998__strategy,\n\taddress = {New York},\n\tauthor = {Mintzberg, Henry and Ahlstrand, Bruce W. and Lampel, Joseph},\n\tyear = {1998},\n\tpublisher = {Free Press},\n\ttitle = {Strategy safari: a guided tour through the wilds of strategic management},\n}\n\n"
 ---

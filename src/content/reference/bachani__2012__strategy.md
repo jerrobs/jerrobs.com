@@ -42,9 +42,9 @@ tags:
   - topic:strategy/esuo
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="bachani__2012__strategy" class="csl-entry">Bachani, J. 2012 <i>Strategy Making in Nonprofit Organizations</i>.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="bachani__2012__strategy" class="csl-entry">Bachani, J. 2012. <i>Strategy Making in Nonprofit Organizations</i>.</span>
+    </span>
   citation: Bachani, 2012
 bibTex: "@book{bachani__2012__strategy,\n\tauthor = {Bachani, Jyoti},\n\tyear = {2012},\n\tmonth = {dec 10},\n\ttitle = {Strategy {Making} in {Nonprofit} {Organizations}},\n}\n\n"
 ---

@@ -37,9 +37,9 @@ tags:
   - topic:space/case_for_space
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="mirault_snell_etal__2019__reading" class="csl-entry">Mirault, J., Snell, J. and Grainger, J. 2019 “Reading without spaces: The role of precise letter order,” <i>Attention, Perception, &#38; Psychophysics</i>, 81(3), pp. 846–860. doi:10/gm3hh7.</div>
-    </div>
-  citation: Mirault, Snell and Grainger, 2019
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="mirault_snell_etal__2019__reading" class="csl-entry">Mirault, J., Snell, J., &#38; Grainger, J. 2019. Reading without spaces: The role of precise letter order. <i>Attention, Perception, &#38; Psychophysics</i>, <i>81</i>(3), 846–860. <a href='https://doi.org/10/gm3hh7'>https://doi.org/10/gm3hh7</a></span>
+    </span>
+  citation: Mirault et al., 2019
 bibTex: "@article{mirault_snell_etal__2019__reading,\n\tnote = {[Online; accessed 2021-02-04]},\n\tauthor = {Mirault, Jonathan and Snell, Joshua and Grainger, Jonathan},\n\tjournal = {Attention, Perception, & Psychophysics},\n\tnumber = {3},\n\tyear = {2019},\n\tmonth = {4},\n\tpages = {846--860},\n\ttitle = {Reading without spaces: The role of precise letter order},\n\thowpublished = {http://link.springer.com/10.3758/s13414-018-01648-6},\n\tvolume = {81},\n}\n\n"
 ---

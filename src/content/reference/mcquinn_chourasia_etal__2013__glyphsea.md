@@ -47,9 +47,9 @@ tags:
   - topic:pathicles/educational_visualization
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="mcquinn_chourasia_etal__2013__glyphsea" class="csl-entry">McQuinn, E. <i>et al.</i> 2013 “GlyphSea: Visualizing Vector Fields,” in Wong, P.C. et al. (eds.). <i>IS&#38;T/SPIE Electronic Imaging</i>, San Francisco, California, USA, p. 90170L. doi:10.1117/12.2041248.</div>
-    </div>
-  citation: McQuinn <i>et al.</i>, 2013
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="mcquinn_chourasia_etal__2013__glyphsea" class="csl-entry">McQuinn, E., Chourasia, A., Schulze, J. P., &#38; Minster, J.-B. 2013. <i>GlyphSea: Visualizing Vector Fields</i> (P. C. Wong, D. L. Kao, M. C. Hao, &#38; C. Chen, Eds.; p. 90170L). <a href='https://doi.org/10.1117/12.2041248'>https://doi.org/10.1117/12.2041248</a></span>
+    </span>
+  citation: McQuinn et al., 2013
 bibTex: "@inproceedings{mcquinn_chourasia_etal__2013__glyphsea,\n\tnote = {[Online; accessed 2020-11-02]},\n\taddress = {San Francisco, California, USA},\n\tauthor = {McQuinn, Emmett and Chourasia, Amit and Schulze, J{\\\" u}rgen P. and Minster, Jean-Bernard},\n\teditor = {Wong, Pak Chung and Kao, David L. and Hao, Ming C. and Chen, Chaomei},\n\tyear = {2013},\n\tmonth = {dec 23},\n\tpages = {90170L},\n\ttitle = {GlyphSea: Visualizing {Vector} {Fields}},\n\thowpublished = {10.1117/12.2041248},\n}\n\n"
 ---

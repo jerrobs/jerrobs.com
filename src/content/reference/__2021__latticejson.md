@@ -35,9 +35,11 @@ tags:
   - topic:pathicles/codes
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="__2021__latticejson" class="csl-entry"><i>LatticeJSON</i> 2021. NoBeam. Available at: <a href='https://github.com/nobeam/latticejson'>https://github.com/nobeam/latticejson</a> (Accessed: October 13, 2021).</div>
-    </div>
-  citation: <i>LatticeJSON</i>, 2021
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="__2021__latticejson" class="csl-entry"><i>LatticeJSON</i>. 2021. [Python]. NoBeam. <a href='https://github.com/nobeam/latticejson'>https://github.com/nobeam/latticejson</a> (Original work published 2019-11-08T02:43:49Z; https://web.archive.org/web/20201016133905/https://github.com/nobeam/latticejson)</span>
+    </span>
+  citation: >-
+    <i>LatticeJSON</i>, 2019-11-08T02:43:49Z;
+    https://web.archive.org/web/20201016133905/https://github.com/nobeam/latticejson/2021
 bibTex: "@misc{__2021__latticejson,\n\tnote = {[Online; accessed 2021-10-13]},\n\tyear = {2021},\n\tmonth = {jul 9},\n\tpublisher = {NoBeam},\n\ttitle = {LatticeJSON},\n\ttype = {Python},\n}\n\n"
 ---

@@ -21,9 +21,9 @@ tags:
   - topic:pathicles/codes
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="demaria_iadarola__2021__xsuite" class="csl-entry">De Maria, E. and Iadarola, G. 2021 “Xsuite code.” <i>FCC-ee Software Framework meeting</i>, 30 September.</div>
-    </div>
-  citation: De Maria and Iadarola, 2021
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="demaria_iadarola__2021__xsuite" class="csl-entry">De Maria, E., &#38; Iadarola, G. 2021, September 30. <i>Xsuite code</i>. FCC-ee Software Framework meeting.</span>
+    </span>
+  citation: De Maria &#38; Iadarola, 2021
 bibTex: "@misc{demaria_iadarola__2021__xsuite,\n\tauthor = {De Maria, E and Iadarola, G.},\n\tyear = {2021},\n\tmonth = {sep 30},\n\ttitle = {Xsuite code},\n}\n\n"
 ---

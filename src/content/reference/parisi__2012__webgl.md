@@ -27,9 +27,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="parisi__2012__webgl" class="csl-entry">Parisi, T. 2012 <i>WebGL: up and running</i>. 1st ed. Sebastopol, Calif: O’Reilly.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="parisi__2012__webgl" class="csl-entry">Parisi, T. 2012. <i>WebGL: up and running</i> (1st ed). O’Reilly.</span>
+    </span>
   citation: Parisi, 2012
 bibTex: "@book{parisi__2012__webgl,\n\taddress = {Sebastopol, Calif},\n\tauthor = {Parisi, Tony},\n\tedition = {1st ed},\n\tyear = {2012},\n\tnote = {OCLC: ocn809911501},\n\tpublisher = {O'Reilly},\n\ttitle = {WebGL: up and running},\n}\n\n"
 ---

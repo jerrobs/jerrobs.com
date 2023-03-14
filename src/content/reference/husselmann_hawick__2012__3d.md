@@ -46,9 +46,9 @@ tags:
   - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="husselmann_hawick__2012__3d" class="csl-entry">Husselmann, A.V. and Hawick, K.A. 2012 “3D Vector-Field Data Processing and Visualisation on Graphical Processing Units,” in <i>Signal and Image Processing</i>. <i>Signal and Image Processing</i>, Honolulu, USA: ACTAPRESS. doi:10.2316/P.2012.786-084.</div>
-    </div>
-  citation: Husselmann and Hawick, 2012
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="husselmann_hawick__2012__3d" class="csl-entry">Husselmann, A. V., &#38; Hawick, K. A. 2012. 3D Vector-Field Data Processing and Visualisation on Graphical Processing Units. <i>Signal and Image Processing</i>. Signal and Image Processing, Honolulu, USA. <a href='https://doi.org/10.2316/P.2012.786-084'>https://doi.org/10.2316/P.2012.786-084</a></span>
+    </span>
+  citation: Husselmann &#38; Hawick, 2012
 bibTex: "@inproceedings{husselmann_hawick__2012__3d,\n\tnote = {[Online; accessed 2020-11-02]},\n\taddress = {Honolulu, USA},\n\tauthor = {Husselmann, Alwyn V. and Hawick, Ken A.},\n\tbooktitle = {Signal and {Image} {Processing}},\n\tyear = {2012},\n\torganization = {ACTAPRESS},\n\ttitle = {3D {Vector}-{Field} {Data} {Processing} and {Visualisation} on {Graphical} {Processing} {Units}},\n}\n\n"
 ---

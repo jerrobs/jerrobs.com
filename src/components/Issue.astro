@@ -9,7 +9,7 @@ export interface Props {
   issue: CollectionEntry<"issue">
 }
 const { issue } = Astro.props
-const { title, description, subtitle } = issue.data
+const { title, description, subtitle, bibliographyTopics } = issue.data
 
 const articles = await Promise.all(
   issue.data.articles.map(
@@ -21,24 +21,36 @@ const articles = await Promise.all(
   )
 )
 const { Content } = await issue.render()
+
+
 ---
 
 <article id="issue" role="article">
   <h1
-    class="issue-title body-xl italic bold uppercase"
+    class="issue-title body-xxl italic bold uppercase"
     set:html={renderInline(title)}
   />
   <p
-    class="issue-subtitle body-lg italic uppercase"
+    class="issue-subtitle body-xl italic uppercase"
     set:html={renderInline(subtitle)}
   />
   <p class="issue-abstract body-md bold" set:html={renderInline(description)} />
 
-  <ul class="issue__articles">
-    {articles.map(article => <ArticlePreview article={article} />)}
-  </ul>
-
-  <BibList tag={"issue:" + issue.slug} />
-
   <Content />
+
+  <section class="md">
+    <h2 class="md">Articles</h2>
+    <ul class="issue__articles">
+      {articles.map(article => <ArticlePreview article={article} />)}
+    </ul>
+  </section>
+
+  <section class="md">
+    <h2 class="md">Bibliography</h2>
+    {
+      bibliographyTopics?.map(topic => (
+        <BibList tag={topic.tag} title={topic.title} />
+      ))
+    }
+  </section>
 </article>

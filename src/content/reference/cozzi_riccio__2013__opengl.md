@@ -32,9 +32,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="cozzi_riccio__2013__opengl" class="csl-entry">Cozzi, P. and Riccio, C. 2013 <i>OpenGL insights</i>. Boca Raton, Fla.: CRC Press. Available at: <a href='https://www.taylorfrancis.com/books/e/9781439893777'>https://www.taylorfrancis.com/books/e/9781439893777</a> (Accessed: January 11, 2021).</div>
-    </div>
-  citation: Cozzi and Riccio, 2013
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="cozzi_riccio__2013__opengl" class="csl-entry">Cozzi, P., &#38; Riccio, C. 2013. <i>OpenGL insights</i>. CRC Press. <a href='https://www.taylorfrancis.com/books/e/9781439893777'>https://www.taylorfrancis.com/books/e/9781439893777</a></span>
+    </span>
+  citation: Cozzi &#38; Riccio, 2013
 bibTex: "@book{cozzi_riccio__2013__opengl,\n\taddress = {Boca Raton, Fla.},\n\tauthor = {Cozzi, Patrick and Riccio, Christophe},\n\tyear = {2013},\n\tnote = {OCLC: 1086564280},\n\tpublisher = {CRC Press},\n\ttitle = {OpenGL insights},\n}\n\n"
 ---

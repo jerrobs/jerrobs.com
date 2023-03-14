@@ -45,9 +45,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="eisemann_schwarz_etal__2016__realtime" class="csl-entry">Eisemann, E. <i>et al.</i> 2016 <i>Real-Time Shadows</i>. CRC Press (CRC Press).</div>
-    </div>
-  citation: Eisemann <i>et al.</i>, 2016
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="eisemann_schwarz_etal__2016__realtime" class="csl-entry">Eisemann, E., Schwarz, M., Assarsson, U., &#38; Wimmer, M. 2016. <i>Real-Time Shadows</i>. CRC Press.</span>
+    </span>
+  citation: Eisemann et al., 2016
 bibTex: "@book{eisemann_schwarz_etal__2016__realtime,\n\tauthor = {Eisemann, Elmar and Schwarz, Michael and Assarsson, Ulf and Wimmer, Michael},\n\tseries = {CRC {Press}},\n\tyear = {2016},\n\tmonth = {apr 19},\n\tpublisher = {CRC Press},\n\ttitle = {Real-{Time} {Shadows}},\n}\n\n"
 ---

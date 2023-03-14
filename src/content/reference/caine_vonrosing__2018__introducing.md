@@ -59,9 +59,9 @@ tags:
   - topic:strategy/ontology
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="caine_vonrosing__2018__introducing" class="csl-entry">Caine, J. and von Rosing, M. 2018 “Introducing the Strategy Lifecycle: Using Ontology and Semiotics to Interlink Strategy Design to Strategy Execution,” in Liu, K. et al. (eds.) <i>Digitalisation, Innovation, and Transformation</i>. Cham: Springer International Publishing, pp. 136–144. doi:10.1007/978-3-319-94541-5_14.</div>
-    </div>
-  citation: Caine and von Rosing, 2018
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="caine_vonrosing__2018__introducing" class="csl-entry">Caine, J., &#38; von Rosing, M. 2018. Introducing the Strategy Lifecycle: Using Ontology and Semiotics to Interlink Strategy Design to Strategy Execution. In K. Liu, K. Nakata, W. Li, &#38; C. Baranauskas (Eds.), <i>Digitalisation, Innovation, and Transformation</i> (Vol. 527, pp. 136–144). Springer International Publishing. <a href='https://doi.org/10.1007/978-3-319-94541-5_14'>https://doi.org/10.1007/978-3-319-94541-5_14</a></span>
+    </span>
+  citation: Caine &#38; von Rosing, 2018
 bibTex: "@inbook{caine_vonrosing__2018__introducing,\n\tnote = {[Online; accessed 2021-07-13]},\n\taddress = {Cham},\n\tauthor = {Caine, Jamie and von Rosing, Mark},\n\tbooktitle = {Digitalisation, {Innovation}, and {Transformation}},\n\teditor = {Liu, Kecheng and Nakata, Keiichi and Li, Weizi and Baranauskas, Cecilia},\n\tyear = {2018},\n\tpages = {136--144},\n\tpublisher = {Springer International Publishing},\n\ttitle = {Introducing the {Strategy} {Lifecycle}: Using {Ontology} and {Semiotics} to {Interlink} {Strategy} {Design} to {Strategy} {Execution}},\n\tvolume = {527},\n}\n\n"
 ---

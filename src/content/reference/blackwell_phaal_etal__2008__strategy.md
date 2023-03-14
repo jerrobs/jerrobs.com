@@ -29,9 +29,9 @@ tags:
   - topic:strategy/roadmapping
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="blackwell_phaal_etal__2008__strategy" class="csl-entry">Blackwell, A. <i>et al.</i> 2008 “Strategy Roadmaps: New Forms, New Practices,” in, pp. 127–140. doi:10.1007/978-3-540-87730-1_14.</div>
-    </div>
-  citation: Blackwell <i>et al.</i>, 2008
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="blackwell_phaal_etal__2008__strategy" class="csl-entry">Blackwell, A., Phaal, R., Eppler, M., &#38; Crilly, N. 2008. <i>Strategy Roadmaps: New Forms, New Practices</i>. <i>5223</i>, 127–140. <a href='https://doi.org/10.1007/978-3-540-87730-1_14'>https://doi.org/10.1007/978-3-540-87730-1_14</a></span>
+    </span>
+  citation: Blackwell et al., 2008
 bibTex: "@inproceedings{blackwell_phaal_etal__2008__strategy,\n\tauthor = {Blackwell, Alan and Phaal, Robert and Eppler, Martin and Crilly, Nathan},\n\tyear = {2008},\n\tmonth = {9},\n\tpages = {127--140},\n\ttitle = {Strategy {Roadmaps}: New {Forms}, {New} {Practices}},\n\thowpublished = {10.1007/978-3-540-87730-1\\textunderscore{}14},\n\tvolume = {5223},\n}\n\n"
 ---

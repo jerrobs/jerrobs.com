@@ -22,9 +22,9 @@ tags:
   - topic:pathicles/numerical_integrators
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="wolski__2013__samm" class="csl-entry">Wolski, A. 2013 <i>SAMM: Simple Accelerator Modelling in Matlab</i>.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="wolski__2013__samm" class="csl-entry">Wolski, A. 2013. <i>SAMM: Simple Accelerator Modelling in Matlab</i>.</span>
+    </span>
   citation: Wolski, 2013
 bibTex: "@misc{wolski__2013__samm,\n\tauthor = {Wolski, A},\n\tyear = {2013},\n\ttitle = {SAMM: Simple {Accelerator} {Modelling} in {Matlab}},\n}\n\n"
 ---

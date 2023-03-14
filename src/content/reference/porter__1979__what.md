@@ -25,9 +25,9 @@ tags:
   - topic:strategy/management-theory
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="porter__1979__what" class="csl-entry">Porter, M.E. 1979 “What is strategy?,” <i>Harvard Business Review</i>, pp. 61–79. Available at: <a href='https://learning.oreilly.com/library/view/hbrs-10-must/9781422172056/.'>https://learning.oreilly.com/library/view/hbrs-10-must/9781422172056/.</a></div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="porter__1979__what" class="csl-entry">Porter, M. E. 1979. What is strategy? <i>Harvard Business Review</i>, <i>74</i>, 61–79. <a href='https://learning.oreilly.com/library/view/hbrs-10-must/9781422172056/'>https://learning.oreilly.com/library/view/hbrs-10-must/9781422172056/</a></span>
+    </span>
   citation: Porter, 1979
 bibTex: "@article{porter__1979__what,\n\tauthor = {Porter, M.E.},\n\tjournal = {Harvard Business Review},\n\tyear = {1979},\n\tnote = {https://www.academia.edu/16509196/M\\textunderscore{}Porter\\textunderscore{}What\\textunderscore{}is\\textunderscore{}Strategy},\n\tpages = {61--79},\n\ttitle = {What is strategy?},\n\thowpublished = {https://learning.oreilly.com/library/view/hbrs-10-must/9781422172056/},\n\tvolume = {74},\n}\n\n"
 ---

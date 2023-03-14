@@ -22,9 +22,9 @@ tags:
   - topic:space/introduction
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="warde__1955__crystal" class="csl-entry">Warde, B. 1955 <i>The crystal goblet. Sixteen essays on typography</i>. London: Sylvan Press.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="warde__1955__crystal" class="csl-entry">Warde, B. 1955. <i>The crystal goblet. Sixteen essays on typography</i>. Sylvan Press.</span>
+    </span>
   citation: Warde, 1955
 bibTex: "@book{warde__1955__crystal,\n\taddress = {London},\n\tauthor = {Warde, Beatrice},\n\tyear = {1955},\n\tpublisher = {Sylvan Press},\n\ttitle = {The crystal goblet. {Sixteen} essays on typography},\n}\n\n"
 ---

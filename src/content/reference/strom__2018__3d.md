@@ -53,9 +53,9 @@ tags:
   - topic:pathicles/game_development
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="strom__2018__3d" class="csl-entry">Strom, C. 2018 <i>3D game programming for kids: create interactive worlds with JavaScript</i>. Second edition. Raleigh, North Carolina: The Pragmatic Bookshelf (The Pragmatic Programmers).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="strom__2018__3d" class="csl-entry">Strom, C. 2018. <i>3D game programming for kids: create interactive worlds with JavaScript</i> (Second edition). The Pragmatic Bookshelf.</span>
+    </span>
   citation: Strom, 2018
 bibTex: "@book{strom__2018__3d,\n\taddress = {Raleigh, North Carolina},\n\tauthor = {Strom, Chris},\n\tseries = {The {Pragmatic} {Programmers}},\n\tedition = {Second edition},\n\tyear = {2018},\n\tnote = {OCLC: on1002672786},\n\tpublisher = {The Pragmatic Bookshelf},\n\ttitle = {3D game programming for kids: create interactive worlds with {JavaScript}},\n}\n\n"
 ---

@@ -23,9 +23,9 @@ tags:
   - topic:pathicles/codes
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="psi__2016__opal" class="csl-entry">PSI 2016 <i>OPAL</i>. Available at: <a href='https://gitlab.psi.ch/OPAL.'>https://gitlab.psi.ch/OPAL.</a></div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="psi__2016__opal" class="csl-entry">PSI. 2016. <i>OPAL</i> [En]. <a href='https://gitlab.psi.ch/OPAL'>https://gitlab.psi.ch/OPAL</a></span>
+    </span>
   citation: PSI, 2016
 bibTex: "@misc{psi__2016__opal,\n\tauthor = {{PSI}},\n\tyear = {2016},\n\ttitle = {OPAL},\n\ttype = {en},\n\thowpublished = {https://gitlab.psi.ch/OPAL},\n}\n\n"
 ---

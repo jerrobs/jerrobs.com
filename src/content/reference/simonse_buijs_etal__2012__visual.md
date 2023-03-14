@@ -93,9 +93,9 @@ tags:
   - topic:strategy/roadmapping
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="simonse_buijs_etal__2012__visual" class="csl-entry">Simonse, L., Buijs, J. and Hultink, E. 2012 “Visual portrays of roadmaps,” in. <i>28th EGOS Colloquium 2012, Helsinki</i>, Helsinki.</div>
-    </div>
-  citation: Simonse, Buijs and Hultink, 2012
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="simonse_buijs_etal__2012__visual" class="csl-entry">Simonse, L., Buijs, J., &#38; Hultink, E. 2012, July 6. <i>Visual portrays of roadmaps</i>. 28th EGOS Colloquium 2012, Helsinki, Helsinki.</span>
+    </span>
+  citation: Simonse et al., 2012
 bibTex: "@inproceedings{simonse_buijs_etal__2012__visual,\n\taddress = {Helsinki},\n\tauthor = {Simonse, Lianne and Buijs, Jan and Hultink, Erik},\n\tyear = {2012},\n\tmonth = {jul 6},\n\ttitle = {Visual portrays of roadmaps},\n}\n\n"
 ---

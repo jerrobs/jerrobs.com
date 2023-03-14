@@ -46,9 +46,9 @@ tags:
   - topic:pathicles/numerical_integrators
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="vay__2008__simulation" class="csl-entry">Vay, J.-L. 2008 “Simulation of beams or plasmas crossing at relativistic velocity,” <i>Physics of Plasmas</i>, 15(5), p. 056701. doi:10.1063/1.2837054.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="vay__2008__simulation" class="csl-entry">Vay, J.-L. 2008. Simulation of beams or plasmas crossing at relativistic velocity. <i>Physics of Plasmas</i>, <i>15</i>(5), 056701. <a href='https://doi.org/10.1063/1.2837054'>https://doi.org/10.1063/1.2837054</a></span>
+    </span>
   citation: Vay, 2008
 bibTex: "@article{vay__2008__simulation,\n\tnote = {[Online; accessed 2021-04-07]},\n\tauthor = {Vay, J.-L.},\n\tjournal = {Physics of Plasmas},\n\tnumber = {5},\n\tyear = {2008},\n\tmonth = {5},\n\tpages = {056701},\n\ttitle = {Simulation of beams or plasmas crossing at relativistic velocity},\n\thowpublished = {http://aip.scitation.org/doi/10.1063/1.2837054},\n\tvolume = {15},\n}\n\n"
 ---

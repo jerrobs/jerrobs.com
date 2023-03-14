@@ -60,9 +60,9 @@ tags:
   - topic:jerrobs/referencing
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="americanpsychologicalassociation__2019__publication" class="csl-entry">American Psychological Association 2019 <i>Publication manual of the American psychological association</i>. Seventh edition. Washington: American Psychological Association.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="americanpsychologicalassociation__2019__publication" class="csl-entry">American Psychological Association. 2019. <i>Publication manual of the American psychological association</i> (Seventh edition). American Psychological Association.</span>
+    </span>
   citation: American Psychological Association, 2019
 bibTex: "@book{americanpsychologicalassociation__2019__publication,\n\taddress = {Washington},\n\tauthor = {{American Psychological Association}},\n\tedition = {Seventh edition},\n\tyear = {2019},\n\tpublisher = {American Psychological Association},\n\ttitle = {Publication manual of the {American} psychological association},\n}\n\n"
 ---

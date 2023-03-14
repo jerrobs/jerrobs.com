@@ -26,8 +26,7 @@ cslItem:
       - - 2008
         - 1
         - 1
-  keyword: >-
-    #nosource;__strategy2030:strategic-planning;collection::strategy::definitions
+  keyword: "#nosource;__strategy2030:strategic-planning;collection::strategy::planning"
   language: english
   publisher: Pearson Education
   title: Exploring Corporate Strategy
@@ -36,12 +35,12 @@ tags:
   - "#nosource"
   - __strategy2030:strategic-planning
   - issue:strategy
-  - topic:strategy/definitions
+  - topic:strategy/planning
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="johnson_scholes_etal__2008__exploring" class="csl-entry">Johnson, G., Scholes, K. and Whittington, R. 2008 <i>Exploring Corporate Strategy</i>. Pearson Education (Pearson Education).</div>
-    </div>
-  citation: Johnson, Scholes and Whittington, 2008
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="johnson_scholes_etal__2008__exploring" class="csl-entry">Johnson, G., Scholes, K., &#38; Whittington, R. 2008. <i>Exploring Corporate Strategy</i>. Pearson Education.</span>
+    </span>
+  citation: Johnson et al., 2008
 bibTex: "@book{johnson_scholes_etal__2008__exploring,\n\tauthor = {Johnson, Gerry and Scholes, Kevan and Whittington, Richard},\n\tseries = {Pearson {Education}},\n\tyear = {2008},\n\tmonth = {jan 1},\n\tpublisher = {Pearson Education},\n\ttitle = {Exploring {Corporate} {Strategy}},\n}\n\n"
 ---

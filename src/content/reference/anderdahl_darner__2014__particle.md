@@ -42,9 +42,9 @@ tags:
   - topic:pathicles/numerical_integrators
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="anderdahl_darner__2014__particle" class="csl-entry">Anderdahl, J. and Darner, A. 2014 <i>Particle systems using 3D vector fields with OpenGL compute shaders</i>. Bachelor Theses. Blekinge Institute of Technology.</div>
-    </div>
-  citation: Anderdahl and Darner, 2014
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="anderdahl_darner__2014__particle" class="csl-entry">Anderdahl, J., &#38; Darner, A. 2014. <i>Particle systems using 3D vector fields with OpenGL compute shaders</i> [Bachelor Theses]. Blekinge Institute of Technology.</span>
+    </span>
+  citation: Anderdahl &#38; Darner, 2014
 bibTex: "@misc{anderdahl_darner__2014__particle,\n\taddress = {Karlskrona},\n\tauthor = {Anderdahl, Johan and Darner, Alice},\n\tyear = {2014},\n\tschool = {Blekinge Institute of Technology},\n\ttitle = {Particle systems using 3D vector fields with {OpenGL} compute shaders},\n\ttype = {Bachelor {Theses}},\n}\n\n"
 ---

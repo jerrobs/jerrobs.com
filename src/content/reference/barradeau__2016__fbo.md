@@ -28,9 +28,9 @@ tags:
   - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="barradeau__2016__fbo" class="csl-entry">Barradeau, N. 2016 “FBO particles,” <i>barradeau.com/Youpi</i>, 11 January. Available at: <a href='http://barradeau.com/blog/?p=621'>http://barradeau.com/blog/?p=621</a> (Accessed: November 19, 2020).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="barradeau__2016__fbo" class="csl-entry">Barradeau, N. 2016, January 11. FBO particles. <i>Barradeau.Com/Youpi</i>. <a href='http://barradeau.com/blog/?p=621'>http://barradeau.com/blog/?p=621</a></span>
+    </span>
   citation: Barradeau, 2016
 bibTex: "@misc{barradeau__2016__fbo,\n\tnote = {[Online; accessed 2020-11-19]},\n\tauthor = {Barradeau, Nicolas},\n\tyear = {2016},\n\tmonth = {jan 11},\n\ttitle = {FBO particles},\n\thowpublished = {http://barradeau.com/blog/?p=621},\n}\n\n"
 ---

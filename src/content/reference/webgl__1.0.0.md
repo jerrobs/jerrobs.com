@@ -27,9 +27,9 @@ tags:
   - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="webgl__1.0.0" class="csl-entry">Khronos Group 2011 <i>WebGL Specification. Version 1.0</i>. Khronos Group. Available at: <a href='https://www.khronos.org/registry/webgl/specs/1.0.0/'>https://www.khronos.org/registry/webgl/specs/1.0.0/</a> (Accessed: April 13, 2020).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="webgl__1.0.0" class="csl-entry">Khronos Group. 2011. <i>WebGL Specification. Version 1.0</i>. Khronos Group. <a href='https://www.khronos.org/registry/webgl/specs/1.0.0/'>https://www.khronos.org/registry/webgl/specs/1.0.0/</a></span>
+    </span>
   citation: Khronos Group, 2011
 bibTex: "@techreport{Khronos2011WebGL,\n\tauthor = {{Khronos Group}},\n\tyear = {2011},\n\tmonth = {feb 10},\n\tnote = {Inline referece: WebGL1},\n\tinstitution = {Khronos Group},\n\ttitle = {WebGL {Specification}. {Version} 1.0},\n}\n\n"
 ---

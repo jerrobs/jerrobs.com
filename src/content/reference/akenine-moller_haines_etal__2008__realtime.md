@@ -42,9 +42,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="akenine-moller_haines_etal__2008__realtime" class="csl-entry">Akenine-Möller, T. <i>et al.</i> 2008 <i>Real-Time Rendering, Third Edition, 3rd Edition</i>. Available at: <a href='https://www.safaribooksonline.com/library/view//9781439865293/?ar'>https://www.safaribooksonline.com/library/view//9781439865293/?ar</a> (Accessed: January 11, 2021).</div>
-    </div>
-  citation: Akenine-Möller <i>et al.</i>, 2008
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="akenine-moller_haines_etal__2008__realtime" class="csl-entry">Akenine-Möller, T., Haines, E., Hoffman, N., &#38; Safari,  an O. M. C. 2008. <i>Real-Time Rendering, Third Edition, 3rd Edition</i>. <a href='https://www.safaribooksonline.com/library/view//9781439865293/?ar'>https://www.safaribooksonline.com/library/view//9781439865293/?ar</a></span>
+    </span>
+  citation: Akenine-Möller et al., 2008
 bibTex: "@book{Akenine2008Real,\n\tauthor = {Akenine-M{\\\" o}ller, Tomas and Haines, Eric and Hoffman, Naty and Safari, an O'Reilly Media Company},\n\tyear = {2008},\n\tnote = {OCLC: 1099553954},\n\ttitle = {Real-{Time} {Rendering}, {Third} {Edition}, 3rd {Edition}},\n\thowpublished = {https://www.safaribooksonline.com/library/view//9781439865293/?ar},\n}\n\n"
 ---

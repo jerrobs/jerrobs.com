@@ -28,9 +28,9 @@ tags:
   - topic:strategy/military
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="suntzu__2004__kunst" class="csl-entry">Sun Tzu, W. 2004 <i>Die Kunst des Krieges</i>. Available at: <a href='https://archive.org/details/SunTzuDieKunstDesKrieges.'>https://archive.org/details/SunTzuDieKunstDesKrieges.</a></div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="suntzu__2004__kunst" class="csl-entry">Sun Tzu, W. 2004. <i>Die Kunst des Krieges</i>. <a href='https://archive.org/details/SunTzuDieKunstDesKrieges'>https://archive.org/details/SunTzuDieKunstDesKrieges</a></span>
+    </span>
   citation: Sun Tzu, 2004
 bibTex: "@book{suntzu__2004__kunst,\n\tauthor = {Sun Tzu, Wu},\n\tyear = {2004},\n\tmonth = {jun 18},\n\ttitle = {Die {Kunst} des {Krieges}},\n\thowpublished = {https://archive.org/details/SunTzuDieKunstDesKrieges},\n}\n\n"
 ---

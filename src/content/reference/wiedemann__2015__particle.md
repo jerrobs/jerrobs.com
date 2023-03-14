@@ -51,9 +51,9 @@ tags:
   - topic:pathicles/accelerator_science
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="wiedemann__2015__particle" class="csl-entry">Wiedemann, H. 2015 <i>Particle Accelerator Physics</i>. 4th edition. Edited by H. Wiedemann. Cham: Springer International Publishing (Graduate Texts in Physics). doi:10.1007/978-3-319-18317-6.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="wiedemann__2015__particle" class="csl-entry">Wiedemann, H. 2015. <i>Particle Accelerator Physics</i> (H. Wiedemann, Ed.; 4th edition). Springer International Publishing. <a href='https://doi.org/10.1007/978-3-319-18317-6'>https://doi.org/10.1007/978-3-319-18317-6</a></span>
+    </span>
   citation: Wiedemann, 2015
 bibTex: "@book{wiedemann__2015__particle,\n\tnote = {[Online; accessed 2020-12-15]},\n\taddress = {Cham},\n\tauthor = {Wiedemann, Helmut},\n\tseries = {Graduate {Texts} in {Physics}},\n\tedition = {4th edition},\n\teditor = {Wiedemann, Helmut},\n\tyear = {2015},\n\tpublisher = {Springer International Publishing},\n\ttitle = {Particle {Accelerator} {Physics}},\n}\n\n"
 ---

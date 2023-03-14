@@ -22,9 +22,9 @@ tags:
   - /unread
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="sterbini_latina_etal____transverse" class="csl-entry">Sterbini, G. <i>et al.</i> no date “Transverse Linear Beam Dynamics Primer using Python,” p. 20.</div>
-    </div>
-  citation: Sterbini <i>et al.</i>, no date
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="sterbini_latina_etal____transverse" class="csl-entry">Sterbini, G., Latina, A., Poyet, A., &#38; Ziemann, V. n.d.. <i>Transverse Linear Beam Dynamics Primer using Python</i>. 20.</span>
+    </span>
+  citation: Sterbini et al., n.d.
 bibTex: "@article{sterbini_latina_etal____transverse,\n\tauthor = {Sterbini, G and Latina, A and Poyet, A and Ziemann, V},\n\tpages = {20},\n\ttitle = {Transverse {Linear} {Beam} {Dynamics} {Primer} using {Python}},\n}\n\n"
 ---

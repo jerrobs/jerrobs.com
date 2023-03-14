@@ -31,9 +31,9 @@ tags:
   - topic:space/case_for_space
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="fenton__2006__read" class="csl-entry">Fenton, J. 2006 “Read my lips. James Fenton on silent reading in antiquity,” <i>The Guardian</i>, 29 July. Available at: <a href='http://www.theguardian.com/books/2006/jul/29/featuresreviews.guardianreview27'>http://www.theguardian.com/books/2006/jul/29/featuresreviews.guardianreview27</a> (Accessed: April 25, 2021).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="fenton__2006__read" class="csl-entry">Fenton, J. 2006, July 29. Read my lips. James Fenton on silent reading in antiquity. <i>The Guardian</i>. <a href='http://www.theguardian.com/books/2006/jul/29/featuresreviews.guardianreview27'>http://www.theguardian.com/books/2006/jul/29/featuresreviews.guardianreview27</a></span>
+    </span>
   citation: Fenton, 2006
 bibTex: "@article{fenton__2006__read,\n\tnote = {[Online; accessed 2021-04-25]},\n\tauthor = {Fenton, James},\n\tjournal = {The Guardian},\n\tyear = {2006},\n\tmonth = {jul 29},\n\ttitle = {Read my lips. {James} {Fenton} on silent reading in antiquity},\n\thowpublished = {http://www.theguardian.com/books/2006/jul/29/featuresreviews.guardianreview27},\n}\n\n"
 ---

@@ -61,9 +61,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="wolff__2018__opengl" class="csl-entry">Wolff, D. 2018 <i>OpenGL 4 Shading Language Cookbook</i>. 3rd edition. Packt Publishing Ltd (Packt Publishing Ltd).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="wolff__2018__opengl" class="csl-entry">Wolff, D. 2018. <i>OpenGL 4 Shading Language Cookbook</i> (3rd edition). Packt Publishing Ltd.</span>
+    </span>
   citation: Wolff, 2018
 bibTex: "@book{wolff__2018__opengl,\n\tauthor = {Wolff, David},\n\tseries = {Packt {Publishing} {Ltd}},\n\tedition = {3rd edition},\n\tyear = {2018},\n\tmonth = {sep 28},\n\tpublisher = {Packt Publishing Ltd},\n\ttitle = {OpenGL 4 {Shading} {Language} {Cookbook}},\n}\n\n"
 ---

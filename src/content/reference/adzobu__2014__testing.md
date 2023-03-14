@@ -47,7 +47,7 @@ cslItem:
         - 12
         - 31
   keyword: >-
-    __strategy2030:strategic-planning;__strategy2030:strategic-planning:swot;collection::strategy::definitions
+    __strategy2030:strategic-planning;__strategy2030:strategic-planning:swot;collection::strategy::planning
   language: english
   note: >-
     http://web.archive.org/web/20200117095141/http://koreascience.or.kr/article/JAKO201405458147004.page
@@ -64,12 +64,12 @@ tags:
   - __strategy2030:strategic-planning
   - __strategy2030:strategic-planning:swot
   - issue:strategy
-  - topic:strategy/definitions
+  - topic:strategy/planning
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="adzobu__2014__testing" class="csl-entry">Adzobu, N.Y.A. 2014 “Testing the Andrews Framework of Strategy Formulation and Implementation: Case Study of the University of Cape Coast Digital Library in Ghana,” <i>International Journal of Knowledge Content Development &#38; Technology</i>, 4(2), pp. 49–65. doi:10.5865/IJKCT.2014.4.2.049.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="adzobu__2014__testing" class="csl-entry">Adzobu, N. Y. A. 2014. Testing the Andrews Framework of Strategy Formulation and Implementation: Case Study of the University of Cape Coast Digital Library in Ghana. <i>International Journal of Knowledge Content Development &#38; Technology</i>, <i>4</i>(2), 49–65. <a href='https://doi.org/10.5865/IJKCT.2014.4.2.049'>https://doi.org/10.5865/IJKCT.2014.4.2.049</a></span>
+    </span>
   citation: Adzobu, 2014
 bibTex: "@article{adzobu__2014__testing,\n\tauthor = {Adzobu, Nesba Yaa Anima},\n\tjournal = {International Journal of Knowledge Content Development & Technology},\n\tnumber = {2},\n\tyear = {2014},\n\tmonth = {dec 31},\n\tnote = {http://web.archive.org/web/20200117095141/http://koreascience.or.kr/article/JAKO201405458147004.page},\n\tpages = {49--65},\n\ttitle = {Testing the {Andrews} {Framework} of {Strategy} {Formulation} and {Implementation}: Case {Study} of the {University} of {Cape} {Coast} {Digital} {Library} in {Ghana}},\n\thowpublished = {10.5865/IJKCT.2014.4.2.049},\n\tvolume = {4},\n}\n\n"
 ---

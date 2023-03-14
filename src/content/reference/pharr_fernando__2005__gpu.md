@@ -29,9 +29,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="pharr_fernando__2005__gpu" class="csl-entry">Pharr, M. and Fernando, R. 2005 <i>GPU Gems 2</i>. Addison-Wesley Professional (Addison-Wesley Professional).</div>
-    </div>
-  citation: Pharr and Fernando, 2005
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="pharr_fernando__2005__gpu" class="csl-entry">Pharr, M., &#38; Fernando, R. 2005. <i>GPU Gems 2</i>. Addison-Wesley Professional.</span>
+    </span>
+  citation: Pharr &#38; Fernando, 2005
 bibTex: "@book{pharr_fernando__2005__gpu,\n\tauthor = {Pharr, Matt and Fernando, Randima},\n\tseries = {Addison-{Wesley} {Professional}},\n\tyear = {2005},\n\tpublisher = {Addison-Wesley Professional},\n\ttitle = {GPU {Gems} 2},\n}\n\n"
 ---

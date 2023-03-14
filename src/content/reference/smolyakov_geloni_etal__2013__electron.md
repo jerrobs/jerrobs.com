@@ -28,9 +28,9 @@ tags:
   - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="smolyakov_geloni_etal__2013__electron" class="csl-entry">Smolyakov, N., Geloni, G. and Tomin, S. 2013 “Electron Trajectories in a Three-dimensional Undulator Magnetic Field,” in <i>Proceedings of IPAC, Shanghai, China</i>. <i>IPAC 2013</i> (Proceedings of IPAC, Shanghai, China), p. WEPWA044.</div>
-    </div>
-  citation: Smolyakov, Geloni and Tomin, 2013
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="smolyakov_geloni_etal__2013__electron" class="csl-entry">Smolyakov, N., Geloni, G., &#38; Tomin, S. 2013. Electron Trajectories in a Three-dimensional Undulator Magnetic Field. <i>Proceedings of IPAC, Shanghai, China</i>, WEPWA044.</span>
+    </span>
+  citation: Smolyakov et al., 2013
 bibTex: "@inproceedings{smolyakov_geloni_etal__2013__electron,\n\tauthor = {Smolyakov, Nikolay and Geloni, Gianluca and Tomin, Sergey},\n\tseries = {Proceedings of {IPAC}, {Shanghai}, {China}},\n\tbooktitle = {Proceedings of {IPAC}, {Shanghai}, {China}},\n\tyear = {2013},\n\tpages = {WEPWA044},\n\ttitle = {Electron {Trajectories} in a {Three}-dimensional {Undulator} {Magnetic} {Field}},\n}\n\n"
 ---

@@ -31,9 +31,9 @@ tags:
   - topic:space/space_space
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="houston__2013__shady" class="csl-entry">Houston, K. 2013 <i>Shady characters: The secret life of punctuation, symbols, and other typographical marks</i>. New York, London: W. W. Norton.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="houston__2013__shady" class="csl-entry">Houston, K. 2013. <i>Shady characters: The secret life of punctuation, symbols, and other typographical marks</i>. W. W. Norton.</span>
+    </span>
   citation: Houston, 2013
 bibTex: "@book{houston__2013__shady,\n\taddress = {New York, London},\n\tauthor = {Houston, K},\n\tyear = {2013},\n\tpublisher = {W. W. Norton},\n\ttitle = {Shady characters: The secret life of punctuation, symbols, and other typographical marks},\n}\n\n"
 ---

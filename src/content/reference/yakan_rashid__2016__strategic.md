@@ -45,9 +45,9 @@ tags:
   - topic:strategy/ontology
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="yakan_rashid__2016__strategic" class="csl-entry">Yakan, A.C. and Rashid, A.S.K. 2016 “Strategic Business Ontology Model,” 12(1), p. 20.</div>
-    </div>
-  citation: Yakan and Rashid, 2016
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="yakan_rashid__2016__strategic" class="csl-entry">Yakan, A. C., &#38; Rashid, A. S. K. 2016. <i>Strategic Business Ontology Model</i>. <i>12</i>(1), 20.</span>
+    </span>
+  citation: Yakan &#38; Rashid, 2016
 bibTex: "@article{yakan_rashid__2016__strategic,\n\tauthor = {Yakan, Ammar C and Rashid, Ameer Sardar K},\n\tnumber = {1},\n\tyear = {2016},\n\tpages = {20},\n\ttitle = {Strategic {Business} {Ontology} {Model}},\n\tvolume = {12},\n}\n\n"
 ---

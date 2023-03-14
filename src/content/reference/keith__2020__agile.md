@@ -53,9 +53,9 @@ tags:
   - topic:pathicles/game_development
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="keith__2020__agile" class="csl-entry">Keith, C. 2020 <i>Agile Game Development: Build, Play, Repeat</i>. 2nd Edition. Available at: <a href='https://go.oreilly.com/queensland-university-of-technology/library/view/-/9780136204831/?ar'>https://go.oreilly.com/queensland-university-of-technology/library/view/-/9780136204831/?ar</a> (Accessed: January 11, 2021).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="keith__2020__agile" class="csl-entry">Keith, C. 2020. <i>Agile Game Development: Build, Play, Repeat</i> (2nd Edition). <a href='https://go.oreilly.com/queensland-university-of-technology/library/view/-/9780136204831/?ar'>https://go.oreilly.com/queensland-university-of-technology/library/view/-/9780136204831/?ar</a></span>
+    </span>
   citation: Keith, 2020
 bibTex: "@book{keith__2020__agile,\n\tauthor = {Keith, Clinton},\n\tedition = {2nd Edition},\n\tyear = {2020},\n\tnote = {OCLC: 1162606503},\n\ttitle = {Agile {Game} {Development}: Build, {Play}, {Repeat}},\n\thowpublished = {https://go.oreilly.com/queensland-university-of-technology/library/view/-/9780136204831/?ar},\n}\n\n"
 ---

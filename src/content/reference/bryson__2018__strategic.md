@@ -29,9 +29,9 @@ tags:
   - topic:strategy/esuo
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="bryson__2018__strategic" class="csl-entry">Bryson, J.M. 2018 <i>Strategic Planning for Public and Nonprofit Organizations</i>. John Wiley &#38; Sons (John Wiley &#38; Sons).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="bryson__2018__strategic" class="csl-entry">Bryson, J. M. 2018. <i>Strategic Planning for Public and Nonprofit Organizations</i>. John Wiley &#38; Sons.</span>
+    </span>
   citation: Bryson, 2018
 bibTex: "@book{bryson__2018__strategic,\n\tauthor = {Bryson, John M},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2018},\n\tmonth = {jan 4},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Strategic {Planning} for {Public} and {Nonprofit} {Organizations}},\n}\n\n"
 ---

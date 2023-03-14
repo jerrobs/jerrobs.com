@@ -39,9 +39,9 @@ tags:
   - topic:pathicles/numerical_integrators
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="stoltz_cary_etal__2002__efficiency" class="csl-entry">Stoltz, P.H. <i>et al.</i> 2002 “Efficiency of a Boris-like integration scheme with spatial stepping,” <i>Physical Review Special Topics - Accelerators and Beams</i>, 5(9), p. 094001. doi:10.1103/PhysRevSTAB.5.094001.</div>
-    </div>
-  citation: Stoltz <i>et al.</i>, 2002
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="stoltz_cary_etal__2002__efficiency" class="csl-entry">Stoltz, P. H., Cary, J. R., Penn, G., &#38; Wurtele, J. 2002. Efficiency of a Boris-like integration scheme with spatial stepping. <i>Physical Review Special Topics - Accelerators and Beams</i>, <i>5</i>(9), 094001. <a href='https://doi.org/10.1103/PhysRevSTAB.5.094001'>https://doi.org/10.1103/PhysRevSTAB.5.094001</a></span>
+    </span>
+  citation: Stoltz et al., 2002
 bibTex: "@article{stoltz_cary_etal__2002__efficiency,\n\tnote = {[Online; accessed 2020-12-27]},\n\tauthor = {Stoltz, P. H. and Cary, J. R. and Penn, G. and Wurtele, J.},\n\tjournal = {Physical Review Special Topics - Accelerators and Beams},\n\tnumber = {9},\n\tyear = {2002},\n\tmonth = {sep 6},\n\tpages = {094001},\n\ttitle = {Efficiency of a {Boris}-like integration scheme with spatial stepping},\n\thowpublished = {https://link.aps.org/doi/10.1103/PhysRevSTAB.5.094001},\n\tvolume = {5},\n}\n\n"
 ---

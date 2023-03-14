@@ -43,9 +43,9 @@ tags:
   - topic:strategy/roadmapping
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="ronalds_vatananan_nathasitgerdsri__2012__current" class="csl-entry">Ronald S. Vatananan and Nathasit Gerdsri 2012 “The current state of technology roadmapping (TRM) research and practice,” <i>International Journal of Innovation and Technology Management</i>, 09(04), p. 1250032. doi:10.1142/S0219877012500320.</div>
-    </div>
-  citation: Ronald S. Vatananan and Nathasit Gerdsri, 2012
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="ronalds_vatananan_nathasitgerdsri__2012__current" class="csl-entry">Ronald S. Vatananan &#38; Nathasit Gerdsri. 2012. The current state of technology roadmapping (TRM) research and practice. <i>International Journal of Innovation and Technology Management</i>, <i>09</i>(04), 1250032. <a href='https://doi.org/10.1142/S0219877012500320'>https://doi.org/10.1142/S0219877012500320</a></span>
+    </span>
+  citation: Ronald S. Vatananan &#38; Nathasit Gerdsri, 2012
 bibTex: "@article{ronalds_vatananan_nathasitgerdsri__2012__current,\n\tnote = {[Online; accessed 2020-01-14]},\n\tauthor = {{Ronald S. Vatananan} and {Nathasit Gerdsri}},\n\tjournal = {International Journal of Innovation and Technology Management},\n\tnumber = {04},\n\tyear = {2012},\n\tmonth = {8},\n\tpages = {1250032},\n\ttitle = {The current state of technology roadmapping ({TRM}) research and practice},\n\thowpublished = {https://www.worldscientific.com/doi/abs/10.1142/S0219877012500320},\n\tvolume = {09},\n}\n\n"
 ---

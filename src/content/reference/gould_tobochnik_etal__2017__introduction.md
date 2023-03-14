@@ -41,9 +41,9 @@ tags:
   - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="gould_tobochnik_etal__2017__introduction" class="csl-entry">Gould, H., Tobochnik, J. and Christian, W. 2017 <i>An Introduction to Computer Simulation Methods</i>. Revised 3rd edition. Addison-Wesley (Addison-Wesley). Available at: <a href='https://www.compadre.org/osp/document/ServeFile.cfm?ID=7375.'>https://www.compadre.org/osp/document/ServeFile.cfm?ID=7375.</a></div>
-    </div>
-  citation: Gould, Tobochnik and Christian, 2017
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="gould_tobochnik_etal__2017__introduction" class="csl-entry">Gould, H., Tobochnik, J., &#38; Christian, W. 2017. <i>An Introduction to Computer Simulation Methods</i> (Revised 3rd edition). Addison-Wesley. <a href='https://www.compadre.org/osp/document/ServeFile.cfm?ID=7375'>https://www.compadre.org/osp/document/ServeFile.cfm?ID=7375</a></span>
+    </span>
+  citation: Gould et al., 2017
 bibTex: "@book{gould_tobochnik_etal__2017__introduction,\n\tauthor = {Gould, Harvey and Tobochnik, Jan and Christian, Wolfgang},\n\tseries = {Addison-{Wesley}},\n\tedition = {Revised 3rd edition},\n\tyear = {2017},\n\tpublisher = {Addison-Wesley},\n\ttitle = {An {Introduction} to {Computer} {Simulation} {Methods}},\n}\n\n"
 ---

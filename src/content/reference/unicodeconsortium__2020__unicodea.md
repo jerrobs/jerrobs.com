@@ -29,9 +29,9 @@ tags:
   - topic:space/space_space
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="unicodeconsortium__2020__unicodea" class="csl-entry">Unicode Consortium 2020 <i>The Unicode standard 13.0.0</i>. 13.0.0. Mountain View, CA: Unicode Consortium. Available at: <a href='http://www.unicode.org/versions/Unicode10.0.0/.'>http://www.unicode.org/versions/Unicode10.0.0/.</a></div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="unicodeconsortium__2020__unicodea" class="csl-entry">Unicode Consortium. 2020. <i>The Unicode standard 13.0.0</i> (13.0.0). Unicode Consortium. <a href='http://www.unicode.org/versions/Unicode10.0.0/'>http://www.unicode.org/versions/Unicode10.0.0/</a></span>
+    </span>
   citation: Unicode Consortium, 2020
 bibTex: "@book{unicodeconsortium__2020__unicodea,\n\taddress = {Mountain View, CA},\n\tauthor = {{Unicode Consortium}},\n\tedition = {13.0.0},\n\tyear = {2020},\n\tmonth = {oct 3},\n\tpublisher = {Unicode Consortium},\n\ttitle = {The {Unicode} standard 13.0.0},\n}\n\n"
 ---

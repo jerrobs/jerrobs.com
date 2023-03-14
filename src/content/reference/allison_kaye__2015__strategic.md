@@ -31,9 +31,9 @@ tags:
   - topic:strategy/esuo
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="allison_kaye__2015__strategic" class="csl-entry">Allison, M. and Kaye, J. 2015 <i>Strategic Planning for Nonprofit Organizations</i>. John Wiley &#38; Sons (John Wiley &#38; Sons).</div>
-    </div>
-  citation: Allison and Kaye, 2015
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="allison_kaye__2015__strategic" class="csl-entry">Allison, M., &#38; Kaye, J. 2015. <i>Strategic Planning for Nonprofit Organizations</i>. John Wiley &#38; Sons.</span>
+    </span>
+  citation: Allison &#38; Kaye, 2015
 bibTex: "@book{allison_kaye__2015__strategic,\n\tauthor = {Allison, Michael and Kaye, Jude},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2015},\n\tmonth = {apr 6},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Strategic {Planning} for {Nonprofit} {Organizations}},\n}\n\n"
 ---

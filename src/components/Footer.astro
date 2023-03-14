@@ -11,16 +11,29 @@ export interface Props {
 const { noMarginTop = false } = Astro.props
 ---
 
-<footer class={`${noMarginTop ? "" : "mt-auto"}`}>
-  <Hr noPadding />
-  <div class="footer-wrapper">
-    <Socials centered />
-    <div class="copyright-wrapper">
-      <span>Copyright &#169; {currentYear}</span>
-      <span class="separator">&nbsp;|&nbsp;</span>
-      <span>All rights reserved.</span>
-    </div>
-  </div>
-</footer>
+<div class="footer-wrapper">
+  <p class="copyright-wrapper md">
+    <span>Copyright &#169; {currentYear}</span>
+    <span class="separator">&nbsp;|&nbsp;</span>
+    <span>All rights reserved.</span>
+  </p>
+</div>
 
-<style></style>
+<style lang="stylus">
+  .footer-wrapper {
+    position: relative;
+    margin-top: 2rem;
+    padding 1rem 0;
+    
+  }
+.footer-wrapper:before {
+    content: " "
+    display: block;
+    position absolute
+    top 0
+    background-color black
+    width 100%
+    height: .25rem;
+    
+}
+</style>

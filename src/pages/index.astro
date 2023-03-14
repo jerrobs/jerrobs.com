@@ -11,47 +11,40 @@ const featuredIssues = issues
 ---
 
 <Layout>
-  <Header />
-  <main id="main-content">
-    <div id="masthead">
-      <div class="masthead__title body-xxl">
-        Journal of <strong>Erratic&nbsp;Observations</strong>
-      </div>
-      <div class="masthead__tagline body-lg">
-        observed, written, and peer-reviewed by Dirk Rathje of Hamburg
-      </div>
+  <section id="masthead" class="md">
+    <div class="masthead__title body-xxl uppercase italic">
+      Journal of <strong>Erratic&nbsp;Observations</strong>
     </div>
+    <div class="masthead__tagline body-xl uppercase italic">
+      <strong>observed</strong>, <strong>documented</strong>, and <strong
+        >peer-reviewed</strong
+      > by&nbsp;<strong>Dirk&nbsp;Rathje</strong>&nbsp;in&nbsp;Hamburg
+    </div>
+  </section>
 
-    <!-- <p class="md large">
+  <!-- <p class="md large">
         J.Err.Obs., the Journal of Erratic Observations, publishes mini-reviews,
         experimental and observational studies, theoretical and computational
         analyses, case analyses, case studies and commentaries.
       </p> -->
 
-    {
-      featuredIssues.length > 0 && (
-        <section id="featured">
-          <IssueList issues={featuredIssues} />
-        </section>
-      )
-    }
-  </main>
-  <Footer />
+  {
+    featuredIssues.length > 0 && (
+      <section id="featured">
+        <IssueList issues={featuredIssues} />
+      </section>
+    )
+  }
 </Layout>
 
 <style lang="stylus">
 
+  @media  (max-width: 800px) {
+    
+    #masthead {
+      transform-origin: 0 0 ;
+      transform: scale(.5)}
+      }
 
-#masthead {
-	// border-top: 0.25rem solid black;
-	// border-bottom: 0.25rem solid black;
-	margin-bottom: 0.75rem;
-	padding: .75rem 0;
-}
-.masthead__title {
-  font-style: italic;
-  text-transform: uppercase;
-	letter-spacing: 1px;
-}
 
 </style>

@@ -59,9 +59,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="marschner_shirley__2018__fundamentals" class="csl-entry">Marschner, S. and Shirley, P. 2018 <i>Fundamentals of Computer Graphics, 4th Edition</i>. Place of publication not identified: A K Peters/CRC Press. Available at: <a href='https://www.safaribooksonline.com/library/view/title/9781482229417/?ar'>https://www.safaribooksonline.com/library/view/title/9781482229417/?ar</a> (Accessed: January 11, 2021).</div>
-    </div>
-  citation: Marschner and Shirley, 2018
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="marschner_shirley__2018__fundamentals" class="csl-entry">Marschner, S., &#38; Shirley, P. 2018. <i>Fundamentals of Computer Graphics, 4th Edition</i>. A K Peters/CRC Press. <a href='https://www.safaribooksonline.com/library/view/title/9781482229417/?ar'>https://www.safaribooksonline.com/library/view/title/9781482229417/?ar</a></span>
+    </span>
+  citation: Marschner &#38; Shirley, 2018
 bibTex: "@book{marschner_shirley__2018__fundamentals,\n\taddress = {Place of publication not identified},\n\tauthor = {Marschner, Steve and Shirley, Peter},\n\tyear = {2018},\n\tnote = {OCLC: 1105773916},\n\tpublisher = {A K Peters/CRC Press},\n\ttitle = {Fundamentals of {Computer} {Graphics}, 4th {Edition}},\n}\n\n"
 ---

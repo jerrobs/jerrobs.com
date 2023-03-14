@@ -56,9 +56,9 @@ tags:
   - /unread
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="king_pogorelov_etal__2018__gpu" class="csl-entry">King, J.R. <i>et al.</i> 2018 “GPU acceleration and performance of the particle-beam-dynamics code Elegant,” <i>Computer Physics Communications</i>, 235. doi:10.1016/j.cpc.2018.09.022.</div>
-    </div>
-  citation: King <i>et al.</i>, 2018
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="king_pogorelov_etal__2018__gpu" class="csl-entry">King, J. R., Pogorelov, I. V., Amyx, K. M., Borland, M., &#38; Soliday, R. 2018. GPU acceleration and performance of the particle-beam-dynamics code Elegant. <i>Computer Physics Communications</i>, <i>235</i>. <a href='https://doi.org/10.1016/j.cpc.2018.09.022'>https://doi.org/10.1016/j.cpc.2018.09.022</a></span>
+    </span>
+  citation: King et al., 2018
 bibTex: "@article{king_pogorelov_etal__2018__gpu,\n\tauthor = {King, J. R. and Pogorelov, I. V. and Amyx, K. M. and Borland, M. and Soliday, R.},\n\tjournal = {Computer Physics Communications},\n\tyear = {2018},\n\tmonth = {oct 16},\n\tnote = {1 citations (Crossref) [2022-10-17]},\n\tpublisher = {Elsevier},\n\ttitle = {GPU acceleration and performance of the particle-beam-dynamics code {Elegant}},\n\tvolume = {235},\n}\n\n"
 ---

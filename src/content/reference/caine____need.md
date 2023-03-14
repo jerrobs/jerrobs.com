@@ -25,9 +25,9 @@ tags:
   - topic:strategy/ontology
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="caine____need" class="csl-entry">Caine, J. no date “The Need and Requirements to a Strategy Ontology,” p. 8.</div>
-    </div>
-  citation: Caine, no date
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="caine____need" class="csl-entry">Caine, J. n.d.. <i>The Need and Requirements to a Strategy Ontology</i>. 8.</span>
+    </span>
+  citation: Caine, n.d.
 bibTex: "@article{caine____need,\n\tauthor = {Caine, Jamie},\n\tpages = {8},\n\ttitle = {The {Need} and {Requirements} to a {Strategy} {Ontology}},\n}\n\n"
 ---

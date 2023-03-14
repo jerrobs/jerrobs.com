@@ -34,9 +34,9 @@ tags:
   - topic:strategy/ontology
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="eknow__2015__eknow" class="csl-entry">eKNOW 2015 <i>eKNOW 2015: the Seventh International Conference on Information, Process, and Knowledge Management: February 22-27, 2015, Lisbon, Portugal</i>. Edited by D. Malzahn and C. Granja. Red Hook, NY: Curran Associates, Inc.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="eknow__2015__eknow" class="csl-entry">eKNOW. 2015. <i>eKNOW 2015: the Seventh International Conference on Information, Process, and Knowledge Management: February 22-27, 2015, Lisbon, Portugal</i> (D. Malzahn &#38; C. Granja, Eds.). Curran Associates, Inc.</span>
+    </span>
   citation: eKNOW, 2015
 bibTex: "@book{eknow__2015__eknow,\n\taddress = {Red Hook, NY},\n\tauthor = {{eKNOW}},\n\teditor = {Malzahn, Dirk and Granja, Concei{\\c c}{\\~ a}o},\n\tyear = {2015},\n\tpublisher = {Curran Associates, Inc},\n\ttitle = {eKNOW 2015: the {Seventh} {International} {Conference} on {Information}, {Process}, and {Knowledge} {Management}: February 22-27, 2015, {Lisbon}, {Portugal}},\n}\n\n"
 ---

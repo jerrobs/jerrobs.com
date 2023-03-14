@@ -40,9 +40,9 @@ tags:
   - topic:pathicles/floating_points
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="goldberg__1991__what" class="csl-entry">Goldberg, D. 1991 “What every computer scientist should know about floating-point arithmetic,” <i>ACM Computing Surveys</i>, 23(1), pp. 5–48. doi:10.1145/103162.103163.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="goldberg__1991__what" class="csl-entry">Goldberg, D. 1991. What every computer scientist should know about floating-point arithmetic. <i>ACM Computing Surveys</i>, <i>23</i>(1), 5–48. <a href='https://doi.org/10.1145/103162.103163'>https://doi.org/10.1145/103162.103163</a></span>
+    </span>
   citation: Goldberg, 1991
 bibTex: "@article{goldberg__1991__what,\n\tauthor = {Goldberg, David},\n\tjournal = {ACM Computing Surveys},\n\tnumber = {1},\n\tyear = {1991},\n\tmonth = {3},\n\tpages = {5--48},\n\tpublisher = {Association for Computing Machinery},\n\ttitle = {What every computer scientist should know about floating-point arithmetic},\n\tvolume = {23},\n}\n\n"
 ---

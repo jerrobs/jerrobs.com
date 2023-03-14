@@ -17,9 +17,9 @@ tags:
   - topic:pathicles/educational_visualization
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="schmidt____tikzpalattice" class="csl-entry">Schmidt, J. no date “tikz-palattice - draw particle accelerator lattices with TikZ,” p. 10.</div>
-    </div>
-  citation: Schmidt, no date
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="schmidt____tikzpalattice" class="csl-entry">Schmidt, J. n.d.. <i>tikz-palattice - draw particle accelerator lattices with TikZ</i>. 10.</span>
+    </span>
+  citation: Schmidt, n.d.
 bibTex: "@article{schmidt____tikzpalattice,\n\tauthor = {Schmidt, Jan},\n\tpages = {10},\n\ttitle = {tikz-palattice - draw particle accelerator lattices with {TikZ}},\n}\n\n"
 ---

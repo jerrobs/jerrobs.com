@@ -27,9 +27,9 @@ tags:
   - topic:pathicles/educational_visualization
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="muller_grave__2009__motion4d" class="csl-entry">Müller, T. and Grave, F. 2009 “Motion4D - A library for lightrays and timelike worldlines in the theory of relativity,” <i>Computer Physics Communications</i>, 180. Available at: <a href='http://dx.doi.org/10.1016/j.cpc.2009.07.014.'>http://dx.doi.org/10.1016/j.cpc.2009.07.014.</a></div>
-    </div>
-  citation: Müller and Grave, 2009
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="muller_grave__2009__motion4d" class="csl-entry">Müller, T., &#38; Grave, F. 2009. Motion4D - A library for lightrays and timelike worldlines in the theory of relativity. <i>Computer Physics Communications</i>, <i>180</i>. <a href='http://dx.doi.org/10.1016/j.cpc.2009.07.014'>http://dx.doi.org/10.1016/j.cpc.2009.07.014</a></span>
+    </span>
+  citation: Müller &#38; Grave, 2009
 bibTex: "@article{muller_grave__2009__motion4d,\n\tauthor = {M{\\\" u}ller, Thomas and Grave, Frank},\n\tjournal = {Computer Physics Communications},\n\tyear = {2009},\n\tnote = {http://web.archive.org/web/20200401133737/https://linkinghub.elsevier.com/retrieve/pii/S0010465509002343},\n\ttitle = {Motion4D - {A} library for lightrays and timelike worldlines in the theory of relativity},\n\thowpublished = {http://dx.doi.org/10.1016/j.cpc.2009.07.014},\n\tvolume = {180},\n}\n\n"
 ---

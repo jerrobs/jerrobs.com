@@ -37,9 +37,9 @@ tags:
   - topic:strategy/roadmapping
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="roper_cunningham_etal__2011__forecasting" class="csl-entry">Roper, A.T. <i>et al.</i> 2011 <i>Forecasting and Management of Technology</i>.</div>
-    </div>
-  citation: Roper <i>et al.</i>, 2011
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="roper_cunningham_etal__2011__forecasting" class="csl-entry">Roper, A. T., Cunningham, S. W., Porter, A. L., Mason, T. W., Rossini, F. A., &#38; Banks, J. 2011. <i>Forecasting and Management of Technology</i>.</span>
+    </span>
+  citation: Roper et al., 2011
 bibTex: "@book{roper_cunningham_etal__2011__forecasting,\n\tauthor = {Roper, Alan Thomas and Cunningham, Scott W and Porter, Alan L and Mason, Thomas W and Rossini, Frederick A and Banks, Jerry},\n\tyear = {2011},\n\ttitle = {Forecasting and {Management} of {Technology}},\n}\n\n"
 ---

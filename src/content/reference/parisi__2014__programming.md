@@ -26,9 +26,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="parisi__2014__programming" class="csl-entry">Parisi, T. 2014 <i>Programming 3D applications with HTML5 and WebGL</i>. First edition. Beijing: O’Reilly.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="parisi__2014__programming" class="csl-entry">Parisi, T. 2014. <i>Programming 3D applications with HTML5 and WebGL</i> (First edition). O’Reilly.</span>
+    </span>
   citation: Parisi, 2014
 bibTex: "@book{parisi__2014__programming,\n\taddress = {Beijing},\n\tauthor = {Parisi, Tony},\n\tedition = {First edition},\n\tyear = {2014},\n\tnote = {OCLC: ocn830813818},\n\tpublisher = {O'Reilly},\n\ttitle = {Programming 3D applications with {HTML5} and {WebGL}},\n}\n\n"
 ---

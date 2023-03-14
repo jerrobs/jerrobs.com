@@ -57,9 +57,9 @@ tags:
   - topic:strategy/roadmapping
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="bryson_ackermann_etal__2014__visual" class="csl-entry">Bryson, J.M., Ackermann, F. and Eden, C. 2014 <i>Visual Strategy: Strategy Mapping for Public and Nonprofit Organizations</i>. John Wiley &#38; Sons (John Wiley &#38; Sons). Available at: <a href='https://learning.oreilly.com/library/view/visual-strategy-strategy/9781118876695/.'>https://learning.oreilly.com/library/view/visual-strategy-strategy/9781118876695/.</a></div>
-    </div>
-  citation: Bryson, Ackermann and Eden, 2014
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="bryson_ackermann_etal__2014__visual" class="csl-entry">Bryson, J. M., Ackermann, F., &#38; Eden, C. 2014. <i>Visual Strategy: Strategy Mapping for Public and Nonprofit Organizations</i>. John Wiley &#38; Sons. <a href='https://learning.oreilly.com/library/view/visual-strategy-strategy/9781118876695/'>https://learning.oreilly.com/library/view/visual-strategy-strategy/9781118876695/</a></span>
+    </span>
+  citation: Bryson et al., 2014
 bibTex: "@book{bryson_ackermann_etal__2014__visual,\n\tauthor = {Bryson, John M and Ackermann, Fran and Eden, Colin},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2014},\n\tmonth = {jul 28},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Visual {Strategy}: Strategy {Mapping} for {Public} and {Nonprofit} {Organizations}},\n}\n\n"
 ---

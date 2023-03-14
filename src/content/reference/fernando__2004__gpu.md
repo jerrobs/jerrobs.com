@@ -29,9 +29,9 @@ tags:
   - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="fernando__2004__gpu" class="csl-entry">Fernando, R. ed. (2004) <i>GPU gems: programming techniques, tips, and tricks for real-time graphics</i>. Boston: Addison-Wesley.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="fernando__2004__gpu" class="csl-entry">Fernando, R. Ed.. (2004). <i>GPU gems: programming techniques, tips, and tricks for real-time graphics</i>. Addison-Wesley.</span>
+    </span>
   citation: Fernando, 2004
 bibTex: "@book{fernando__2004__gpu,\n\taddress = {Boston},\n\teditor = {Fernando, Randima},\n\tyear = {2004},\n\tpublisher = {Addison-Wesley},\n\ttitle = {GPU gems: programming techniques, tips, and tricks for real-time graphics},\n}\n\n"
 ---

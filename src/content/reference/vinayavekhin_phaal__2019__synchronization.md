@@ -51,9 +51,9 @@ tags:
   - topic:strategy/roadmapping
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="vinayavekhin_phaal__2019__synchronization" class="csl-entry">Vinayavekhin, S. and Phaal, R. 2019 “Synchronization in Strategic Planning: A Roadmapping Framework,” <i>International Journal of Innovation and Technology Management</i>, 16(06), p. 1950044. doi:10.1142/S0219877019500445.</div>
-    </div>
-  citation: Vinayavekhin and Phaal, 2019
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="vinayavekhin_phaal__2019__synchronization" class="csl-entry">Vinayavekhin, S., &#38; Phaal, R. 2019. Synchronization in Strategic Planning: A Roadmapping Framework. <i>International Journal of Innovation and Technology Management</i>, <i>16</i>(06), 1950044. <a href='https://doi.org/10.1142/S0219877019500445'>https://doi.org/10.1142/S0219877019500445</a></span>
+    </span>
+  citation: Vinayavekhin &#38; Phaal, 2019
 bibTex: "@article{vinayavekhin_phaal__2019__synchronization,\n\tauthor = {Vinayavekhin, Sukrit and Phaal, Robert},\n\tjournal = {International Journal of Innovation and Technology Management},\n\tnumber = {06},\n\tyear = {2019},\n\tmonth = {10},\n\tnote = {http://web.archive.org/web/20200114175814/https://www.worldscientific.com/action/cookieAbsent},\n\tpages = {1950044},\n\ttitle = {Synchronization in {Strategic} {Planning}: A {Roadmapping} {Framework}},\n\thowpublished = {10.1142/S0219877019500445},\n\tvolume = {16},\n}\n\n"
 ---

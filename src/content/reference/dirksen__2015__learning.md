@@ -27,9 +27,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="dirksen__2015__learning" class="csl-entry">Dirksen, J. 2015 <i>Learning Three.js: the JavaScript 3D Library for WebGL</i>. Second edition. Birmingham Mumbai: Packt Publishing (Community experience distilled).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="dirksen__2015__learning" class="csl-entry">Dirksen, J. 2015. <i>Learning Three.js: the JavaScript 3D Library for WebGL</i> (Second edition). Packt Publishing.</span>
+    </span>
   citation: Dirksen, 2015
 bibTex: "@book{dirksen__2015__learning,\n\taddress = {Birmingham Mumbai},\n\tauthor = {Dirksen, Jos},\n\tseries = {Community experience distilled},\n\tedition = {Second edition},\n\tyear = {2015},\n\tpublisher = {Packt Publishing},\n\ttitle = {Learning {Three}.js: the {JavaScript} 3D {Library} for {WebGL}},\n}\n\n"
 ---

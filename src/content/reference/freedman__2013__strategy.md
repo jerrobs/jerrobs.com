@@ -18,24 +18,24 @@ cslItem:
         - 10
         - 31
   keyword: >-
-    #nosource;__strategy2030:strategic-planning;collection::strategy::military;collection::strategy::management-theory
+    __strategy2030:strategic-planning;#nosource;collection::strategy::military;collection::strategy::definitions
   language: English
   publisher: Oxford University Press
   title: "Strategy: A history."
   title-short: Strategy
   type: book
 tags:
-  - "#nosource"
   - __strategy2030:strategic-planning
+  - "#nosource"
   - issue:strategy
   - topic:strategy/military
   - issue:strategy
-  - topic:strategy/management-theory
+  - topic:strategy/definitions
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="freedman__2013__strategy" class="csl-entry">Freedman, L. 2013 <i>Strategy: A history.</i> Oxford University Press (Oxford University Press).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="freedman__2013__strategy" class="csl-entry">Freedman, L. 2013. <i>Strategy: A history.</i> Oxford University Press.</span>
+    </span>
   citation: Freedman, 2013
 bibTex: "@book{freedman__2013__strategy,\n\tauthor = {Freedman, Lawrence},\n\tseries = {Oxford {University} {Press}},\n\tyear = {2013},\n\tmonth = {oct 31},\n\tpublisher = {Oxford University Press},\n\ttitle = {Strategy: A history.},\n}\n\n"
 ---

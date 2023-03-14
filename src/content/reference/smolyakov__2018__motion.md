@@ -36,9 +36,9 @@ tags:
   - topic:pathicles/accelerator_science
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="smolyakov__2018__motion" class="csl-entry">Smolyakov, N. 2018 “Motion of Electrons in Planar Ideal Undulator,” in Ahmad, I. and Malek, M. (eds.) <i>Accelerator Physics - Radiation Safety and Applications</i>. InTech. doi:10.5772/intechopen.73682.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="smolyakov__2018__motion" class="csl-entry">Smolyakov, N. 2018. Motion of Electrons in Planar Ideal Undulator. In I. Ahmad &#38; M. Malek (Eds.), <i>Accelerator Physics - Radiation Safety and Applications</i>. InTech. <a href='https://doi.org/10.5772/intechopen.73682'>https://doi.org/10.5772/intechopen.73682</a></span>
+    </span>
   citation: Smolyakov, 2018
 bibTex: "@inbook{smolyakov__2018__motion,\n\tnote = {[Online; accessed 2020-12-15]},\n\tauthor = {Smolyakov, Nikolay},\n\tbooktitle = {Accelerator {Physics} - {Radiation} {Safety} and {Applications}},\n\teditor = {Ahmad, Ishaq and Malek, Maaza},\n\tyear = {2018},\n\tmonth = {feb 21},\n\tpublisher = {InTech},\n\ttitle = {Motion of {Electrons} in {Planar} {Ideal} {Undulator}},\n}\n\n"
 ---

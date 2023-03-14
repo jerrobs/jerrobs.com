@@ -33,9 +33,9 @@ tags:
   - topic:space/case_for_space
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="saenger__1982__silent" class="csl-entry">Saenger, P. 1982 “Silent Reading: Its Impact on Late Medieval Script and Society,” <i>Viator</i>, 13, pp. 367–414. doi:10/gm3hh8.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="saenger__1982__silent" class="csl-entry">Saenger, P. 1982. Silent Reading: Its Impact on Late Medieval Script and Society. <i>Viator</i>, <i>13</i>, 367–414. <a href='https://doi.org/10/gm3hh8'>https://doi.org/10/gm3hh8</a></span>
+    </span>
   citation: Saenger, 1982
 bibTex: "@article{saenger__1982__silent,\n\tnote = {[Online; accessed 2021-04-25]},\n\tauthor = {Saenger, Paul},\n\tjournal = {Viator},\n\tyear = {1982},\n\tmonth = {1},\n\tpages = {367--414},\n\ttitle = {Silent {Reading}: Its {Impact} on {Late} {Medieval} {Script} and {Society}},\n\thowpublished = {https://www.brepolsonline.net/doi/10.1484/J.VIATOR.2.301476},\n\tvolume = {13},\n}\n\n"
 ---

@@ -33,9 +33,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="pharr_jakob_etal__2017__physically" class="csl-entry">Pharr, M., Jakob, W. and Humphreys, G. 2017 <i>Physically based rendering: from theory to implementation</i>. Third edition. Cambridge, MA: Morgan Kaufmann Publishers/Elsevier.</div>
-    </div>
-  citation: Pharr, Jakob and Humphreys, 2017
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="pharr_jakob_etal__2017__physically" class="csl-entry">Pharr, M., Jakob, W., &#38; Humphreys, G. 2017. <i>Physically based rendering: from theory to implementation</i> (Third edition). Morgan Kaufmann Publishers/Elsevier.</span>
+    </span>
+  citation: Pharr et al., 2017
 bibTex: "@book{pharr_jakob_etal__2017__physically,\n\taddress = {Cambridge, MA},\n\tauthor = {Pharr, Matt and Jakob, Wenzel and Humphreys, Greg},\n\tedition = {Third edition},\n\tyear = {2017},\n\tnote = {OCLC: ocn936532273},\n\tpublisher = {Morgan Kaufmann Publishers/Elsevier},\n\ttitle = {Physically based rendering: from theory to implementation},\n}\n\n"
 ---

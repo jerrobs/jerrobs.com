@@ -27,9 +27,9 @@ tags:
   - topic:space/space_space
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="stein__2012__typeset" class="csl-entry">Stein, B. 2012 <i>typeset. TeX line breaking algorithm in JavaScript</i>. Available at: <a href='https://github.com/bramstein/typeset.'>https://github.com/bramstein/typeset.</a></div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="stein__2012__typeset" class="csl-entry">Stein, B. 2012. <i>typeset. TeX line breaking algorithm in JavaScript</i>. <a href='https://github.com/bramstein/typeset'>https://github.com/bramstein/typeset</a></span>
+    </span>
   citation: Stein, 2012
 bibTex: "@misc{stein__2012__typeset,\n\tauthor = {Stein, Bram},\n\tyear = {2012},\n\ttitle = {typeset. {TeX} line breaking algorithm in {JavaScript}},\n\thowpublished = {https://github.com/bramstein/typeset},\n}\n\n"
 ---

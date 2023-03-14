@@ -41,9 +41,9 @@ tags:
   - topic:pathicles/floating_points
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="stadther__1998__high" class="csl-entry">Stadther, M.A. 1998 “High performance computing: Are we just getting wrong answers faster?” <i>CAST Division Awards Banquet</i>, Miami Beach, Florida, 17 November. Available at: <a href='https://www3.nd.edu/~markst/cast-award-speech.pdf.'>https://www3.nd.edu/~markst/cast-award-speech.pdf.</a></div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="stadther__1998__high" class="csl-entry">Stadther, M. A. 1998, November 17. <i>High performance computing: Are we just getting wrong answers faster?</i> CAST Division Awards Banquet, Miami Beach, Florida. <a href='https://www3.nd.edu/~markst/cast-award-speech.pdf'>https://www3.nd.edu/~markst/cast-award-speech.pdf</a></span>
+    </span>
   citation: Stadther, 1998
 bibTex: "@misc{stadther__1998__high,\n\taddress = {Miami Beach, Florida},\n\tauthor = {Stadther, Mark A.},\n\tyear = {1998},\n\tmonth = {nov 17},\n\ttitle = {High performance computing: Are we just getting wrong answers faster?},\n\thowpublished = {https://www3.nd.edu/\\textasciitilde{}markst/cast-award-speech.pdf},\n}\n\n"
 ---

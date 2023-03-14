@@ -27,9 +27,9 @@ tags:
   - topic:space/case_for_space
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="noordzij_enneson__2005__stroke" class="csl-entry">Noordzij, G. and Enneson, P. 2005 <i>The stroke: theory of writing</i>. London: Hyphen.</div>
-    </div>
-  citation: Noordzij and Enneson, 2005
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="noordzij_enneson__2005__stroke" class="csl-entry">Noordzij, G., &#38; Enneson, P. 2005. <i>The stroke: theory of writing</i>. Hyphen.</span>
+    </span>
+  citation: Noordzij &#38; Enneson, 2005
 bibTex: "@book{noordzij_enneson__2005__stroke,\n\taddress = {London},\n\tauthor = {Noordzij, Gerrit and Enneson, Peter},\n\tyear = {2005},\n\tnote = {OCLC: 254729489},\n\tpublisher = {Hyphen},\n\ttitle = {The stroke: theory of writing},\n}\n\n"
 ---

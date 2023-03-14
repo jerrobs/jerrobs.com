@@ -24,7 +24,7 @@ const generate = ({ globPattern, tagScoper }) => {
 
   const cite = Cite()
 
-  const processCitation = (s = '') => s.replace('(', '').replace(')', '')
+  const processCitation = (s = '') => s.replace('(', '').replace(')', '').replaceAll("<div", "<span").replaceAll("</div", "</span")
 
   let bibliography = clsItems.flatMap((cslItem) => {
 
@@ -40,13 +40,13 @@ const generate = ({ globPattern, tagScoper }) => {
         bibliography: linkify(processCitation(
           cite.format('bibliography', {
             format: 'html',
-            template: 'harvard1',
+            template: 'apa',
             lang: 'en-US'
           })
         )), citation: processCitation(
           cite.format('citation', {
             format: 'html',
-            template: 'harvard1',
+            template: 'apa',
             lang: 'en-US'
           })
         )

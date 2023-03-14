@@ -22,9 +22,9 @@ tags:
   - topic:space/space_space
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="w3c__2007__html" class="csl-entry">W3C 2007 <i>HTML character usage</i>. W3C. Available at: <a href='https://www.w3.org/html/wg/wiki/HTMLCharacterUsage.'>https://www.w3.org/html/wg/wiki/HTMLCharacterUsage.</a></div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="w3c__2007__html" class="csl-entry">W3C. 2007. <i>HTML character usage</i>. W3C. <a href='https://www.w3.org/html/wg/wiki/HTMLCharacterUsage'>https://www.w3.org/html/wg/wiki/HTMLCharacterUsage</a></span>
+    </span>
   citation: W3C, 2007
 bibTex: "@techreport{w3c__2007__html,\n\tauthor = {{W3C}},\n\tyear = {2007},\n\tinstitution = {W3C},\n\ttitle = {HTML character usage},\n}\n\n"
 ---

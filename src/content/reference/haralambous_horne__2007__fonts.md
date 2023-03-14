@@ -36,9 +36,9 @@ tags:
   - topic:space/space_space
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="haralambous_horne__2007__fonts" class="csl-entry">Haralambous, Y. and Horne, P.S. 2007 <i>Fonts &#38; encodings</i> [electronic resource]. 1st ed. Beijing ; Sebastopol, Calif: O’Reilly Media. Available at: <a href='http://proquest.safaribooksonline.com/?fpi=9780596102425'>http://proquest.safaribooksonline.com/?fpi=9780596102425</a> (Accessed: January 14, 2021).</div>
-    </div>
-  citation: Haralambous and Horne, 2007
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="haralambous_horne__2007__fonts" class="csl-entry">Haralambous, Y., &#38; Horne, P. S. 2007. <i>Fonts &#38; encodings</i> (1st ed) [Electronic resource]. O’Reilly Media. <a href='http://proquest.safaribooksonline.com/?fpi=9780596102425'>http://proquest.safaribooksonline.com/?fpi=9780596102425</a></span>
+    </span>
+  citation: Haralambous &#38; Horne, 2007
 bibTex: "@book{haralambous_horne__2007__fonts,\n\taddress = {Beijing ; Sebastopol, Calif},\n\tauthor = {Haralambous, Yannis and Horne, P. Scott},\n\tedition = {1st ed},\n\tyear = {2007},\n\tnote = {OCLC: ocn297576019},\n\tpublisher = {O'Reilly Media},\n\ttitle = {Fonts & encodings},\n}\n\n"
 ---

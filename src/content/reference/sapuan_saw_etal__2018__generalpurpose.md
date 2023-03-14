@@ -25,9 +25,9 @@ tags:
   - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="sapuan_saw_etal__2018__generalpurpose" class="csl-entry">Sapuan, F., Saw, M. and Cheah, E. 2018 “General-purpose computation on GPUs in the browser using gpu.js,” <i>Computing in Science &#38; Engineering</i>, PP, pp. 1–1. doi:10.1109/MCSE.2018.108163116.</div>
-    </div>
-  citation: Sapuan, Saw and Cheah, 2018
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="sapuan_saw_etal__2018__generalpurpose" class="csl-entry">Sapuan, F., Saw, M., &#38; Cheah, E. 2018. General-purpose computation on GPUs in the browser using gpu.js. <i>Computing in Science &#38; Engineering</i>, <i>PP</i>, 1–1. <a href='https://doi.org/10.1109/MCSE.2018.108163116'>https://doi.org/10.1109/MCSE.2018.108163116</a></span>
+    </span>
+  citation: Sapuan et al., 2018
 bibTex: "@article{sapuan_saw_etal__2018__generalpurpose,\n\tauthor = {Sapuan, Fazli and Saw, Matthew and Cheah, Eugene},\n\tjournal = {Computing in Science & Engineering},\n\tyear = {2018},\n\tmonth = {1},\n\tpages = {1--1},\n\ttitle = {General-purpose computation on {GPUs} in the browser using gpu.js},\n\tvolume = {PP},\n}\n\n"
 ---

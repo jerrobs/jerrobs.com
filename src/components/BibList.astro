@@ -1,21 +1,23 @@
 ---
 import { getReferences } from "@utils/getReferences"
+import BibItem from "./BibItem.astro"
 
 export interface Props {
+  title?: string
   tag?: string
 }
-const { tag } = Astro.props
+const { tag, title } = Astro.props
 
 const references = await getReferences(tag)
 ---
 
-<ol class="bib-list md">
+{title && <h3 class="md">{title}</h3>}
+<ul class="bib-list small">
   {
     references.map(reference => (
-      <li
-        class="bib-list-item body-sm"
-        set:html={reference.data.rendered.bibliography}
-      />
+      <BibItem item={reference} />
+      
     ))
   }
-</ol>
+</ul>
+

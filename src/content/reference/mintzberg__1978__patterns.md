@@ -46,9 +46,9 @@ tags:
   - topic:strategy/management-theory
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="mintzberg__1978__patterns" class="csl-entry">Mintzberg, H. 1978 “Patterns in Strategy Formation,” <i>Management Science</i>, 24(9), pp. 934–948. doi:10.1287/mnsc.24.9.934.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="mintzberg__1978__patterns" class="csl-entry">Mintzberg, H. 1978. Patterns in Strategy Formation. <i>Management Science</i>, <i>24</i>(9), 934–948. <a href='https://doi.org/10.1287/mnsc.24.9.934'>https://doi.org/10.1287/mnsc.24.9.934</a></span>
+    </span>
   citation: Mintzberg, 1978
 bibTex: "@article{mintzberg__1978__patterns,\n\tauthor = {Mintzberg, Henry},\n\tjournal = {Management Science},\n\tnumber = {9},\n\tyear = {1978},\n\tmonth = {may 1},\n\tpages = {934--948},\n\ttitle = {Patterns in {Strategy} {Formation}},\n\thowpublished = {https://www.researchgate.net/publication/227444830\\textunderscore{}Patterns\\textunderscore{}in\\textunderscore{}Strategy\\textunderscore{}Formation},\n\tvolume = {24},\n}\n\n"
 ---

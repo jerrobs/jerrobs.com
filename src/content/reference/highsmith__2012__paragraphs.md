@@ -24,23 +24,23 @@ cslItem:
     date-parts:
       - - 2012
   keyword: >-
-    _has-format:book;_has-setting:professional;_has-type:handbook;#nosource;collection::space::microtypography
+    #nosource;_has-format:book;_has-setting:professional;_has-type:handbook;collection::space::microtypography
   language: en
   publisher: Font Bureau
   title: Inside paragraphs
   type: book
 tags:
+  - "#nosource"
   - _has-format:book
   - _has-setting:professional
   - _has-type:handbook
-  - "#nosource"
   - issue:space
   - topic:space/microtypography
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="highsmith__2012__paragraphs" class="csl-entry">Highsmith, C. 2012 <i>Inside paragraphs</i>. Font Bureau (Typographic fundamentals).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="highsmith__2012__paragraphs" class="csl-entry">Highsmith, C. 2012. <i>Inside paragraphs</i>. Font Bureau.</span>
+    </span>
   citation: Highsmith, 2012
 bibTex: "@book{highsmith__2012__paragraphs,\n\tauthor = {Highsmith, Cyrus},\n\tseries = {Typographic fundamentals},\n\tyear = {2012},\n\tpublisher = {Font Bureau},\n\ttitle = {Inside paragraphs},\n}\n\n"
 ---

@@ -23,9 +23,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="sanchez__2016__spite" class="csl-entry">Sanchez, J. 2016 <i>spite/THREE.FBOHelper</i>. (github.com). Available at: <a href='https://github.com/spite/THREE.FBOHelper.'>https://github.com/spite/THREE.FBOHelper.</a></div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="sanchez__2016__spite" class="csl-entry">Sanchez, J. 2016. <i>spite/THREE.FBOHelper</i> [Javascript, OpenGL]. <a href='https://github.com/spite/THREE.FBOHelper'>https://github.com/spite/THREE.FBOHelper</a></span>
+    </span>
   citation: Sanchez, 2016
 bibTex: "@misc{sanchez__2016__spite,\n\tauthor = {Sanchez, Jaume},\n\tseries = {github.com},\n\tyear = {2016},\n\ttitle = {spite/{THREE}.{FBOHelper}},\n\ttype = {Javascript, {OpenGL}},\n\thowpublished = {https://github.com/spite/THREE.FBOHelper},\n}\n\n"
 ---

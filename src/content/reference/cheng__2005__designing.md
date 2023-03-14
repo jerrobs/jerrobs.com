@@ -30,9 +30,9 @@ tags:
   - topic:space/microtypography
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="cheng__2005__designing" class="csl-entry">Cheng, K. 2005 <i>Designing type</i>. London: Laurence King Publishing.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="cheng__2005__designing" class="csl-entry">Cheng, K. 2005. <i>Designing type</i>. Laurence King Publishing.</span>
+    </span>
   citation: Cheng, 2005
 bibTex: "@book{cheng__2005__designing,\n\taddress = {London},\n\tauthor = {Cheng, Karen},\n\tyear = {2005},\n\tpublisher = {Laurence King Publishing},\n\ttitle = {Designing type},\n}\n\n"
 ---

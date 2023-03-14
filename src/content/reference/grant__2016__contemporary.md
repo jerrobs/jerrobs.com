@@ -19,7 +19,7 @@ cslItem:
         - 1
         - 5
   keyword: >-
-    #nosource;__strategy2030:strategic-planning;collection::strategy::definitions
+    #nosource;__strategy2030:strategic-planning;collection::strategy::management-theory
   language: English
   publisher: John Wiley & Sons
   title: Contemporary Strategy Analysis
@@ -28,12 +28,12 @@ tags:
   - "#nosource"
   - __strategy2030:strategic-planning
   - issue:strategy
-  - topic:strategy/definitions
+  - topic:strategy/management-theory
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="grant__2016__contemporary" class="csl-entry">Grant, R.M. 2016 <i>Contemporary Strategy Analysis</i>. John Wiley &#38; Sons (John Wiley &#38; Sons).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="grant__2016__contemporary" class="csl-entry">Grant, R. M. 2016. <i>Contemporary Strategy Analysis</i>. John Wiley &#38; Sons.</span>
+    </span>
   citation: Grant, 2016
 bibTex: "@book{grant__2016__contemporary,\n\tauthor = {Grant, Robert M},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2016},\n\tmonth = {jan 5},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Contemporary {Strategy} {Analysis}},\n}\n\n"
 ---

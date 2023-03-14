@@ -40,9 +40,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="bourry_sasaki_etal__2018__deep" class="csl-entry">Bourry, X. <i>et al.</i> 2018 <i>Deep Learning in the Browser</i>. Bleeding Edge Press (Bleeding Edge Press).</div>
-    </div>
-  citation: Bourry <i>et al.</i>, 2018
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="bourry_sasaki_etal__2018__deep" class="csl-entry">Bourry, X., Sasaki, K., Körner, C., &#38; Nakano, R. 2018. <i>Deep Learning in the Browser</i>. Bleeding Edge Press.</span>
+    </span>
+  citation: Bourry et al., 2018
 bibTex: "@book{bourry_sasaki_etal__2018__deep,\n\tauthor = {Bourry, Xavier and Sasaki, Kai and K{\\\" o}rner, Christoph and Nakano, Reiichiro},\n\tseries = {Bleeding {Edge} {Press}},\n\tyear = {2018},\n\tpublisher = {Bleeding Edge Press},\n\ttitle = {Deep {Learning} in the {Browser}},\n}\n\n"
 ---

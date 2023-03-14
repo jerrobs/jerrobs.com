@@ -31,9 +31,9 @@ tags:
   - topic:pathicles/codes
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="__2022__sixtrack" class="csl-entry"><i>SixTrack</i> 2022. SixTrack. Available at: <a href='https://github.com/SixTrack/SixTrack'>https://github.com/SixTrack/SixTrack</a> (Accessed: October 18, 2022).</div>
-    </div>
-  citation: <i>SixTrack</i>, 2022
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="__2022__sixtrack" class="csl-entry"><i>SixTrack</i>. 2022. [Fortran]. SixTrack. <a href='https://github.com/SixTrack/SixTrack'>https://github.com/SixTrack/SixTrack</a> (Original work published 2015)</span>
+    </span>
+  citation: <i>SixTrack</i>, 2015/2022
 bibTex: "@misc{__2022__sixtrack,\n\tnote = {[Online; accessed 2022-10-18]},\n\tyear = {2022},\n\tmonth = {apr 4},\n\tpublisher = {SixTrack},\n\ttitle = {SixTrack},\n\ttype = {Fortran},\n}\n\n"
 ---

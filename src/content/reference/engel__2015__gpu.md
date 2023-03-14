@@ -46,9 +46,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="engel__2015__gpu" class="csl-entry">Engel, W. 2015 <i>GPU Pro 6</i>. CRC Press.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="engel__2015__gpu" class="csl-entry">Engel, W. 2015. <i>GPU Pro 6</i>. CRC Press.</span>
+    </span>
   citation: Engel, 2015
 bibTex: "@book{engel__2015__gpu,\n\tauthor = {Engel, Wolfgang},\n\tyear = {2015},\n\tmonth = {jul 28},\n\tpublisher = {CRC Press},\n\ttitle = {GPU {Pro} 6},\n}\n\n"
 ---

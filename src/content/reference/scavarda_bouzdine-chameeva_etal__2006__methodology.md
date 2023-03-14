@@ -40,9 +40,9 @@ tags:
   - topic:strategy/roadmapping
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="scavarda_bouzdine-chameeva_etal__2006__methodology" class="csl-entry">Scavarda, A.J. <i>et al.</i> 2006 “A Methodology for Constructing Collective Causal Maps*,” <i>Decision Sciences</i>, 37(2), pp. 263–283. doi:10.1111/j.1540-5915.2006.00124.x.</div>
-    </div>
-  citation: Scavarda <i>et al.</i>, 2006
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="scavarda_bouzdine-chameeva_etal__2006__methodology" class="csl-entry">Scavarda, A. J., Bouzdine-Chameeva, T., Goldstein, S. M., Hays, J. M., &#38; Hill, A. V. 2006. A Methodology for Constructing Collective Causal Maps*. <i>Decision Sciences</i>, <i>37</i>(2), 263–283. <a href='https://doi.org/10.1111/j.1540-5915.2006.00124.x'>https://doi.org/10.1111/j.1540-5915.2006.00124.x</a></span>
+    </span>
+  citation: Scavarda et al., 2006
 bibTex: "@article{Scavarda2006Methodology,\n\tnote = {[Online; accessed 2021-02-22]},\n\tauthor = {Scavarda, Annibal Jose and Bouzdine-Chameeva, Tatiana and Goldstein, Susan Meyer and Hays, Julie M. and Hill, Arthur V.},\n\tjournal = {Decision Sciences},\n\tnumber = {2},\n\tyear = {2006},\n\tmonth = {5},\n\tpages = {263--283},\n\ttitle = {A {Methodology} for {Constructing} {Collective} {Causal} {Maps}*},\n\thowpublished = {http://doi.wiley.com/10.1111/j.1540-5915.2006.00124.x},\n\tvolume = {37},\n}\n\n"
 ---

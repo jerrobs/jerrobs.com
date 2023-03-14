@@ -39,9 +39,9 @@ tags:
   - topic:strategy/roadmapping
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="kaplan_norton__2004__strategy" class="csl-entry">Kaplan, R.S. and Norton, D.P. 2004 <i>Strategy maps</i>. : Harvard Business Review Press.</div>
-    </div>
-  citation: Kaplan and Norton, 2004
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="kaplan_norton__2004__strategy" class="csl-entry">Kaplan, R. S., &#38; Norton, D. P. 2004. <i>Strategy maps</i>. : Harvard Business Review Press.</span>
+    </span>
+  citation: Kaplan &#38; Norton, 2004
 bibTex: "@book{kaplan_norton__2004__strategy,\n\tauthor = {Kaplan, Robert S and Norton, David P},\n\tyear = {2004},\n\tpublisher = {: Harvard Business Review Press},\n\ttitle = {Strategy maps},\n}\n\n"
 ---

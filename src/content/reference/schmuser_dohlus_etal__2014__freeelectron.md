@@ -56,9 +56,9 @@ tags:
   - topic:pathicles/accelerator_science
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="schmuser_dohlus_etal__2014__freeelectron" class="csl-entry">Schmüser, P. <i>et al.</i> 2014 <i>Free-Electron Lasers in the Ultraviolet and X-Ray Regime. Physical Principles, Experimental Results, Technical Realization</i>. Springer (Springer). doi:10.1007/978-3-319-04081-3.</div>
-    </div>
-  citation: Schmüser <i>et al.</i>, 2014
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="schmuser_dohlus_etal__2014__freeelectron" class="csl-entry">Schmüser, P., Dohlus, M., Rossbach, J., &#38; Behrens, C. 2014. <i>Free-Electron Lasers in the Ultraviolet and X-Ray Regime. Physical Principles, Experimental Results, Technical Realization</i>. Springer. <a href='https://doi.org/10.1007/978-3-319-04081-3'>https://doi.org/10.1007/978-3-319-04081-3</a></span>
+    </span>
+  citation: Schmüser et al., 2014
 bibTex: "@book{schmuser_dohlus_etal__2014__freeelectron,\n\tauthor = {Schm{\\\" u}ser, Peter and Dohlus, Martin and Rossbach, J{\\\" o}rg and Behrens, Christopher},\n\tseries = {Springer},\n\tyear = {2014},\n\tmonth = {feb 19},\n\tpublisher = {Springer},\n\ttitle = {Free-{Electron} {Lasers} in the {Ultraviolet} and {X}-{Ray} {Regime}. {Physical} {Principles}, {Experimental} {Results}, {Technical} {Realization}},\n}\n\n"
 ---

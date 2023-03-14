@@ -24,9 +24,9 @@ tags:
   - topic:strategy/game-theory
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="vonneumann_morgenstern__1953__theory" class="csl-entry">von Neumann, J. and Morgenstern, O. 1953 <i>Theory of games and economic behavior</i>. Third edition. Princeton University Press.</div>
-    </div>
-  citation: von Neumann and Morgenstern, 1953
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="vonneumann_morgenstern__1953__theory" class="csl-entry">von Neumann, J., &#38; Morgenstern, O. 1953. <i>Theory of games and economic behavior</i> (Third edition). Princeton University Press.</span>
+    </span>
+  citation: von Neumann &#38; Morgenstern, 1953
 bibTex: "@book{vonneumann_morgenstern__1953__theory,\n\tauthor = {von Neumann, John and Morgenstern, Oskar},\n\tedition = {Third edition},\n\tyear = {1953},\n\tpublisher = {Princeton University Press},\n\ttitle = {Theory of games and economic behavior},\n}\n\n"
 ---

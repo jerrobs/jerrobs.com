@@ -12,32 +12,33 @@
 // border-radius: 0px;
 // background: linear-gradient(10deg, #f0f0f0 0%, #ffffff 25%);
 // box-shadow: -1px -1px 5px #cccccc, 3px 3px 10px #ffffff
-// 
-// &:hover
-// box-shadow: 0 6px 18px rgba(0,0,0,0.25), 0 2px 4px rgba(0,0,0,0.22);
-$border-top(dbl = 0, $width = 1px, $color = rgba(black, 0.2))
-  position relative
+$border-top(dbl = 0, $width = 2px, $color = rgba(black, 0.2)) {
+  position: relative;
 
-  &:before
-    position absolute
-    top $bl(dbl)
-    left 0
-    display block
-    width 100%
-    height $width
-    background-color $color
-    content ' '
+  &:before {
+    position: absolute;
+    top: $bl(dbl);
+    left: 0;
+    display: block;
+    width: 100%;
+    height: $width;
+    background-color: $color;
+    content: ' ';
+  }
+}
 
-$border-bottom(dbl = 0, $width = 1px, $color = rgba(black, 0.2))
-  position relative
+$border-bottom(dbl = 0, $width = 1px, $color = rgba(black, 0.2)) {
+  position: relative;
 
-  &:after
-    position absolute
-    bottom $bl(dbl)
-    left 0
+  &:after {
+    position: absolute;
+    bottom: $bl(dbl);
+    left: 0;
     // z-index 1000
-    display block
-    width 100%
-    height $width
-    background-color $color
-    content ' '
+    display: block;
+    width: 100%;
+    height: $width;
+    background-color: $color;
+    content: ' ';
+  }
+}

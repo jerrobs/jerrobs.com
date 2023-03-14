@@ -53,9 +53,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="bailey_cunningham__2012__graphics" class="csl-entry">Bailey, M. and Cunningham, S. 2012 <i>Graphics Shaders</i>. CRC Press (CRC Press).</div>
-    </div>
-  citation: Bailey and Cunningham, 2012
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="bailey_cunningham__2012__graphics" class="csl-entry">Bailey, M., &#38; Cunningham, S. 2012. <i>Graphics Shaders</i>. CRC Press.</span>
+    </span>
+  citation: Bailey &#38; Cunningham, 2012
 bibTex: "@book{bailey_cunningham__2012__graphics,\n\tauthor = {Bailey, Mike and Cunningham, Steve},\n\tseries = {CRC {Press}},\n\tyear = {2012},\n\tmonth = {apr 19},\n\tpublisher = {CRC Press},\n\ttitle = {Graphics {Shaders}},\n}\n\n"
 ---

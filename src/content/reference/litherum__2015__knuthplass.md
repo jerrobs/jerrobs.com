@@ -24,9 +24,9 @@ tags:
   - topic:space/space_space
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="litherum__2015__knuthplass" class="csl-entry">Litherum 2015 “Knuth-plass line breaking algorithm,” <i>Litherum blog</i>, July. Available at: <a href='http://litherum.blogspot.com/2015/07/knuth-plass-line-breaking-algorithm.html.'>http://litherum.blogspot.com/2015/07/knuth-plass-line-breaking-algorithm.html.</a></div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="litherum__2015__knuthplass" class="csl-entry">Litherum. 2015, July. Knuth-plass line breaking algorithm. <i>Litherum Blog</i>. <a href='http://litherum.blogspot.com/2015/07/knuth-plass-line-breaking-algorithm.html'>http://litherum.blogspot.com/2015/07/knuth-plass-line-breaking-algorithm.html</a></span>
+    </span>
   citation: Litherum, 2015
 bibTex: "@misc{litherum__2015__knuthplass,\n\tauthor = {{Litherum}},\n\tyear = {2015},\n\tmonth = {7},\n\ttitle = {Knuth-plass line breaking algorithm},\n\thowpublished = {http://litherum.blogspot.com/2015/07/knuth-plass-line-breaking-algorithm.html},\n}\n\n"
 ---

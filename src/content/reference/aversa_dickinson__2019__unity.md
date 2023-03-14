@@ -30,9 +30,9 @@ tags:
   - topic:pathicles/game_development
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="aversa_dickinson__2019__unity" class="csl-entry">Aversa, D. and Dickinson, C. 2019 <i>Unity Game Optimization: Enhance and Extend the Performance of All Aspects of Your Unity Games</i>. 3rd edition. Place of publication not identified: PACKT Publishing Limited.</div>
-    </div>
-  citation: Aversa and Dickinson, 2019
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="aversa_dickinson__2019__unity" class="csl-entry">Aversa, D., &#38; Dickinson, C. 2019. <i>Unity Game Optimization: Enhance and Extend the Performance of All Aspects of Your Unity Games</i> (3rd edition.). PACKT Publishing Limited.</span>
+    </span>
+  citation: Aversa &#38; Dickinson, 2019
 bibTex: "@book{aversa_dickinson__2019__unity,\n\taddress = {Place of publication not identified},\n\tauthor = {Aversa, Davide and Dickinson, Chris},\n\tedition = {3rd edition.},\n\tyear = {2019},\n\tnote = {OCLC: 1130664400},\n\tpublisher = {PACKT Publishing Limited},\n\ttitle = {Unity {Game} {Optimization}: Enhance and {Extend} the {Performance} of {All} {Aspects} of {Your} {Unity} {Games}},\n}\n\n"
 ---

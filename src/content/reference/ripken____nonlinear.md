@@ -33,9 +33,9 @@ tags:
   - topic:pathicles/codes
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="ripken____nonlinear" class="csl-entry">Ripken, G. no date “NON-LINEAR CANONICAL EQUATIONS OF COUPLED SYNCHRO-BETATRON MOTION AND THEIR SOLUTION WITHIN THE FRAMEWORK OF A NON-LINEAR 6-DIMENSIONAL (SYMPLECTIC) TRACKING PROGRAM FOR ULTRA-RELATIVISTIC PROTONS,” p. 55.</div>
-    </div>
-  citation: Ripken, no date
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="ripken____nonlinear" class="csl-entry">Ripken, G. n.d.. <i>NON-LINEAR CANONICAL EQUATIONS OF COUPLED SYNCHRO-BETATRON MOTION AND THEIR SOLUTION WITHIN THE FRAMEWORK OF A NON-LINEAR 6-DIMENSIONAL (SYMPLECTIC) TRACKING PROGRAM FOR ULTRA-RELATIVISTIC PROTONS</i>. 55.</span>
+    </span>
+  citation: Ripken, n.d.
 bibTex: "@article{ripken____nonlinear,\n\tauthor = {Ripken, G},\n\tpages = {55},\n\ttitle = {NON-{LINEAR} {CANONICAL} {EQUATIONS} {OF} {COUPLED} {SYNCHRO}-{BETATRON} {MOTION} {AND} {THEIR} {SOLUTION} {WITHIN} {THE} {FRAMEWORK} {OF} {A} {NON}-{LINEAR} 6-{DIMENSIONAL} ({SYMPLECTIC}) {TRACKING} {PROGRAM} {FOR} {ULTRA}-{RELATIVISTIC} {PROTONS}},\n}\n\n"
 ---

@@ -33,9 +33,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="mittring__2007__finding" class="csl-entry">Mittring, M. 2007 “Finding next gen: CryEngine 2,” in <i>ACM SIGGRAPH 2007 courses on - SIGGRAPH ’07</i>. <i>ACM SIGGRAPH 2007 courses</i>, San Diego, California: ACM Press, p. 97. doi:10.1145/1281500.1281671.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="mittring__2007__finding" class="csl-entry">Mittring, M. 2007. Finding next gen: CryEngine 2. <i>ACM SIGGRAPH 2007 Courses on - SIGGRAPH ’07</i>, 97. <a href='https://doi.org/10.1145/1281500.1281671'>https://doi.org/10.1145/1281500.1281671</a></span>
+    </span>
   citation: Mittring, 2007
 bibTex: "@inproceedings{mittring__2007__finding,\n\tnote = {[Online; accessed 2020-01-09]},\n\taddress = {San Diego, California},\n\tauthor = {Mittring, Martin},\n\tbooktitle = {ACM {SIGGRAPH} 2007 courses on - {SIGGRAPH} '07},\n\tyear = {2007},\n\tpages = {97},\n\torganization = {ACM Press},\n\ttitle = {Finding next gen: CryEngine 2},\n}\n\n"
 ---

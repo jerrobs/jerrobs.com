@@ -20,9 +20,9 @@ tags:
   - topic:jerrobs/referencing
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="universityofchicagopress__2017__chicago" class="csl-entry">University of Chicago Press 2017 <i>The Chicago Manual of Style</i>. University of Chicago Press (Chicago manual of style).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="universityofchicagopress__2017__chicago" class="csl-entry">University of Chicago Press. 2017. <i>The Chicago Manual of Style</i>. University of Chicago Press.</span>
+    </span>
   citation: University of Chicago Press, 2017
 bibTex: "@book{universityofchicagopress__2017__chicago,\n\tauthor = {{University of Chicago Press}},\n\tseries = {Chicago manual of style},\n\tyear = {2017},\n\tpublisher = {University of Chicago Press},\n\ttitle = {The {Chicago} {Manual} of {Style}},\n}\n\n"
 ---

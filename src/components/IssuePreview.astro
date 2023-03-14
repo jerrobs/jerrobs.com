@@ -21,39 +21,40 @@ export interface Props {
 
 const { issue } = Astro.props
 
-const { coverImage, coverImageCaption, coverImageAlt, title, subtitle } =
-  issue.data
+const { coverImageCaption, coverImageAlt, title, subtitle } = issue.data
 
 const title__html = renderInline(title)
 const subtitle__html = renderInline(subtitle)
 ---
 
 <div class="issue-preview" id={"issue-" + issue.slug}>
-  <Picture
-    class="issue-preview__background-picture"
-    src={covers[issue.slug]}
-    alt={coverImageAlt}
-    widths={[400, 868]}
-    sizes="(max-width: 400px)) 400px, (min-width: 401px) 868px"
-    aspectRatio={1}
-  /><div class="issue-preview__body">
-    <div class="issue-preview__header">
-      <a href={`/issues/${issue.slug}`}>
-        <h1 class="issue__title body-xl uppercase italic">
-          <span set:html={title__html} />
-        </h1>
-        <p class="issue__subtitle body-lg uppercase italic">
-          <span set:html={subtitle__html} />
-        </p>
-      </a>
-    </div>
-    <ul class="issue__toc">
-      <li class="issue__toc-item">
-        <!-- <router-link class="issue__toc-item-section-number" :to="article.path" v-html="&quot;00&quot; + (article.frontmatter.sectionNumber || [article.frontmatter.sectionNumber]).slice(-1)"></router-link>
+  <a href={`/issues/${issue.slug}`}>
+    <Picture
+      class="issue-preview__background-picture"
+      src={covers[issue.slug]}
+      alt={coverImageAlt}
+      widths={[400, 868]}
+      sizes="(max-width: 400px)) 400px, (min-width: 401px) 868px"
+      aspectRatio={1}
+    /><div class="issue-preview__body">
+      <div class="issue-preview__header">
+        <a href={`/issues/${issue.slug}`}>
+          <h1 class="issue__title body-xl uppercase italic">
+            <span set:html={title__html} />
+          </h1>
+          <p class="issue__subtitle body-lg uppercase italic">
+            <span set:html={subtitle__html} />
+          </p>
+        </a>
+      </div>
+      <ul class="issue__toc">
+        <li class="issue__toc-item">
+          <!-- <router-link class="issue__toc-item-section-number" :to="article.path" v-html="&quot;00&quot; + (article.frontmatter.sectionNumber || [article.frontmatter.sectionNumber]).slice(-1)"></router-link>
         <router-link class="issue__toc-item-title" :to="article.path"><span v-html="article.frontmatter.title__html"></span></router-link> -->
-      </li>
-    </ul>
-  </div>
+        </li>
+      </ul>
+    </div>
+  </a>
 </div>
 
 <style lang="stylus">
@@ -63,7 +64,7 @@ const subtitle__html = renderInline(subtitle)
   display: flex;
   flex-direction: column;
   min-height: 15rem;
-  flex: 1 0 30rem;
+  flex: 1 0 10rem;
   border: rgba(white, 1) solid 0.5rem;
   padding: 0.5rem 0;
   padding-top: 3rem;

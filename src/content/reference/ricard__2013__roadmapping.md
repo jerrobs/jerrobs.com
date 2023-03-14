@@ -47,9 +47,9 @@ tags:
   - topic:strategy/roadmapping
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="ricard__2013__roadmapping" class="csl-entry">Ricard, L.M. 2013 <i>Roadmapping and Strategy in Science, Technology and Innovation: Why connectivity matters</i>. PhD Thesis. Technical University of Denmark. doi:10.13140/RG.2.1.1221.0966/1.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="ricard__2013__roadmapping" class="csl-entry">Ricard, L. M. 2013. <i>Roadmapping and Strategy in Science, Technology and Innovation: Why connectivity matters</i> [PhD Thesis, Technical University of Denmark]. <a href='https://doi.org/10.13140/RG.2.1.1221.0966/1'>https://doi.org/10.13140/RG.2.1.1221.0966/1</a></span>
+    </span>
   citation: Ricard, 2013
 bibTex: "@phdthesis{ricard__2013__roadmapping,\n\tauthor = {Ricard, Lykke Margot},\n\tyear = {2013},\n\tschool = {Technical University of Denmark},\n\ttitle = {Roadmapping and {Strategy} in {Science}, {Technology} and {Innovation}: Why connectivity matters},\n}\n\n"
 ---

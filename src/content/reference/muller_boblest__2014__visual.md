@@ -23,9 +23,9 @@ tags:
   - topic:pathicles/educational_visualization
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="muller_boblest__2014__visual" class="csl-entry">Müller, T. and Boblest, S. 2014 “Visual appearance of wireframe objects in special relativity,” <i>European Journal of Physics</i>, 35. Available at: <a href='http://dx.doi.org/10.1088/0143-0807/35/6/065025.'>http://dx.doi.org/10.1088/0143-0807/35/6/065025.</a></div>
-    </div>
-  citation: Müller and Boblest, 2014
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="muller_boblest__2014__visual" class="csl-entry">Müller, T., &#38; Boblest, S. 2014. Visual appearance of wireframe objects in special relativity. <i>European Journal of Physics</i>, <i>35</i>. <a href='http://dx.doi.org/10.1088/0143-0807/35/6/065025'>http://dx.doi.org/10.1088/0143-0807/35/6/065025</a></span>
+    </span>
+  citation: Müller &#38; Boblest, 2014
 bibTex: "@article{muller_boblest__2014__visual,\n\tauthor = {M{\\\" u}ller, Thomas and Boblest, Sebastian},\n\tjournal = {European Journal of Physics},\n\tyear = {2014},\n\ttitle = {Visual appearance of wireframe objects in special relativity},\n\thowpublished = {http://dx.doi.org/10.1088/0143-0807/35/6/065025},\n\tvolume = {35},\n}\n\n"
 ---

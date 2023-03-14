@@ -1,13 +1,13 @@
 @import './mixins/';
 
 section.md {
-  margin-top: 1rem;
+  // margin-top: 1rem;
   margin-bottom: 2rem;
   max-width: 100%;
 }
 
 h2.md, h3.md, h4.md, p.md, li.md {
-  // max-width: var(--content__max-width);
+
   color: var(--color-text-base);
 }
 
@@ -57,6 +57,18 @@ ul.md, ol.md {
   }
 }
 
+ul.md.small, ol.md.small {
+  $baselined-typography(body-sm);
+  position: relative;
+  margin-left: $bl(1);
+
+  p.md {
+    top: 0;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 ul.md, ol.md {
   ul.md, ol.md {
     top: 0;
@@ -64,8 +76,9 @@ ul.md, ol.md {
 }
 
 blockquote.md {
-  margin: $bl(1);
-  margin-right: 0;
+  margin: 1rem
+  padding 0 1rem
+  // margin-right: 0;
   // padding  $bl(0) $bl(1) $bl(0.001) $bl(1)
   // background linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), #eee
   // background-color var(--color-bg__page)
@@ -74,7 +87,7 @@ blockquote.md {
 
   // border $bl(1) #eee solid
   cite {
-    text-align: right;
+    text-align: left;
   }
 
   cite > .bib-ref {
@@ -84,6 +97,12 @@ blockquote.md {
 
   > ul.md, > ol.md {
     $baselined-typography(body-md);
+  }
+
+  > cite.md {
+    $baselined-typography(body-sm);
+    // text-align: right;
+    display: block;
   }
 }
 
@@ -197,4 +216,61 @@ figure.level1 {
   .line-numbers {
     display: none;
   }
+}
+
+.bib-ref__error {
+  color: red;
+}
+
+.bib-ref__citation {
+  // font-weight: bold;
+  text-decoration: underline dotted;
+  color: black;
+}
+
+.bib-ref__container .bib-ref__citation, .bib-ref__container .bib-ref__bibliography {
+  background-color: var(--color-hoverable);
+  cursor: pointer;
+  display: inline;
+}
+
+.bib-ref__container {
+  background-color: var(--color-hoverable);
+}
+
+.bib-ref__container .bib-ref__citation {
+  display: inline;
+}
+
+.bib-ref__container .bib-ref__bibliography {
+  display: none;
+}
+
+.bib-ref__container.open .bib-ref__citation {
+  display: none;
+}
+
+.bib-ref__container.open .bib-ref__bibliography {
+  display: inline;
+}
+
+.csl-bib-body, .csl-entry {
+  display: inline;
+}
+
+
+
+ul.bib-list li:before {
+  display: none !important
+}
+
+blockquote.md {
+
+  border-left 5px solid black
+}
+
+
+cite {
+  line-height: 3;
+  text-align: left;
 }

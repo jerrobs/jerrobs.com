@@ -30,9 +30,9 @@ tags:
   - topic:jerrobs/privacy
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="solmecke_kocatepe__2018__dsgvo" class="csl-entry">Solmecke, C. and Kocatepe, S. 2018 <i>DSGVO für Website-Betreiber: ihr Leitfaden für die sichere Umsetzung der EU-Datenschutz-Grundverordnung</i>. 2., aktualisierte und erweiterte Auflage. Bonn: Rheinwerk Verlag (Rheinwerk Computing).</div>
-    </div>
-  citation: Solmecke and Kocatepe, 2018
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="solmecke_kocatepe__2018__dsgvo" class="csl-entry">Solmecke, C., &#38; Kocatepe, S. 2018. <i>DSGVO für Website-Betreiber: ihr Leitfaden für die sichere Umsetzung der EU-Datenschutz-Grundverordnung</i> (2., aktualisierte und erweiterte Auflage). Rheinwerk Verlag.</span>
+    </span>
+  citation: Solmecke &#38; Kocatepe, 2018
 bibTex: "@book{solmecke_kocatepe__2018__dsgvo,\n\taddress = {Bonn},\n\tauthor = {Solmecke, Christian and Kocatepe, Sibel},\n\tseries = {Rheinwerk {Computing}},\n\tedition = {2., aktualisierte und erweiterte Auflage},\n\tyear = {2018},\n\tpublisher = {Rheinwerk Verlag},\n\ttitle = {DSGVO f{\\\" u}r {Website}-{Betreiber}: ihr {Leitfaden} f{\\\" u}r die sichere {Umsetzung} der {EU}-{Datenschutz}-{Grundverordnung}},\n}\n\n"
 ---

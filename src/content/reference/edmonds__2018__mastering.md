@@ -58,9 +58,9 @@ tags:
   - topic:pathicles/game_development
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="edmonds__2018__mastering" class="csl-entry">Edmonds, M. 2018 <i>Mastering Game Development with Unreal Engine 4</i>. 2nd Revised edition. Packt Publishing.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="edmonds__2018__mastering" class="csl-entry">Edmonds, M. 2018. <i>Mastering Game Development with Unreal Engine 4</i> (2nd Revised edition). Packt Publishing.</span>
+    </span>
   citation: Edmonds, 2018
 bibTex: "@book{edmonds__2018__mastering,\n\tauthor = {Edmonds, Matt},\n\tedition = {2nd Revised edition},\n\tyear = {2018},\n\tnote = {OCLC: 1099606187},\n\tpublisher = {Packt Publishing},\n\ttitle = {Mastering {Game} {Development} with {Unreal} {Engine} 4},\n}\n\n"
 ---

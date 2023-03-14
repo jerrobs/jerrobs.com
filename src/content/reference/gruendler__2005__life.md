@@ -20,9 +20,9 @@ tags:
   - topic:space/introduction
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="gruendler__2005__life" class="csl-entry">Gruendler, S. 2005 <i>The Life and Work of Beatrice Warde</i>. PhD Thesis. University of Reading.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="gruendler__2005__life" class="csl-entry">Gruendler, S. 2005. <i>The Life and Work of Beatrice Warde</i> [PhD Thesis]. University of Reading.</span>
+    </span>
   citation: Gruendler, 2005
 bibTex: "@phdthesis{gruendler__2005__life,\n\tauthor = {Gruendler, Shelley},\n\tyear = {2005},\n\tschool = {University of Reading},\n\ttitle = {The {Life} and {Work} of {Beatrice} {Warde}},\n}\n\n"
 ---

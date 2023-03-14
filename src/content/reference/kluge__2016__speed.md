@@ -20,9 +20,9 @@ tags:
   - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="kluge__2016__speed" class="csl-entry">Kluge, A. 2016 “Speed Bumps,” <i>Vizit Solutions</i>. Available at: <a href='http://www.vizitsolutions.com/portfolio/webgl/gpgpu/speedBumps.html.'>http://www.vizitsolutions.com/portfolio/webgl/gpgpu/speedBumps.html.</a></div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="kluge__2016__speed" class="csl-entry">Kluge, A. 2016. Speed Bumps. <i>Vizit Solutions</i>. <a href='http://www.vizitsolutions.com/portfolio/webgl/gpgpu/speedBumps.html'>http://www.vizitsolutions.com/portfolio/webgl/gpgpu/speedBumps.html</a></span>
+    </span>
   citation: Kluge, 2016
 bibTex: "@misc{kluge__2016__speed,\n\tauthor = {Kluge, Alex},\n\tyear = {2016},\n\ttitle = {Speed {Bumps}},\n\thowpublished = {http://www.vizitsolutions.com/portfolio/webgl/gpgpu/speedBumps.html},\n}\n\n"
 ---

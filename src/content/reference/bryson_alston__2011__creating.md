@@ -34,8 +34,7 @@ cslItem:
       - - 2011
         - 8
         - 9
-  keyword: >-
-    #nosource;__strategy2030:strategic-planning;collection::strategy::definitions
+  keyword: "#nosource;__strategy2030:strategic-planning;collection::strategy::planning"
   language: en-US
   publisher: John Wiley & Sons
   title: Creating Your Strategic Plan
@@ -44,12 +43,12 @@ tags:
   - "#nosource"
   - __strategy2030:strategic-planning
   - issue:strategy
-  - topic:strategy/definitions
+  - topic:strategy/planning
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="bryson_alston__2011__creating" class="csl-entry">Bryson, J.M. and Alston, F.K. 2011 <i>Creating Your Strategic Plan</i>. John Wiley &#38; Sons (John Wiley &#38; Sons).</div>
-    </div>
-  citation: Bryson and Alston, 2011
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="bryson_alston__2011__creating" class="csl-entry">Bryson, J. M., &#38; Alston, F. K. 2011. <i>Creating Your Strategic Plan</i>. John Wiley &#38; Sons.</span>
+    </span>
+  citation: Bryson &#38; Alston, 2011
 bibTex: "@book{bryson_alston__2011__creating,\n\tauthor = {Bryson, John M and Alston, Farnum K},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2011},\n\tmonth = {aug 9},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Creating {Your} {Strategic} {Plan}},\n}\n\n"
 ---

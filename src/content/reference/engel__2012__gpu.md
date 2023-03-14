@@ -31,9 +31,9 @@ tags:
   - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="engel__2012__gpu" class="csl-entry">Engel, W. 2012 <i>GPU Pro 3</i>. Boca Raton, Fla: A K Peters/CRC Press.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="engel__2012__gpu" class="csl-entry">Engel, W. 2012. <i>GPU Pro 3</i>. A K Peters/CRC Press.</span>
+    </span>
   citation: Engel, 2012
 bibTex: "@book{engel__2012__gpu,\n\taddress = {Boca Raton, Fla},\n\tauthor = {Engel, Wolfgang},\n\tyear = {2012},\n\tnote = {OCLC: 827253254},\n\tpublisher = {A K Peters/CRC Press},\n\ttitle = {GPU {Pro} 3},\n}\n\n"
 ---

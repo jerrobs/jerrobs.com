@@ -33,9 +33,9 @@ tags:
   - topic:strategy/software-engineering
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="alexander_ishikawa_etal__1977__pattern" class="csl-entry">Alexander, C., Ishikawa, S. and Silverstein, M. 1977 <i>A pattern language: towns, buildings, construction</i>. New York: Oxford University Press.</div>
-    </div>
-  citation: Alexander, Ishikawa and Silverstein, 1977
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="alexander_ishikawa_etal__1977__pattern" class="csl-entry">Alexander, C., Ishikawa, S., &#38; Silverstein, M. 1977. <i>A pattern language: towns, buildings, construction</i>. Oxford University Press.</span>
+    </span>
+  citation: Alexander et al., 1977
 bibTex: "@book{alexander_ishikawa_etal__1977__pattern,\n\taddress = {New York},\n\tauthor = {Alexander, Christopher and Ishikawa, Sara and Silverstein, Murray},\n\tyear = {1977},\n\tpublisher = {Oxford University Press},\n\ttitle = {A pattern language: towns, buildings, construction},\n}\n\n"
 ---

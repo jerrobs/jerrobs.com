@@ -30,9 +30,9 @@ tags:
   - topic:jerrobs/about
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="savage__2015__origin" class="csl-entry">Savage, A. 2015 “The Origin of ‘Remember, Kids ...,’” <i>Tested</i>, 15 December. Available at: <a href='https://www.tested.com/making/557288-origin-only-difference-between-screwing-around-and-science-writing-it-down/'>https://www.tested.com/making/557288-origin-only-difference-between-screwing-around-and-science-writing-it-down/</a> (Accessed: January 9, 2021).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="savage__2015__origin" class="csl-entry">Savage, A. 2015, December 15. The Origin of “Remember, Kids ...” <i>Tested</i>. <a href='https://www.tested.com/making/557288-origin-only-difference-between-screwing-around-and-science-writing-it-down/'>https://www.tested.com/making/557288-origin-only-difference-between-screwing-around-and-science-writing-it-down/</a></span>
+    </span>
   citation: Savage, 2015
 bibTex: "@misc{savage__2015__origin,\n\tnote = {[Online; accessed 2021-01-09]},\n\tauthor = {Savage, Adam},\n\tyear = {2015},\n\tmonth = {dec 15},\n\ttitle = {The {Origin} of \"{Remember}, {Kids} ...\"},\n\thowpublished = {https://www.tested.com/making/557288-origin-only-difference-between-screwing-around-and-science-writing-it-down/},\n}\n\n"
 ---

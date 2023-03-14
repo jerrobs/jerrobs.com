@@ -32,9 +32,9 @@ tags:
   - topic:pathicles/accelerator_science
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="okun__1989__concept" class="csl-entry">Okun, L.B. 1989 “The Concept of Mass,” <i>Physics Today</i>, 42(6), pp. 31–36. doi:10.1063/1.881171.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="okun__1989__concept" class="csl-entry">Okun, L. B. 1989. The Concept of Mass. <i>Physics Today</i>, <i>42</i>(6), 31–36. <a href='https://doi.org/10.1063/1.881171'>https://doi.org/10.1063/1.881171</a></span>
+    </span>
   citation: Okun, 1989
 bibTex: "@article{okun__1989__concept,\n\tnote = {[Online; accessed 2021-04-11]},\n\tauthor = {Okun, Lev B.},\n\tjournal = {Physics Today},\n\tnumber = {6},\n\tyear = {1989},\n\tmonth = {6},\n\tpages = {31--36},\n\ttitle = {The {Concept} of {Mass}},\n\thowpublished = {http://physicstoday.scitation.org/doi/10.1063/1.881171},\n\tvolume = {42},\n}\n\n"
 ---

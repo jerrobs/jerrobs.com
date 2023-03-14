@@ -25,9 +25,9 @@ tags:
   - topic:strategy/military
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="clausewitz__1832__vom" class="csl-entry">Clausewitz, C. von 1832 <i>Vom Kriege</i>. Epub Ausgabe. Erstausgabe 1832. Null Papier (Null Papier). Available at: <a href='http://www.worldcat.org/title/vom-kriege-vollstandige-ausgabe/oclc/904844186.'>http://www.worldcat.org/title/vom-kriege-vollstandige-ausgabe/oclc/904844186.</a></div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="clausewitz__1832__vom" class="csl-entry">Clausewitz, C. von. 1832. <i>Vom Kriege</i> (Epub Ausgabe. Erstausgabe 1832). Null Papier. <a href='http://www.worldcat.org/title/vom-kriege-vollstandige-ausgabe/oclc/904844186'>http://www.worldcat.org/title/vom-kriege-vollstandige-ausgabe/oclc/904844186</a></span>
+    </span>
   citation: Clausewitz, 1832
 bibTex: "@book{clausewitz__1832__vom,\n\tauthor = {Clausewitz, Carl},\n\tseries = {Null {Papier}},\n\tedition = {Epub Ausgabe. Erstausgabe 1832},\n\tyear = {1832},\n\tpublisher = {Null Papier},\n\ttitle = {Vom {Kriege}},\n}\n\n"
 ---

@@ -49,9 +49,9 @@ tags:
   - topic:pathicles/accelerator_science
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="papadichev__1991__electron" class="csl-entry">Papadichev, V.A. 1991 “Electron trajectories in undulators,” <i>Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</i>, 304(1), pp. 749–752. doi:10.1016/0168-9002(91)90969-W.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="papadichev__1991__electron" class="csl-entry">Papadichev, V. A. 1991. Electron trajectories in undulators. <i>Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</i>, <i>304</i>(1), 749–752. <a href='https://doi.org/10.1016/0168-9002(91)90969-W'>https://doi.org/10.1016/0168-9002(91)90969-W</a></span>
+    </span>
   citation: Papadichev, 1991
 bibTex: "@article{papadichev__1991__electron,\n\tnote = {[Online; accessed 2020-12-15]},\n\tauthor = {Papadichev, V. A.},\n\tjournal = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},\n\tnumber = {1},\n\tyear = {1991},\n\tmonth = {jul 1},\n\tpages = {749--752},\n\ttitle = {Electron trajectories in undulators},\n\thowpublished = {10.1016/0168-9002(91)90969-W},\n\tvolume = {304},\n}\n\n"
 ---

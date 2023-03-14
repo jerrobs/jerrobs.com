@@ -27,9 +27,9 @@ tags:
   - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="webgl__2.0" class="csl-entry">Khronos Group 2020 <i>WebGL Specification. Version 2.0. Editor’s Draft</i>. Khronos Group. Available at: <a href='https://www.khronos.org/registry/webgl/specs/latest/2.0/'>https://www.khronos.org/registry/webgl/specs/latest/2.0/</a> (Accessed: April 13, 2020).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="webgl__2.0" class="csl-entry">Khronos Group. 2020. <i>WebGL Specification. Version 2.0. Editor’s Draft</i>. Khronos Group. <a href='https://www.khronos.org/registry/webgl/specs/latest/2.0/'>https://www.khronos.org/registry/webgl/specs/latest/2.0/</a></span>
+    </span>
   citation: Khronos Group, 2020
 bibTex: "@techreport{Khronos2020WebGL,\n\tauthor = {{Khronos Group}},\n\tyear = {2020},\n\tmonth = {mar 6},\n\tnote = {Inline referece: WebGL1.0.2},\n\tinstitution = {Khronos Group},\n\ttitle = {WebGL {Specification}. {Version} 2.0. {Editor}'s {Draft}},\n}\n\n"
 ---

@@ -42,9 +42,9 @@ tags:
   - topic:pathicles/numerical_integrators
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="qiang__2017__fast" class="csl-entry">Qiang, J. 2017 “A fast numerical integrator for relativistic charged particle tracking,” <i>Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</i>, 867, pp. 15–19. doi:10.1016/j.nima.2017.04.015.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="qiang__2017__fast" class="csl-entry">Qiang, J. 2017. A fast numerical integrator for relativistic charged particle tracking. <i>Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</i>, <i>867</i>, 15–19. <a href='https://doi.org/10.1016/j.nima.2017.04.015'>https://doi.org/10.1016/j.nima.2017.04.015</a></span>
+    </span>
   citation: Qiang, 2017
 bibTex: "@article{qiang__2017__fast,\n\tnote = {[Online; accessed 2021-02-12]},\n\tauthor = {Qiang, Ji},\n\tjournal = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},\n\tyear = {2017},\n\tmonth = {9},\n\tpages = {15--19},\n\ttitle = {A fast numerical integrator for relativistic charged particle tracking},\n\thowpublished = {https://linkinghub.elsevier.com/retrieve/pii/S0168900217304655},\n\tvolume = {867},\n}\n\n"
 ---

@@ -30,9 +30,9 @@ tags:
   - topic:pathicles/codes
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="fuchsberger_calia__2020__jmad" class="csl-entry">Fuchsberger, K. and Calia, A. 2020 <i>JMad</i>. Available at: jmad.io.</div>
-    </div>
-  citation: Fuchsberger and Calia, 2020
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="fuchsberger_calia__2020__jmad" class="csl-entry">Fuchsberger, K., &#38; Calia, A. 2020. <i>JMad</i> (0.15.3) [Java]. jmad.io</span>
+    </span>
+  citation: Fuchsberger &#38; Calia, 2020
 bibTex: "@misc{fuchsberger_calia__2020__jmad,\n\tauthor = {Fuchsberger, Kajetan and Calia, Andrea},\n\tyear = {2020},\n\tmonth = {dec 25},\n\ttitle = {JMad},\n\ttype = {Java},\n\thowpublished = {jmad.io},\n}\n\n"
 ---

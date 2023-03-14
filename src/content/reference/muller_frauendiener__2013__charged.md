@@ -46,9 +46,9 @@ tags:
   - topic:pathicles/educational_visualization
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="muller_frauendiener__2013__charged" class="csl-entry">Müller, T. and Frauendiener, J. 2013 “Charged particles constrained to a curved surface,” <i>European Journal of Physics</i>, 34(1), pp. 147–160. doi:10.1088/0143-0807/34/1/147.</div>
-    </div>
-  citation: Müller and Frauendiener, 2013
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="muller_frauendiener__2013__charged" class="csl-entry">Müller, T., &#38; Frauendiener, J. 2013. Charged particles constrained to a curved surface. <i>European Journal of Physics</i>, <i>34</i>(1), 147–160. <a href='https://doi.org/10.1088/0143-0807/34/1/147'>https://doi.org/10.1088/0143-0807/34/1/147</a></span>
+    </span>
+  citation: Müller &#38; Frauendiener, 2013
 bibTex: "@article{muller_frauendiener__2013__charged,\n\tnote = {[Online; accessed 2020-04-27]},\n\tauthor = {M{\\\" u}ller, Thomas and Frauendiener, J{\\\" o}rg},\n\tjournal = {European Journal of Physics},\n\tnumber = {1},\n\tyear = {2013},\n\tmonth = {jan 1},\n\tpages = {147--160},\n\ttitle = {Charged particles constrained to a curved surface},\n\thowpublished = {https://iopscience.iop.org/article/10.1088/0143-0807/34/1/147},\n\tvolume = {34},\n}\n\n"
 ---

@@ -23,9 +23,9 @@ tags:
   - topic:pathicles/graphics_programming
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="seguin__2018__dmnsgn" class="csl-entry">Seguin, D. 2018 <i>dmnsgn/glsl-smaa</i>. (github.com). Available at: <a href='https://github.com/dmnsgn/glsl-smaa.'>https://github.com/dmnsgn/glsl-smaa.</a></div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="seguin__2018__dmnsgn" class="csl-entry">Seguin, D. 2018. <i>dmnsgn/glsl-smaa</i> [Javascript, OpenGL]. <a href='https://github.com/dmnsgn/glsl-smaa'>https://github.com/dmnsgn/glsl-smaa</a></span>
+    </span>
   citation: Seguin, 2018
 bibTex: "@misc{seguin__2018__dmnsgn,\n\tauthor = {Seguin, Damien},\n\tseries = {github.com},\n\tyear = {2018},\n\ttitle = {dmnsgn/glsl-smaa},\n\ttype = {Javascript, {OpenGL}},\n\thowpublished = {https://github.com/dmnsgn/glsl-smaa},\n}\n\n"
 ---

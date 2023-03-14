@@ -34,9 +34,9 @@ tags:
   - topic:strategy/software-engineering
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="knuth_plass__1981__breaking" class="csl-entry">Knuth, D.E. and Plass, M.F. 1981 “Breaking paragraphs into lines,” <i>Software: Practice and Experience</i>, 11(11), pp. 1119–1184. doi:10.1002/spe.4380111102.</div>
-    </div>
-  citation: Knuth and Plass, 1981
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="knuth_plass__1981__breaking" class="csl-entry">Knuth, D. E., &#38; Plass, M. F. 1981. Breaking paragraphs into lines. <i>Software: Practice and Experience</i>, <i>11</i>(11), 1119–1184. <a href='https://doi.org/10.1002/spe.4380111102'>https://doi.org/10.1002/spe.4380111102</a></span>
+    </span>
+  citation: Knuth &#38; Plass, 1981
 bibTex: "@article{knuth_plass__1981__breaking,\n\tauthor = {Knuth, Donald E and Plass, Michael F},\n\tjournal = {Software: Practice and Experience},\n\tnumber = {11},\n\tyear = {1981},\n\tmonth = {11},\n\tpages = {1119--1184},\n\ttitle = {Breaking paragraphs into lines},\n\thowpublished = {http://doi.wiley.com/10.1002/spe.4380111102},\n\tvolume = {11},\n}\n\n"
 ---

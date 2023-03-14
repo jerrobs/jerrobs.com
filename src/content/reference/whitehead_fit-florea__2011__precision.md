@@ -30,9 +30,9 @@ tags:
   - topic:pathicles/floating_points
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="whitehead_fit-florea__2011__precision" class="csl-entry">Whitehead, N. and Fit-Florea, A. 2011 <i>Precision &#38; performance: floating point and IEEE 754 compliance for NVIDIA GPUs</i>. NVIDEA. Available at: <a href='https://developer.download.nvidia.com/assets/cuda/files/NVIDIA-CUDA-Floating-Point.pdf.'>https://developer.download.nvidia.com/assets/cuda/files/NVIDIA-CUDA-Floating-Point.pdf.</a></div>
-    </div>
-  citation: Whitehead and Fit-Florea, 2011
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="whitehead_fit-florea__2011__precision" class="csl-entry">Whitehead, N., &#38; Fit-Florea, A. 2011. <i>Precision &#38; performance: floating point and IEEE 754 compliance for NVIDIA GPUs</i>. NVIDEA. <a href='https://developer.download.nvidia.com/assets/cuda/files/NVIDIA-CUDA-Floating-Point.pdf'>https://developer.download.nvidia.com/assets/cuda/files/NVIDIA-CUDA-Floating-Point.pdf</a></span>
+    </span>
+  citation: Whitehead &#38; Fit-Florea, 2011
 bibTex: "@techreport{Whitehead2011Precision,\n\tauthor = {Whitehead, Nathan and Fit-Florea, Alex},\n\tyear = {2011},\n\tmonth = {jan 1},\n\tinstitution = {NVIDEA},\n\ttitle = {Precision & performance: floating point and {IEEE} 754 compliance for {NVIDIA} {GPUs}},\n}\n\n"
 ---

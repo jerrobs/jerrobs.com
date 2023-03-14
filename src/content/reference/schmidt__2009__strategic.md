@@ -40,7 +40,7 @@ cslItem:
         - 2
         - 9
   keyword: >-
-    #nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:project-management;collection::strategy::definitions
+    #nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:project-management;collection::strategy::planning
   language: English
   publisher: John Wiley & Sons
   title: Strategic Project Management Made Simple
@@ -50,12 +50,12 @@ tags:
   - __strategy2030:strategic-planning
   - __strategy2030:strategic-planning:project-management
   - issue:strategy
-  - topic:strategy/definitions
+  - topic:strategy/planning
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="schmidt__2009__strategic" class="csl-entry">Schmidt, T. 2009 <i>Strategic Project Management Made Simple</i>. John Wiley &#38; Sons (John Wiley &#38; Sons).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="schmidt__2009__strategic" class="csl-entry">Schmidt, T. 2009. <i>Strategic Project Management Made Simple</i>. John Wiley &#38; Sons.</span>
+    </span>
   citation: Schmidt, 2009
 bibTex: "@book{schmidt__2009__strategic,\n\tauthor = {Schmidt, Terry},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2009},\n\tmonth = {feb 9},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Strategic {Project} {Management} {Made} {Simple}},\n}\n\n"
 ---

@@ -24,9 +24,9 @@ tags:
   - topic:jerrobs/referencing
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="modernlanguageassociationofamerica__2016__mla" class="csl-entry">Modern Language Association of America 2016 <i>MLA handbook</i>. Eighth edition ; Large Print edition. New York: The Modern Language Association of America.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="modernlanguageassociationofamerica__2016__mla" class="csl-entry">Modern Language Association of America. 2016. <i>MLA handbook</i> (Eighth edition ; Large Print edition). The Modern Language Association of America.</span>
+    </span>
   citation: Modern Language Association of America, 2016
 bibTex: "@book{modernlanguageassociationofamerica__2016__mla,\n\taddress = {New York},\n\tauthor = {{Modern Language Association of America}},\n\tedition = {Eighth edition ; Large Print edition},\n\tyear = {2016},\n\tpublisher = {The Modern Language Association of America},\n\ttitle = {MLA handbook},\n}\n\n"
 ---

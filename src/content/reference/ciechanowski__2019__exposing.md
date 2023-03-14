@@ -22,9 +22,9 @@ tags:
   - topic:pathicles/floating_points
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="ciechanowski__2019__exposing" class="csl-entry">Ciechanowski, B. 2019 “Exposing Floating Point,” <i>ciechanow.ski</i>, 1 January. Available at: https://float.exposed/0x4009200000000000.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="ciechanowski__2019__exposing" class="csl-entry">Ciechanowski, B. 2019, January 1. Exposing Floating Point. <i>Ciechanow.Ski</i>. https://float.exposed/0x4009200000000000</span>
+    </span>
   citation: Ciechanowski, 2019
 bibTex: "@misc{ciechanowski__2019__exposing,\n\tauthor = {Ciechanowski, Bartosz},\n\tyear = {2019},\n\tmonth = {jan 1},\n\ttitle = {Exposing {Floating} {Point}},\n\thowpublished = {https://float.exposed/0x4009200000000000},\n}\n\n"
 ---

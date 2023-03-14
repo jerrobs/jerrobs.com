@@ -36,9 +36,9 @@ tags:
   - topic:strategy/esuo
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="rainey__2014__understanding" class="csl-entry">Rainey, H.G. 2014 <i>Understanding and Managing Public Organizations</i>. John Wiley &#38; Sons (John Wiley &#38; Sons).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="rainey__2014__understanding" class="csl-entry">Rainey, H. G. 2014. <i>Understanding and Managing Public Organizations</i>. John Wiley &#38; Sons.</span>
+    </span>
   citation: Rainey, 2014
 bibTex: "@book{rainey__2014__understanding,\n\tauthor = {Rainey, Hal G},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2014},\n\tmonth = {feb 3},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Understanding and {Managing} {Public} {Organizations}},\n}\n\n"
 ---

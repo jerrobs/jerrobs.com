@@ -28,9 +28,9 @@ tags:
   - topic:pathicles/numerical_integrators
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="kreiss_ortiz__2014__introduction" class="csl-entry">Kreiss, H. and Ortiz, O.E. 2014 <i>Introduction to numerical methods for time dependent differential equations</i>. Hoboken, New Jersey: Wiley. Available at: <a href='https://learning.oreilly.com/library/view/introduction-to-numerical/9781118838914/.'>https://learning.oreilly.com/library/view/introduction-to-numerical/9781118838914/.</a></div>
-    </div>
-  citation: Kreiss and Ortiz, 2014
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="kreiss_ortiz__2014__introduction" class="csl-entry">Kreiss, H., &#38; Ortiz, O. E. 2014. <i>Introduction to numerical methods for time dependent differential equations</i>. Wiley. <a href='https://learning.oreilly.com/library/view/introduction-to-numerical/9781118838914/'>https://learning.oreilly.com/library/view/introduction-to-numerical/9781118838914/</a></span>
+    </span>
+  citation: Kreiss &#38; Ortiz, 2014
 bibTex: "@book{kreiss_ortiz__2014__introduction,\n\taddress = {Hoboken, New Jersey},\n\tauthor = {Kreiss, H. and Ortiz, Omar Eduardo},\n\tyear = {2014},\n\tpublisher = {Wiley},\n\ttitle = {Introduction to numerical methods for time dependent differential equations},\n}\n\n"
 ---

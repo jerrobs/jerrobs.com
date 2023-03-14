@@ -66,9 +66,9 @@ tags:
   - topic:pathicles/numerical_integrators
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="ripperda_bacchini_etal__2018__comprehensive" class="csl-entry">Ripperda, B. <i>et al.</i> 2018 “A Comprehensive Comparison of Relativistic Particle Integrators,” <i>The Astrophysical Journal Supplement Series</i>, 235(1), p. 21. doi:10.3847/1538-4365/aab114.</div>
-    </div>
-  citation: Ripperda <i>et al.</i>, 2018
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="ripperda_bacchini_etal__2018__comprehensive" class="csl-entry">Ripperda, B., Bacchini, F., Teunissen, J., Xia, C., Porth, O., Sironi, L., Lapenta, G., &#38; Keppens, R. 2018. A Comprehensive Comparison of Relativistic Particle Integrators. <i>The Astrophysical Journal Supplement Series</i>, <i>235</i>(1), 21. <a href='https://doi.org/10.3847/1538-4365/aab114'>https://doi.org/10.3847/1538-4365/aab114</a></span>
+    </span>
+  citation: Ripperda et al., 2018
 bibTex: "@article{ripperda_bacchini_etal__2018__comprehensive,\n\tnote = {[Online; accessed 2021-02-12]},\n\tauthor = {Ripperda, B. and Bacchini, F. and Teunissen, J. and Xia, C. and Porth, O. and Sironi, L. and Lapenta, G. and Keppens, R.},\n\tjournal = {The Astrophysical Journal Supplement Series},\n\tnumber = {1},\n\tyear = {2018},\n\tmonth = {mar 15},\n\tpages = {21},\n\ttitle = {A {Comprehensive} {Comparison} of {Relativistic} {Particle} {Integrators}},\n\thowpublished = {https://iopscience.iop.org/article/10.3847/1538-4365/aab114},\n\tvolume = {235},\n}\n\n"
 ---

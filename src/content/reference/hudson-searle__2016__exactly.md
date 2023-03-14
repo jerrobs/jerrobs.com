@@ -34,9 +34,9 @@ tags:
   - topic:pathicles/floating_points
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="hudson-searle__2016__exactly" class="csl-entry">Hudson-Searle, G. 2016 <i>Exactly what is COBOL and why is COBOL still a widely used language in IT?</i>, <i>Freedom after the sharks</i>. Available at: <a href='https://freedomafterthesharks.com/2016/06/27/exactly-what-is-cobol-and-why-is-cobol-still-a-widely-used-language-in-it/'>https://freedomafterthesharks.com/2016/06/27/exactly-what-is-cobol-and-why-is-cobol-still-a-widely-used-language-in-it/</a> (Accessed: January 28, 2021).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="hudson-searle__2016__exactly" class="csl-entry">Hudson-Searle, G. 2016, June 27. <i>Exactly what is COBOL and why is COBOL still a widely used language in IT?</i> Freedom after the Sharks. <a href='https://freedomafterthesharks.com/2016/06/27/exactly-what-is-cobol-and-why-is-cobol-still-a-widely-used-language-in-it/'>https://freedomafterthesharks.com/2016/06/27/exactly-what-is-cobol-and-why-is-cobol-still-a-widely-used-language-in-it/</a></span>
+    </span>
   citation: Hudson-Searle, 2016
 bibTex: "@misc{Hudson2016Exactly,\n\tnote = {[Online; accessed 2021-01-28]},\n\tauthor = {Hudson-Searle, Geoff},\n\tyear = {2016},\n\tmonth = {jun 27},\n\ttitle = {Exactly what is {COBOL} and why is {COBOL} still a widely used language in {IT}?},\n\thowpublished = {https://freedomafterthesharks.com/2016/06/27/exactly-what-is-cobol-and-why-is-cobol-still-a-widely-used-language-in-it/},\n}\n\n"
 ---

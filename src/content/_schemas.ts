@@ -44,7 +44,7 @@ export const issueSchema = z
     articles: z.array(z.string()),
     tags,
 
-    bibliographies: z
+    bibliographyTopics: z
       .array(
         z.object({
           title: z.string(),

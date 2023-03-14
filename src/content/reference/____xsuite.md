@@ -11,9 +11,9 @@ tags:
   - topic:pathicles/codes
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="____xsuite" class="csl-entry"><i>Xsuite: Physics Manual</i> no date. CERN.</div>
-    </div>
-  citation: "<i>Xsuite: Physics Manual</i>, no date"
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="____xsuite" class="csl-entry"><i>Xsuite: Physics Manual</i>. n.d.. CERN.</span>
+    </span>
+  citation: "<i>Xsuite: Physics Manual</i>, n.d."
 bibTex: "@techreport{____xsuite,\n\tinstitution = {CERN},\n\ttitle = {Xsuite: Physics {Manual}},\n}\n\n"
 ---

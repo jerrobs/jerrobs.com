@@ -31,9 +31,9 @@ tags:
   - topic:strategy/management-theory
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="review_porter_etal__2011__hbr" class="csl-entry">Review, H.B. <i>et al.</i> 2011 <i>HBR’s 10 Must Reads on Strategy (including featured article “What Is Strategy?” by Michael E. Porter)</i>. Harvard Business Press. Available at: <a href='https://learning.oreilly.com/library/view/hbrs-10-must/9781422172056/.'>https://learning.oreilly.com/library/view/hbrs-10-must/9781422172056/.</a></div>
-    </div>
-  citation: Review <i>et al.</i>, 2011
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="review_porter_etal__2011__hbr" class="csl-entry">Review, H. B., Porter, M. E., Kim, W. C., &#38; Mauborgne, R. A. 2011. <i>HBR’s 10 Must Reads on Strategy (including featured article “What Is Strategy?” by Michael E. Porter)</i>. Harvard Business Press. <a href='https://learning.oreilly.com/library/view/hbrs-10-must/9781422172056/'>https://learning.oreilly.com/library/view/hbrs-10-must/9781422172056/</a></span>
+    </span>
+  citation: Review et al., 2011
 bibTex: "@book{review_porter_etal__2011__hbr,\n\tauthor = {Review, H.B. and Porter, M.E. and Kim, W.C. and Mauborgne, R.A.},\n\tyear = {2011},\n\tpublisher = {Harvard Business Press},\n\ttitle = {HBR's 10 {Must} {Reads} on {Strategy} (including featured article \"{What} {Is} {Strategy}?\" by {Michael} {E}. {Porter})},\n}\n\n"
 ---

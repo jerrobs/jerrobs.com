@@ -25,9 +25,9 @@ tags:
   - topic:pathicles/numerical_integrators
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="sagan__2012__design" class="csl-entry">Sagan, D. 2012 “Design and Applications of the Bmad Library for the Simulation of Particle Beams and X-Rays,” in. (Proceedings of ICAP, Rostock-Warnemunde, Germany), p. WEACI1.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="sagan__2012__design" class="csl-entry">Sagan, D. 2012. <i>Design and Applications of the Bmad Library for the Simulation of Particle Beams and X-Rays</i>. WEACI1.</span>
+    </span>
   citation: Sagan, 2012
 bibTex: "@inproceedings{sagan__2012__design,\n\tauthor = {Sagan, David},\n\tseries = {Proceedings of {ICAP}, {Rostock}-{Warnemunde}, {Germany}},\n\tyear = {2012},\n\tpages = {WEACI1},\n\ttitle = {Design and {Applications} of the {Bmad} {Library} for the {Simulation} of {Particle} {Beams} and {X}-{Rays}},\n}\n\n"
 ---

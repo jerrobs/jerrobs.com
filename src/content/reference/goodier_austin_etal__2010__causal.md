@@ -58,9 +58,9 @@ tags:
   - topic:strategy/roadmapping
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="goodier_austin_etal__2010__causal" class="csl-entry">Goodier, C. <i>et al.</i> 2010 “Causal mapping and scenario building with multiple organisations,” <i>Futures</i>, 42(3), pp. 219–229. doi:10.1016/j.futures.2009.11.007.</div>
-    </div>
-  citation: Goodier <i>et al.</i>, 2010
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="goodier_austin_etal__2010__causal" class="csl-entry">Goodier, C., Austin, S., Soetanto, R., &#38; Dainty, A. 2010. Causal mapping and scenario building with multiple organisations. <i>Futures</i>, <i>42</i>(3), 219–229. <a href='https://doi.org/10.1016/j.futures.2009.11.007'>https://doi.org/10.1016/j.futures.2009.11.007</a></span>
+    </span>
+  citation: Goodier et al., 2010
 bibTex: "@article{goodier_austin_etal__2010__causal,\n\tnote = {[Online; accessed 2021-02-22]},\n\tauthor = {Goodier, Chris and Austin, Simon and Soetanto, Robby and Dainty, Andrew},\n\tjournal = {Futures},\n\tnumber = {3},\n\tyear = {2010},\n\tmonth = {4},\n\tpages = {219--229},\n\ttitle = {Causal mapping and scenario building with multiple organisations},\n\thowpublished = {https://linkinghub.elsevier.com/retrieve/pii/S0016328709001815},\n\tvolume = {42},\n}\n\n"
 ---

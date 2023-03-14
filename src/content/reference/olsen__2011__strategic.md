@@ -16,8 +16,7 @@ cslItem:
       - - 2011
         - 11
         - 15
-  keyword: >-
-    #nosource;__strategy2030:strategic-planning;collection::strategy::definitions
+  keyword: "#nosource;__strategy2030:strategic-planning;collection::strategy::planning"
   language: English
   publisher: John Wiley & Sons
   title: Strategic Planning Kit For Dummies
@@ -26,12 +25,12 @@ tags:
   - "#nosource"
   - __strategy2030:strategic-planning
   - issue:strategy
-  - topic:strategy/definitions
+  - topic:strategy/planning
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="olsen__2011__strategic" class="csl-entry">Olsen, E. 2011 <i>Strategic Planning Kit For Dummies</i>. John Wiley &#38; Sons (John Wiley &#38; Sons).</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="olsen__2011__strategic" class="csl-entry">Olsen, E. 2011. <i>Strategic Planning Kit For Dummies</i>. John Wiley &#38; Sons.</span>
+    </span>
   citation: Olsen, 2011
 bibTex: "@book{olsen__2011__strategic,\n\tauthor = {Olsen, Erica},\n\tseries = {John {Wiley} & {Sons}},\n\tyear = {2011},\n\tmonth = {nov 15},\n\tpublisher = {John Wiley & Sons},\n\ttitle = {Strategic {Planning} {Kit} {For} {Dummies}},\n}\n\n"
 ---

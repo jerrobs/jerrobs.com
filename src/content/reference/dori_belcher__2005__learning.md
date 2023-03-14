@@ -52,9 +52,9 @@ tags:
   - topic:pathicles/educational_visualization
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="dori_belcher__2005__learning" class="csl-entry">Dori, Y.J. and Belcher, J. 2005 “Learning Electromagnetism with Visualizations and Active Learning,” in Gilbert, J.K. (ed.) <i>Visualization in Science Education</i>. Dordrecht: Springer Netherlands, pp. 187–216. doi:10.1007/1-4020-3613-2_11.</div>
-    </div>
-  citation: Dori and Belcher, 2005
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="dori_belcher__2005__learning" class="csl-entry">Dori, Y. J., &#38; Belcher, J. 2005. Learning Electromagnetism with Visualizations and Active Learning. In J. K. Gilbert (Ed.), <i>Visualization in Science Education</i> (pp. 187–216). Springer Netherlands. <a href='https://doi.org/10.1007/1-4020-3613-2_11'>https://doi.org/10.1007/1-4020-3613-2_11</a></span>
+    </span>
+  citation: Dori &#38; Belcher, 2005
 bibTex: "@inbook{dori_belcher__2005__learning,\n\tnote = {[Online; accessed 2020-12-31]},\n\taddress = {Dordrecht},\n\tauthor = {Dori, Yehudit Judy and Belcher, John},\n\tbooktitle = {Visualization in {Science} {Education}},\n\teditor = {Gilbert, John K.},\n\tyear = {2005},\n\tpages = {187--216},\n\tpublisher = {Springer Netherlands},\n\ttitle = {Learning {Electromagnetism} with {Visualizations} and {Active} {Learning}},\n}\n\n"
 ---

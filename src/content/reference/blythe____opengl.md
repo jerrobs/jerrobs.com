@@ -16,9 +16,9 @@ tags:
   - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="blythe____opengl" class="csl-entry">Blythe, D. no date “OpenGL R ES Common/Common-Lite Proﬁle Speciﬁcation,” p. 84.</div>
-    </div>
-  citation: Blythe, no date
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="blythe____opengl" class="csl-entry">Blythe, D. n.d.. <i>OpenGL R ES Common/Common-Lite Proﬁle Speciﬁcation</i>. 84.</span>
+    </span>
+  citation: Blythe, n.d.
 bibTex: "@article{blythe____opengl,\n\tauthor = {Blythe, David},\n\tpages = {84},\n\ttitle = {OpenGL {R} {ES} {Common}/{Common}-{Lite} {Profile} {Specification}},\n}\n\n"
 ---

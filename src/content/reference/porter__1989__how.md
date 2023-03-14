@@ -34,9 +34,9 @@ tags:
   - topic:strategy/management-theory
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="porter__1989__how" class="csl-entry">Porter, M.E. 1989 “How competitive forces shape strategy,” in Asch, D. and Bowman, C. (eds.) <i>Readings in strategic management</i>. London: Macmillan Education UK, pp. 133–143. doi:10.1007/978-1-349-20317-8₁0.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="porter__1989__how" class="csl-entry">Porter, M. E. 1989. How competitive forces shape strategy. In D. Asch &#38; C. Bowman (Eds.), <i>Readings in strategic management</i> (pp. 133–143). Macmillan Education UK. <a href='https://doi.org/10.1007/978-1-349-20317-8'>https://doi.org/10.1007/978-1-349-20317-8</a>₁0</span>
+    </span>
   citation: Porter, 1989
 bibTex: "@inbook{porter__1989__how,\n\taddress = {London},\n\tauthor = {Porter, Michael E.},\n\tbooktitle = {Readings in strategic management},\n\teditor = {Asch, David and Bowman, Cliff},\n\tyear = {1989},\n\tpages = {133--143},\n\tpublisher = {Macmillan Education UK},\n\ttitle = {How competitive forces shape strategy},\n}\n\n"
 ---

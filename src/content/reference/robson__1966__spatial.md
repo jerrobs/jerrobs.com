@@ -33,9 +33,9 @@ tags:
   - topic:pathicles/gpgpu
 rendered:
   bibliography: |-
-    <div class="csl-bib-body">
-      <div data-csl-entry-id="robson__1966__spatial" class="csl-entry">Robson, J.G. 1966 “Spatial and Temporal Contrast-Sensitivity Functions of the Visual System,” <i>Journal of the Optical Society of America</i>, 56(8), p. 1141. doi:10.1364/JOSA.56.001141.</div>
-    </div>
+    <span class="csl-bib-body">
+      <span data-csl-entry-id="robson__1966__spatial" class="csl-entry">Robson, J. G. 1966. Spatial and Temporal Contrast-Sensitivity Functions of the Visual System. <i>Journal of the Optical Society of America</i>, <i>56</i>(8), 1141. <a href='https://doi.org/10.1364/JOSA.56.001141'>https://doi.org/10.1364/JOSA.56.001141</a></span>
+    </span>
   citation: Robson, 1966
 bibTex: "@article{robson__1966__spatial,\n\tnote = {[Online; accessed 2021-02-04]},\n\tauthor = {Robson, J. G.},\n\tjournal = {Journal of the Optical Society of America},\n\tnumber = {8},\n\tyear = {1966},\n\tmonth = {aug 1},\n\tpages = {1141},\n\ttitle = {Spatial and {Temporal} {Contrast}-{Sensitivity} {Functions} of the {Visual} {System}},\n\thowpublished = {https://www.osapublishing.org/abstract.cfm?URI=josa-56-8-1141},\n\tvolume = {56},\n}\n\n"
 ---
