@@ -28,6 +28,7 @@ body {
   background-color: var(--color-background);
   background: linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), var(--color-background);
   background-size: 100% 1rem, 100% 5rem, 100% 100%;
+  color: var(--color-text-base);
 }
 
 .layout__main {
@@ -93,7 +94,7 @@ body {
 }
 
 a {
-  color: black;
+  color: var(--color-text-base);
   text-decoration: underline dotted;
 }
 
@@ -172,4 +173,16 @@ div.rotate {
 //   white-space: nowrap;
 // }
 
+}
+
+
+li.bib-item {
+  position: relative;
+  margin-left: 28px;
+}
+
+li.bib-item .icon {
+  width: 28px;
+  position: absolute;
+  left: -21px;
 }
