@@ -1,9 +1,9 @@
 @import './mixins/';
 
 section.md {
-  // margin-top: 1rem;
-  margin-bottom: 2rem;
-  max-width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
 }
 
 h2.md, h3.md, h4.md, p.md, li.md {
@@ -20,13 +20,13 @@ p.md {
 }
 
 h1.md, h2.md {
-  $baselined-typography(body-lg);
+  $baselined-typography(body-md);
   text-transform: uppercase;
   font-weight: var(--font-weight--bold);
 }
 
 h3.md {
-  $baselined-typography(body-lg);
+  $baselined-typography(body-md);
   font-style: italic;
 }
 
@@ -44,7 +44,7 @@ hr.md {
   border: 0;
 }
 
-// section.md, blockquote.md, .level1
+
 ul.md, ol.md {
   $baselined-typography(body-md);
   position: relative;
@@ -76,18 +76,12 @@ ul.md, ol.md {
 }
 
 blockquote.md {
-  margin: 1rem
-  padding 0 1rem
-  // margin-right: 0;
-  // padding  $bl(0) $bl(1) $bl(0.001) $bl(1)
-  // background linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), #eee
-  // background-color var(--color-bg__page)
-  // background-size 100% $bl(0.5), 100% $bl(1), 100% 100%
+  margin: 1rem 0
+  padding 0 .5rem
+  background linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), #eee
   font-style: italic;
-
-  // border $bl(1) #eee solid
   cite {
-    text-align: left;
+    text-align: right;
   }
 
   cite > .bib-ref {
@@ -264,10 +258,6 @@ ul.bib-list li:before {
   display: none !important
 }
 
-blockquote.md {
-
-  border-left 5px solid black
-}
 
 
 cite {

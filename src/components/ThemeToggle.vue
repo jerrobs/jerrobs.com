@@ -43,7 +43,7 @@ export default {
     // Listen for system-level color mode changes
     window
       .matchMedia("(prefers-color-scheme: dark)")
-      .addEventListener("change", (event) => {
+      .addEventListener("change", event => {
         const newColorScheme = event.matches ? "dark" : "light"
         // Keep system preference up to date
         this.systemTheme = newColorScheme

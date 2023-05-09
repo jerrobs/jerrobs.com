@@ -30,7 +30,7 @@ cslItem:
         - 12
         - 10
   keyword: >-
-    #nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:nonprofit-organizations;collection::strategy::esuo
+    #nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:nonprofit-organizations;collection::strategy::non-profit
   language: en-US
   title: Strategy Making in Nonprofit Organizations
   type: book
@@ -39,7 +39,7 @@ tags:
   - __strategy2030:strategic-planning
   - __strategy2030:strategic-planning:nonprofit-organizations
   - issue:strategy
-  - topic:strategy/esuo
+  - topic:strategy/non-profit
 rendered:
   bibliography: |-
     <span class="csl-bib-body">

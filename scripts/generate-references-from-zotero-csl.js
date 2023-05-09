@@ -8,6 +8,7 @@ import { readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 
 
+
 const URL_REGEXP = /(https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_+.~#?&/=]*))/
 
 const linkify = (str) => str.replace(URL_REGEXP, "<a href='$1'>$1</a>")
@@ -18,6 +19,21 @@ const readCSLItems = (fileNames) =>
   )
 
 const generate = ({ globPattern, tagScoper }) => {
+
+
+  // convert array to map
+  fg.sync(globPattern).forEach(fileName  => {
+
+    const parsed = JSON.parse(readFileSync(fileName).toString())
+    const obj = Object.fromEntries(parsed.map(k => [k.id, k]))
+    writeFileSync(join(".", "src", fileName), JSON.stringify(obj, null, 2))
+
+  })
+
+
+
+
+
   const clsItems = readCSLItems(
     fg.sync(globPattern)
   )

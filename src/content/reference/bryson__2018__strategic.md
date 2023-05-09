@@ -16,7 +16,7 @@ cslItem:
         - 1
         - 4
   keyword: >-
-    #nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:nonprofit-organizations;collection::strategy::esuo
+    #nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:nonprofit-organizations;collection::strategy::non-profit
   language: en-US
   publisher: John Wiley & Sons
   title: Strategic Planning for Public and Nonprofit Organizations
@@ -26,7 +26,7 @@ tags:
   - __strategy2030:strategic-planning
   - __strategy2030:strategic-planning:nonprofit-organizations
   - issue:strategy
-  - topic:strategy/esuo
+  - topic:strategy/non-profit
 rendered:
   bibliography: |-
     <span class="csl-bib-body">

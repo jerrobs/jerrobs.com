@@ -18,15 +18,15 @@ cslItem:
         - 10
         - 31
   keyword: >-
-    __strategy2030:strategic-planning;#nosource;collection::strategy::military;collection::strategy::definitions
+    #nosource;__strategy2030:strategic-planning;collection::strategy::military;collection::strategy::definitions
   language: English
   publisher: Oxford University Press
   title: "Strategy: A history."
   title-short: Strategy
   type: book
 tags:
-  - __strategy2030:strategic-planning
   - "#nosource"
+  - __strategy2030:strategic-planning
   - issue:strategy
   - topic:strategy/military
   - issue:strategy

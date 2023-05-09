@@ -1,42 +1,49 @@
 ---
-import type { CollectionEntry  } from "astro:content"
+import type { CollectionEntry } from "astro:content"
 import { Image } from "@astrojs/image/components"
-import bookIcon from "@astro/icons/book.png"
+
+
 export interface Props {
   item: CollectionEntry<"reference">
 }
 const defaultAsset = "../_astro/icons/note.png"
 const iconDictionary = new Map<string, string>([
-        ["book", "../_astro/icons/book.png"],
-        ["chapter", "../_astro/icons/bookSection.png"],
-        ["report", "../_astro/icons/report.png"],
-        ["software", "../_astro/icons/computerProgram.png"],
-        ["article-journal", "../_astro/icons/journalArticle.png"],
-        ["post-weblog", "../_astro/icons/blogPost.png"],
-        ["webpage", "../_astro/icons/webpage.png"],
-        ["thesis", "../_astro/icons/thesis.png"],
-        ["paper-conference", "../_astro/icons/conferencePaper.png"],
-        ["manuscript", "../_astro/icons/manuscript.png"],
-        ["entry-encyclopedia", "../_astro/icons/encyclopediaArticle.png"],
-        ["article-magazine", "../_astro/icons/magazineArticle.png"],
-        ["motion_picture", "../_astro/icons/videoRecording.png"],
-    ]);
+  ["book", "../_astro/icons/book.png"],
+  ["chapter", "../_astro/icons/bookSection.png"],
+  ["report", "../_astro/icons/report.png"],
+  ["software", "../_astro/icons/computerProgram.png"],
+  ["article-journal", "../_astro/icons/journalArticle.png"],
+  ["post-weblog", "../_astro/icons/blogPost.png"],
+  ["webpage", "../_astro/icons/webpage.png"],
+  ["thesis", "../_astro/icons/thesis.png"],
+  ["paper-conference", "../_astro/icons/conferencePaper.png"],
+  ["manuscript", "../_astro/icons/manuscript.png"],
+  ["entry-encyclopedia", "../_astro/icons/encyclopediaArticle.png"],
+  ["article-magazine", "../_astro/icons/magazineArticle.png"],
+  ["motion_picture", "../_astro/icons/videoRecording.png"],
+])
 
 const { item } = Astro.props
 
-const assetFilePath = "../_astro/icons/" + item.data.cslItem.type + ".png"
+const images = import.meta.glob("../_astro/icons/**.png", {
+  import: "default",
+})
 
-const images = import.meta.glob<ImageMetadata>('../_astro/icons/**.png', { import: 'default' })
-
-const imagesrc = await images[iconDictionary.get(item.data.cslItem.type) || defaultAsset]()
-
+const imagesrc = await images[
+  iconDictionary.get(item.data.cslItem.type) || defaultAsset
+]()
 ---
 
 <li class={"bib-item " + item.data.cslItem.type}>
   <span class="icon">
-  <Image src={imagesrc} width="14" height="14" alt={"ICON: " + item.data.cslItem.type} />  
+    <Image
+      src={imagesrc}
+      width="14"
+      height="14"
+      alt={"ICON: " + item.data.cslItem.type}
+    />
   </span>
-  <!-- <span class="bib-ref__citation" set:html={item.data.rendered.citation} /> -->
+  <!-- <span class="bib-ref__citation" set:html={item.data.cslItem.id} /> -->
   <span
     class="bib-ref__bibliography"
     set:html={item.data.rendered.bibliography}

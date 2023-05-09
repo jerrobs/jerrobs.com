@@ -13,11 +13,5 @@ const references = await getReferences(tag)
 
 {title && <h3 class="md">{title}</h3>}
 <ul class="bib-list small">
-  {
-    references.map(reference => (
-      <BibItem item={reference} />
-      
-    ))
-  }
+  {references.map(reference => <BibItem item={reference} />)}
 </ul>
-

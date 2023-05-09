@@ -1,3 +1,33 @@
 .layout__header, .layout__main, .layout__footer {
   padding: 0 0.5rem;
 }
+
+
+
+
+
+.article {
+  display: grid;
+  
+  
+  grid-template-areas: 'header header' 'abody footer';
+  grid-template-columns: 2fr 1fr;
+  
+  grid-gap: $bl(1);
+}
+
+.article-header {
+  grid-area: header
+  
+}
+
+.article-body {
+  grid-area: abody
+  
+  
+}
+
+.article-footer {
+  grid-area: footer
+  
+}

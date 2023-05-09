@@ -27,14 +27,14 @@ cslItem:
         - 12
         - 18
   keyword: >-
-    __strategy2030:strategic-planning;#nosource;collection::strategy::management-theory
+    #nosource;__strategy2030:strategic-planning;collection::strategy::management-theory
   language: English
   publisher: Harvard Business Press
   title: HBR Guide to Thinking Strategically (HBR Guide Series)
   type: book
 tags:
-  - __strategy2030:strategic-planning
   - "#nosource"
+  - __strategy2030:strategic-planning
   - issue:strategy
   - topic:strategy/management-theory
 rendered:

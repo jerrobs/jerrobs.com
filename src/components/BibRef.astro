@@ -1,5 +1,4 @@
 ---
-import { getReferences } from "@utils/getReferences"
 import { getEntryBySlug } from "astro:content"
 
 export interface Props {
@@ -19,10 +18,7 @@ const reference = await getEntryBySlug("reference", refId)
           class="bib-ref__citation"
           set:html={reference.data.rendered.citation}
         />
-        <span
-          class="bib-ref__locator"
-          set:html={locator}
-        />
+        <span class="bib-ref__locator" set:html={locator} />
         <span
           class="bib-ref__bibliography"
           set:html={reference.data.rendered.bibliography}

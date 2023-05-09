@@ -16,6 +16,7 @@ export const articleSchema = z
     draft: z.boolean().optional(),
 
     tags,
+    bibliography: z.string().optional(),
 
     references: z
       .object({

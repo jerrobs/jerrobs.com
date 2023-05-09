@@ -1,24 +1,27 @@
-import { defineConfig } from "astro/config";
-import remarkToc from "remark-toc";
-import sectionize from "remark-sectionize";
-import remarkCollapse from "remark-collapse";
-import sitemap from "@astrojs/sitemap";
-import mdx from "@astrojs/mdx";
-import compress from "astro-compress";
-import { markdownedFrontmatterPlugin } from "./src/utils/markdown/remark-markdowned-frontmatter";
-import AstroPWA from "@vite-pwa/astro";
-import rehypeRewrite from "rehype-rewrite";
-import spaceCommand from "./src/utils/space-commander.ts";
-import rehypeAddClasses from "rehype-add-classes";
-import image from "@astrojs/image";
+import { defineConfig } from "astro/config"
+// import remarkToc from "remark-toc"
+import sectionize from "remark-sectionize"
+// import remarkCollapse from "remark-collapse"
+import sitemap from "@astrojs/sitemap"
+import mdx from "@astrojs/mdx"
+import compress from "astro-compress"
+import { markdownedFrontmatterPlugin } from "./src/utils/markdown/remark-markdowned-frontmatter"
+import AstroPWA from "@vite-pwa/astro"
+import rehypeRewrite from "rehype-rewrite"
+import spaceCommand from "./src/utils/space-commander.ts"
+import rehypeAddClasses from "rehype-add-classes"
+import image from "@astrojs/image"
 import { resolve, dirname } from "node:path"
-import { fileURLToPath } from 'url';
+import { fileURLToPath } from "url"
+import bibliography from "remark-bibliography"
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+console.log(bibliography)
+console.log(sectionize)
 
 // https://astro.build/config
-import vue from "@astrojs/vue";
+import vue from "@astrojs/vue"
 
 // https://astro.build/config
 export default defineConfig({
@@ -26,63 +29,57 @@ export default defineConfig({
     css: {
       preprocessorOptions: {
         stylus: {
-          imports: [resolve(__dirname, 'src/styles/mixins/index.styl')],
+          imports: [resolve(__dirname, "src/styles/mixins/index.styl")],
         },
       },
     },
     build: {
       rollupOptions: {
         output: {
-          assetFileNames: "assets/[name]-[hash][extname]"
-        }
-      }
-    }
+          assetFileNames: "assets/[name]-[hash][extname]",
+        },
+      },
+    },
   },
   output: "static",
   site: "https://www.jerrobs.com/",
-  integrations: [mdx(), image({
-    serviceEntryPoint: "@astrojs/image/sharp"
-  }),
+  integrations: [
+    mdx(),
+    image({
+      serviceEntryPoint: "@astrojs/image/sharp",
+    }),
 
-  sitemap(),
-  compress(),
-  AstroPWA({
-    manifest: {
-      $schema: "https://json.schemastore.org/web-manifest-combined.json",
-      name: "Journal of Erratic Obervations",
-      short_name: "J.Err.Obs.",
-      theme_color: "#ffffff",
-      icons: [
-        {
-          src: "/assets/icons/manifest-icon-192.png",
-          sizes: "192x192",
-          type: "image/png",
-        },
-        {
-          src: "/assets/icons/manifest-icon-512.png",
-          sizes: "512x512",
-          type: "image/png",
-        },
-      ],
-    },
-    workbox: {
-      navigateFallback: "/404",
-      globPatterns: ["**/*.{css,js,html,svg,png,ico,txt}"],
-    },
-  }),
-    , vue()],
+    sitemap(),
+    compress(),
+    AstroPWA({
+      manifest: {
+        $schema: "https://json.schemastore.org/web-manifest-combined.json",
+        name: "Journal of Erratic Obervations",
+        short_name: "J.Err.Obs.",
+        theme_color: "#ffffff",
+        icons: [
+          {
+            src: "/assets/icons/manifest-icon-192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icons/manifest-icon-512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+        ],
+      },
+      workbox: {
+        navigateFallback: "/404",
+        globPatterns: ["**/*.{css,js,html,svg,png,ico,txt}"],
+      },
+    }),
+    ,
+    vue(),
+  ],
   markdown: {
-    remarkPlugins: [
-      markdownedFrontmatterPlugin,
-      sectionize,
-      remarkToc,
-      [
-        remarkCollapse,
-        {
-          test: "Table of contents",
-        },
-      ],
-    ],
+    remarkPlugins: [markdownedFrontmatterPlugin, sectionize, bibliography],
     rehypePlugins: [
       [
         rehypeAddClasses,
@@ -108,4 +105,4 @@ export default defineConfig({
     },
     extendDefaultPlugins: true,
   },
-});
+})

@@ -21,7 +21,7 @@ export interface Props {
 
 const { issue } = Astro.props
 
-const { coverImageCaption, coverImageAlt, title, subtitle } = issue.data
+const { coverImageAlt, title, subtitle } = issue.data
 
 const title__html = renderInline(title)
 const subtitle__html = renderInline(subtitle)

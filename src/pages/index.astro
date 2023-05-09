@@ -1,13 +1,11 @@
 ---
-import Layout from "@layouts/Layout.astro"
-import Header from "@components/Header.astro"
-import IssueList from "@components/IssuesList.astro"
-import Footer from "@components/Footer.astro"
+import Layout from "@layouts/Layout.astro";
+import IssueList from "@components/IssuesList.astro";
 
-import { getIssues } from "@utils/getIssues"
+import { getIssues } from "@utils/getIssues";
 
-const issues = await getIssues()
-const featuredIssues = issues
+const issues = await getIssues();
+const featuredIssues = issues;
 ---
 
 <Layout>
