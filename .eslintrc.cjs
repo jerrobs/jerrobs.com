@@ -1,10 +1,17 @@
 module.exports = {
+  root: true,
   env: {
     node: true,
     es2022: true,
     browser: true,
   },
-  extends: ["eslint:recommended", "plugin:astro/recommended"],
+  plugins: ["@typescript-eslint"],
+  extends: [
+    "eslint:recommended",
+    "plugin:astro/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+  ],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
@@ -20,4 +27,4 @@ module.exports = {
       rules: {},
     },
   ],
-};
+}

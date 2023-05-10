@@ -2,6 +2,15 @@
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "baseUrl": ".",
+    "types": [
+      "vite/client",
+      "astro/client",
+      "@astrojs/image/client",
+      "vite-plugin-pwa/info",
+      "vite-plugin-pwa/client",
+      "./.astro/types.d.ts"
+    ],
+
     "paths": {
       "@astro/*": ["./src/_astro/*"],
       "@*": ["./src/*"],

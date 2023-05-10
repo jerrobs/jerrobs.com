@@ -1,4 +1,4 @@
-import { CollectionEntry, getCollection } from "astro:content"
+import { getCollection } from "astro:content"
 
 export async function getArticles() {
   const articles = await getCollection("article")

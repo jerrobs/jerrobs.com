@@ -1,13 +1,13 @@
-import { registerSW } from "virtual:pwa-register"
+/*eslint prefer-const: "off"*/
+/*eslint  @typescript-eslint/no-non-null-assertion: "off"*/
 
-window.addEventListener("load", () => {
-  const pwaToast = document.querySelector<HTMLDivElement>("#pwa-toast")!
-  const pwaToastMessage = pwaToast.querySelector<HTMLDivElement>(
-    ".message #toast-message"
-  )!
-  const pwaCloseBtn = pwaToast.querySelector<HTMLButtonElement>("#pwa-close")!
-  const pwaRefreshBtn =
-    pwaToast.querySelector<HTMLButtonElement>("#pwa-refresh")!
+import { registerSW } from 'virtual:pwa-register'
+
+window.addEventListener('load', () => {
+  const pwaToast = document.querySelector<HTMLDivElement>('#pwa-toast')!
+  const pwaToastMessage = pwaToast.querySelector<HTMLDivElement>('.message #toast-message')!
+  const pwaCloseBtn = pwaToast.querySelector<HTMLButtonElement>('#pwa-close')!
+  const pwaRefreshBtn = pwaToast.querySelector<HTMLButtonElement>('#pwa-refresh')!
 
   let refreshSW: ((reloadPage?: boolean) => Promise<void>) | undefined
 
@@ -18,35 +18,37 @@ window.addEventListener("load", () => {
       requestAnimationFrame(() => hidePwaToast(false))
       return
     }
-    if (pwaToast.classList.contains("refresh"))
-      pwaRefreshBtn.removeEventListener("click", refreshCallback)
+    if (pwaToast.classList.contains('refresh'))
+      pwaRefreshBtn.removeEventListener('click', refreshCallback)
 
-    pwaToast.classList.remove("show", "refresh")
+    pwaToast.classList.remove('show', 'refresh')
   }
   const showPwaToast = (offline: boolean) => {
-    if (!offline) pwaRefreshBtn.addEventListener("click", refreshCallback)
+    if (!offline)
+      pwaRefreshBtn.addEventListener('click', refreshCallback)
     requestAnimationFrame(() => {
       hidePwaToast(false)
-      if (!offline) pwaToast.classList.add("refresh")
-      pwaToast.classList.add("show")
+      if (!offline)
+        pwaToast.classList.add('refresh')
+      pwaToast.classList.add('show')
     })
   }
 
-  pwaCloseBtn.addEventListener("click", () => hidePwaToast(true))
+  pwaCloseBtn.addEventListener('click', () => hidePwaToast(true))
 
   refreshSW = registerSW({
     immediate: true,
     onOfflineReady() {
-      pwaToastMessage.innerHTML = "App ready to work offline"
+      pwaToastMessage.innerHTML = 'App ready to work offline'
       showPwaToast(true)
     },
     onNeedRefresh() {
-      pwaToastMessage.innerHTML =
-        "New content available, click on reload button to update"
+      pwaToastMessage.innerHTML = 'New content available, click on reload button to update'
       showPwaToast(false)
     },
     onRegisteredSW(swScriptUrl) {
-      console.log("SW registered: ", swScriptUrl)
+
+      console.log('SW registered: ', swScriptUrl)
     },
   })
 })

@@ -56,10 +56,17 @@ u := γv = p/m
 ```
 
 
+[comment]: <> (1. The **Lorentz force** of an electric force field <span class="math">**E**</span> and magnetic force field <span class="math">**B**</span> on a particle with mass <span class="math">m</span>, electric charge <span class="math">q</span>, velocity <span class="math">**v**</span>, and location <span class="math">**x**</span> is given by)
 
+[comment]: <> ( <div class="math">**F** = q @ / @ m &#40;**E** @ + @ **v**&times;**B**&#41; </div>)
 
+[comment]: <> (2. According to **Newton's second law**, the force on a particle is equal to the change in momentum of the particle.)
 
+[comment]: <> ( <div class="math">**F** = d**p** @ / @ dt = d&#40;m**v**&#41; @ / @ dt = d²&#40;m**x**&#41; / dt²</div> )
 
+[comment]: <> (3. According to Einstein's Special Relativity, the momentum of a &#40;relativistic&#41; particle is given by)
+
+[comment]: <> ( <div class="math">**p** @@ = @@ &gamma; @ m @ **v** = &gamma; @ m @ c @ **&beta;**</div>)
 
 :::
 

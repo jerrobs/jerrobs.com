@@ -1,5 +1,3 @@
-import { SITE } from "@config"
-
 export const getPageNumbers = (
   numberOfEntries: number,
   entriesPerPage: number
