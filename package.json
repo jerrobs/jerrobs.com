@@ -1,5 +1,5 @@
 {
-  "name": "jerrobs-astro-paper",
+  "name": "jerrobs.com",
   "version": "0.1.0",
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
     "preview": "astro preview",
     "sync": "astro sync"
   },
-  "packageManager": "pnpm@8.6.1",
+
 
   "dependencies": {
     "@astrojs/vue": "2.2.1",
