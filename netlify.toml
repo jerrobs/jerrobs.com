@@ -1,10 +1,5 @@
 [build]
-  YARN_VERSION = "1.22.0"
-
-[dev]
-  command = "yarn workspace @bpde/website run build" # Command to start your dev server
-  port = 3000 # Port that the dev server will be listening on
-  publish = "./packages/@bpde/website/dist" # If you use a _redirect file, provide the path to your static content folder
+  command = "pnpm run build"
 
 [[redirects]]
   from = "/*"
