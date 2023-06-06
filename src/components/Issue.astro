@@ -25,20 +25,21 @@ const { Content } = await issue.render()
 
 <article id="issue" role="article">
   <h1
-    class="issue-title body-xxl italic bold uppercase"
+    class="body-xxxl italic bold uppercase"
     set:html={renderInline(title)}
   />
   <p
-    class="issue-subtitle body-xl italic uppercase"
+    class="issue-subtitle body-xxl italic uppercase"
     set:html={renderInline(subtitle)}
   />
+
   <p class="issue-abstract body-md bold" set:html={renderInline(description)} />
 
   <Content />
 
   <section class="md">
     <h2 class="md">Articles</h2>
-    <ul class="issue__articles">
+    <div class="issue__articles">
       {articles.map(article => <ArticlePreview article={article} />)}
     </ul>
   </section>
@@ -52,3 +53,23 @@ const { Content } = await issue.render()
     }
   </section>
 </article>
+
+
+<style>
+
+  .issue-abstract {
+   margin-bottom: var(--baseline-height); 
+  }
+
+.issue-subtitle {
+  margin-bottom: var(--baseline-height);
+}
+.issue__articles {
+    --auto-grid-min-size: 5rem;
+    display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+ 
+  grid-gap: 2rem;
+
+}
+</style>

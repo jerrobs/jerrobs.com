@@ -25,6 +25,8 @@ html {
 }
 
 body {
+  transition: background-color  1s;
+  
   background-color: var(--color-background);
   background: linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), var(--color-background);
   background-size: 100% 1rem, 100% 5rem, 100% 100%;
@@ -91,6 +93,9 @@ body {
 
 .body-xxl {
   $baselined-typography(body-xxl);
+}
+.body-xxxl {
+  $baselined-typography(body-xxxl);
 }
 
 a {

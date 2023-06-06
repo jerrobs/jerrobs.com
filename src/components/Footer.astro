@@ -3,9 +3,9 @@
 const currentYear = new Date().getFullYear()
 ---
 
-<div class="footer-wrapper">
-  <p class="copyright-wrapper md">
-    <span>Copyright &#169; {currentYear}</span>
+<footer class="footer-wrapper">
+  <p class="copyright-wrapper">
+    <span>&#169; {currentYear}</span>
     <span class="separator">&nbsp;|&nbsp;</span>
     <span>All rights reserved.</span>
   </p>
@@ -16,6 +16,7 @@ const currentYear = new Date().getFullYear()
     position: relative;
     margin-top: 2rem;
     padding 1rem 0;
+    $baselined-typography(body-sm)
     
   }
 .footer-wrapper:before {

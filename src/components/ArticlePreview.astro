@@ -15,12 +15,13 @@ const { data, slug } = await article
 const { issue } = data
 ---
 
-<div class="article-preview">
-  <a href={`/issues/${issue}/${slug}`}>
+<a class="article-preview" href={`/issues/${issue}/${slug}`}>
+  
     <div class="article-preview__id body-xxl bold">{slug.substring(4)}</div>
-
+    <div class="article-preview__body">
     <h3 class="md italic uppercase bold" set:html={renderInline(data.title)} />
     <p class="md" set:html={renderInline(data.description)} />
+    </div>
   </a>
 
   <style lang="stylus">
@@ -28,16 +29,20 @@ const { issue } = data
 
 
  .article-preview {
-  clear: both;
-  position: relative;
-  padding-left: 6rem;
-  min-height: 6rem;
+  display flex
+  flex-direction: column;
+  
+  // padding-top: 2rem;
+  
+  // padding-left: 6rem;
+  // min-height: 6rem;
  }
  .article-preview__id {
-  padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-left: .5rem;
   padding-right: .5rem;
-  position: absolute;
+  text-decoration: none;
+  
   left: 0
   opacity: .5;
   font-variant-numeric: tabular-nums; 
