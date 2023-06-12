@@ -1,17 +1,17 @@
 ---
-import type { CollectionEntry } from "astro:content"
+import type { CollectionEntry } from "astro:content";
 
-import { renderInline } from "@utils/markdown/render"
+import { renderInline } from "@utils/markdown/render";
 
-import BibList from "./BibList.astro"
+import BibList from "./BibList.astro";
 
 export interface Props {
-  article: CollectionEntry<"article">
+  article: CollectionEntry<"article">;
 }
-const { article } = Astro.props
-const { title, description, subtitle, issue } = article.data
+const { article } = Astro.props;
+const { title, description, subtitle, issue } = article.data;
 
-const { Content } = await article.render()
+const { Content } = await article.render();
 ---
 
 <article class="article" role="article">
@@ -32,7 +32,8 @@ const { Content } = await article.render()
   <div class="article-body">
     <Content />
   </div>
-  <footer class="article-footer">
-    <BibList tag={"issue:" + issue} />
-  </footer>
 </article>
+
+<style>
+
+</style>

@@ -1,28 +1,39 @@
-import { defineConfig } from "astro/config"
+import {
+  defineConfig
+} from "astro/config"
 // import remarkToc from "remark-toc"
 import sectionize from "remark-sectionize"
 // import remarkCollapse from "remark-collapse"
 import sitemap from "@astrojs/sitemap"
 import mdx from "@astrojs/mdx"
 import compress from "astro-compress"
-import { markdownedFrontmatterPlugin } from "./src/utils/markdown/remark-markdowned-frontmatter"
+import {
+  markdownedFrontmatterPlugin
+} from "./src/utils/markdown/remark-markdowned-frontmatter"
 import AstroPWA from "@vite-pwa/astro"
 import rehypeRewrite from "rehype-rewrite"
 import spaceCommand from "./src/utils/space-commander.ts"
 import rehypeAddClasses from "rehype-add-classes"
 import image from "@astrojs/image"
-import { resolve, dirname } from "node:path"
-import { fileURLToPath } from "url"
-import bibliography from "remark-bibliography"
-const __filename = fileURLToPath(import.meta.url)
+import {
+  resolve,
+  dirname
+} from "node:path"
+import {
+  fileURLToPath
+} from "url"
+import rehypeCitation from 'rehype-citation'
+const __filename = fileURLToPath(
+  import.meta.url)
 const __dirname = dirname(__filename)
-
+import m2dx from 'astro-m2dx';
 
 // https://astro.build/config
 import vue from "@astrojs/vue"
 
 // https://astro.build/config
 export default defineConfig({
+   
   vite: {
     css: {
       preprocessorOptions: {
@@ -55,8 +66,7 @@ export default defineConfig({
         name: "Journal of Erratic Obervations",
         short_name: "J.Err.Obs.",
         theme_color: "#ffffff",
-        icons: [
-          {
+        icons: [{
             src: "/assets/icons/manifest-icon-192.png",
             sizes: "192x192",
             type: "image/png",
@@ -72,13 +82,16 @@ export default defineConfig({
         navigateFallback: "/404",
         globPatterns: ["**/*.{css,js,html,svg,png,ico,txt}"],
       },
-    }),
-    ,
+    }), ,
     vue(),
   ],
   markdown: {
-    remarkPlugins: [markdownedFrontmatterPlugin, sectionize, bibliography],
+    remarkPlugins: [m2dx, markdownedFrontmatterPlugin, sectionize, rehypeCitation],
     rehypePlugins: [
+      [rehypeCitation, {
+        bibliography: 'jerrobs.strategy.json',
+        linkCitations: true,
+      }],
       [
         rehypeAddClasses,
         {
@@ -86,8 +99,10 @@ export default defineConfig({
         },
       ],
 
+
       [
         rehypeRewrite,
+
         {
           rewrite: function (node) {
             if (node.type == "text") {

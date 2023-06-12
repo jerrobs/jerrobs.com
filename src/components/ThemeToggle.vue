@@ -10,7 +10,7 @@
   </button>
 </template>
 
-<script>
+<script lang="ts">
 import { SunIcon, MoonIcon } from "@heroicons/vue/24/solid/index.js"
 
 export default {

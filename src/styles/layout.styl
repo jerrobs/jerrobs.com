@@ -4,30 +4,18 @@
 
 
 
-
-
-.article {
+.article-body 
   display: grid;
-  
-  
-  grid-template-areas: 'header header' 'abody footer';
-  grid-template-columns: 2fr 1fr;
-  
-  grid-gap: $bl(1);
+  background-color: red;
+  grid-template-columns: \[outer-start\] minmax(10rem, 1fr)\
+    \[main-start\] minmax(0, 40em)\
+    \[main-end\] minmax(5rem, 1fr) \[outer-end\];
+  // grid-template-rows: 1fr 1fr;
+
+.article-body  >  * {
+  grid-column: main / outer;
 }
 
-.article-header {
-  grid-area: header
-  
-}
-
-.article-body {
-  grid-area: abody
-  
-  
-}
-
-.article-footer {
-  grid-area: footer
-  
-}
+.table-container {
+  grid-column: outer / outer;
+  }

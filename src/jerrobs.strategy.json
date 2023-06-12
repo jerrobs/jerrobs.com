@@ -1,9 +1,70 @@
 {
+  "____german": {
+    "id": "____german",
+    "abstract": "VERSION GERMAN SUSTAINABLE DEVELOPMENT STRATEGY 2021 At the SDG Summit in 2019, United Nations Secretary-General António Guterres called for a global Decade of Action, based on the risk then – as now – that the world will fail to achieve the goals of the 2030 Agenda for Sustainable Development.",
+    "citation-key": "____german",
+    "keyword": "collection::strategy::visualization",
+    "language": "en",
+    "source": "Zotero",
+    "title": "German Sustainable Development Strategy",
+    "type": "article-journal"
+  },
+  "____guide": {
+    "id": "____guide",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          23
+        ]
+      ]
+    },
+    "citation-key": "____guide",
+    "keyword": "collection::strategy::visualization",
+    "title": "Guide to Causal Mapping",
+    "type": "webpage",
+    "URL": "https://guide.causalmap.app/"
+  },
+  "____national": {
+    "id": "____national",
+    "citation-key": "____national",
+    "keyword": "collection::strategy::visualization",
+    "language": "en",
+    "source": "Zotero",
+    "title": "National Action Plan on Education for Sustainable Development: The German contribution to the UNESCO Global Action Programme",
+    "type": "article-journal"
+  },
+  "____sustainable": {
+    "id": "____sustainable",
+    "abstract": "The Sustainable Development Report (including the SDG Index & Dashboards) is a complement to the official SDG indicators and voluntary country-led review processes. The report is not an official monitoring tool. It uses publicly available data published by official data providers (World Bank, WHO, ILO, others) and other organizations including research centers and non-governmental organizations. Interest in the global SDG Index and Dashboards has spurred many initiatives to develop localized assessments of SDG progress.",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          22
+        ]
+      ]
+    },
+    "citation-key": "____sustainable",
+    "keyword": "collection::strategy::visualization",
+    "language": "en",
+    "title": "Sustainable Development Report",
+    "type": "webpage",
+    "URL": "https://www.sustainabledevelopment.report"
+  },
   "adzobu__2014__testing": {
     "id": "adzobu__2014__testing",
     "abstract": "This paper investigates how strategy formulation and implementation processes used by the University of Cape Coast (UCC) in building its digital collections compare with the Andrew’s strategic formulation and implementation theoretical framework. Theory-testing case study methodology was used. The data collection instruments were the key informant interview technique and document reviews. During the formulation phase, two aspects (resources and aspirations of senior management) were emergent. During the implementation phase, five aspects (achieving results, processes and behaviour, standards, motivation, personal) were emergent. All other elements of building the UCC digital collections were planned during both the formulation and implementation phases. Although the emphasis on students and learning is laudable and apt, there seems to be lack of focus on research support beyond digital collection building, despite the fact that research excellence is one of the UCC’s key priorities. Opportunities exist for improving feedback mechanisms between the users, digital library staff and the university management; and inclusion of social media tools in the digital library project. Since only the experience of a single institution of higher learning is considered, it cannot be definitively stated that strategy formulation and implementation will be similar in every institutional context. However, the results provide a basis for academic digital libraries to draw lessons from this case. In African public universities, there is little earlier research on strategy formulation and implementation in digital library management. Strategy formulation and implementation is a critical issue for higher education academic libraries especially in developing countries like Ghana, due to limited financial resources and the rapid change in the information environment during the last several decades.",
     "accessed": {
-      "date-parts": [[2020, 1, 17]]
+      "date-parts": [
+        [
+          2020,
+          1,
+          17
+        ]
+      ]
     },
     "author": [
       {
@@ -16,7 +77,13 @@
     "DOI": "10.5865/IJKCT.2014.4.2.049",
     "issue": "2",
     "issued": {
-      "date-parts": [[2014, 12, 31]]
+      "date-parts": [
+        [
+          2014,
+          12,
+          31
+        ]
+      ]
     },
     "keyword": "__strategy2030:strategic-planning;__strategy2030:strategic-planning:swot;collection::strategy::planning",
     "language": "english",
@@ -50,7 +117,11 @@
     "event-place": "New York",
     "ISBN": "978-0-19-501919-3",
     "issued": {
-      "date-parts": [[1977]]
+      "date-parts": [
+        [
+          1977
+        ]
+      ]
     },
     "keyword": "#nosource;Semiotics;Symbolism in architecture;collection::strategy::software-engineering",
     "number-of-pages": "1171",
@@ -78,13 +149,77 @@
     "collection-title": "John Wiley & Sons",
     "ISBN": "1-118-76814-0",
     "issued": {
-      "date-parts": [[2015, 4, 6]]
+      "date-parts": [
+        [
+          2015,
+          4,
+          6
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:nonprofit-organizations;collection::strategy::non-profit",
     "language": "en-US",
     "publisher": "John Wiley & Sons",
     "title": "Strategic Planning for Nonprofit Organizations",
     "type": "book"
+  },
+  "arnold_wade__2015__definition": {
+    "id": "arnold_wade__2015__definition",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          24
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Arnold",
+        "given": "Ross D."
+      },
+      {
+        "family": "Wade",
+        "given": "Jon P."
+      }
+    ],
+    "citation-key": "arnold_wade__2015__definition",
+    "container-title": "Procedia Computer Science",
+    "container-title-short": "Procedia Computer Science",
+    "DOI": "10.1016/j.procs.2015.03.050",
+    "ISSN": "18770509",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "keyword": "collection::strategy::visualization",
+    "language": "en",
+    "page": "669-678",
+    "source": "DOI.org (Crossref)",
+    "title": "A Definition of Systems Thinking: A Systems Approach",
+    "title-short": "A Definition of Systems Thinking",
+    "type": "article-journal",
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1877050915002860",
+    "volume": "44"
+  },
+  "arquitt____systems": {
+    "id": "arquitt____systems",
+    "author": [
+      {
+        "family": "Arquitt",
+        "given": "Steve"
+      }
+    ],
+    "citation-key": "arquitt____systems",
+    "keyword": "⛔ No DOI found;collection::strategy::visualization",
+    "language": "en",
+    "source": "Zotero",
+    "title": "Systems Thinking & Causal Loop Diagraming Refresher",
+    "type": "article-journal"
   },
   "bachani__2012__strategy": {
     "id": "bachani__2012__strategy",
@@ -97,7 +232,13 @@
     ],
     "citation-key": "bachani__2012__strategy",
     "issued": {
-      "date-parts": [[2012, 12, 10]]
+      "date-parts": [
+        [
+          2012,
+          12,
+          10
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:nonprofit-organizations;collection::strategy::non-profit",
     "language": "en-US",
@@ -108,7 +249,13 @@
     "id": "baralou_wolf_etal__2012__erhellend",
     "abstract": "Erhellend, exzellent, ignoriert – Luhmann’s Beitrag zur Systemtheorie und seine Nicht-Anschlussfähigkeit zur akademischen Managementforschung«. Niklas Luhmann’s theory has been largely ignored in organization studies, compared to other sociological approaches like Weick's sensemaking, Giddens’ structuration theory, or Latour’s Actor-Network Theory. While having being applied on a number of fields, such as philosophy, sociology, theology, law and political sciences, application of Luhmann’s theory is still limited in organization studies (e.g. Munro 2010). In this paper, we attempt to explain the reasons of this ignorance and limited use, focusing on Luhmann’s writing style, but also on the theoretical and empirical limitations his theory poses. Believing that Luhmann’s theory holds great potential to be applied to organizational studies and explain organizational phenomena, we then discuss how it could contribute to radically changing the conventional ways of studying and analyzing organizational phenomena, fostering at the same time, the debate about the value of his theory. We analyze organizations as communicative processes that continuously produce and reproduce themselves to create knowledge, make decisions, structure expectations, and redefine organizational boundaries. Finally, we address the empirical challenges of applying Luhmann’s theory on organization studies.",
     "accessed": {
-      "date-parts": [[2023, 3, 14]]
+      "date-parts": [
+        [
+          2023,
+          3,
+          14
+        ]
+      ]
     },
     "author": [
       {
@@ -135,7 +282,11 @@
     "DOI": "10.12759/HSR.37.2012.4.289-308",
     "ISSN": "0172-6404",
     "issued": {
-      "date-parts": [[2012]]
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
     },
     "keyword": "Schreiben;Anwendung;application;communication medium;decision aid;Entscheidungshilfe;Erwartung;expectation;Geschäftsführung;Giddens, A.;knowledge;Kommunikationsmittel;Luhmann, N.;management;Organisationsforschung;organization research;structure;Struktur;system theory;Systemtheorie;Wissen;writing",
     "language": "en",
@@ -152,7 +303,13 @@
   "barbrook-johnson_penn__2022__systems": {
     "id": "barbrook-johnson_penn__2022__systems",
     "accessed": {
-      "date-parts": [[2022, 11, 16]]
+      "date-parts": [
+        [
+          2022,
+          11,
+          16
+        ]
+      ]
     },
     "author": [
       {
@@ -169,7 +326,11 @@
     "event-place": "Cham",
     "ISBN": "978-3-031-01833-6 978-3-031-01919-7",
     "issued": {
-      "date-parts": [[2022]]
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
     },
     "keyword": "/unread;collection::strategy::planning",
     "language": "en",
@@ -185,7 +346,13 @@
     "id": "bell_huang__1997__dynamic",
     "abstract": "In this paper we introduce and formalise dynamic goal hierarchies. We begin with a formal deﬁnition of goals, according to which they are rational desires. In particular, we require that an agent’s goals are coherent; that is, that the agent believes that each goal is jointly realisable with all of the goals which the agent considers to be more important. Thus an agent’s goals form a hierarchy, and new goals are deﬁned with reference to it. We then show how preferential entailment can be used to formalise the rational revision of goals and goal hierarchies.",
     "accessed": {
-      "date-parts": [[2023, 3, 14]]
+      "date-parts": [
+        [
+          2023,
+          3,
+          14
+        ]
+      ]
     },
     "author": [
       {
@@ -239,7 +406,11 @@
     "event-place": "Berlin, Heidelberg",
     "ISBN": "978-3-540-62686-2 978-3-540-68433-6",
     "issued": {
-      "date-parts": [[1997]]
+      "date-parts": [
+        [
+          1997
+        ]
+      ]
     },
     "keyword": "",
     "language": "en",
@@ -275,7 +446,12 @@
     "citation-key": "blackwell_phaal_etal__2008__strategy",
     "DOI": "10.1007/978-3-540-87730-1_14",
     "issued": {
-      "date-parts": [[2008, 9]]
+      "date-parts": [
+        [
+          2008,
+          9
+        ]
+      ]
     },
     "keyword": "__strategy2030:strategic-planning:roadmapping;collection::strategy::roadmapping",
     "page": "127-140",
@@ -297,7 +473,13 @@
     "collection-title": "John Wiley & Sons",
     "ISBN": "1-119-07160-7",
     "issued": {
-      "date-parts": [[2018, 1, 4]]
+      "date-parts": [
+        [
+          2018,
+          1,
+          4
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:nonprofit-organizations;collection::strategy::non-profit",
     "language": "en-US",
@@ -326,7 +508,13 @@
     "collection-title": "John Wiley & Sons",
     "ISBN": "1-118-60592-6",
     "issued": {
-      "date-parts": [[2014, 7, 28]]
+      "date-parts": [
+        [
+          2014,
+          7,
+          28
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::roadmapping",
     "language": "en-US",
@@ -353,7 +541,13 @@
     "collection-title": "John Wiley & Sons",
     "ISBN": "0-470-40535-X",
     "issued": {
-      "date-parts": [[2011, 8, 9]]
+      "date-parts": [
+        [
+          2011,
+          8,
+          9
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::planning",
     "language": "en-US",
@@ -382,7 +576,13 @@
     "id": "caine_vonrosing__2018__introducing",
     "abstract": "The ability of existing strategy concepts to analyse strategy, design strategy and execute strategy within organisations has an alarmingly poor historical track record. Based on the long-standing semiotics and ontology research work of the Global University Alliance (GUA) and its members, a Strategy Lifecycle is introduced. The StrategyLifecycle, underpinned by ontology and semiotics incorporates all the constructs that can be found in the most popular strategy concepts and frameworks. It explains the value of the underlying strategy ontology and the relationship between the strategy meta model, the Strategy Lifecycle and various artefacts used around strategy work. The paper concludes with futurescope and application that lies ahead for the Strategy Lifecycle.",
     "accessed": {
-      "date-parts": [[2021, 7, 13]]
+      "date-parts": [
+        [
+          2021,
+          7,
+          13
+        ]
+      ]
     },
     "author": [
       {
@@ -419,7 +619,11 @@
     "event-place": "Cham",
     "ISBN": "978-3-319-94540-8 978-3-319-94541-5",
     "issued": {
-      "date-parts": [[2018]]
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
     },
     "keyword": "collection::strategy::ontology",
     "language": "en",
@@ -447,7 +651,11 @@
     "edition": "Epub Ausgabe. Erstausgabe 1832",
     "ISBN": "978-3-95418-174-2",
     "issued": {
-      "date-parts": [[1832]]
+      "date-parts": [
+        [
+          1832
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::military",
     "language": "de-DE",
@@ -459,7 +667,13 @@
   "cropanzano_citera_etal__1995__goal": {
     "id": "cropanzano_citera_etal__1995__goal",
     "accessed": {
-      "date-parts": [[2023, 3, 14]]
+      "date-parts": [
+        [
+          2023,
+          3,
+          14
+        ]
+      ]
     },
     "author": [
       {
@@ -482,7 +696,12 @@
     "ISSN": "0146-7239, 1573-6644",
     "issue": "2",
     "issued": {
-      "date-parts": [[1995, 6]]
+      "date-parts": [
+        [
+          1995,
+          6
+        ]
+      ]
     },
     "keyword": "",
     "language": "en",
@@ -493,6 +712,56 @@
     "type": "article-journal",
     "URL": "http://link.springer.com/10.1007/BF02250564",
     "volume": "19"
+  },
+  "dawes_zhou_etal__2022__systemlevel": {
+    "id": "dawes_zhou_etal__2022__systemlevel",
+    "abstract": "Abstract\n            The Sustainable Development Goals (SDGs) present a complex system of 17 goals and 169 individual targets whose interactions can be described in terms of co-benefits and trade-offs between policy actions. We analyse in detail target-by-target interlinkage networks established by the Institute for Global Environmental Strategies (IGES) SDG Interlinkages Tool. We discuss two quantitative measures of network structure; the leading eigenvector of the interlinkage networks (‘eigencentrality’) and a notion of hierarchy within the network motivated by the concept of trophic levels for species in food webs. We use three interlinkage matrices generated by IGES: the framework matrix which provides a generic network model of the interlinkages at the target level, and two country-specific matrices for Bangladesh and Indonesia that combine SDG indicator data with the generic framework matrix. Our results echo, and are confirmed by, similar work at the level of whole SDGs that has shown that SDGs 1–3 (ending poverty, and providing food security and healthcare) are much more likely to be achieved than the environmentally- related SDGs 13–15 concerned with climate action, life on land and life below water. Our results here provide a refinement in terms of specific targets within each of these SDGs. We find that not all targets within SDGs 1–3 are equally well-supported, and not all targets within SDGs 13–15 are equally at risk of not being achieved. Finally, we point to the recurring issue of data gaps that hinders our quantitative analysis, in particular for SDGs 5 (gender equality) and 13 (climate action) where the huge gaps in indicator data that mean the true nature of the interlinkages and importance of these two SDGs are not fully recognised.",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          22
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Dawes",
+        "given": "Jonathan H. P."
+      },
+      {
+        "family": "Zhou",
+        "given": "Xin"
+      },
+      {
+        "family": "Moinuddin",
+        "given": "Mustafa"
+      }
+    ],
+    "citation-key": "dawes_zhou_etal__2022__systemlevel",
+    "container-title": "Sustainability Science",
+    "container-title-short": "Sustain Sci",
+    "DOI": "10.1007/s11625-022-01109-y",
+    "ISSN": "1862-4065, 1862-4057",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          7
+        ]
+      ]
+    },
+    "keyword": "collection::strategy::visualization",
+    "language": "en",
+    "page": "1435-1457",
+    "source": "DOI.org (Crossref)",
+    "title": "System-level consequences of synergies and trade-offs between SDGs: quantitative analysis of interlinkage networks at country level",
+    "title-short": "System-level consequences of synergies and trade-offs between SDGs",
+    "type": "article-journal",
+    "URL": "https://link.springer.com/10.1007/s11625-022-01109-y",
+    "volume": "17"
   },
   "dimand_dimand__1994__neumann": {
     "id": "dimand_dimand__1994__neumann",
@@ -516,13 +785,67 @@
     ],
     "ISBN": "978-0-415-25987-3",
     "issued": {
-      "date-parts": [[1994]]
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
     },
     "keyword": "#nosource;game-theory;collection::strategy::game-theory",
     "language": "eng",
     "title": "Von Neumann and Morgenstern in historical perspective",
     "type": "chapter",
     "URL": "https://www.researchgate.net/publication/4798823_Von_Neumann_and_Morgenstern_in_Historical_Perspective"
+  },
+  "dorgo_sebestyen_etal__2018__evaluating": {
+    "id": "dorgo_sebestyen_etal__2018__evaluating",
+    "abstract": "Policymaking requires an in-depth understanding of the cause-and-effect relationships between the sustainable development goals. However, due to the complex nature of socio-economic and environmental systems, this is still a challenging task. In the present article, the interconnectedness of the United Nations (UN) sustainability goals is measured using the Granger causality analysis of their indicators. The applicability of the causality analysis is validated through the predictions of the World3 model. The causal relationships are represented as a network of sustainability indicators providing the opportunity for the application of network analysis techniques. Based on the analysis of 801 UN indicator types in 283 geographical regions, approximately 4000 causal relationships were identiﬁed and the most important global connections were represented in a causal loop network. The results highlight the drastic deﬁciency of the analysed datasets, the strong interconnectedness of the sustainability targets and the applicability of the extracted causal loop network. The analysis of the causal loop networks emphasised the problems of poverty, proper sanitation and economic support in sustainable development.",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          22
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Dörgő",
+        "given": "Gyula"
+      },
+      {
+        "family": "Sebestyén",
+        "given": "Viktor"
+      },
+      {
+        "family": "Abonyi",
+        "given": "János"
+      }
+    ],
+    "citation-key": "dorgo_sebestyen_etal__2018__evaluating",
+    "container-title": "Sustainability",
+    "container-title-short": "Sustainability",
+    "DOI": "10.3390/su10103766",
+    "ISSN": "2071-1050",
+    "issue": "10",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          18
+        ]
+      ]
+    },
+    "keyword": "collection::strategy::visualization",
+    "language": "en",
+    "page": "3766",
+    "source": "DOI.org (Crossref)",
+    "title": "Evaluating the Interconnectedness of the Sustainable Development Goals Based on the Causality Analysis of Sustainability Indicators",
+    "type": "article-journal",
+    "URL": "http://www.mdpi.com/2071-1050/10/10/3766",
+    "volume": "10"
   },
   "eknow__2015__eknow": {
     "id": "eknow__2015__eknow",
@@ -552,7 +875,11 @@
     "event-place": "Red Hook, NY",
     "ISBN": "978-1-61208-386-5 978-1-5108-0034-2",
     "issued": {
-      "date-parts": [[2015]]
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
     },
     "keyword": "collection::strategy::ontology",
     "language": "eng",
@@ -577,7 +904,13 @@
     "collection-title": "Oxford University Press",
     "ISBN": "0-19-932515-4",
     "issued": {
-      "date-parts": [[2013, 10, 31]]
+      "date-parts": [
+        [
+          2013,
+          10,
+          31
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::military;collection::strategy::definitions",
     "language": "English",
@@ -611,7 +944,11 @@
     "event-place": "Reading, Mass",
     "ISBN": "978-0-201-63361-0",
     "issued": {
-      "date-parts": [[1994]]
+      "date-parts": [
+        [
+          1994
+        ]
+      ]
     },
     "keyword": "#nosource;Computer software;Object-oriented programming (Computer science);Reusability;Software patterns;collection::strategy::software-engineering",
     "language": "eng",
@@ -647,7 +984,13 @@
     "id": "goodier_austin_etal__2010__causal",
     "abstract": "Thinking and planning for the future is critical in a competitive business world. Scenarios are a common technique for investigating the future, but can be time-consuming and challenging to develop, particularly when more than a single organisation is involved. An approach is presented here which shifts the focus of scenario building from the company level to the sector level, whereby a range of organisations engage collectively on a topic of mutual importance. A rapid technique was developed, with simple scenarios being constructed in 2 to 4 hours. This process was implemented in 13 multi-organisational workshops with participants from the construction and building industries, sectors which are traditionally short-term and reactive in their outlook. The resulting feedback, observations and experiences are discussed, together with examples of how the resultant scenarios have been applied. An example of causal map reflection (exposing an individual’s causal map to others) is also presented, described and critiqued. It was found that the process was successful in engaging participants in thinking about and discussing the future, appreciating the interconnectivities of the related issues, and understanding the collective implications of their potential decisions, as well as facilitating the socialisation of participant thinking and the construction of collective futures.",
     "accessed": {
-      "date-parts": [[2021, 2, 22]]
+      "date-parts": [
+        [
+          2021,
+          2,
+          22
+        ]
+      ]
     },
     "author": [
       {
@@ -674,7 +1017,12 @@
     "ISSN": "00163287",
     "issue": "3",
     "issued": {
-      "date-parts": [[2010, 4]]
+      "date-parts": [
+        [
+          2010,
+          4
+        ]
+      ]
     },
     "keyword": "collection::strategy::roadmapping",
     "language": "en",
@@ -698,7 +1046,11 @@
     "collection-title": "Project Management Institute",
     "ISBN": "978-1-935589-87-7",
     "issued": {
-      "date-parts": [[2013]]
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::planning",
     "language": "English",
@@ -719,7 +1071,13 @@
     "collection-title": "John Wiley & Sons",
     "ISBN": "1-119-12084-5",
     "issued": {
-      "date-parts": [[2016, 1, 5]]
+      "date-parts": [
+        [
+          2016,
+          1,
+          5
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::management-theory",
     "language": "English",
@@ -756,7 +1114,13 @@
     "collection-title": "John Wiley & Sons",
     "ISBN": "0-470-13397-X",
     "issued": {
-      "date-parts": [[2007, 9, 11]]
+      "date-parts": [
+        [
+          2007,
+          9,
+          11
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:balanced-scorecard;collection::strategy::planning",
     "language": "English",
@@ -777,7 +1141,13 @@
     "collection-title": "O'Reilly Media",
     "ISBN": "978-1-4920-4087-3",
     "issued": {
-      "date-parts": [[2018, 10, 25]]
+      "date-parts": [
+        [
+          2018,
+          10,
+          25
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::definitions",
     "language": "English",
@@ -799,7 +1169,13 @@
     "collection-title": "Business Expert Press",
     "ISBN": "1-60649-597-6",
     "issued": {
-      "date-parts": [[2013, 5, 20]]
+      "date-parts": [
+        [
+          2013,
+          5,
+          20
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:project-management;__strategy2030:strategic-planning:portfolio-management;collection::strategy::planning",
     "language": "English",
@@ -828,7 +1204,13 @@
     "collection-title": "Pearson Education",
     "ISBN": "978-0-273-71192-6",
     "issued": {
-      "date-parts": [[2008, 1, 1]]
+      "date-parts": [
+        [
+          2008,
+          1,
+          1
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::planning",
     "language": "english",
@@ -857,7 +1239,11 @@
     "event-place": "Red Hook, NY",
     "ISBN": "978-1-61208-386-5 978-1-5108-0034-2",
     "issued": {
-      "date-parts": [[2015]]
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
     },
     "keyword": "#nosource;collection::strategy::ontology",
     "language": "eng",
@@ -883,7 +1269,11 @@
     "citation-key": "kaplan_norton__2004__strategy",
     "ISBN": "978-3-7910-2239-0",
     "issued": {
-      "date-parts": [[2004]]
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:strategy-maps;collection::strategy::roadmapping",
     "language": "english",
@@ -909,7 +1299,12 @@
     "DOI": "10.1002/spe.4380111102",
     "issue": "11",
     "issued": {
-      "date-parts": [[1981, 11]]
+      "date-parts": [
+        [
+          1981,
+          11
+        ]
+      ]
     },
     "keyword": "_has-setting:academic;_has-format:article;collection::strategy::software-engineering",
     "language": "en",
@@ -918,6 +1313,86 @@
     "type": "article-journal",
     "URL": "http://doi.wiley.com/10.1002/spe.4380111102",
     "volume": "11"
+  },
+  "kruja_marks_etal__2002__short": {
+    "id": "kruja_marks_etal__2002__short",
+    "abstract": "The origins of chart graphics (e.g., bar charts and line charts) are well known, with the seminal event being the publication of William Playfair’s (1759-1823) \"The Commercial and Political Atlas\" in London in 1786. However, the origins of graph drawing are not well known. Although Euler (1707-1783) is credited with originating graph theory in 1736, graph drawings were in limited use centuries before Euler’s time. Moreover, Euler himself does not appear to have made signiﬁcant use of graph visualizations. Widespread use of graph drawing did not begin until decades later, when it arose in several distinct contexts. In this short note we present a selection of very early graph drawings; note the apparent absence of graph visualization in Euler’s work; and identify some early innovators of modern graph drawing.",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          22
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Kruja",
+        "given": "Eriola"
+      },
+      {
+        "family": "Marks",
+        "given": "Joe"
+      },
+      {
+        "family": "Blair",
+        "given": "Ann"
+      },
+      {
+        "family": "Waters",
+        "given": "Richard"
+      }
+    ],
+    "citation-key": "kruja_marks_etal__2002__short",
+    "collection-editor": [
+      {
+        "family": "Goos",
+        "given": "Gerhard"
+      },
+      {
+        "family": "Hartmanis",
+        "given": "Juris"
+      },
+      {
+        "family": "Van Leeuwen",
+        "given": "Jan"
+      }
+    ],
+    "container-title": "Graph Drawing",
+    "DOI": "10.1007/3-540-45848-4_22",
+    "editor": [
+      {
+        "family": "Mutzel",
+        "given": "Petra"
+      },
+      {
+        "family": "Jünger",
+        "given": "Michael"
+      },
+      {
+        "family": "Leipert",
+        "given": "Sebastian"
+      }
+    ],
+    "event-place": "Berlin, Heidelberg",
+    "ISBN": "978-3-540-43309-5 978-3-540-45848-7",
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "keyword": "collection::strategy::visualization",
+    "page": "272-286",
+    "publisher": "Springer Berlin Heidelberg",
+    "publisher-place": "Berlin, Heidelberg",
+    "source": "DOI.org (Crossref)",
+    "title": "A Short Note on the History of Graph Drawing",
+    "type": "chapter",
+    "URL": "http://link.springer.com/10.1007/3-540-45848-4_22",
+    "volume": "2265"
   },
   "mintzberg__1978__patterns": {
     "id": "mintzberg__1978__patterns",
@@ -933,7 +1408,13 @@
     "DOI": "10.1287/mnsc.24.9.934",
     "issue": "9",
     "issued": {
-      "date-parts": [[1978, 5, 1]]
+      "date-parts": [
+        [
+          1978,
+          5,
+          1
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::military;collection::strategy::management-theory",
     "language": "English",
@@ -964,7 +1445,11 @@
     "event-place": "New York",
     "ISBN": "978-0-684-84743-6",
     "issued": {
-      "date-parts": [[1998]]
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
     },
     "keyword": "Strategic planning;collection::strategy::management-theory",
     "number-of-pages": "406",
@@ -990,13 +1475,34 @@
     "citation-key": "mueller-stewens_gillenkirch__2018__strategie",
     "container-title": "Gablers Wirtschaftslexikon",
     "issued": {
-      "date-parts": [[2018, 2, 19]]
+      "date-parts": [
+        [
+          2018,
+          2,
+          19
+        ]
+      ]
     },
     "keyword": "collection::strategy::management-theory",
     "language": "de-DE",
     "title": "Strategie",
     "type": "entry-encyclopedia",
     "URL": "https://wirtschaftslexikon.gabler.de/definition/strategie-43591/version-266920"
+  },
+  "nikolova____how": {
+    "id": "nikolova____how",
+    "author": [
+      {
+        "family": "Nikolova",
+        "given": "Aneta S"
+      }
+    ],
+    "citation-key": "nikolova____how",
+    "keyword": "⛔ No DOI found;collection::strategy::visualization",
+    "language": "en",
+    "source": "Zotero",
+    "title": "How to Draw Causal Loop Diagrams",
+    "type": "article-journal"
   },
   "olsen__2011__strategic": {
     "id": "olsen__2011__strategic",
@@ -1011,7 +1517,13 @@
     "collection-title": "John Wiley & Sons",
     "ISBN": "1-118-07777-6",
     "issued": {
-      "date-parts": [[2011, 11, 15]]
+      "date-parts": [
+        [
+          2011,
+          11,
+          15
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::planning",
     "language": "English",
@@ -1031,7 +1543,13 @@
     "collection-title": "Dialog Intl",
     "ISBN": "978-0-9630000-0-2",
     "issued": {
-      "date-parts": [[1990, 1, 1]]
+      "date-parts": [
+        [
+          1990,
+          1,
+          1
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::planning",
     "language": "English",
@@ -1050,7 +1568,11 @@
     "citation-key": "porter__1979__what",
     "container-title": "Harvard Business Review",
     "issued": {
-      "date-parts": [[1979]]
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::management-theory",
     "language": "english",
@@ -1074,7 +1596,11 @@
     "event-place": "New York : London",
     "ISBN": "978-0-02-925090-7",
     "issued": {
-      "date-parts": [[1985]]
+      "date-parts": [
+        [
+          1985
+        ]
+      ]
     },
     "keyword": "Competition;Industrial management;collection::strategy::management-theory",
     "number-of-pages": "557",
@@ -1110,7 +1636,11 @@
     "event-place": "London",
     "ISBN": "978-1-349-20317-8",
     "issued": {
-      "date-parts": [[1989]]
+      "date-parts": [
+        [
+          1989
+        ]
+      ]
     },
     "keyword": "collection::strategy::management-theory",
     "page": "133–143",
@@ -1133,7 +1663,11 @@
     "container-title": "Harvard Business Review",
     "issue": "1",
     "issued": {
-      "date-parts": [[2008]]
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
     },
     "keyword": "collection::strategy::management-theory",
     "page": "78-93",
@@ -1154,7 +1688,13 @@
     "collection-title": "John Wiley & Sons",
     "ISBN": "978-1-118-58371-5",
     "issued": {
-      "date-parts": [[2014, 2, 3]]
+      "date-parts": [
+        [
+          2014,
+          2,
+          3
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:nonprofit-organizations;collection::strategy::non-profit",
     "language": "English",
@@ -1187,7 +1727,13 @@
     "container-title": "MIT Sloan Management Review",
     "issue": "4",
     "issued": {
-      "date-parts": [[2017, 6, 13]]
+      "date-parts": [
+        [
+          2017,
+          6,
+          13
+        ]
+      ]
     },
     "keyword": "__strategy2030:strategic-planning;__strategy2030:strategic-planning:forecasting;__strategy2030:strategic-planning:scenario-based-plannning;collection::strategy::planning",
     "language": "english",
@@ -1209,7 +1755,13 @@
     ],
     "ISBN": "1-63369-694-4",
     "issued": {
-      "date-parts": [[2018, 12, 18]]
+      "date-parts": [
+        [
+          2018,
+          12,
+          18
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::management-theory",
     "language": "English",
@@ -1229,7 +1781,13 @@
       }
     ],
     "issued": {
-      "date-parts": [[2020, 2, 11]]
+      "date-parts": [
+        [
+          2020,
+          2,
+          11
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::management-theory",
     "language": "English",
@@ -1260,7 +1818,11 @@
     "citation-key": "review_porter_etal__2011__hbr",
     "ISBN": "978-1-4221-7205-6",
     "issued": {
-      "date-parts": [[2011]]
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::management-theory",
     "language": "english",
@@ -1282,7 +1844,11 @@
     "DOI": "10.13140/RG.2.1.1221.0966/1",
     "genre": "PhD Thesis",
     "issued": {
-      "date-parts": [[2013]]
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning:roadmapping;collection::strategy::roadmapping",
     "publisher": "Technical University of Denmark",
@@ -1302,7 +1868,13 @@
     "collection-title": "Kogan Page Publishers",
     "ISBN": "0-7494-6434-8",
     "issued": {
-      "date-parts": [[2012, 7, 3]]
+      "date-parts": [
+        [
+          2012,
+          7,
+          3
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:project-management;collection::strategy::planning",
     "language": "English",
@@ -1314,7 +1886,13 @@
     "id": "ronalds_vatananan_nathasitgerdsri__2012__current",
     "abstract": "Technology roadmapping (TRM) is gaining momentum as a strategic management tool for an organization to integrate technology into business strategy. This paper reviews over a hundred of TRM related publications to provide the community with the current state of roadmapping researches and practices. From the literature, the issue of keeping a roadmap alive is identified as the key challenge in the field. To address this challenge, operationalization and effective implementation of TRM are emphasized as potential areas for future research.",
     "accessed": {
-      "date-parts": [[2020, 1, 14]]
+      "date-parts": [
+        [
+          2020,
+          1,
+          14
+        ]
+      ]
     },
     "author": [
       {
@@ -1331,7 +1909,12 @@
     "ISSN": "0219-8770, 1793-6950",
     "issue": "04",
     "issued": {
-      "date-parts": [[2012, 8]]
+      "date-parts": [
+        [
+          2012,
+          8
+        ]
+      ]
     },
     "keyword": "__strategy2030:strategic-planning:roadmapping;collection::strategy::roadmapping",
     "language": "en",
@@ -1374,7 +1957,11 @@
     "citation-key": "roper_cunningham_etal__2011__forecasting",
     "ISBN": "978-0-470-44090-2",
     "issued": {
-      "date-parts": [[2011]]
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:forecasting;collection::strategy::roadmapping",
     "language": "english",
@@ -1399,7 +1986,11 @@
       }
     ],
     "issued": {
-      "date-parts": [[2021]]
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
     },
     "keyword": "collection::strategy::game-theory",
     "publisher": "Metaphysics Research Lab, Stanford University",
@@ -1407,10 +1998,71 @@
     "type": "chapter",
     "URL": "https://plato.stanford.edu/archives/fall2021/entries/game-theory/"
   },
+  "sachs_kroll_etal__2022__sustainable": {
+    "id": "sachs_kroll_etal__2022__sustainable",
+    "abstract": "The Sustainable Development Report 2022 features the SDG Index and Dashboards, the first and widely used tool to assess country performance on the Agenda 2030 and the Sustainable Development Goals. In a context of multiple crises, the report analyzes and outlines how the SDGs can be used as a roadmap for more sustainable societies by 2030 and beyond. In particular, this year's edition underlines the importance of international financing mechanisms for addressing lack of fiscal space in poorer countries and promoting sustainable investments into physical and human infrastructure. The authors examine country performance on the SDGs for 193 countries using a wide array of indicators, and calculate future trajectories, presenting a number of best practices to achieve the historic Agenda 2030. The views expressed in this report do not reflect the views of any organization, agency or program of the United Nations. This title is available as Open Access on Cambridge Core.",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          22
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Sachs",
+        "given": "Jeffrey"
+      },
+      {
+        "family": "Kroll",
+        "given": "Christian"
+      },
+      {
+        "family": "Lafortune",
+        "given": "Guillame"
+      },
+      {
+        "family": "Fuller",
+        "given": "Grayson"
+      },
+      {
+        "family": "Woelm",
+        "given": "Finn"
+      }
+    ],
+    "citation-key": "sachs_kroll_etal__2022__sustainable",
+    "DOI": "10.1017/9781009210058",
+    "edition": "1",
+    "ISBN": "978-1-00-921005-8 978-1-00-921008-9 978-1-00-921003-4",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          31
+        ]
+      ]
+    },
+    "keyword": "collection::strategy::visualization",
+    "language": "en",
+    "publisher": "Cambridge University Press",
+    "source": "DOI.org (Crossref)",
+    "title": "Sustainable Development Report 2022",
+    "type": "book",
+    "URL": "https://www.cambridge.org/core/product/identifier/9781009210058/type/book"
+  },
   "scavarda_bouzdine-chameeva_etal__2006__methodology": {
     "id": "scavarda_bouzdine-chameeva_etal__2006__methodology",
     "accessed": {
-      "date-parts": [[2021, 2, 22]]
+      "date-parts": [
+        [
+          2021,
+          2,
+          22
+        ]
+      ]
     },
     "author": [
       {
@@ -1441,7 +2093,12 @@
     "ISSN": "0011-7315, 1540-5915",
     "issue": "2",
     "issued": {
-      "date-parts": [[2006, 5]]
+      "date-parts": [
+        [
+          2006,
+          5
+        ]
+      ]
     },
     "keyword": "collection::strategy::roadmapping",
     "language": "en",
@@ -1451,6 +2108,22 @@
     "type": "article-journal",
     "URL": "http://doi.wiley.com/10.1111/j.1540-5915.2006.00124.x",
     "volume": "37"
+  },
+  "schaffernicht____causality": {
+    "id": "schaffernicht____causality",
+    "abstract": "Polarity and causality are important concepts but have not received much attention in the system dynamics literature. The great effort it takes students to properly understand them has motivated this inquiry. In the framework of a conceptual model of interacting with complex systems, several cognitive tasks are proposed. This paper concentrates on one of them that deals with causal links’ polarity. An examination of other approaches that deal with causality and use more or less similar diagram languages shows that usually causality is only very broadly defined, and where it is operationally defined, this is done with respect to events rather than behavior. In contrast to these approaches, system dynamics is about behavior rather than events. We then revisit the traditional criticism of causal loop diagrams and show a way out, but add two new criticisms related to the inability of causal loop diagrams to address behavior: in fact it seems that they are closer to the event-related definition of causality. Also, the impossibility to execute them in simulations means that executable concept-models are to be preferred: they express important information a causal loop diagram cannot represent and on top of it they render the behavioral consequences visible (as opposed to the events). In conclusion, causal loop diagrams should only be used by experienced modelers, and be banned from educational use.",
+    "author": [
+      {
+        "family": "Schaffernicht",
+        "given": "Martin"
+      }
+    ],
+    "citation-key": "schaffernicht____causality",
+    "keyword": "⛔ No DOI found;collection::strategy::visualization",
+    "language": "en",
+    "source": "Zotero",
+    "title": "Causality and diagrams for system dynamics",
+    "type": "report"
   },
   "schmidt__2002__game": {
     "id": "schmidt__2002__game",
@@ -1467,7 +2140,11 @@
     "event-place": "London ; New York",
     "ISBN": "978-0-415-25987-3",
     "issued": {
-      "date-parts": [[2002]]
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
     },
     "keyword": "Economics;Game theory;/unread;collection::strategy::game-theory",
     "language": "eng",
@@ -1491,7 +2168,13 @@
     "collection-title": "John Wiley & Sons",
     "ISBN": "0-470-41158-9",
     "issued": {
-      "date-parts": [[2009, 2, 9]]
+      "date-parts": [
+        [
+          2009,
+          2,
+          9
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:project-management;collection::strategy::planning",
     "language": "English",
@@ -1517,7 +2200,11 @@
       }
     ],
     "issued": {
-      "date-parts": [[2021]]
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
     },
     "keyword": "#nosource;collection::strategy::definitions",
     "publisher": "Metaphysics Research Lab, Stanford University",
@@ -1546,7 +2233,13 @@
     "event-place": "Helsinki",
     "event-title": "28th EGOS Colloquium 2012, Helsinki",
     "issued": {
-      "date-parts": [[2012, 7, 6]]
+      "date-parts": [
+        [
+          2012,
+          7,
+          6
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning:roadmapping;collection::strategy::roadmapping",
     "publisher-place": "Helsinki",
@@ -1564,7 +2257,13 @@
     ],
     "citation-key": "suntzu__2004__kunst",
     "issued": {
-      "date-parts": [[2004, 6, 18]]
+      "date-parts": [
+        [
+          2004,
+          6,
+          18
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;collection::strategy::military",
     "language": "de-DE",
@@ -1583,7 +2282,11 @@
     "citation-key": "suntzu__2008__sun",
     "ISBN": "978-0-8048-3944-0",
     "issued": {
-      "date-parts": [[2008]]
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
     },
     "keyword": "China;Early works to 1800;Military art and science;collection::strategy::military",
     "language": "en-US",
@@ -1597,7 +2300,13 @@
     "id": "vinayavekhin_phaal__2019__synchronization",
     "abstract": "The research question is “How can firms approach synchronization in strategic planning?”, aiming to investigate opportunities for improved synchronization within strategic planning. The focus is on roadmapping, as a relatively simple, flexible and widely used method that includes time as an explicit dimension. The adopted methodology is a process approach, consisting of literature review, exploratory interviews, practitioner interviews, and case studies with large multinational firms based in the UK that are familiar with roadmapping. As a result, four types of synchronization have been identified and discussed, including generic forms of each type, illustrated with industrial examples from the case studies.",
     "accessed": {
-      "date-parts": [[2020, 1, 14]]
+      "date-parts": [
+        [
+          2020,
+          1,
+          14
+        ]
+      ]
     },
     "author": [
       {
@@ -1616,7 +2325,12 @@
     "ISSN": "0219-8770, 1793-6950",
     "issue": "06",
     "issued": {
-      "date-parts": [[2019, 10]]
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning:roadmapping;collection::strategy::roadmapping",
     "language": "en",
@@ -1646,7 +2360,13 @@
     "collection-title": "Berrett-Koehler Publishers",
     "ISBN": "1-5230-8546-0",
     "issued": {
-      "date-parts": [[2019, 11, 5]]
+      "date-parts": [
+        [
+          2019,
+          11,
+          5
+        ]
+      ]
     },
     "keyword": "#nosource;__strategy2030:strategic-planning;__strategy2030:strategic-planning:decision-making;__strategy2030:strategic-planning:project-management;collection::strategy::planning",
     "language": "English",
@@ -1670,7 +2390,11 @@
     "citation-key": "vonneumann_morgenstern__1953__theory",
     "edition": "Third edition",
     "issued": {
-      "date-parts": [[1953]]
+      "date-parts": [
+        [
+          1953
+        ]
+      ]
     },
     "keyword": "game-theory;collection::strategy::game-theory",
     "language": "eng",
@@ -1683,7 +2407,13 @@
     "id": "wikiepedia__2023__strategy",
     "abstract": "Strategy (from Greek στρατηγία stratēgia, \"art of troop leader; office of general, command, generalship\") is a general plan to achieve one or more long-term or overall goals under conditions of uncertainty. In the sense of the \"art of the general\", which included several subsets of skills including military tactics, siegecraft, logistics etc., the term came into use in the 6th century C.E. in Eastern Roman terminology, and was translated into Western vernacular languages only in the 18th century. From then until the 20th century, the word \"strategy\" came to denote \"a comprehensive way to try to pursue political ends, including the threat or actual use of force, in a dialectic of wills\" in a military conflict, in which both adversaries interact.Strategy is important because the resources available to achieve goals are usually limited. Strategy generally involves setting goals and priorities, determining actions to achieve the goals, and mobilizing resources to execute the actions. A strategy describes how the ends (goals) will be achieved by the means (resources). Strategy can be intended or can emerge as a pattern of activity as the organization adapts to its environment or competes. It involves activities such as strategic planning and strategic thinking.Henry Mintzberg from McGill University defined strategy as a pattern in a stream of decisions to contrast with a view of strategy as planning, while Henrik von Scheel defines the essence of strategy as the activities to deliver a unique mix of value – choosing to perform activities differently or to perform different activities than rivals. while Max McKeown (2011) argues that \"strategy is about shaping the future\" and is the human attempt to get to \"desirable ends with available means\". Vladimir Kvint defines strategy as \"a system of finding, formulating, and developing a doctrine that will ensure long-term success if followed faithfully.\" Complexity theorists define strategy as the unfolding of the internal and external aspects of the organization that results in actions in a socio-economic context.",
     "accessed": {
-      "date-parts": [[2023, 3, 14]]
+      "date-parts": [
+        [
+          2023,
+          3,
+          14
+        ]
+      ]
     },
     "citation-key": "wikiepedia__2023__strategy",
     "container-title": "Wikipedia",
@@ -1693,7 +2423,13 @@
       }
     ],
     "issued": {
-      "date-parts": [[2023, 1, 19]]
+      "date-parts": [
+        [
+          2023,
+          1,
+          19
+        ]
+      ]
     },
     "keyword": "collection::strategy::management-theory",
     "language": "en",
@@ -1707,7 +2443,13 @@
     "id": "wilkinson_kupers__2013__living",
     "abstract": "How scenario planning changed corporate strategy",
     "accessed": {
-      "date-parts": [[2020, 2, 7]]
+      "date-parts": [
+        [
+          2020,
+          2,
+          7
+        ]
+      ]
     },
     "author": [
       {
@@ -1724,7 +2466,13 @@
     "ISSN": "0017-8012",
     "issue": "May 2013",
     "issued": {
-      "date-parts": [[2013, 5, 1]]
+      "date-parts": [
+        [
+          2013,
+          5,
+          1
+        ]
+      ]
     },
     "keyword": "__strategy2030:strategic-planning;__strategy2030:strategic-planning:scenario-based-plannning;collection::strategy::planning",
     "language": "english",
@@ -1750,7 +2498,11 @@
     "citation-key": "yakan_rashid__2016__strategic",
     "issue": "1",
     "issued": {
-      "date-parts": [[2016]]
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
     },
     "keyword": "collection::strategy::ontology",
     "language": "en",
@@ -1759,5 +2511,87 @@
     "title": "Strategic Business Ontology Model",
     "type": "article-journal",
     "volume": "12"
+  },
+  "zhou_moinuddin_etal__2022__development": {
+    "id": "zhou_moinuddin_etal__2022__development",
+    "abstract": "Abstract\n            While the Sustainable Development Goals (SDG) are broadly framed with 17 goals, the goals and their targets inherently connect with each other forming a complex system. Actions supporting one goal may influence progress in other goals, either positively (synergies) or negatively (trade-offs). Effective managing the synergies and trade-offs is a prerequisite for ensuring policy coherence. This is particular relevant at the river basin scale where the implementation of national policies may generate inequalities at the sub-basin levels, such as the upstream and the downstream. In the existing literature, there is still a lack of methodologies to assess the SDG interlinkages and their differences at the subnational levels. This paper presents a methodology on the development of an SDG interlinkages analysis model at the basin scale and its application to a case study in China’s Luanhe River Basin (LRB). Seven broad areas, namely land use and land cover change, climate change, ecosystem services, flood risks, water sector, urbanisation, and energy, were set as the scope of study. Through a systematic review, key elements of the SDG interlinkages system were identified and their interactions were mapped. The resulting generic SDG interlinkages model were validated with expert survey and stakeholders’ consultation and tailored to the LRB. Quantification of the SDG interlinkages was conducted for 27 counties in the LRB and demonstrated by the results of 3 selected counties located in the upstream, midstream and downstream areas, respectively. The methodology and its applications can be used to support integrated water resource management in river basins.",
+    "accessed": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          22
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "Xin"
+      },
+      {
+        "family": "Moinuddin",
+        "given": "Mustafa"
+      },
+      {
+        "family": "Renaud",
+        "given": "Fabrice"
+      },
+      {
+        "family": "Barrett",
+        "given": "Brian"
+      },
+      {
+        "family": "Xu",
+        "given": "Jiren"
+      },
+      {
+        "family": "Liang",
+        "given": "Qiuhua"
+      },
+      {
+        "family": "Zhao",
+        "given": "Jiaheng"
+      },
+      {
+        "family": "Xia",
+        "given": "Xilin"
+      },
+      {
+        "family": "Bosher",
+        "given": "Lee"
+      },
+      {
+        "family": "Huang",
+        "given": "Suiliang"
+      },
+      {
+        "family": "Hoey",
+        "given": "Trevor"
+      }
+    ],
+    "citation-key": "zhou_moinuddin_etal__2022__development",
+    "container-title": "Sustainability Science",
+    "container-title-short": "Sustain Sci",
+    "DOI": "10.1007/s11625-021-01065-z",
+    "ISSN": "1862-4065, 1862-4057",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          7
+        ]
+      ]
+    },
+    "keyword": "collection::strategy::visualization",
+    "language": "en",
+    "page": "1405-1433",
+    "source": "DOI.org (Crossref)",
+    "title": "Development of an SDG interlinkages analysis model at the river basin scale: a case study in the Luanhe River Basin, China",
+    "title-short": "Development of an SDG interlinkages analysis model at the river basin scale",
+    "type": "article-journal",
+    "URL": "https://link.springer.com/10.1007/s11625-021-01065-z",
+    "volume": "17"
   }
 }

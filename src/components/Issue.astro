@@ -1,36 +1,38 @@
 ---
-import type { CollectionEntry } from "astro:content"
-import { getEntryBySlug } from "astro:content"
-import { renderInline } from "@utils/markdown/render"
-import ArticlePreview from "@components/ArticlePreview.astro"
-import BibList from "./BibList.astro"
+import type { CollectionEntry } from "astro:content";
+import { getEntryBySlug } from "astro:content";
+import { renderInline } from "@utils/markdown/render";
+import ArticlePreview from "@components/IssueArticleListItem.astro";
+import BibList from "./BibList.astro";
 
 export interface Props {
-  issue: CollectionEntry<"issue">
+  issue: CollectionEntry<"issue">;
 }
-const { issue } = Astro.props
-const { title, description, subtitle, bibliographyTopics } = issue.data
+const { issue } = Astro.props;
+const { title, description, subtitle_1, subtitle_2, bibliographyTopics } = issue.data;
+console.log(issue)
 
 const articles = await Promise.all(
   issue.data.articles.map(
-    async articleSlug =>
+    async (articleSlug) =>
       (await getEntryBySlug(
         "article",
         articleSlug
       )) as CollectionEntry<"article">
   )
-)
-const { Content } = await issue.render()
+);
+const { Content } = await issue.render();
 ---
 
 <article id="issue" role="article">
-  <h1
-    class="body-xxxl italic bold uppercase"
-    set:html={renderInline(title)}
+  <h1 class="body-xxl  bold uppercase" set:html={renderInline(title)} />
+  <p
+    class="issue-subtitle body-xxl  uppercase"
+    set:html={renderInline(subtitle_1)}
   />
   <p
-    class="issue-subtitle body-xxl italic uppercase"
-    set:html={renderInline(subtitle)}
+    class="issue-subtitle body-xxl  uppercase"
+    set:html={renderInline(subtitle_2)}
   />
 
   <p class="issue-abstract body-md bold" set:html={renderInline(description)} />
@@ -40,36 +42,32 @@ const { Content } = await issue.render()
   <section class="md">
     <h2 class="md">Articles</h2>
     <div class="issue__articles">
-      {articles.map(article => <ArticlePreview article={article} />)}
-    </ul>
+      {articles.map((article) => <ArticlePreview article={article} />)}
+    </div>
   </section>
 
   <section class="md">
     <h2 class="md">Bibliography</h2>
     {
-      bibliographyTopics?.map(topic => (
+      bibliographyTopics?.map((topic) => (
         <BibList tag={topic.tag} title={topic.title} />
       ))
     }
   </section>
 </article>
 
-
 <style>
-
   .issue-abstract {
-   margin-bottom: var(--baseline-height); 
+    margin-bottom: var(--baseline-height);
   }
 
-.issue-subtitle {
-  margin-bottom: var(--baseline-height);
-}
-.issue__articles {
-    --auto-grid-min-size: 5rem;
+  .issue-subtitle {
+    /* margin-bottom: var(--baseline-height); */
+    color: green;
+  }
+  .issue__articles {
     display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
- 
-  grid-gap: 2rem;
-
-}
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+  }
 </style>

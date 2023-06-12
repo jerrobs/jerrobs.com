@@ -1,0 +1,52 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { renderInline } from "@utils/markdown/render.js";
+
+import "./../styles/mixins/index.styl";
+
+export interface Props {
+  article: CollectionEntry<"article">;
+}
+
+const { article } = Astro.props;
+
+const { data, slug } = await article;
+
+const { issue } = data;
+---
+
+<a class="article-preview" href={`/issues/${issue}/${slug}`}>
+  <div class="article-preview__id body-xxl bold">{slug.substring(4)}</div>
+  <div class="article-preview__body">
+    <h3 class="body-xl uppercase bold" set:html={renderInline(data.title)} />
+    <p class="md" set:html={renderInline(data.description)} />
+  </div>
+</a>
+
+<style lang="stylus">
+ .article-preview 
+  display flex
+  flex-direction: column;
+
+  transition: background-color .1s
+  background-color: var(--color-hoverable)
+  &:hover
+    transition: background-color .1s
+    background-color: var(--color-hover)
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.5)
+    
+
+ .article-preview__body, .article-preview__id 
+  padding-left: .5rem;
+  padding-right: .5rem;
+  
+
+.article-preview__body
+  padding-bottom: 1rem;
+ .article-preview__id {
+  text-decoration: none;
+  
+  opacity: .5;
+  font-variant-numeric: tabular-nums; 
+ }
+</style>

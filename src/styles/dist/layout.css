@@ -1,0 +1,16 @@
+.layout__header,
+.layout__main,
+.layout__footer {
+  padding: 0 0.5rem;
+}
+.article-body {
+  display: grid;
+  background-color: #f00;
+  grid-template-columns: [ outer-start ] minmax(10rem, 1fr) [ main-start ] minmax(0, 40em) [ main-end ] minmax(5rem, 1fr) [ outer-end ];
+}
+.article-body > * {
+  grid-column: main/outer;
+}
+.table-container {
+  grid-column: outer/outer;
+}

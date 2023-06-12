@@ -4,6 +4,7 @@ import { Picture } from "@astrojs/image/components"
 import type { CollectionEntry } from "astro:content"
 import { renderInline } from "@utils/markdown/render"
 
+
 import pathiclesCover from "@assets/cover__pathicles.jpg"
 import spaceCover from "@assets/cover__space.jpg"
 import strategyCover from "@assets/cover__strategy.jpg"
@@ -21,10 +22,8 @@ export interface Props {
 
 const { issue } = Astro.props
 
-const { coverImageAlt, title, subtitle } = issue.data
+const { coverImageAlt, title, subtitle_1, subtitle_2 } = issue.data
 
-const title__html = renderInline(title)
-const subtitle__html = renderInline(subtitle)
 ---
 
 <div class="issue-preview" id={"issue-" + issue.slug}>
@@ -39,11 +38,14 @@ const subtitle__html = renderInline(subtitle)
     /><div class="issue-preview__body">
       <div class="issue-preview__header">
         <a href={`/issues/${issue.slug}`}>
-          <h1 class="issue__title body-xl uppercase italic">
-            <span set:html={title__html} />
+          <h1 class="issue__title body-xxl uppercase">
+            <span set:html={title} />
           </h1>
-          <p class="issue__subtitle body-lg uppercase italic">
-            <span set:html={subtitle__html} />
+          <p class="issue__subtitle body-xl uppercase">
+            <span set:html={renderInline(subtitle_1)} />
+          </p>
+          <p class="issue__subtitle body-xl uppercase">
+            <span set:html={renderInline(subtitle_2)} />
           </p>
         </a>
       </div>
@@ -59,18 +61,23 @@ const subtitle__html = renderInline(subtitle)
 
 <style lang="stylus">
 
-.issue-preview {
+.issue-preview 
   background-color: #eeeeee;
   display: flex;
   flex-direction: column;
   min-height: 15rem;
   flex: 1 0 10rem;
-  border: rgba(white, 1) solid 0.5rem;
+  // border: rgba(white, 1) solid 0.5rem;
   padding: 0.5rem 0;
-  padding-top: 3rem;
+  padding-top: 1rem;
   position: relative;
   overflow: hidden;
-}
+  &:hover
+    transition: background-color .1s
+    background-color: var(--color-hover)
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.5)
+
+
   a {
     text-decoration: none;
   }
@@ -84,21 +91,20 @@ const subtitle__html = renderInline(subtitle)
   }
 
 
-  .issue__subtitle {
-    $baselined-typography(body-md);
-    text-transform: uppercase;
-  }
 
-  .issue__title {
-    font-weight: var(--font-weight--bold);
-    text-transform: uppercase;
-    font-style: italic;
-  }
-
-.issue__subtitle,.issue__title {
+.issue__subtitle, .issue__title {
+  box-decoration-break: clone;
+  line-height: 3rem;
+  
+  
+  
+  
   span {
-    background-color: white;
-    padding: 0 .5rem;
+    background-color: rgba(white, .9);
+    padding: 5px 1rem;
+    box-shadow: 1px 0 6px black;
+    
+    
   }
 }
 

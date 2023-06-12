@@ -1,6 +1,5 @@
 ---
 pubDatetime: 2023-02-15T00:00:00.000+00:00
-bibliography: ./../../jerrobs.strategy.json
 issue: strategy
 version: "1.0 (unpublished)"
 title: What is strategy?
@@ -20,20 +19,19 @@ description: >
 import BibRef from "@components/BibRef.astro"
 import StrategyAspects from "@components/StrategyAspects.vue"
 
-## Introduction
+## 1. Introduction
+
+@suntzu__2004__kunst
 
 This review examines how authors from very different domains understand strategy. The main aim is to identify commonalities and differences in order to help develop an understanding that is compatible across disciplines.
 
-## 1. Strategy in Military and in Political Life
+## 2. Strategy in Military and in Political Life
 
 The word _strategy_ has its roots in the Greek for the officer rank of general, _strategos_. It was used as early as in Ancient Greece and is still employed in the modern Hellenic Army.
 
-### Sun Tzu (771 BC - 256 BC)
+### 2.1 Sun Tzu (771 BC - 256 BC)
 
-)
-xxx (@suntzu__2004__kunst)
-
-However, it was not a Greek author who first developed the concept. Instead, it was the Chinese military general and writer Sun Tzu who is credited as the author of the oldest known military treatise, The Art of War. Written around 500 BC, the text contains hundreds of rules and recommendations. One of these rules is the distinction between strategy and tactics:
+However, it was not a Greek author who first developed the concept. Instead, it was the Chinese military general and writer Sun Tzu who is credited as the author of the oldest known military treatise, The Art of War (@suntzu__2004__kunst). Written around 500 BC, the text contains hundreds of rules and recommendations. One of these rules is the distinction between strategy and tactics:
 
 > All men can see the tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved. <cite class="md">(@suntzu__2004__kunst)</cite>
 
@@ -42,7 +40,7 @@ However, it was not a Greek author who first developed the concept. Instead, it 
 >   <BibRef refId="suntzu__2004__kunst" locator="Chapter IV, 15" />
 > </cite>
 
-### Carl von Clausewitz (1780 - 1831)
+### 2.2 Carl von Clausewitz (1780 - 1831)
 
 While Sun Tzu called for the use of minimum force with a greater emphasis on deception, the father of modern Western military study, Carl von Clausewitz, recommended the use of maximum force whenever possible.
 
@@ -72,7 +70,7 @@ According to Clausewitz military strategy is
 >   />
 > </cite>
 
-## 2. Strategy in Game Theory
+## 3. Strategy in Game Theory
 
 A game is simply the set of rules that describe it. Every particular instance in which the game is played -- in a particular way -- from beginning to end is a game. Elements of a game are moves, which are occasions of choice between various alternatives, to be made either by one of the players or by some device subject to chance, under conditions precisely prescribed by the rules of the game. The specific alternative chosen in a concrete case, i.e. in a concrete game, is the choice. The moves are thus related to the choices in the same way as the game is related to the play. The game consists of
 of a sequence of moves and the game of a sequence of choices.
@@ -83,7 +81,7 @@ of a sequence of moves and the game of a sequence of choices.
 >   <BibRef refId="vonneumann_morgenstern__1953__theory" locator="p. 79" />
 > </cite>
 
-## 3. Strategy in Software Engineering
+## 4. Strategy in Software Engineering
 
 Closely related to the strategy concept in game theory is the _strategy design pattern_ in software engineering. The idea of design patterns was introduced by architect Christopher Alexander (<BibRef refId="alexander_ishikawa_etal__1977__pattern" />) to describe solution templates that have proven useful for solving a set of similar problems in the past. The idea was first applied to software engineering in 1994 (<BibRef refId="gamma_helm_etal__1994__design" />).
 
@@ -93,17 +91,17 @@ The strategy pattern can be used when different algorithms are available to solv
 
 Gamma et al. illustrate the strategy pattern with the line-breaking problem in typography. To break a long string into lines, there are several algorithms to choose from: the simplest is one that greedily fills line after line with as many words as possible; more sophisticated is the Knuth-Plaas method used in the typesetting software TeX, which minimises the variation in line length per paragraph (<BibRef refId="knuth_plass__1981__breaking" />). Adobe InDesign allows the user to choose between the two strategies at runtime.
 
-## Strategy in Management Theory
+## 5. Strategy in Management Theory
 
 Also: Corporate Strategy, Business Strategy
 
 The application of the concept of strategy in applied economics has arguably contributed more than any other field to its widespread use, and a never-ending stream of literature. Due to the strong application orientation, one looks in vain here for an examination of the term on an abstract level. The fact that the lack of such a conceptual foundation is not an end in itself is shown perfectly in that very few authors take the trouble to distinguish between the set of all conceivable strategies and concrete subtypes or manifestations.
 
-### Porter
+### 4.1 Porter
 
 Strategy is the set of long term choices that organisation makes to distinguish itself from competitors. Strategy defines a company's distinctive approach to competing, and the competitive advantages on which it will be based.
 
-#### Five forces
+#### 4.1.1 Five forces
 
 In 1979, Porter identified five forces to be considered when analysing competition in a particular industry and thus to be considered when developing a strategic response <BibRef refId="porter__1979__what" /> <BibRef refId="porter__2008__five" />.
 
@@ -113,26 +111,48 @@ In 1979, Porter identified five forces to be considered when analysing competiti
 - Threat of substitute products or services
 - Rivalry among existing competitors }
 
-#### Three generic strategies
+#### 5.1.2 Three generic strategies
 
 In 1985, Porter introduced the concept of _generic strategies_ of which he makes out three: the Cost Leadership Strategy, the Differentiation Strategy, and the Focus Strategy. <BibRef refId="porter__1985__competitive" />
 
-### Implicit strategies
+
+### 5.2 Strategy Maps
+
+### 5.3 Implicit strategies
 
 In addition to the rational planning of strategies, Henry Mintzberg explicitly mentions the possibility of emergent strategies that have not been written down anywhere, but have developed out of the enterprise itself. <BibRef refId="mintzberg__1978__patterns" />
 
-### Freedman
+
+
+### 6. Freedman
 
 Here: <BibRef refId="freedman__2013__strategy" />.
+Here: @freedman__2013__strategy
 
 ## Summary
 
 Finally, let's try to summarise the different aspects of the concept of _strategy_ covered by the various fields of knowledge.
 
-### aspects
+### Aspects
 
-- **Planning**
+#### Planning
 
-- When _strategy_ is considered in conjunction with _tactics_, it sits at the very top of the planning hierarchy, above _tactics_. In terms of timeframe, _strategy_ is sometimes conceived of as more long-term than _tactics_.
+#### Hierarchical aspect
+
+Complex goals and plans to achieve them usually need to be divided to be conquered - sometimes repeatedly. This results in a hierarchical structure. It is the top level of this structure that is usually called _strategy_, in military the level below is called _tactics_.
+
+#### Temporal aspect
+
+In terms of duration, the overall strategy is naturally more long-term than its components.
+
+
+#### Complexity
+
+The difficulty of problems inhabit the spectrum from simple, over complicated to complex/chaotic. Consider baking a cake, building a house or raising a child. A simple problem can be solved by following a recipe. A complicated task requires a project plan, which probably includes several recipes. Complex problems are notorious for unforeseen emergent surprises, in which case you are better served by a strategy.
+
+
+#### Psychological aspect
+
+Strategy is not just about making plans, but about influencing the minds of individuals and groups to achieve desired outcomes. This becomes even more important when the strategy is implemented not by one strategist alone, but by multiple agents.
 
 <StrategyAspects />

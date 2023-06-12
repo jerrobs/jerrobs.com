@@ -40,6 +40,8 @@ export const issueSchema = z
     coverImageAlt: z.string(),
     title: z.string(),
     subtitle: z.string().optional(),
+    subtitle_1: z.string().optional(),
+    subtitle_2: z.string().optional(),
 
     draft: z.boolean().optional(),
     articles: z.array(z.string()),

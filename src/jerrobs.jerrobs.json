@@ -12,7 +12,11 @@
     "event-place": "Washington",
     "ISBN": "978-1-4338-3215-4 978-1-4338-3216-1 978-1-4338-3217-8",
     "issued": {
-      "date-parts": [[2019]]
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
     },
     "keyword": "#nosource;collection::jerrobs::referencing",
     "language": "en-US",
@@ -32,7 +36,11 @@
     "citation-key": "ct-redaktion__2019__wissen",
     "ISBN": "978-3-95788-223-3",
     "issued": {
-      "date-parts": [[2019]]
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
     },
     "keyword": "#nosource;collection::jerrobs::privacy",
     "language": "de",
@@ -45,7 +53,13 @@
   "eu__2016__general": {
     "id": "eu__2016__general",
     "accessed": {
-      "date-parts": [[2020, 3, 27]]
+      "date-parts": [
+        [
+          2020,
+          3,
+          27
+        ]
+      ]
     },
     "citation-key": "eu__2016__general",
     "contributor": [
@@ -54,7 +68,13 @@
       }
     ],
     "issued": {
-      "date-parts": [[2016, 4, 27]]
+      "date-parts": [
+        [
+          2016,
+          4,
+          27
+        ]
+      ]
     },
     "keyword": "collection::jerrobs::privacy",
     "language": "en",
@@ -73,7 +93,12 @@
     ],
     "citation-key": "europeandataprotectionsupervisor__2016__guidelines",
     "issued": {
-      "date-parts": [[2016, 11]]
+      "date-parts": [
+        [
+          2016,
+          11
+        ]
+      ]
     },
     "keyword": "#nosource;collection::jerrobs::privacy",
     "language": "en",
@@ -93,7 +118,11 @@
     "event-place": "New York",
     "ISBN": "978-1-60329-263-4",
     "issued": {
-      "date-parts": [[2016]]
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
     },
     "keyword": "#nosource;collection::jerrobs::referencing",
     "language": "en-US",
@@ -108,7 +137,13 @@
     "id": "savage__2015__origin",
     "abstract": "I'm pleased to give credit for this popular phrase from MythBusters to ballistics expert Alex Jason.",
     "accessed": {
-      "date-parts": [[2021, 1, 9]]
+      "date-parts": [
+        [
+          2021,
+          1,
+          9
+        ]
+      ]
     },
     "author": [
       {
@@ -119,7 +154,13 @@
     "citation-key": "savage__2015__origin",
     "container-title": "Tested",
     "issued": {
-      "date-parts": [[2015, 12, 15]]
+      "date-parts": [
+        [
+          2015,
+          12,
+          15
+        ]
+      ]
     },
     "keyword": "collection::jerrobs::about",
     "language": "en-US",
@@ -131,7 +172,13 @@
     "id": "savage_jason_etal__2013__mythbusters",
     "abstract": "Could the Hollywood blockbuster 'Titanic' have ended differently for Rose and Jack? The Mythbusters find out, with the help of director James Cameron.",
     "accessed": {
-      "date-parts": [[2021, 1, 9]]
+      "date-parts": [
+        [
+          2021,
+          1,
+          9
+        ]
+      ]
     },
     "citation-key": "savage_jason_etal__2013__mythbusters",
     "contributor": [
@@ -149,7 +196,13 @@
     ],
     "dimensions": "4:02",
     "issued": {
-      "date-parts": [[2013, 6, 5]]
+      "date-parts": [
+        [
+          2013,
+          6,
+          5
+        ]
+      ]
     },
     "keyword": "#nosource;_has-holding::none;collection::jerrobs::about",
     "language": "en-US",
@@ -176,7 +229,11 @@
     "event-place": "Bonn",
     "ISBN": "978-3-8362-6712-0",
     "issued": {
-      "date-parts": [[2018]]
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
     },
     "keyword": "#nosource;collection::jerrobs::privacy",
     "language": "de",
@@ -198,7 +255,11 @@
     "collection-title": "Chicago manual of style",
     "ISBN": "978-0-226-28705-8",
     "issued": {
-      "date-parts": [[2017]]
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
     },
     "keyword": "#nosource;collection::jerrobs::referencing",
     "language": "en-US",
@@ -210,7 +271,13 @@
     "id": "washietl__2013__beauty",
     "abstract": "A look through the evolution of journal article design",
     "accessed": {
-      "date-parts": [[2021, 1, 18]]
+      "date-parts": [
+        [
+          2021,
+          1,
+          18
+        ]
+      ]
     },
     "author": [
       {
@@ -221,7 +288,13 @@
     "citation-key": "washietl__2013__beauty",
     "container-title": "Paperpile",
     "issued": {
-      "date-parts": [[2013, 6, 27]]
+      "date-parts": [
+        [
+          2013,
+          6,
+          27
+        ]
+      ]
     },
     "keyword": "collection::jerrobs::about",
     "language": "en-US",
@@ -244,7 +317,13 @@
     ],
     "citation-key": "wiebe_helmschrot__2019__untersuchung",
     "issued": {
-      "date-parts": [[2019, 9, 30]]
+      "date-parts": [
+        [
+          2019,
+          9,
+          30
+        ]
+      ]
     },
     "keyword": "#nosource;collection::jerrobs::privacy",
     "language": "de",

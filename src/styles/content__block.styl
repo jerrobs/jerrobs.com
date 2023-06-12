@@ -12,7 +12,9 @@ h2.md, h3.md, h4.md, p.md, li.md {
 }
 
 img.md {
-  width: 100% font-family 'Barlow Semi Condensed';
+  max-width: 50%;
+  height: 25%;
+  
 }
 
 p.md {
@@ -20,20 +22,20 @@ p.md {
 }
 
 h1.md, h2.md {
-  $baselined-typography(body-md);
+  $baselined-typography(body-lg);
   text-transform: uppercase;
   font-weight: var(--font-weight--bold);
 }
 
 h3.md {
-  $baselined-typography(body-md);
-  font-style: italic;
+  $baselined-typography(body-lg);
+  text-transform: uppercase;
 }
 
 h4.md {
   $baselined-typography(body-md);
   text-transform: none;
-  font-style: italic;
+  
   font-family: 'Barlow Semi Condensed';
 }
 
@@ -76,9 +78,10 @@ ul.md, ol.md {
 }
 
 blockquote.md {
-  margin: 1rem 0
-  padding 0 .5rem
-  background linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), #eee
+  // margin: 1rem 0
+  padding 1rem 1rem
+  margin 1rem 0rem
+  background linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 0.1) 1px, transparent 1px, transparent), linear-gradient(to bottom, hsla(280, 100%, 0, 0.1), hsla(280, 100%, 100%, 1) 1px, transparent 1px, transparent), rgba(#eee, .5)
   font-style: italic;
   cite {
     text-align: right;
@@ -94,8 +97,7 @@ blockquote.md {
   }
 
   > cite.md {
-    $baselined-typography(body-sm);
-    // text-align: right;
+    $baselined-typography(body-md);
     display: block;
   }
 }

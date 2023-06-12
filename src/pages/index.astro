@@ -10,21 +10,17 @@ const featuredIssues = issues;
 
 <Layout>
   <section id="masthead" class="md">
-    <div class="masthead__title body-xxl uppercase italic">
+    <div class="masthead__title body-xxl uppercase">
       Journal of <strong>Erratic&nbsp;Observations</strong>
     </div>
-    <div class="masthead__tagline body-xl uppercase italic">
+    <div class="masthead__tagline body-xl uppercase">
       <strong>observed</strong>, <strong>documented</strong>, and <strong
         >peer-reviewed</strong
-      > by&nbsp;<strong>Dirk&nbsp;Rathje</strong>&nbsp;in&nbsp;Hamburg
+      ><br>by&nbsp;<strong>Dirk&nbsp;Rathje</strong>&nbsp;in&nbsp;Hamburg
     </div>
   </section>
 
-  <!-- <p class="md large">
-        J.Err.Obs., the Journal of Erratic Observations, publishes mini-reviews,
-        experimental and observational studies, theoretical and computational
-        analyses, case analyses, case studies and commentaries.
-      </p> -->
+ 
 
   {
     featuredIssues.length > 0 && (
@@ -36,6 +32,9 @@ const featuredIssues = issues;
 </Layout>
 
 <style lang="stylus">
+  
+  #masthead
+    margin-bottom 1rem
 
   @media  (max-width: 800px) {
     
